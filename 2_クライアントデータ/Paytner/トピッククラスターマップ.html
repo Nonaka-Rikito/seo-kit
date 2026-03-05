@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paytner トピッククラスターマップ</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif; background: #f5f7fa; color: #1a1a2e; padding: 40px 20px; }
+  h1 { text-align: center; font-size: 24px; margin-bottom: 8px; color: #1a1a2e; }
+  .subtitle { text-align: center; font-size: 13px; color: #666; margin-bottom: 40px; }
+  .legend { display: flex; justify-content: center; gap: 24px; margin-bottom: 36px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #555; }
+  .legend-dot { width: 14px; height: 14px; border-radius: 50%; }
+  .legend-dot.pillar { background: #2563eb; }
+  .legend-dot.rewrite { background: #f59e0b; }
+  .legend-dot.new { background: #10b981; }
+  .legend-dot.absorb { background: #94a3b8; }
+
+  .clusters { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; max-width: 1400px; margin: 0 auto; }
+  @media (max-width: 900px) { .clusters { grid-template-columns: 1fr; } }
+
+  .cluster-card {
+    background: #fff; border-radius: 16px; padding: 28px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06); border: 1px solid #e5e7eb;
+  }
+  .cluster-header {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
+    padding-bottom: 16px; border-bottom: 2px solid #e5e7eb;
+  }
+  .cluster-num {
+    width: 36px; height: 36px; border-radius: 50%; display: flex;
+    align-items: center; justify-content: center; font-weight: 700;
+    font-size: 16px; color: #fff; flex-shrink: 0;
+  }
+  .t1 .cluster-num { background: #2563eb; }
+  .t2 .cluster-num { background: #dc2626; }
+  .t3 .cluster-num { background: #7c3aed; }
+  .t4 .cluster-num { background: #059669; }
+
+  .cluster-title { font-size: 18px; font-weight: 700; }
+  .cluster-meta { font-size: 11px; color: #888; margin-top: 2px; }
+  .cluster-meta span { margin-right: 12px; }
+  .vol-badge { background: #eff6ff; color: #2563eb; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .kd-badge { background: #f0fdf4; color: #059669; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+
+  .pillar-box {
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    border: 2px solid #2563eb; border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 16px; position: relative;
+  }
+  .pillar-label {
+    position: absolute; top: -10px; left: 14px; background: #2563eb;
+    color: #fff; font-size: 10px; font-weight: 700; padding: 2px 10px;
+    border-radius: 8px; letter-spacing: 0.5px;
+  }
+  .pillar-kw { font-size: 16px; font-weight: 700; color: #1e40af; margin-top: 4px; }
+  .pillar-stats { font-size: 11px; color: #64748b; margin-top: 4px; }
+  .pillar-stats span { margin-right: 10px; }
+
+  .cluster-items { display: flex; flex-direction: column; gap: 6px; }
+  .cluster-item {
+    display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    border-radius: 8px; font-size: 13px; border-left: 4px solid;
+    background: #fafafa; transition: background 0.15s;
+  }
+  .cluster-item:hover { background: #f1f5f9; }
+  .cluster-item.rewrite { border-left-color: #f59e0b; }
+  .cluster-item.new { border-left-color: #10b981; }
+  .cluster-item.absorb { border-left-color: #cbd5e1; }
+
+  .item-kw { flex: 1; font-weight: 600; }
+  .item-vol { font-size: 11px; color: #64748b; min-width: 60px; text-align: right; }
+  .item-status {
+    font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 6px; min-width: 52px; text-align: center;
+  }
+  .status-rewrite { background: #fef3c7; color: #92400e; }
+  .status-new { background: #d1fae5; color: #065f46; }
+  .status-absorb { background: #f1f5f9; color: #94a3b8; }
+
+  .item-rank { font-size: 10px; min-width: 40px; text-align: center; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+  .rank-a { background: #d1fae5; color: #065f46; }
+  .rank-b { background: #fef3c7; color: #92400e; }
+  .rank-g { background: #fee2e2; color: #991b1b; }
+
+  .connector { width: 2px; height: 8px; background: #cbd5e1; margin-left: 20px; }
+
+  .total-vol {
+    margin-top: 16px; padding-top: 12px; border-top: 1px dashed #e5e7eb;
+    font-size: 12px; color: #64748b; text-align: right;
+  }
+  .total-vol strong { color: #1a1a2e; }
+
+  .footer { text-align: center; margin-top: 40px; font-size: 11px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<h1>Paytner トピッククラスターマップ</h1>
+<p class="subtitle">paytner.co.jp | GSC + Ahrefs データ基盤 | 2026-02-24作成</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot pillar"></div>ピラー記事</div>
+  <div class="legend-item"><div class="legend-dot rewrite"></div>リライト対象</div>
+  <div class="legend-item"><div class="legend-dot new"></div>新規作成</div>
+  <div class="legend-item"><div class="legend-dot absorb"></div>他記事で吸収</div>
+  <div class="legend-item"><span class="item-rank rank-a">A</span> 1-10位</div>
+  <div class="legend-item"><span class="item-rank rank-b">B</span> 11-30位</div>
+  <div class="legend-item"><span class="item-rank rank-g">G</span> 31位~ / 圏外</div>
+</div>
+
+<div class="clusters">
+
+  <!-- Topic 1 -->
+  <div class="cluster-card t1">
+    <div class="cluster-header">
+      <div class="cluster-num">1</div>
+      <div>
+        <div class="cluster-title">ファクタリング 個人事業主</div>
+        <div class="cluster-meta">
+          <span class="vol-badge">Vol: 2,000</span>
+          <span class="kd-badge">KD: 1</span>
+          <span>CPC: $8.00</span>
+          <span>TP: 4,200</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-box">
+      <div class="pillar-label">PILLAR</div>
+      <div class="pillar-kw">ファクタリング 個人事業主</div>
+      <div class="pillar-stats">
+        <span>Vol: 2,000</span><span>KD: 1</span><span>CPC: $8.00</span><span>現在: 圏外</span>
+        <span class="item-status status-new">新規作成</span>
+      </div>
+    </div>
+
+    <div class="cluster-items">
+      <div class="cluster-item rewrite">
+        <div class="item-kw">ファクタリング 審査</div>
+        <div class="item-vol">Vol: 1,700</div>
+        <div class="item-rank rank-b">26位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item rewrite">
+        <div class="item-kw">ファクタリング 手数料</div>
+        <div class="item-vol">Vol: 2,700</div>
+        <div class="item-rank rank-g">36位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item rewrite">
+        <div class="item-kw">ファクタリング デメリット / メリット</div>
+        <div class="item-vol">Vol: 2,200</div>
+        <div class="item-rank rank-b">25位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 個人事業主 即日</div>
+        <div class="item-vol">Vol: 600</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">請求書買取 個人事業主</div>
+        <div class="item-vol">Vol: 250</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 審査落ち</div>
+        <div class="item-vol">Vol: 250</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 必要書類</div>
+        <div class="item-vol">Vol: 800</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">ファクタリング 個人</div>
+        <div class="item-vol">Vol: 4,800</div>
+        <div class="item-rank rank-b">22位</div>
+        <div class="item-status status-absorb">ピラーで吸収</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">ファクタリング 手数料 相場</div>
+        <div class="item-vol">Vol: 600</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">手数料記事で吸収</div>
+      </div>
+    </div>
+    <div class="total-vol">クラスター合計 Vol: <strong>約16,900/月</strong></div>
+  </div>
+
+  <!-- Topic 2 -->
+  <div class="cluster-card t2">
+    <div class="cluster-header">
+      <div class="cluster-num">2</div>
+      <div>
+        <div class="cluster-title">ファクタリング 即日</div>
+        <div class="cluster-meta">
+          <span class="vol-badge">Vol: 6,100</span>
+          <span class="kd-badge">KD: 14</span>
+          <span>CPC: $9.00</span>
+          <span>TP: 3,600</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-box">
+      <div class="pillar-label">PILLAR</div>
+      <div class="pillar-kw">ファクタリング 即日</div>
+      <div class="pillar-stats">
+        <span>Vol: 6,100</span><span>KD: 14</span><span>CPC: $9.00</span><span>現在: 52位</span>
+        <span class="item-status status-rewrite">大幅リライト</span>
+      </div>
+    </div>
+
+    <div class="cluster-items">
+      <div class="cluster-item rewrite">
+        <div class="item-kw">資金調達 即日</div>
+        <div class="item-vol">Vol: 3,700</div>
+        <div class="item-rank rank-g">38位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item rewrite">
+        <div class="item-kw">オンラインファクタリング</div>
+        <div class="item-vol">Vol: 400</div>
+        <div class="item-rank rank-g">58位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 土日 / 土日対応</div>
+        <div class="item-vol">Vol: 1,150</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">ファクタリング 即日入金</div>
+        <div class="item-vol">Vol: 30</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">ピラーで吸収</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">即日入金</div>
+        <div class="item-vol">Vol: 400</div>
+        <div class="item-rank rank-b">26位</div>
+        <div class="item-status status-absorb">ピラーで吸収</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">ファクタリング 個人事業主 即日</div>
+        <div class="item-vol">Vol: 600</div>
+        <div class="item-rank rank-g">32位</div>
+        <div class="item-status status-absorb">Topic 1 と共有</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">請求書 買取 即日</div>
+        <div class="item-vol">Vol: 150</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">Topic 3 と共有</div>
+      </div>
+    </div>
+    <div class="total-vol">クラスター合計 Vol: <strong>約12,530/月</strong></div>
+  </div>
+
+  <!-- Topic 3 -->
+  <div class="cluster-card t3">
+    <div class="cluster-header">
+      <div class="cluster-num">3</div>
+      <div>
+        <div class="cluster-title">請求書買い取り</div>
+        <div class="cluster-meta">
+          <span class="vol-badge">Vol: 1,500 (親: 請求書 買取)</span>
+          <span class="kd-badge">KD: 0</span>
+          <span>CPC: $12.00</span>
+          <span>TP: 2,100</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-box">
+      <div class="pillar-label">PILLAR</div>
+      <div class="pillar-kw">請求書買い取り / 請求書 買取</div>
+      <div class="pillar-stats">
+        <span>Vol: 1,500</span><span>KD: 0</span><span>CPC: $12.00</span><span>現在: 17位(5486) / 45位(5562)</span>
+        <span class="item-status status-rewrite">リライト (5486主軸)</span>
+      </div>
+    </div>
+
+    <div class="cluster-items">
+      <div class="cluster-item rewrite">
+        <div class="item-kw">請求書 先払い</div>
+        <div class="item-vol">Vol: 200</div>
+        <div class="item-rank rank-a">8位</div>
+        <div class="item-status status-rewrite">リライト強化</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">請求書 現金化</div>
+        <div class="item-vol">Vol: 400</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">請求書買取 おすすめ</div>
+        <div class="item-vol">Vol: 100</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">請求書買取サービス</div>
+        <div class="item-vol">Vol: 600</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">ピラーで吸収</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">請求書買取 個人事業主</div>
+        <div class="item-vol">Vol: 250</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">Topic 1 と共有</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">フリーランス 請求書買取</div>
+        <div class="item-vol">Vol: 80</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">Topic 4 と共有</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">請求書買取 個人</div>
+        <div class="item-vol">Vol: 80</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">ピラーで吸収</div>
+      </div>
+    </div>
+    <div class="total-vol">クラスター合計 Vol: <strong>約3,250/月</strong></div>
+  </div>
+
+  <!-- Topic 4 -->
+  <div class="cluster-card t4">
+    <div class="cluster-header">
+      <div class="cluster-num">4</div>
+      <div>
+        <div class="cluster-title">フリーランス ファクタリング 少額</div>
+        <div class="cluster-meta">
+          <span class="vol-badge">Vol: 20 (親: 500+500)</span>
+          <span class="kd-badge">KD: 0-3</span>
+          <span>CPC: $3.50~$10.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-box">
+      <div class="pillar-label">PILLAR</div>
+      <div class="pillar-kw">フリーランス ファクタリング 少額</div>
+      <div class="pillar-stats">
+        <span>Vol: 20</span><span>KD: -</span><span>CPC: $3.50</span><span>現在: 圏外</span>
+        <span class="item-status status-new">新規作成 (複合ピラー)</span>
+      </div>
+    </div>
+
+    <div class="cluster-items">
+      <div class="cluster-item rewrite">
+        <div class="item-kw">給料ファクタリング / 給与ファクタリング</div>
+        <div class="item-vol">Vol: 1,600</div>
+        <div class="item-rank rank-g">42位</div>
+        <div class="item-status status-rewrite">リライト</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">フリーランス ファクタリング</div>
+        <div class="item-vol">Vol: 500</div>
+        <div class="item-rank rank-b">24位</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 少額</div>
+        <div class="item-vol">Vol: 500</div>
+        <div class="item-rank rank-g">58位</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">ファクタリング 仕組み</div>
+        <div class="item-vol">Vol: 1,100</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item new">
+        <div class="item-kw">フリーランス 請求書買取</div>
+        <div class="item-vol">Vol: 80</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-new">新規作成</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">少額 ファクタリング</div>
+        <div class="item-vol">Vol: 150</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">少額記事で吸収</div>
+      </div>
+      <div class="cluster-item absorb">
+        <div class="item-kw">個人給料ファクタリング</div>
+        <div class="item-vol">Vol: 150</div>
+        <div class="item-rank rank-g">圏外</div>
+        <div class="item-status status-absorb">給料記事で吸収</div>
+      </div>
+    </div>
+    <div class="total-vol">クラスター合計 Vol: <strong>約3,500/月</strong></div>
+  </div>
+
+</div>
+
+<p class="footer">Paytner SEO Topic Cluster Map | Data: GSC (3M) + Ahrefs | Created: 2026-02-24</p>
+
+</body>
+</html>

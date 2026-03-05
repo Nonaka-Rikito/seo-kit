@@ -1,0 +1,35 @@
+name: Slack Sync
+
+on:
+  schedule:
+    # 2時間おきに実行（UTC: 0:00, 2:00, ... = JST: 9:00, 11:00, ...）
+    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Slack sync
+        env:
+          SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
+          SLACK_CHANNELS: ${{ secrets.SLACK_CHANNELS }}
+          SYNC_DAYS: '3'
+        run: node code/slack_sync.mjs
+
+      - name: Commit and push updated context
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add context/slack/*.md
+          git diff --staged --quiet || git commit -m "chore: update Slack context $(date -u +%Y-%m-%d)"
+          git push

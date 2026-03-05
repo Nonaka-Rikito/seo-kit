@@ -1,0 +1,1542 @@
+{
+  "range": "661-991",
+  "total_checked": 331,
+  "issues": [
+    {
+      "row": 667,
+      "domain": "remoters.work",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "Remoters",
+      "社名": "Remoters"
+    },
+    {
+      "row": 670,
+      "domain": "toha2.fromation.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://toha2.fromation.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 670,
+      "domain": "toha2.fromation.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 671,
+      "domain": "piecetopeace.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://piecetopeace.co.jp/",
+      "社名": "株式会社 Piece to Peace （ピーストゥピース） | ビジネス界にもプロ契約を! ～学歴・年功ではなく、能力と努力で個人が未来を切り拓ける社会に～"
+    },
+    {
+      "row": 671,
+      "domain": "piecetopeace.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "株式会社 Piece to Peace （ピーストゥピース） | ビジネス界にもプロ契約を! ～学歴・年功ではなく、能力と努力で個人が未来を切り拓ける社会に～",
+      "社名": "株式会社 Piece to Peace （ピーストゥピース） | ビジネス界にもプロ契約を! ～学歴・年功ではなく、能力と努力で個人が未来を切り拓ける社会に～"
+    },
+    {
+      "row": 673,
+      "domain": "influencer-company.info",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "インフルエンサーマーケティングラボ | SNS集客に勝つ秘訣とは？インフルエンサー活用の基礎から応用まで、戦略的ノウハウを一挙公開",
+      "社名": "インフルエンサーマーケティングラボ | SNS集客に勝つ秘訣とは？インフルエンサー活用の基礎から応用まで、戦略的ノウハウを一挙公開"
+    },
+    {
+      "row": 677,
+      "domain": "media.meo-taisaku.com",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: form.k3r.jp",
+      "現在の値": "https://form.k3r.jp/trinias/contactpartner?k3ad=header",
+      "社名": "マケスク - マーケティングに関わる人と情報が集まるメディア"
+    },
+    {
+      "row": 682,
+      "domain": "study-dog-school.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.study-dog-school.com/inqfm/general/",
+      "社名": "相模原 町田 多摩【スタディドッグスクール】 犬のしつけ教室・幼稚園・出張"
+    },
+    {
+      "row": 685,
+      "domain": "accelainc.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.accelainc.com/%e5%ba%83%e5%91%8a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b",
+      "社名": "中小企業の資金調達や補助金、DXに役立つ情報をお届けします。また、自治体が進めるDXを中心とした新しい取り組みについてもご紹介します。"
+    },
+    {
+      "row": 685,
+      "domain": "accelainc.com",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "中小企業の資金調達や補助金、DXに役立つ情報をお届けします。また、自治体が進めるDXを中心とした新しい取り組みについてもご紹介します。",
+      "社名": "中小企業の資金調達や補助金、DXに役立つ情報をお届けします。また、自治体が進めるDXを中心とした新しい取り組みについてもご紹介します。"
+    },
+    {
+      "row": 694,
+      "domain": "freelance-job.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://freelance-job.com/applied",
+      "社名": "フリーランスエンジニアの業務委託案件・求人検索サイト【フリーランスジョブ】"
+    },
+    {
+      "row": 697,
+      "domain": "nakamura-editing.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://nakamura-editing.co.jp/#contact",
+      "社名": "株式会社なかむら編集室"
+    },
+    {
+      "row": 699,
+      "domain": "webranksofworld.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://webranksofworld.site/",
+      "社名": ""
+    },
+    {
+      "row": 699,
+      "domain": "webranksofworld.site",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 700,
+      "domain": "movie.seedassist.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "シードアシスト | 株式会社シードアシストは大阪市北区に拠点を置き、関西を中心に活動する動画制作会社です。2007年より350社2,500本の制作実績を誇ります。企画から撮影・編集・ナレーション収録まで社内一貫対応、料金は18万円から。無料相談・見積もり受付中。",
+      "社名": "シードアシスト | 株式会社シードアシストは大阪市北区に拠点を置き、関西を中心に活動する動画制作会社です。2007年より350社2,500本の制作実績を誇ります。企画から撮影・編集・ナレーション収録まで社内一貫対応、料金は18万円から。無料相談・見積もり受付中。"
+    },
+    {
+      "row": 702,
+      "domain": "ffc.tokyo",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ffc.tokyo/#inline-content10",
+      "社名": "【大阪・神戸】 リスティング広告運用代行専門 FFC"
+    },
+    {
+      "row": 703,
+      "domain": "modish.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://modish.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 703,
+      "domain": "modish.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 704,
+      "domain": "tenkeshiki.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://tenkeshiki.com/",
+      "社名": "転職のケシキ"
+    },
+    {
+      "row": 706,
+      "domain": "saras-wati.net",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://saras-wati.net/inq/",
+      "社名": "netNews｜web広告、新サービスの解説"
+    },
+    {
+      "row": 713,
+      "domain": "totonoesan.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://totonoesan.com/",
+      "社名": "totolabo"
+    },
+    {
+      "row": 715,
+      "domain": "blog.project-g.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://blog.project-g.co.jp/improvement/google_analytics/8084/",
+      "社名": "PROJECT GROUP Blog"
+    },
+    {
+      "row": 717,
+      "domain": "site.xaris.ai",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: h1olza37q2.sg.larksuite.com",
+      "現在の値": "https://h1olza37q2.sg.larksuite.com/share/base/form/shrlglnfq29mI9I8a4DWbEYtE9d",
+      "社名": "Xaris(カリス)_AIの力で「書く」をもっと楽しく。"
+    },
+    {
+      "row": 718,
+      "domain": "company-tsushin.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://company-tsushin.com/",
+      "社名": "会社の口コミ・評判ならカンパニー通信【企業口コミ全件公開中】"
+    },
+    {
+      "row": 719,
+      "domain": "genne.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "genne",
+      "社名": "genne"
+    },
+    {
+      "row": 720,
+      "domain": "synthsonic.net",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://synthsonic.net/archives/52098543.html",
+      "社名": "SynthSonic"
+    },
+    {
+      "row": 720,
+      "domain": "synthsonic.net",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "SynthSonic",
+      "社名": "SynthSonic"
+    },
+    {
+      "row": 723,
+      "domain": "careerladder.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "M＆A仲介会社に特化した転職エージェント｜Career Ladder - M＆A仲介会社への転職ならキャリアラダー。業界出身者が、実際に働いていたからこそできる、きめ細やかなコンサルティングであなたの転職活動を成功に導きます。",
+      "社名": "M＆A仲介会社に特化した転職エージェント｜Career Ladder - M＆A仲介会社への転職ならキャリアラダー。業界出身者が、実際に働いていたからこそできる、きめ細やかなコンサルティングであなたの転職活動を成功に導きます。"
+    },
+    {
+      "row": 725,
+      "domain": "doga-marketing.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://doga-marketing.jp/",
+      "社名": "動画マーケティングの情報サイト「動画マーケ」"
+    },
+    {
+      "row": 728,
+      "domain": "umazura.net",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://umazura.net/info",
+      "社名": "うまづら"
+    },
+    {
+      "row": 730,
+      "domain": "ytrsdijun.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ytrsdijun.com/",
+      "社名": "ゆとり世代の投資家jun"
+    },
+    {
+      "row": 733,
+      "domain": "redcoolmedia.net",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "RedCoolMedia.net",
+      "社名": "RedCoolMedia.net"
+    },
+    {
+      "row": 734,
+      "domain": "howtorankfast.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://howtorankfast.site/",
+      "社名": ""
+    },
+    {
+      "row": 734,
+      "domain": "howtorankfast.site",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 737,
+      "domain": "baka-ke.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://baka-ke.com/",
+      "社名": "バカに毛が生えたブログ（バカ毛）"
+    },
+    {
+      "row": 739,
+      "domain": "career.sider-story.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://career.sider-story.co.jp/",
+      "社名": "SIDER CAREER"
+    },
+    {
+      "row": 742,
+      "domain": "verse-type.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "大阪のSEO対策会社なら株式会社バースタイプ - SEO対策,MEO対策なら大阪の株式会社バースタイプにお任せください。WEBマーケティングコンサルティング専門の弊社では、SEO無料診断、コンテンツマーケティングやリスティング広告のサポートも承っております。",
+      "社名": "大阪のSEO対策会社なら株式会社バースタイプ - SEO対策,MEO対策なら大阪の株式会社バースタイプにお任せください。WEBマーケティングコンサルティング専門の弊社では、SEO無料診断、コンテンツマーケティングやリスティング広告のサポートも承っております。"
+    },
+    {
+      "row": 745,
+      "domain": "first-contech.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://first-contech.co.jp/client/client_order/",
+      "社名": "株式会社ファーストコンテック"
+    },
+    {
+      "row": 748,
+      "domain": "nerd.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "NERD株式会社 | なるべく「時間をかけず」に「結果の出る」サイト制作をご提案します。制作して終わりではなく、ビジネス課題の解決のため、公開後もお客様の課題解決に向けてサポートさせていただきます。",
+      "社名": "NERD株式会社 | なるべく「時間をかけず」に「結果の出る」サイト制作をご提案します。制作して終わりではなく、ビジネス課題の解決のため、公開後もお客様の課題解決に向けてサポートさせていただきます。"
+    },
+    {
+      "row": 749,
+      "domain": "sozoinc.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sozoinc.jp/",
+      "社名": ""
+    },
+    {
+      "row": 749,
+      "domain": "sozoinc.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 752,
+      "domain": "polaris-academia.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://polaris-academia.co.jp/",
+      "社名": "【ポラリスアカデミア公式サイト】オンライン全国対応！専属の受験コンサルタントが最短逆転合格に導きます。"
+    },
+    {
+      "row": 753,
+      "domain": "kinswith-vet.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kinswith-vet.com/",
+      "社名": "KINS WITH 動物病院 | 「常在菌から診る」 あたらしい動物病院。"
+    },
+    {
+      "row": 754,
+      "domain": "worldwidetopweb.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://worldwidetopweb.site/",
+      "社名": ""
+    },
+    {
+      "row": 754,
+      "domain": "worldwidetopweb.site",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 757,
+      "domain": "ppc-log.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ppc-log.com/",
+      "社名": "PPC-LOG"
+    },
+    {
+      "row": 757,
+      "domain": "ppc-log.com",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "PPC-LOG",
+      "社名": "PPC-LOG"
+    },
+    {
+      "row": 761,
+      "domain": "jigyoshokei-labo.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://jigyoshokei-labo.com/",
+      "社名": "事業承継ラボ"
+    },
+    {
+      "row": 763,
+      "domain": "lss.events",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "【LSS】Leading Startup Square | 成果協創型スタートアップコミュニティ - 【LSS】Leading Startup Square | 成果協創型スタートアップコミュニティ",
+      "社名": "【LSS】Leading Startup Square | 成果協創型スタートアップコミュニティ - 【LSS】Leading Startup Square | 成果協創型スタートアップコミュニティ"
+    },
+    {
+      "row": 764,
+      "domain": "fujimotoyousuke.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://fujimotoyousuke.com/",
+      "社名": "WiFi専門家ふじもんのブログ"
+    },
+    {
+      "row": 767,
+      "domain": "smartsocial.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "スマートソーシャル株式会社 | WEBシステム開発のSmartSocial株式会社｜システム開発・ソフトウェア開発の制作実績多数",
+      "社名": "スマートソーシャル株式会社 | WEBシステム開発のSmartSocial株式会社｜システム開発・ソフトウェア開発の制作実績多数"
+    },
+    {
+      "row": 769,
+      "domain": "99-best.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://99-best.site/",
+      "社名": ""
+    },
+    {
+      "row": 769,
+      "domain": "99-best.site",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 770,
+      "domain": "microlinkofworld.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://microlinkofworld.site/",
+      "社名": ""
+    },
+    {
+      "row": 770,
+      "domain": "microlinkofworld.site",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 773,
+      "domain": "hitogoto.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://hitogoto.jp/",
+      "社名": "hitogoto"
+    },
+    {
+      "row": 773,
+      "domain": "hitogoto.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "hitogoto",
+      "社名": "hitogoto"
+    },
+    {
+      "row": 775,
+      "domain": "mitu-mori.com",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "みつもり.com - 「みつもり.com」ならホームページの適正な制作金額が3分で分かります！ホームページの見積りが欲しいなら、まずは「みつもり.com」で金額をチェックしましょう！サイト制作の相場が分からなくても安心して使えますよ！",
+      "社名": "みつもり.com - 「みつもり.com」ならホームページの適正な制作金額が3分で分かります！ホームページの見積りが欲しいなら、まずは「みつもり.com」で金額をチェックしましょう！サイト制作の相場が分からなくても安心して使えますよ！"
+    },
+    {
+      "row": 778,
+      "domain": "bngpartners.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "BNGパートナーズのハイクラス転職・採用支援 - ベンチャー幹部・幹部・CxO・ハイクラス人材・マネージャー人材に特化。お客様満足度88％。エグゼクティブ・ハイクラス人材へのヘッドハンティングならBNGパートナーズ。高精度な独自の”志マッチング”により、転職の成功とキャリアアップをサポートします。",
+      "社名": "BNGパートナーズのハイクラス転職・採用支援 - ベンチャー幹部・幹部・CxO・ハイクラス人材・マネージャー人材に特化。お客様満足度88％。エグゼクティブ・ハイクラス人材へのヘッドハンティングならBNGパートナーズ。高精度な独自の”志マッチング”により、転職の成功とキャリアアップをサポートします。"
+    },
+    {
+      "row": 779,
+      "domain": "writers-way.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://writers-way.com/",
+      "社名": "writers way"
+    },
+    {
+      "row": 780,
+      "domain": "hairsalon-mitsuishi-hp.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://hairsalon-mitsuishi-hp.com/",
+      "社名": "佐土原町 ・美容・理容｜ショートヘア・癖毛・白髪ぼかし【みっつんち】"
+    },
+    {
+      "row": 781,
+      "domain": "directors-forest.com",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: twitter.com",
+      "現在の値": "https://twitter.com/takelogtake",
+      "社名": "オンラインコミュニティ「集まれ！Webディレクターの森」"
+    },
+    {
+      "row": 781,
+      "domain": "directors-forest.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://twitter.com/takelogtake",
+      "社名": "オンラインコミュニティ「集まれ！Webディレクターの森」"
+    },
+    {
+      "row": 782,
+      "domain": "frontierchannel.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://frontierchannel.jp/#contactFt",
+      "社名": "フロンティアチャンネル"
+    },
+    {
+      "row": 786,
+      "domain": "codenote.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://codenote.net/",
+      "社名": "CodeNote"
+    },
+    {
+      "row": 786,
+      "domain": "codenote.net",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "CodeNote",
+      "社名": "CodeNote"
+    },
+    {
+      "row": 787,
+      "domain": "blog.zoe.tools",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://blog.zoe.tools/",
+      "社名": "暇を持て余せないzoeのblog"
+    },
+    {
+      "row": 788,
+      "domain": "wepress.web-magazine.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://wepress.web-magazine.jp/",
+      "社名": "wepRESS(ウェプレス) | 中小企業のWeb担当者をサポートするWebマガジン"
+    },
+    {
+      "row": 791,
+      "domain": "choicely.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "Choicely",
+      "社名": "Choicely"
+    },
+    {
+      "row": 792,
+      "domain": "cash-engine.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://cash-engine.jp/",
+      "社名": "起業塾・起業スクールならCash Engine（キャッシュエンジン）"
+    },
+    {
+      "row": 793,
+      "domain": "ma.sharemall.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ma.sharemall.co.jp/#contact",
+      "社名": "シェアモルM&A"
+    },
+    {
+      "row": 797,
+      "domain": "ifa-hikaku.com",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: form.k3r.jp",
+      "現在の値": "https://form.k3r.jp/hikaku/career",
+      "社名": "HIKAKU_Webサイト"
+    },
+    {
+      "row": 799,
+      "domain": "amarico.com",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "Amaricoアマリコ【公式】 - グレインフリー ドッグフード | すべての犬種に対応、無香料、無着色、防腐剤不使用 - Amarico（アマリコ）のグレインフリー・ドッグフードは、食物アレルギーに配慮し、第一主原料にチキンを使用。香料、着色料、合成保存料を一切含まず、素材本来の美味しさにこだわりました。小型犬にも食べやすい小粒タイプのキブルで、健康的な食事を提供します。",
+      "社名": "Amaricoアマリコ【公式】 - グレインフリー ドッグフード | すべての犬種に対応、無香料、無着色、防腐剤不使用 - Amarico（アマリコ）のグレインフリー・ドッグフードは、食物アレルギーに配慮し、第一主原料にチキンを使用。香料、着色料、合成保存料を一切含まず、素材本来の美味しさにこだわりました。小型犬にも食べやすい小粒タイプのキブルで、健康的な食事を提供します。"
+    },
+    {
+      "row": 800,
+      "domain": "kobushi.marketing",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kobushi.marketing/#contact",
+      "社名": "KOBUSHI MARKETING(コブシマーケティング) | マーケティングとエンタテインメントを通じてチャレンジャーをサポートし、世の中に情熱と若さを提供することを目指します。"
+    },
+    {
+      "row": 800,
+      "domain": "kobushi.marketing",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "KOBUSHI MARKETING(コブシマーケティング) | マーケティングとエンタテインメントを通じてチャレンジャーをサポートし、世の中に情熱と若さを提供することを目指します。",
+      "社名": "KOBUSHI MARKETING(コブシマーケティング) | マーケティングとエンタテインメントを通じてチャレンジャーをサポートし、世の中に情熱と若さを提供することを目指します。"
+    },
+    {
+      "row": 801,
+      "domain": "roserose-ac.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://roserose-ac.com/s61472804/",
+      "社名": "ローズローズアニマルクリニック Rose Rose Animal Clinic"
+    },
+    {
+      "row": 803,
+      "domain": "business.boujee.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://business.boujee.jp/",
+      "社名": ""
+    },
+    {
+      "row": 803,
+      "domain": "business.boujee.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 807,
+      "domain": "amenof.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://amenof.com/comicblog/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/",
+      "社名": "まるのブログ塾"
+    },
+    {
+      "row": 808,
+      "domain": "im-app.boujee.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://im-app.boujee.jp/",
+      "社名": ""
+    },
+    {
+      "row": 808,
+      "domain": "im-app.boujee.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 812,
+      "domain": "sales-no1gp.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sales-no1gp.com/",
+      "社名": "日本最大級の営業の大会S1グランプリ"
+    },
+    {
+      "row": 813,
+      "domain": "nft-times.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://nft-times.jp/privacy/",
+      "社名": "NFT-TIMES"
+    },
+    {
+      "row": 813,
+      "domain": "nft-times.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "NFT-TIMES",
+      "社名": "NFT-TIMES"
+    },
+    {
+      "row": 817,
+      "domain": "professionalmarketing.jp",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: procon.co.jp",
+      "現在の値": "http://procon.co.jp/contact/",
+      "社名": "プロフェッショナルコンサルタント養成講座"
+    },
+    {
+      "row": 821,
+      "domain": "officeforest.org",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://officeforest.org/",
+      "社名": "Officeの杜 Biz"
+    },
+    {
+      "row": 823,
+      "domain": "video-choose.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.video-choose.com/register/",
+      "社名": "動画版チャットボット VideoChoose – パーソナライズされた 動画 でプロモーションを変える"
+    },
+    {
+      "row": 824,
+      "domain": "alldrop.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "Alldrop",
+      "社名": "Alldrop"
+    },
+    {
+      "row": 827,
+      "domain": "conema.link",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://conema.link/",
+      "社名": "conema（コネマ）"
+    },
+    {
+      "row": 830,
+      "domain": "aai.itri-apu.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://aai.itri-apu.com/",
+      "社名": "愛知県立芸術大学×愛知県立大学＝INNOVATION"
+    },
+    {
+      "row": 831,
+      "domain": "satsupro.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://satsupro.com/",
+      "社名": "札幌WEBプログラミングスクール。指導経験年数33年のプログラミング教室・ＷＥＢデザインスクール。"
+    },
+    {
+      "row": 832,
+      "domain": "database5.media.iid.jp",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: iid.co.jp",
+      "現在の値": "https://www.iid.co.jp/contact/mediainnovation_contact.html",
+      "社名": "メディアデータベース"
+    },
+    {
+      "row": 833,
+      "domain": "oproduct.ai",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://oproduct.ai/tags/%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E6%94%B9%E5%96%84%E3%81%AB%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84",
+      "社名": "日本最大級のAIツール・サービス比較・検索サイト"
+    },
+    {
+      "row": 834,
+      "domain": "w-2-b.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://w-2-b.com/homepage-mitsumori/",
+      "社名": "Webカラ【格安ホームページ作成・集客・BPO関連のブログ】"
+    },
+    {
+      "row": 838,
+      "domain": "shotakoblog.com",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "SHOTAKOBLOG",
+      "社名": "SHOTAKOBLOG"
+    },
+    {
+      "row": 842,
+      "domain": "inutome.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://inutome.jp/",
+      "社名": ""
+    },
+    {
+      "row": 842,
+      "domain": "inutome.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 844,
+      "domain": "dogduca.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://dogduca.com/%e5%95%8f%e5%90%88%e3%81%9b/",
+      "社名": "NPO法人 DOG DUCA-名古屋で犬のしつけ教室･保育園･保護犬を救う活動"
+    },
+    {
+      "row": 848,
+      "domain": "seoer.work",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://seoer.work/pov-for-backlink-earning/",
+      "社名": "SEOの森"
+    },
+    {
+      "row": 854,
+      "domain": "applis.io",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "applis",
+      "社名": "applis"
+    },
+    {
+      "row": 858,
+      "domain": "sales-ship.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sales-ship.com?page_id=152",
+      "社名": "営業マン・営業職の全てがわかるSalesship"
+    },
+    {
+      "row": 859,
+      "domain": "blog.marke.plus",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://blog.marke.plus/",
+      "社名": "マーケプラスブログ|WEBマーケティング情報メディア"
+    },
+    {
+      "row": 860,
+      "domain": "mechanisms.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://mechanisms.co.jp/order",
+      "社名": "株式会社メカニズム || Mechanisms Co., Ltd."
+    },
+    {
+      "row": 861,
+      "domain": "nuko-blog.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://nuko-blog.net/",
+      "社名": "ぬこマーケティング"
+    },
+    {
+      "row": 862,
+      "domain": "en-job.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://en-job.jp/#m-contact-nav",
+      "社名": "家事代行サービス エンジョブ"
+    },
+    {
+      "row": 864,
+      "domain": "macoblog.com",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "macoblog",
+      "社名": "macoblog"
+    },
+    {
+      "row": 865,
+      "domain": "blog.okashoi.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://blog.okashoi.net/",
+      "社名": "s平面の左側"
+    },
+    {
+      "row": 866,
+      "domain": "goodproductionsjp.com",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: share.hsforms.com",
+      "現在の値": "https://share.hsforms.com/1WwNWfCBTRoecfaJQ36aY_Q3vkl7",
+      "社名": "優れたWeb制作会社やデザイン会社の企業情報・実績のまとめサイト。good productions"
+    },
+    {
+      "row": 868,
+      "domain": "fluteirassai.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://fluteirassai.com/page-28/",
+      "社名": "フルート情報満載でっさいIrassai"
+    },
+    {
+      "row": 870,
+      "domain": "four-design.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://four-design.co.jp/",
+      "社名": "フォーデザイン"
+    },
+    {
+      "row": 872,
+      "domain": "suadd.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://suadd.com/",
+      "社名": "suadd.com"
+    },
+    {
+      "row": 872,
+      "domain": "suadd.com",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "suadd.com",
+      "社名": "suadd.com"
+    },
+    {
+      "row": 873,
+      "domain": "seo-lpo-consultant.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://seo-lpo-consultant.com/info/",
+      "社名": "SEO・LPOコンサルタント.com"
+    },
+    {
+      "row": 874,
+      "domain": "pal-blog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://pal-blog.com/#rtoc-43",
+      "社名": "PAL-BLOG"
+    },
+    {
+      "row": 874,
+      "domain": "pal-blog.com",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "PAL-BLOG",
+      "社名": "PAL-BLOG"
+    },
+    {
+      "row": 875,
+      "domain": "kazukick.work",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.kazukick.work/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/",
+      "社名": "ゲイに役立つゲイのライフスタイルマガジン『ゲイブロ』"
+    },
+    {
+      "row": 877,
+      "domain": "selwork.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://selwork.jp/",
+      "社名": "セルワークで、あなたにピッタリの仕事を見つけよう"
+    },
+    {
+      "row": 881,
+      "domain": "お役立ち.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://お役立ち.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 881,
+      "domain": "お役立ち.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 882,
+      "domain": "shikakuroad.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://shikakuroad.jp/",
+      "社名": "鈴木秀明オフィシャルサイト"
+    },
+    {
+      "row": 883,
+      "domain": "wordgym.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://wordgym.jp/counseling%ef%bc%92/",
+      "社名": "マンツーマン指導で未経験・初心者からプロを目指す"
+    },
+    {
+      "row": 886,
+      "domain": "b2b-marketing.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "B2Bマーケティング株式会社 | B2B(BtoB)企業のマーケティングとセールス領域において、ITを活用した仕組み作りを支援し、お客様の変革と継続的な発展を実現することが私たちの使命です。",
+      "社名": "B2Bマーケティング株式会社 | B2B(BtoB)企業のマーケティングとセールス領域において、ITを活用した仕組み作りを支援し、お客様の変革と継続的な発展を実現することが私たちの使命です。"
+    },
+    {
+      "row": 890,
+      "domain": "tetoblog.org",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "tetoblog",
+      "社名": "tetoblog"
+    },
+    {
+      "row": 897,
+      "domain": "revengers.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://revengers.jp/registration",
+      "社名": "高卒、中卒（高校中退）、フリーター、第二新卒向けの転職・就職求人紹介サイト"
+    },
+    {
+      "row": 899,
+      "domain": "white-seo.org",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://white-seo.org/",
+      "社名": "大阪のホワイトハットSEO対策に強い会社ランキング |"
+    },
+    {
+      "row": 902,
+      "domain": "mom-neuroscience.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://mom-neuroscience.com/",
+      "社名": "momの雑記帳"
+    },
+    {
+      "row": 906,
+      "domain": "careertrip.jp",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: unitedwill.jp",
+      "現在の値": "https://www.unitedwill.jp/contact/",
+      "社名": "Career Trip | 就活に関するあらゆる悩みを解決！理想の自分創りの旅に出よう！"
+    },
+    {
+      "row": 909,
+      "domain": "ecstarslab.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ecstarslab.com/#08",
+      "社名": "EC STARs Lab."
+    },
+    {
+      "row": 910,
+      "domain": "column.live-teachers.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://column.live-teachers.com/",
+      "社名": "ライブティーチャーズ コラム"
+    },
+    {
+      "row": 911,
+      "domain": "rurukblog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://rurukblog.com/",
+      "社名": ""
+    },
+    {
+      "row": 911,
+      "domain": "rurukblog.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 913,
+      "domain": "shoku.zenhp.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://shoku.zenhp.co.jp/",
+      "社名": "全力宅食"
+    },
+    {
+      "row": 917,
+      "domain": "carabao.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "株式会社カラバオ｜デジタルマーケティング、インハウス化支援 | 戦略立案から実行までお客様のマーケティングパートナーとして事業の拡大をサポートします！",
+      "社名": "株式会社カラバオ｜デジタルマーケティング、インハウス化支援 | 戦略立案から実行までお客様のマーケティングパートナーとして事業の拡大をサポートします！"
+    },
+    {
+      "row": 919,
+      "domain": "btobmarketing-textbook.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://btobmarketing-textbook.com/",
+      "社名": "BtoBマーケティングの教科書"
+    },
+    {
+      "row": 920,
+      "domain": "daichi-risk.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://daichi-risk.com/",
+      "社名": "だいち災害リスク研究所 - さくら事務所"
+    },
+    {
+      "row": 923,
+      "domain": "アイベット.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://アイベット.com/",
+      "社名": ""
+    },
+    {
+      "row": 923,
+      "domain": "アイベット.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 927,
+      "domain": "fun-learning35.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://fun-learning35.com/お問合せ/",
+      "社名": "全力の企業研究"
+    },
+    {
+      "row": 928,
+      "domain": "pr-net.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "http://pr-net.co.jp/call",
+      "社名": "株式会社PR NET【SNS×AI×Webマーケティング】"
+    },
+    {
+      "row": 929,
+      "domain": "dawdy.co.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "DAWDY",
+      "社名": "DAWDY"
+    },
+    {
+      "row": 930,
+      "domain": "istblog.org",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://istblog.org/",
+      "社名": "イスとブログ"
+    },
+    {
+      "row": 931,
+      "domain": "businesskouzamitsuketai.com",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: vost.co.jp",
+      "現在の値": "https://vost.co.jp/contact/",
+      "社名": "ビジネス講座見つけ隊"
+    },
+    {
+      "row": 934,
+      "domain": "nam-come.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://nam-come.com/",
+      "社名": ""
+    },
+    {
+      "row": 934,
+      "domain": "nam-come.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 935,
+      "domain": "tmcdigital.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://tmcdigital.jp/",
+      "社名": ""
+    },
+    {
+      "row": 935,
+      "domain": "tmcdigital.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 936,
+      "domain": "yasukochi.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://yasukochi.jp/",
+      "社名": ""
+    },
+    {
+      "row": 936,
+      "domain": "yasukochi.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 938,
+      "domain": "news.pjdb.cc",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://news.pjdb.cc/",
+      "社名": ""
+    },
+    {
+      "row": 938,
+      "domain": "news.pjdb.cc",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 940,
+      "domain": "dog-salon-mocomoco.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://dog-salon-mocomoco.com/%e3%81%8a%e5%95%8f%e5%90%88%e3%81%9b/",
+      "社名": "【体験レビュー】ミシュワンは怪しい？口コミや食いつき・涙やけの効果を徹底調査！"
+    },
+    {
+      "row": 941,
+      "domain": "leaplace.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "LEAPLACE",
+      "社名": "LEAPLACE"
+    },
+    {
+      "row": 945,
+      "domain": "cocomiru.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://cocomiru.com/#contact",
+      "社名": "東京のホームページ制作ならココミル"
+    },
+    {
+      "row": 951,
+      "domain": "krsw-wiki.in",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://krsw-wiki.in/",
+      "社名": "唐澤貴洋Wiki"
+    },
+    {
+      "row": 953,
+      "domain": "sipnstir.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sipnstir.net/",
+      "社名": "�l�b�g�ŉ҂� | ���Ƃɂ��œK�I����100���~�܂ł̃X�e�b�v"
+    },
+    {
+      "row": 955,
+      "domain": "mayui.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://mayui.co.jp/#contact",
+      "社名": "株式会社Mayui-マユイ｜SEOコンサルティング＆WEBマーケティング"
+    },
+    {
+      "row": 956,
+      "domain": "lict.work",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://lict.work/",
+      "社名": "株式会社LICT - 株式会社LICTの公式サイト｜新潟県魚沼市で飲食事業とマーケティング支援事業を行っている会社"
+    },
+    {
+      "row": 957,
+      "domain": "moogry.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://moogry.com/",
+      "社名": "Yahoo!検索（動画）"
+    },
+    {
+      "row": 960,
+      "domain": "better-life-japan.net",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "http://better-life-japan.net/muryo-sodan/",
+      "社名": "SEOコンサルティング・HIKARI｜東京都にあるSEO・LLMOの専門企業"
+    },
+    {
+      "row": 962,
+      "domain": "unterrassier.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://unterrassier.com/",
+      "社名": "ライター様専用投稿サイト"
+    },
+    {
+      "row": 964,
+      "domain": "tovira.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://tovira.jp/coreanalytics/conversion-route",
+      "社名": "tovira"
+    },
+    {
+      "row": 964,
+      "domain": "tovira.jp",
+      "issue_type": "社名異常",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "tovira",
+      "社名": "tovira"
+    },
+    {
+      "row": 965,
+      "domain": "kskk.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kskk.jp/",
+      "社名": "関西政治経済交流会 | 政治・行政・大企業・中小企業を繋いで日本の活性化！"
+    },
+    {
+      "row": 966,
+      "domain": "oproduct.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://business.oproduct.jp/",
+      "社名": "日本最大級のITツール・サービス比較検索サイト"
+    },
+    {
+      "row": 969,
+      "domain": "fukuoka-designreview.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://fukuoka-designreview.com/%e3%81%8a%e5%95%8f%e5%90%88%e3%81%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
+      "社名": "Ran's information room"
+    },
+    {
+      "row": 970,
+      "domain": "linotie.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://linotie.com/",
+      "社名": "合同会社Linotie"
+    },
+    {
+      "row": 973,
+      "domain": "creative-hunt.org",
+      "issue_type": "外部ドメイン不正",
+      "detail": "問い合わせURLが外部ドメイン: creative-hunt.connpass.com",
+      "現在の値": "https://creative-hunt.connpass.com/event/136561/",
+      "社名": "CREATIVE HUNT [ クリエイティブハント ]"
+    },
+    {
+      "row": 973,
+      "domain": "creative-hunt.org",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://creative-hunt.connpass.com/event/136561/",
+      "社名": "CREATIVE HUNT [ クリエイティブハント ]"
+    },
+    {
+      "row": 975,
+      "domain": "ceo-partner.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ceo-partner.co.jp/#contact",
+      "社名": "CEOパートナー"
+    },
+    {
+      "row": 976,
+      "domain": "npo-la-vida.org",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.npo-la-vida.org/blank",
+      "社名": "MiyakojimaAnimalPark"
+    },
+    {
+      "row": 978,
+      "domain": "spo-gel.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://spo-gel.com/",
+      "社名": "SPOGEL"
+    },
+    {
+      "row": 979,
+      "domain": "2o6aw2gz2k.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://2o6aw2gz2k.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 979,
+      "domain": "2o6aw2gz2k.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 980,
+      "domain": "3fslclw1ns.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://3fslclw1ns.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 980,
+      "domain": "3fslclw1ns.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 981,
+      "domain": "9dsutusfsu.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://9dsutusfsu.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 981,
+      "domain": "9dsutusfsu.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 982,
+      "domain": "q6o0s0yxrx.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://q6o0s0yxrx.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 982,
+      "domain": "q6o0s0yxrx.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 983,
+      "domain": "wuiuppk11m.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://wuiuppk11m.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 983,
+      "domain": "wuiuppk11m.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 984,
+      "domain": "fhjtesy2iv.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://fhjtesy2iv.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 984,
+      "domain": "fhjtesy2iv.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 985,
+      "domain": "7kdgrjmscx.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://7kdgrjmscx.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 985,
+      "domain": "7kdgrjmscx.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 986,
+      "domain": "wb6akmy3dk.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://wb6akmy3dk.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 986,
+      "domain": "wb6akmy3dk.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 987,
+      "domain": "1g53pch12i.madam72.xyz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://1g53pch12i.madam72.xyz/",
+      "社名": ""
+    },
+    {
+      "row": 987,
+      "domain": "1g53pch12i.madam72.xyz",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空)",
+      "社名": "(空)"
+    },
+    {
+      "row": 990,
+      "domain": "sun-plazahome.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sun-plazahome.com/",
+      "社名": "【2025年最新】20社からおすすめトランクルーム10選を徹底比較！"
+    },
+    {
+      "row": 991,
+      "domain": "aboutha.tokyo",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://aboutha.tokyo/#sec_05",
+      "社名": "aboutha株式会社 |"
+    }
+  ],
+  "summary": {
+    "トップページフォールバック件数": 89,
+    "外部フォームサービス件数": 5,
+    "外部ドメイン不正件数": 10,
+    "社名空欄件数": 27,
+    "社名異常件数": 34,
+    "contact_keyword_なし件数": 31
+  }
+}

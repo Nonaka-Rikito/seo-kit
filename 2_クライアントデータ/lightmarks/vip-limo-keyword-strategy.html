@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vip-limo.jp サービスキーワード戦略提案書</title>
+<style>
+:root {
+  --navy: #1a1a2e;
+  --navy-light: #16213e;
+  --navy-mid: #0f3460;
+  --gold: #d4af37;
+  --gold-light: #f0d878;
+  --gold-dim: #b8962e;
+  --white: #f5f5f5;
+  --gray-light: #e8e8e8;
+  --gray: #999;
+  --red: #e74c3c;
+  --green: #27ae60;
+  --blue: #3498db;
+  --orange: #f39c12;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', Meiryo, sans-serif;
+  background: var(--navy);
+  color: #333;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 50%, var(--navy-mid) 100%);
+  color: var(--white);
+  padding: 50px 40px;
+  border-bottom: 4px solid var(--gold);
+  text-align: center;
+}
+.header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  color: var(--gold);
+}
+.header .subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+.header .meta {
+  font-size: 13px;
+  color: var(--gray);
+}
+.header .meta span { margin: 0 12px; }
+
+/* Summary Banner */
+.summary-banner {
+  background: linear-gradient(135deg, var(--navy-mid), var(--navy-light));
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 30px 0;
+  text-align: center;
+  color: var(--white);
+}
+.summary-banner .big-number {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--gold);
+  display: block;
+  line-height: 1.2;
+}
+.summary-banner .label {
+  font-size: 18px;
+  color: #ccc;
+  margin-top: 4px;
+}
+.summary-banner .sub-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.summary-banner .sub-item {
+  text-align: center;
+}
+.summary-banner .sub-item .num {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+.summary-banner .sub-item .desc {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Content area */
+.content {
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  padding: 0;
+}
+
+/* Section */
+.section {
+  padding: 35px 40px;
+  border-bottom: 1px solid #eee;
+}
+.section:last-child { border-bottom: none; }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 20px;
+}
+.section-header .toggle {
+  width: 28px;
+  height: 28px;
+  background: var(--navy);
+  color: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 12px;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+.section-header.collapsed .toggle { transform: rotate(-90deg); }
+.section-header h2 {
+  font-size: 22px;
+  color: var(--navy);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 4px;
+  flex: 1;
+}
+.section-header h3 {
+  font-size: 18px;
+  color: var(--navy-mid);
+  flex: 1;
+}
+.section-body { transition: max-height 0.4s ease; overflow: hidden; }
+.section-body.collapsed { display: none; }
+
+h4 {
+  font-size: 16px;
+  color: var(--navy-mid);
+  margin: 24px 0 12px 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--gold);
+}
+
+p { margin-bottom: 12px; color: #444; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+}
+th {
+  background: var(--navy);
+  color: var(--gold);
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+}
+td {
+  padding: 9px 12px;
+  border-bottom: 1px solid #eee;
+}
+tr:nth-child(even) { background: #fafaf5; }
+tr:hover { background: #f5f0e0; }
+
+/* Priority stars */
+.stars { color: var(--gold); letter-spacing: 2px; }
+.stars-dim { color: #ddd; }
+
+/* Difficulty badges */
+.diff-low {
+  background: #e8f5e9; color: var(--green);
+  padding: 2px 10px; border-radius: 10px; font-size: 12px; font-weight: 600;
+}
+.diff-mid {
+  background: #fff8e1; color: var(--orange);
+  padding: 2px 10px; border-radius: 10px; font-size: 12px; font-weight: 600;
+}
+.diff-high {
+  background: #fce4ec; color: var(--red);
+  padding: 2px 10px; border-radius: 10px; font-size: 12px; font-weight: 600;
+}
+
+/* Bar chart */
+.bar-chart { margin: 20px 0; }
+.bar-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.bar-label {
+  width: 200px;
+  font-size: 13px;
+  color: #555;
+  flex-shrink: 0;
+  text-align: right;
+  padding-right: 12px;
+}
+.bar-track {
+  flex: 1;
+  background: #f0f0f0;
+  border-radius: 6px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  min-width: 40px;
+  transition: width 0.6s ease;
+}
+.bar-fill.navy { background: linear-gradient(90deg, var(--navy-mid), var(--navy)); }
+.bar-fill.gold { background: linear-gradient(90deg, var(--gold-dim), var(--gold)); }
+.bar-fill.blue { background: linear-gradient(90deg, #2980b9, var(--blue)); }
+.bar-fill.green { background: linear-gradient(90deg, #219a52, var(--green)); }
+.bar-fill.orange { background: linear-gradient(90deg, #e67e22, var(--orange)); }
+.bar-fill.red { background: linear-gradient(90deg, #c0392b, var(--red)); }
+.bar-value {
+  width: 70px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  padding-left: 8px;
+  flex-shrink: 0;
+}
+
+/* Priority Matrix */
+.matrix-grid {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 40px;
+  gap: 0;
+  margin: 20px 0;
+  min-height: 400px;
+}
+.matrix-ylabel {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.matrix-xlabel {
+  grid-column: 2 / 4;
+  grid-row: 4;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+  padding-top: 8px;
+}
+.matrix-cell {
+  border: 1px solid #ddd;
+  padding: 16px;
+  position: relative;
+}
+.matrix-cell.q1 {
+  grid-column: 2; grid-row: 2;
+  background: #e8f5e9;
+  border-radius: 8px 0 0 0;
+}
+.matrix-cell.q2 {
+  grid-column: 3; grid-row: 2;
+  background: #fff8e1;
+  border-radius: 0 8px 0 0;
+}
+.matrix-cell.q3 {
+  grid-column: 2; grid-row: 3;
+  background: #e3f2fd;
+  border-radius: 0 0 0 8px;
+}
+.matrix-cell.q4 {
+  grid-column: 3; grid-row: 3;
+  background: #f5f5f5;
+  border-radius: 0 0 8px 0;
+}
+.matrix-cell .cell-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.matrix-cell.q1 .cell-title { background: var(--green); color: #fff; }
+.matrix-cell.q2 .cell-title { background: var(--orange); color: #fff; }
+.matrix-cell.q3 .cell-title { background: var(--blue); color: #fff; }
+.matrix-cell.q4 .cell-title { background: var(--gray); color: #fff; }
+.matrix-cell ul {
+  list-style: none;
+  padding: 0;
+}
+.matrix-cell li {
+  font-size: 12px;
+  padding: 3px 0;
+  color: #555;
+  line-height: 1.5;
+}
+.matrix-cell li::before {
+  content: "\25C6";
+  margin-right: 6px;
+  font-size: 10px;
+}
+.matrix-header-row {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.matrix-header-row span {
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray);
+  padding-bottom: 4px;
+}
+
+/* Roadmap */
+.roadmap {
+  position: relative;
+  padding-left: 30px;
+  margin: 20px 0;
+}
+.roadmap::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--gold), var(--navy));
+}
+.roadmap-phase {
+  position: relative;
+  margin-bottom: 28px;
+  padding: 20px 24px;
+  background: #fafafa;
+  border-radius: 8px;
+  border-left: 4px solid var(--gold);
+}
+.roadmap-phase::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 24px;
+  width: 14px;
+  height: 14px;
+  background: var(--gold);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--gold);
+}
+.roadmap-phase h4 {
+  border-left: none;
+  padding-left: 0;
+  margin-top: 0;
+  font-size: 17px;
+  color: var(--navy);
+}
+.roadmap-phase .phase-period {
+  font-size: 12px;
+  color: var(--gold-dim);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.roadmap-phase ul {
+  margin: 8px 0 0 16px;
+  font-size: 14px;
+  color: #555;
+}
+.roadmap-phase li { margin-bottom: 4px; }
+
+/* Callout */
+.callout {
+  background: linear-gradient(135deg, #f9f6ee, #fff);
+  border-left: 4px solid var(--gold);
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+.callout strong { color: var(--navy); }
+
+/* Tag */
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.tag-new { background: #e3f2fd; color: var(--blue); }
+.tag-optimize { background: #e8f5e9; color: var(--green); }
+.tag-expand { background: #fff3e0; color: var(--orange); }
+
+/* Sub-section category */
+.category-header {
+  background: linear-gradient(90deg, var(--navy), var(--navy-mid));
+  color: var(--gold);
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 28px 0 16px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* KPI boxes */
+.kpi-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+.kpi-box {
+  flex: 1;
+  min-width: 160px;
+  background: #fafaf5;
+  border: 1px solid #eee;
+  border-top: 3px solid var(--gold);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+.kpi-box .kpi-num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--navy);
+}
+.kpi-box .kpi-label {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+/* Optimization card */
+.opt-card {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px 0;
+}
+.opt-card h5 {
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.opt-card .opt-current {
+  font-size: 13px;
+  color: var(--red);
+  margin-bottom: 6px;
+}
+.opt-card .opt-target {
+  font-size: 13px;
+  color: var(--green);
+  margin-bottom: 10px;
+}
+.opt-card ul { margin-left: 18px; font-size: 13px; color: #555; }
+.opt-card li { margin-bottom: 4px; }
+
+/* Print styles */
+@media print {
+  body { background: #fff; font-size: 12px; }
+  .container { max-width: 100%; padding: 0; }
+  .header { padding: 20px; }
+  .section { padding: 20px; }
+  .section-body.collapsed { display: block !important; }
+  .summary-banner { border-color: #333; background: #f5f5f5; color: #333; }
+  .summary-banner .big-number { color: #333; }
+  .summary-banner .sub-item .num { color: #555; }
+  .summary-banner .sub-item .desc, .summary-banner .label { color: #666; }
+  .bar-fill { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  th { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .matrix-cell { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+}
+
+@media (max-width: 768px) {
+  .section { padding: 20px 16px; }
+  .header { padding: 30px 20px; }
+  .header h1 { font-size: 22px; }
+  .bar-label { width: 120px; font-size: 11px; }
+  table { font-size: 12px; }
+  th, td { padding: 6px 8px; }
+  .matrix-grid { min-height: 300px; }
+  .summary-banner .big-number { font-size: 36px; }
+  .kpi-row { gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>vip-limo.jp サービスキーワード戦略提案書</h1>
+  <div class="subtitle">VIPハイヤー配車サービス SEOキーワード拡張戦略</div>
+  <div class="meta">
+    <span>作成日: 2026年2月25日</span>
+    <span>対象サイト: vip-limo.jp</span>
+    <span>分析期間: 直近12ヶ月</span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- Acquirable Traffic Summary Banner -->
+<div class="summary-banner">
+  <span class="label">推定合計獲得可能トラフィック（6ヶ月後目標）</span>
+  <span class="big-number">+8,500 ~ 12,000 /月</span>
+  <div class="sub-numbers">
+    <div class="sub-item">
+      <div class="num">~6,300</div>
+      <div class="desc">現在の月間オーガニック流入</div>
+    </div>
+    <div class="sub-item">
+      <div class="num">+3,200~5,700</div>
+      <div class="desc">コアサービスKW追加流入</div>
+    </div>
+    <div class="sub-item">
+      <div class="num">+2,800~4,000</div>
+      <div class="desc">空港送迎・法人KW追加流入</div>
+    </div>
+    <div class="sub-item">
+      <div class="num">+2,500~3,300</div>
+      <div class="desc">観光・エリア・インバウンドKW</div>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- ============================================ -->
+<!-- 1. Executive Summary -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>1. エグゼクティブサマリー</h2>
+  </div>
+  <div class="section-body">
+    <p>vip-limo.jp は高級ハイヤー配車サービスとして、空港送迎・時間貸し・ゴルフ送迎などを展開するプレミアムブランドです。現在のSEO状況を分析した結果、<strong>オーガニックトラフィックの約70%が空港駐車場関連コンテンツ</strong>に依存しており、本来の収益源であるハイヤー・リムジンサービスのキーワード獲得が大幅に不足していることが判明しました。</p>
+
+    <div class="callout">
+      <strong>戦略の核心：</strong>空港駐車場コンテンツで集めたトラフィックを活かしつつ、コアサービスであるハイヤー・リムジン関連キーワードの獲得を最優先で強化。法人向け・インバウンド向けの戦略的キーワード拡張により、<strong>コンバージョンに直結する質の高いトラフィックを6ヶ月で現在の2倍以上</strong>に引き上げることを目指します。
+    </div>
+
+    <div class="kpi-row">
+      <div class="kpi-box">
+        <div class="kpi-num">70%</div>
+        <div class="kpi-label">駐車場コンテンツ依存率<br>（削減目標: 45%以下）</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num">10-12%</div>
+        <div class="kpi-label">コアサービスKW比率<br>（拡大目標: 35%以上）</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num">12位</div>
+        <div class="kpi-label">「ハイヤーとは」現順位<br>（目標: 3位以内）</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num">96%</div>
+        <div class="kpi-label">国内トラフィック比率<br>（多言語展開で改善）</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- 2. Current State Analysis -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>2. 現状分析</h2>
+  </div>
+  <div class="section-body">
+
+    <h4>トラフィック構成比（コンテンツカテゴリ別）</h4>
+    <div class="bar-chart">
+      <div class="bar-row">
+        <div class="bar-label">空港駐車場コンテンツ</div>
+        <div class="bar-track">
+          <div class="bar-fill navy" style="width:70%">70%</div>
+        </div>
+        <div class="bar-value">~4,500</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">空港タクシー・交通</div>
+        <div class="bar-track">
+          <div class="bar-fill blue" style="width:17%">17%</div>
+        </div>
+        <div class="bar-value">~1,050</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">コアサービス（ハイヤー等）</div>
+        <div class="bar-track">
+          <div class="bar-fill gold" style="width:11%">11%</div>
+        </div>
+        <div class="bar-value">~650</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">一般タクシー情報</div>
+        <div class="bar-track">
+          <div class="bar-fill orange" style="width:7%">7%</div>
+        </div>
+        <div class="bar-value">~450</div>
+      </div>
+    </div>
+    <p style="font-size:12px;color:#888;">※推定月間クリック数ベース。合計 ~6,300 clicks/月</p>
+
+    <h4>現在ランクインしている主要サービスキーワード</h4>
+    <table>
+      <tr>
+        <th>キーワード</th>
+        <th>月間検索Vol</th>
+        <th>現在順位</th>
+        <th>推定流入</th>
+        <th>評価</th>
+      </tr>
+      <tr>
+        <td>vip ハイヤー</td>
+        <td>90</td>
+        <td>1位</td>
+        <td>95</td>
+        <td><span class="diff-low">良好</span></td>
+      </tr>
+      <tr>
+        <td>vip ハイヤー配車</td>
+        <td>60</td>
+        <td>1位</td>
+        <td>57</td>
+        <td><span class="diff-low">良好</span></td>
+      </tr>
+      <tr>
+        <td>vip リムジン</td>
+        <td>40</td>
+        <td>1位</td>
+        <td>42</td>
+        <td><span class="diff-low">良好</span></td>
+      </tr>
+      <tr>
+        <td>ハイヤーとは</td>
+        <td>4,200</td>
+        <td>12位</td>
+        <td>71</td>
+        <td><span class="diff-high">改善必須</span></td>
+      </tr>
+      <tr>
+        <td>羽田空港 発着タクシー 安い</td>
+        <td>600</td>
+        <td>4位</td>
+        <td>74</td>
+        <td><span class="diff-mid">改善余地</span></td>
+      </tr>
+      <tr>
+        <td>羽田空港 発着タクシー 定額</td>
+        <td>600</td>
+        <td>6位</td>
+        <td>62</td>
+        <td><span class="diff-mid">改善余地</span></td>
+      </tr>
+      <tr>
+        <td>成田空港 発着タクシー 安い</td>
+        <td>100</td>
+        <td>1位</td>
+        <td>40</td>
+        <td><span class="diff-low">良好</span></td>
+      </tr>
+      <tr>
+        <td>vip ハイヤー配車 口コミ</td>
+        <td>40</td>
+        <td>1位</td>
+        <td>21</td>
+        <td><span class="diff-low">良好</span></td>
+      </tr>
+      <tr>
+        <td>ハイヤーとは（別URL）</td>
+        <td>900</td>
+        <td>5位</td>
+        <td>30</td>
+        <td><span class="diff-mid">統合推奨</span></td>
+      </tr>
+    </table>
+
+    <h4>主要課題</h4>
+    <div class="callout">
+      <strong>課題1：コアサービスキーワードの圧倒的不足</strong><br>
+      ハイヤー・リムジン関連の検索ボリュームの大きいキーワード（ハイヤー 料金, ハイヤー タクシー 違い 等）で専用ページが存在せず、大量のトラフィック機会を逸失中。
+    </div>
+    <div class="callout">
+      <strong>課題2：「ハイヤーとは」記事のカニバリゼーション</strong><br>
+      同一キーワードに対して複数URLが競合（12位 + 5位）。コンテンツ統合により上位表示が狙える。キーワード難易度が極めて低い（KD:1）にもかかわらず、Top5に入れていない。
+    </div>
+    <div class="callout">
+      <strong>課題3：コマーシャル/トランザクショナルクエリの欠如</strong><br>
+      ほぼ全てのキーワードが情報収集型（Informational）。「予約」「料金」「見積もり」等の購買意図の高いキーワードが未対応。
+    </div>
+    <div class="callout">
+      <strong>課題4：多言語ページの検索流入ゼロ</strong><br>
+      EN/CN/TWページが存在するにも関わらず、海外からのオーガニック流入がほぼ皆無。hreflang設定やインバウンド向けSEO施策が必要。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- 3. Service Keyword Proposals -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>3. サービスキーワード提案</h2>
+  </div>
+  <div class="section-body">
+
+    <!-- Category A -->
+    <div class="category-header">A. コアサービス（ハイヤー・リムジン）</div>
+    <p>vip-limo.jpの主力サービスに直結するキーワード群。最優先で対策を進めるべき領域です。</p>
+    <table>
+      <tr>
+        <th>キーワード</th>
+        <th>推定検索Vol</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>ハイヤーとは / ハイヤー 意味</strong></td>
+        <td>4,200 ~ 5,000</td>
+        <td><span class="diff-low">低</span></td>
+        <td>既存記事リライト・統合。網羅的な解説記事（3,000字以上）にサービスCTAを統合</td>
+        <td>現在12位 → Top3で月間800~1,200クリック獲得可能。KD:1のため即効性が高い</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ハイヤー 料金 / ハイヤー 料金 相場</strong></td>
+        <td>2,000 ~ 3,000</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>料金表ページ新規作成。比較表・シミュレーター付き。FAQ形式で相場を解説</td>
+        <td>Commercial intentが強く、CVに直結。Top5で月間300~600クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ハイヤー タクシー 違い</strong></td>
+        <td>1,500 ~ 2,500</td>
+        <td><span class="diff-low">低</span></td>
+        <td>比較解説記事。表形式で料金・サービス・予約方法の違いを明確化</td>
+        <td>「ハイヤーとは」と相互リンクで相乗効果。Top5で月間200~450クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>リムジン ハイヤー</strong></td>
+        <td>500 ~ 800</td>
+        <td><span class="diff-low">低</span></td>
+        <td>サービス紹介ページの最適化。リムジンとハイヤーの違い・選び方ガイド</td>
+        <td>ブランドキーワードとの親和性高。Top3で月間100~200クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ハイヤー 予約</strong></td>
+        <td>300 ~ 500</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>予約導線ページ最適化。LINE予約の手順解説・予約の流れ図解</td>
+        <td>Transactional intent最高。Top3で月間80~150クリック、高CVR</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ハイヤー 東京</strong></td>
+        <td>200 ~ 400</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>東京エリアサービスページ。対応エリアマップ付き</td>
+        <td>地域特化で差別化可能。Top5で月間50~120クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>高級タクシー / プレミアムタクシー</strong></td>
+        <td>300 ~ 600</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>「高級タクシーとは？ハイヤーとの違い」解説記事。車種紹介と写真</td>
+        <td>サービス認知の入り口。Top5で月間60~150クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ハイヤー 個人利用</strong></td>
+        <td>200 ~ 300</td>
+        <td><span class="diff-low">低</span></td>
+        <td>「ハイヤーは個人でも使える？」FAQ記事。利用シーン具体例</td>
+        <td>個人顧客獲得に直結。Top3で月間60~100クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリA 合計推定獲得可能トラフィック：+1,650 ~ 2,970 /月</strong>（全KWでTop5達成時）
+    </div>
+
+    <!-- Category B -->
+    <div class="category-header">B. 空港送迎サービス</div>
+    <p>vip-limo.jpの主力サービスの1つ。既存ルートページの資産を活かしつつ、上位カテゴリページを強化します。</p>
+    <table>
+      <tr>
+        <th>キーワード</th>
+        <th>推定検索Vol</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>空港送迎</strong></td>
+        <td>3,000 ~ 5,000</td>
+        <td><span class="diff-high">高</span></td>
+        <td>空港送迎総合ランディングページ。全空港対応・料金比較・予約フロー一体型</td>
+        <td>ビッグワード。Top10入りで月間200~500クリック。長期戦略</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>空港送迎 ハイヤー</strong></td>
+        <td>500 ~ 1,000</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>「空港送迎にハイヤーを使うメリット」サービスページ。定額料金表付き</td>
+        <td>サービスとの親和性最高。Top3で月間120~300クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>羽田空港 ハイヤー</strong></td>
+        <td>500 ~ 800</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>羽田空港送迎専用ページ。ターミナル別乗車場所・料金表・所要時間</td>
+        <td>既存ルートページとの相乗効果。Top5で月間80~200クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>成田空港 ハイヤー</strong></td>
+        <td>400 ~ 700</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>成田空港送迎専用ページ。深夜早朝対応・定額料金を訴求</td>
+        <td>Top5で月間60~170クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>関西空港 ハイヤー</strong></td>
+        <td>200 ~ 400</td>
+        <td><span class="diff-low">低</span></td>
+        <td>関西空港送迎ページ。関西エリアの料金・対応範囲</td>
+        <td>競合少なく上位獲得容易。Top3で月間50~120クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>空港 定額タクシー</strong></td>
+        <td>1,000 ~ 2,000</td>
+        <td><span class="diff-high">高</span></td>
+        <td>「空港定額タクシー vs ハイヤー」比較記事。料金メリット・デメリット解説</td>
+        <td>既存KWとの関連性高。Top10で月間100~250クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>空港送迎 定額</strong></td>
+        <td>500 ~ 800</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>定額料金特化ページ。6,000円~の価格訴求・エリア別料金一覧</td>
+        <td>価格訴求が強いため高CVR。Top5で月間80~180クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>空港送迎 大人数 / 荷物</strong></td>
+        <td>300 ~ 500</td>
+        <td><span class="diff-low">低</span></td>
+        <td>「大人数・大荷物でも安心の空港送迎」ページ。ハイエース訴求</td>
+        <td>車種（ハイエース）がUSP。Top3で月間80~150クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>エアポートリムジン</strong></td>
+        <td>200 ~ 400</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>「エアポートリムジンとは」解説。バスとの違い・個室空間の魅力</td>
+        <td>Top5で月間40~100クリック</td>
+        <td><span class="stars">&#9733;</span><span class="stars-dim">&#9733;&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリB 合計推定獲得可能トラフィック：+810 ~ 1,970 /月</strong>（全KWでTop5~10達成時）
+    </div>
+
+    <!-- Category C -->
+    <div class="category-header">C. 法人・ビジネス向け</div>
+    <p>CVR（コンバージョン率）が最も高い法人顧客向けキーワード。検索ボリュームは小さいが、1件あたりの顧客単価が極めて高い領域です。</p>
+    <table>
+      <tr>
+        <th>キーワード</th>
+        <th>推定検索Vol</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>役員車 / 役員送迎</strong></td>
+        <td>500 ~ 1,000</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>法人向けLP。「役員車をハイヤーで代替するメリット」コスト比較付き</td>
+        <td>法人契約に直結。Top5で月間80~250クリック、高単価リード</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>法人 ハイヤー / 法人契約 タクシー</strong></td>
+        <td>300 ~ 500</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>法人契約プランページ。月額契約・請求書払い対応を明記</td>
+        <td>Top3で月間70~150クリック。非常に高いCVR期待</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>秘書 タクシー手配</strong></td>
+        <td>100 ~ 200</td>
+        <td><span class="diff-low">低</span></td>
+        <td>「秘書の方向け」手配ガイド。LINE予約の簡便さ・スケジュール管理対応</td>
+        <td>意思決定者の秘書に直接リーチ。Top3で月間30~60クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>VIP送迎 / VIP 車</strong></td>
+        <td>200 ~ 400</td>
+        <td><span class="diff-low">低</span></td>
+        <td>VIP送迎サービスページ。セキュリティ・プライバシー対応を訴求</td>
+        <td>ブランド名との親和性最高。Top3で月間50~120クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>企業 送迎 サービス</strong></td>
+        <td>200 ~ 300</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>企業送迎の導入事例ページ。コスト削減効果・導入フロー図解</td>
+        <td>Top5で月間40~90クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>接待 ハイヤー / 接待 送迎</strong></td>
+        <td>100 ~ 200</td>
+        <td><span class="diff-low">低</span></td>
+        <td>「接待で使えるハイヤー活用術」記事。レストラン送迎・ゴルフ接待シーン</td>
+        <td>ニッチだが高CVR。Top3で月間30~60クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>会社 役員車 リース vs ハイヤー</strong></td>
+        <td>100 ~ 200</td>
+        <td><span class="diff-low">低</span></td>
+        <td>比較記事。「自社保有 vs リース vs ハイヤー」コスト・柔軟性比較表</td>
+        <td>意思決定段階の検索。Top3で月間25~60クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリC 合計推定獲得可能トラフィック：+325 ~ 790 /月</strong><br>
+      ※ボリュームは小さいが、<strong>法人顧客1件の年間LTVはB2C個人の10~50倍</strong>。ROI観点で最重要カテゴリ。
+    </div>
+
+    <!-- Category D -->
+    <div class="category-header">D. 観光・レジャー</div>
+    <p>季節変動はあるものの、検索ボリュームが大きく、新規顧客獲得の入り口として有効です。</p>
+    <table>
+      <tr>
+        <th>キーワード</th>
+        <th>推定検索Vol</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>観光タクシー 東京</strong></td>
+        <td>2,000 ~ 4,000</td>
+        <td><span class="diff-high">高</span></td>
+        <td>東京観光ハイヤーサービスページ。モデルコース3~5パターン・料金表・写真</td>
+        <td>ビッグワードだが競合多。Top10で月間150~400クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>観光ハイヤー</strong></td>
+        <td>500 ~ 1,000</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>「観光ハイヤーの魅力と使い方」サービスページ。タクシーとの違いを訴求</td>
+        <td>Top5で月間80~250クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>貸切タクシー</strong></td>
+        <td>1,500 ~ 3,000</td>
+        <td><span class="diff-high">高</span></td>
+        <td>「貸切タクシー（時間貸し）」サービスページ。時間制料金・用途別ガイド</td>
+        <td>Top10で月間120~350クリック。時間貸しサービスへの送客</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>ゴルフ 送迎 / ゴルフ タクシー</strong></td>
+        <td>500 ~ 800</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>ゴルフ送迎専用ページ。人気ゴルフ場別料金・バッグ積載対応・早朝対応</td>
+        <td>既存サービスの強み。Top3で月間100~200クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>東京 観光 貸切</strong></td>
+        <td>300 ~ 600</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>東京観光貸切プラン紹介。半日/1日コース・おすすめルート</td>
+        <td>Top5で月間50~150クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>結婚式 ハイヤー / ウェディング リムジン</strong></td>
+        <td>200 ~ 500</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>ウェディング送迎専用ページ。装飾対応・フォトスポット送迎プラン</td>
+        <td>高単価案件。Top5で月間40~120クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>日帰り 観光タクシー</strong></td>
+        <td>200 ~ 300</td>
+        <td><span class="diff-low">低</span></td>
+        <td>日帰り観光プラン記事。箱根・鎌倉・日光等の近郊モデルコース</td>
+        <td>Top3で月間50~90クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリD 合計推定獲得可能トラフィック：+590 ~ 1,560 /月</strong>
+    </div>
+
+    <!-- Category E -->
+    <div class="category-header">E. エリア &times; サービス（ロングテール）</div>
+    <p>検索ボリュームは個々に小さいものの、コンバージョン意図が非常に高いキーワード群。既存ルートページの拡張と新規エリアページで対応します。</p>
+    <table>
+      <tr>
+        <th>キーワードパターン</th>
+        <th>推定検索Vol（各）</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>[主要エリア] ハイヤー</strong><br>
+          <span style="font-size:12px;color:#888;">六本木 / 銀座 / 新宿 / 渋谷 / 品川 / 丸の内</span></td>
+        <td>50 ~ 200（各）</td>
+        <td><span class="diff-low">低</span></td>
+        <td>エリア別サービスページ（テンプレート展開）。アクセス情報・料金・乗車場所</td>
+        <td>6エリアで合計月間80~300クリック。低競合のため上位獲得容易</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>[空港] 送迎 定額</strong><br>
+          <span style="font-size:12px;color:#888;">羽田 / 成田 / 関西 / 伊丹</span></td>
+        <td>100 ~ 400（各）</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>空港別定額料金ページ。エリア別料金表・所要時間マップ</td>
+        <td>4空港で合計月間100~400クリック。定額訴求でCVR高</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>[空港] から [エリア] ハイヤー</strong><br>
+          <span style="font-size:12px;color:#888;">成田から東京 / 羽田から横浜 等</span></td>
+        <td>30 ~ 150（各）</td>
+        <td><span class="diff-low">低</span></td>
+        <td>既存ルートページのSEO最適化。タイトル・H1・メタディスクリプション改善</td>
+        <td>既存10ルート+新規10ルートで合計月間100~400クリック</td>
+        <td><span class="stars">&#9733;&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>東京 空港送迎 英語対応</strong></td>
+        <td>100 ~ 300</td>
+        <td><span class="diff-low">低</span></td>
+        <td>多言語対応サービス紹介ページ。EN/CN/TW対応を訴求</td>
+        <td>インバウンド連携。Top3で月間30~90クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリE 合計推定獲得可能トラフィック：+310 ~ 1,190 /月</strong><br>
+      ※ロングテールキーワードはCVRが一般KWの2~5倍。トラフィック以上の売上貢献が期待できる。
+    </div>
+
+    <!-- Category F -->
+    <div class="category-header">F. インバウンド（多言語SEO）</div>
+    <p>現在96%が国内トラフィック。EN/CN/TWページが存在するにもかかわらず、海外からの流入がほぼゼロ。訪日観光客の増加を捉える大きな成長機会です。</p>
+    <table>
+      <tr>
+        <th>キーワード（英語）</th>
+        <th>推定検索Vol</th>
+        <th>競合難易度</th>
+        <th>推奨コンテンツ形式</th>
+        <th>期待効果</th>
+        <th>優先度</th>
+      </tr>
+      <tr>
+        <td><strong>private car service tokyo</strong></td>
+        <td>500 ~ 1,000</td>
+        <td><span class="diff-high">高</span></td>
+        <td>英語LP最適化。Google Business Profile英語対応・レビュー獲得</td>
+        <td>Top10で月間30~100クリック。高単価インバウンド客</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>airport transfer tokyo</strong></td>
+        <td>800 ~ 1,500</td>
+        <td><span class="diff-high">高</span></td>
+        <td>英語版空港送迎ページ。Narita/Haneda別、料金USD表記</td>
+        <td>Top10で月間50~150クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>narita airport private car</strong></td>
+        <td>300 ~ 600</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>成田空港英語専用ページ。Booking flow・Price table・FAQ</td>
+        <td>Top5で月間40~120クリック</td>
+        <td><span class="stars">&#9733;&#9733;</span><span class="stars-dim">&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>hire car japan / luxury car service tokyo</strong></td>
+        <td>200 ~ 500</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>英語版ブランドページ。Fleet紹介・サービス品質訴求</td>
+        <td>Top5で月間30~100クリック</td>
+        <td><span class="stars">&#9733;</span><span class="stars-dim">&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>golf transportation japan</strong></td>
+        <td>100 ~ 300</td>
+        <td><span class="diff-low">低</span></td>
+        <td>英語版ゴルフ送迎ページ。Top courses near Tokyo・Transport packages</td>
+        <td>ニッチだが高単価。Top3で月間20~80クリック</td>
+        <td><span class="stars">&#9733;</span><span class="stars-dim">&#9733;&#9733;</span></td>
+      </tr>
+      <tr>
+        <td><strong>VIP transfer service japan</strong></td>
+        <td>100 ~ 300</td>
+        <td><span class="diff-mid">中</span></td>
+        <td>VIPサービス英語ページ。Corporate / Event / VIP transport</td>
+        <td>Top5で月間15~60クリック</td>
+        <td><span class="stars">&#9733;</span><span class="stars-dim">&#9733;&#9733;</span></td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>カテゴリF 合計推定獲得可能トラフィック：+185 ~ 610 /月</strong><br>
+      ※インバウンド客の平均単価は国内客の2~3倍。hreflang設定・Google Business Profile多言語化が前提。<br>
+      ※中国語（簡体字/繁体字）キーワードは百度・小紅書等の別チャネルも並行検討。
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- 4. Priority Matrix -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>4. 優先度マトリクス</h2>
+  </div>
+  <div class="section-body">
+    <p>キーワード施策を「実装難易度」と「ビジネスインパクト」の2軸で分類し、リソース配分の最適化を図ります。</p>
+
+    <div class="matrix-grid">
+      <div class="matrix-header-row">
+        <span>実装難易度: 低（既存コンテンツ活用可）</span>
+        <span>実装難易度: 高（新規コンテンツ必要）</span>
+      </div>
+      <div class="matrix-ylabel">ビジネスインパクト（トラフィック &times; CV関連度）</div>
+
+      <!-- Q1: High Impact, Low Difficulty = Quick Wins -->
+      <div class="matrix-cell q1">
+        <div class="cell-title">Quick Wins（即効施策）</div>
+        <ul>
+          <li><strong>「ハイヤーとは」記事統合・リライト</strong>（Vol:4,200 / 12位→3位）</li>
+          <li><strong>「ハイヤー タクシー 違い」記事作成</strong>（Vol:2,000 / KD低）</li>
+          <li><strong>既存ルートページのSEO最適化</strong>（タイトル・メタ改善）</li>
+          <li><strong>「ハイヤー 個人利用」FAQ追加</strong>（Vol:250 / KD低）</li>
+          <li><strong>「VIP送迎」ページ最適化</strong>（ブランドKWとの親和性高）</li>
+          <li><strong>駐車場記事→サービスページへの内部リンク設置</strong></li>
+        </ul>
+      </div>
+
+      <!-- Q2: High Impact, High Difficulty = Strategic Projects -->
+      <div class="matrix-cell q2">
+        <div class="cell-title">Strategic Projects（戦略的プロジェクト）</div>
+        <ul>
+          <li><strong>「ハイヤー 料金 / 料金 相場」料金表ページ</strong>（Vol:2,500）</li>
+          <li><strong>「空港送迎 ハイヤー」サービスLP</strong>（Vol:750）</li>
+          <li><strong>「役員車 / 役員送迎」法人向けLP</strong>（Vol:750 / 高LTV）</li>
+          <li><strong>「観光ハイヤー」サービスページ</strong>（Vol:750）</li>
+          <li><strong>「ゴルフ 送迎」専用ページ</strong>（Vol:650）</li>
+          <li><strong>空港別定額料金ページ（4空港）</strong></li>
+        </ul>
+      </div>
+
+      <!-- Q3: Low Impact, Low Difficulty = Long-term Growth -->
+      <div class="matrix-cell q3">
+        <div class="cell-title">Long-term Growth（長期成長施策）</div>
+        <ul>
+          <li><strong>エリア別ハイヤーページ</strong>（6エリア テンプレ展開）</li>
+          <li><strong>「秘書 タクシー手配」ガイド</strong>（Vol:150 / ニッチ高CVR）</li>
+          <li><strong>「接待 ハイヤー」活用術記事</strong>（Vol:150）</li>
+          <li><strong>「日帰り 観光タクシー」プラン記事</strong>（Vol:250）</li>
+          <li><strong>「リムジン ハイヤー」解説ページ</strong>（Vol:650）</li>
+          <li><strong>「役員車 リース vs ハイヤー」比較記事</strong></li>
+        </ul>
+      </div>
+
+      <!-- Q4: Low Impact, High Difficulty = Low Priority -->
+      <div class="matrix-cell q4">
+        <div class="cell-title">Low Priority（低優先）</div>
+        <ul>
+          <li><strong>「空港送迎」ビッグワード</strong>（Vol:4,000 / 競合極大）</li>
+          <li><strong>「観光タクシー 東京」ビッグワード</strong>（Vol:3,000 / 競合大）</li>
+          <li><strong>「貸切タクシー」ビッグワード</strong>（Vol:2,250 / 競合大）</li>
+          <li><strong>英語「airport transfer tokyo」</strong>（Vol:1,150 / 国際競合）</li>
+          <li><strong>英語「private car service tokyo」</strong>（Vol:750 / 国際競合）</li>
+          <li><strong>中国語KW対策（百度/小紅書優先）</strong></li>
+        </ul>
+      </div>
+
+      <div class="matrix-xlabel">実装難易度（必要なコンテンツ制作工数・技術対応）&rarr;</div>
+    </div>
+
+    <div class="callout">
+      <strong>リソース配分の推奨：</strong>
+      Quick Wins（40%）→ Strategic Projects（35%）→ Long-term Growth（20%）→ Low Priority（5%）<br>
+      まずQuick Winsで早期成果を出し、成功体験を元にStrategic Projectsへ投資を拡大する段階的アプローチを推奨。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- 5. Content Strategy Roadmap -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>5. コンテンツ施策ロードマップ</h2>
+  </div>
+  <div class="section-body">
+    <p>6ヶ月間のフェーズ分けにより、段階的にキーワード領域を拡大していきます。</p>
+
+    <div class="roadmap">
+      <div class="roadmap-phase">
+        <div class="phase-period">Phase 1: 1~2ヶ月目（即効施策・既存コンテンツ最適化）</div>
+        <h4 style="border-left:none;padding-left:0;margin-top:8px;">目標：既存資産の最大化で +1,000~2,000 clicks/月</h4>
+        <ul>
+          <li><span class="tag tag-optimize">最適化</span><strong>「ハイヤーとは」記事統合・大幅リライト</strong> - 2つのURLを1つに統合、3,000字以上に拡充、構造化データ追加（KD:1 / 12位→3位以内）</li>
+          <li><span class="tag tag-optimize">最適化</span><strong>既存10ルートページのタイトル・メタ改善</strong> - 「[出発地]→[空港] ハイヤー送迎｜定額料金○○円～」形式に統一</li>
+          <li><span class="tag tag-optimize">最適化</span><strong>空港駐車場記事全てにサービスページへのCTA・内部リンク設置</strong> - 月間4,500+クリックのトラフィックをサービスページへ誘導</li>
+          <li><span class="tag tag-optimize">最適化</span><strong>トップページのキーワードターゲティング改善</strong> - title, H1, メタに「ハイヤー」「空港送迎」「定額」を含める</li>
+          <li><span class="tag tag-new">新規</span><strong>「ハイヤー タクシー 違い」解説記事作成</strong> - 比較表形式・FAQ Schema付き（Vol:2,000 / KD低）</li>
+          <li><span class="tag tag-optimize">最適化</span><strong>技術SEO：hreflang設定・サイトマップ最適化</strong> - 多言語ページの正しいインデックス化</li>
+        </ul>
+      </div>
+
+      <div class="roadmap-phase">
+        <div class="phase-period">Phase 2: 3~4ヶ月目（新規サービスコンテンツ作成）</div>
+        <h4 style="border-left:none;padding-left:0;margin-top:8px;">目標：サービスKW領域の拡大で +2,000~3,500 clicks/月</h4>
+        <ul>
+          <li><span class="tag tag-new">新規</span><strong>「ハイヤー 料金」料金表ページ作成</strong> - エリア別料金一覧・タクシー/電車との比較シミュレーター（Vol:2,500）</li>
+          <li><span class="tag tag-new">新規</span><strong>空港別送迎サービスページ（羽田・成田・関西・伊丹）</strong> - 各空港の乗車場所・料金・所要時間を詳細に</li>
+          <li><span class="tag tag-new">新規</span><strong>「ゴルフ送迎」専用ページ作成</strong> - 人気ゴルフ場別料金表・早朝対応・バッグ積載（Vol:650）</li>
+          <li><span class="tag tag-new">新規</span><strong>「観光ハイヤー」サービスページ作成</strong> - モデルコース3パターン・料金目安（Vol:750）</li>
+          <li><span class="tag tag-new">新規</span><strong>「空港送迎 定額」特化ページ</strong> - 6,000円～の定額料金を全面訴求（Vol:650）</li>
+          <li><span class="tag tag-new">新規</span><strong>「ハイヤー 予約」予約ガイドページ</strong> - LINE予約フロー図解・よくある質問（Vol:400）</li>
+          <li><span class="tag tag-optimize">最適化</span><strong>新規ルートページ10件追加</strong> - 検索需要の高い区間を優先</li>
+        </ul>
+      </div>
+
+      <div class="roadmap-phase">
+        <div class="phase-period">Phase 3: 5~6ヶ月目（法人・インバウンド拡張）</div>
+        <h4 style="border-left:none;padding-left:0;margin-top:8px;">目標：高LTV顧客層の開拓で +1,500~2,500 clicks/月</h4>
+        <ul>
+          <li><span class="tag tag-new">新規</span><strong>法人向けランディングページ</strong> - 「役員送迎」「法人契約」をターゲット。コスト比較・導入事例</li>
+          <li><span class="tag tag-new">新規</span><strong>「秘書向けハイヤー手配ガイド」記事</strong> - 意思決定者の秘書へ直接リーチ</li>
+          <li><span class="tag tag-new">新規</span><strong>「接待ハイヤー活用術」コンテンツ</strong> - ビジネスシーン別活用ガイド</li>
+          <li><span class="tag tag-expand">拡張</span><strong>英語版コンテンツ全面リニューアル</strong> - SEO最適化済みの英語LP・空港送迎ページ・料金ページ</li>
+          <li><span class="tag tag-new">新規</span><strong>エリア別ハイヤーページ（6エリア）テンプレート展開</strong></li>
+          <li><span class="tag tag-new">新規</span><strong>「結婚式ハイヤー」「ウェディングリムジン」ページ</strong></li>
+          <li><span class="tag tag-expand">拡張</span><strong>口コミ・レビュー獲得施策</strong> - Google Business Profile・サイト内レビュー強化</li>
+        </ul>
+      </div>
+    </div>
+
+    <h4>フェーズ別 推定累積トラフィック成長</h4>
+    <div class="bar-chart">
+      <div class="bar-row">
+        <div class="bar-label">現在</div>
+        <div class="bar-track">
+          <div class="bar-fill navy" style="width:35%">~6,300</div>
+        </div>
+        <div class="bar-value">6,300/月</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Phase 1 完了後</div>
+        <div class="bar-track">
+          <div class="bar-fill blue" style="width:46%">~8,300</div>
+        </div>
+        <div class="bar-value">8,300/月</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Phase 2 完了後</div>
+        <div class="bar-track">
+          <div class="bar-fill green" style="width:66%">~11,800</div>
+        </div>
+        <div class="bar-value">11,800/月</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Phase 3 完了後</div>
+        <div class="bar-track">
+          <div class="bar-fill gold" style="width:82%">~14,800</div>
+        </div>
+        <div class="bar-value">14,800/月</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">12ヶ月後（成熟期）</div>
+        <div class="bar-track">
+          <div class="bar-fill orange" style="width:100%">~18,000+</div>
+        </div>
+        <div class="bar-value">18,000/月</div>
+      </div>
+    </div>
+    <p style="font-size:12px;color:#888;">※楽観シナリオ。実際の結果はGoogleアルゴリズム変動・競合状況により変動。</p>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- 6. Existing Content Optimization -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>6. 既存コンテンツ最適化提案</h2>
+  </div>
+  <div class="section-body">
+
+    <div class="opt-card">
+      <h5>6-1.「ハイヤーとは」記事：12位 → Top3 戦略</h5>
+      <div class="opt-current">現状：2つのURLでカニバリゼーション発生（12位 + 5位）。合計流入 ~101 clicks/月</div>
+      <div class="opt-target">目標：1URLに統合し3位以内を獲得。月間 800~1,200 clicks を目指す</div>
+      <ul>
+        <li><strong>URL統合：</strong>流入の多い方をメインURLとし、もう一方を301リダイレクト。canonical設定を確認</li>
+        <li><strong>コンテンツ拡充：</strong>3,000字以上に拡張。「ハイヤーの歴史」「料金の仕組み」「利用シーン」「タクシーとの違い」を網羅</li>
+        <li><strong>構造化データ：</strong>FAQ Schema、HowTo Schema を追加。リッチスニペット獲得で CTR 向上</li>
+        <li><strong>内部リンク強化：</strong>サイト内の関連ページ（料金、空港送迎、法人向け）から「ハイヤーとは」へリンク。トピッククラスターの中心に位置づける</li>
+        <li><strong>ユーザー意図の充足：</strong>「ハイヤーとは」の検索意図は「ハイヤーの定義・タクシーとの違いを知りたい」。この意図を冒頭で完結させ、詳細情報を後続セクションで展開</li>
+        <li><strong>CTA設置：</strong>「ハイヤーを体験してみませんか？6,000円～」のCTAをコンテンツ中間・末尾に配置</li>
+      </ul>
+    </div>
+
+    <div class="opt-card">
+      <h5>6-2. トップページのキーワードターゲティング改善</h5>
+      <div class="opt-current">現状：ブランド名中心のタイトル。サービス系キーワードの明示的ターゲティングが弱い</div>
+      <div class="opt-target">目標：「ハイヤー」「空港送迎」「定額」をtitle/H1に含めることで、複数キーワードでの露出を強化</div>
+      <ul>
+        <li><strong>titleタグ改善案：</strong>「VIPハイヤー配車｜空港送迎・定額6,000円～｜東京のハイヤー予約はvip-limo.jp」</li>
+        <li><strong>meta description改善案：</strong>「東京のハイヤー・リムジン配車サービス。羽田・成田空港送迎が定額6,000円～。ゴルフ送迎・観光貸切・法人契約にも対応。LINEで簡単予約、英語・中国語対応可。」</li>
+        <li><strong>H1改善：</strong>主要キーワードを自然に含むH1に変更</li>
+        <li><strong>コンテンツ追加：</strong>TOPページにサービスカテゴリ（空港送迎/時間貸し/ゴルフ/法人）の概要セクションを追加。各詳細ページへのハブとして機能させる</li>
+      </ul>
+    </div>
+
+    <div class="opt-card">
+      <h5>6-3. 交通ルートページの最適化</h5>
+      <div class="opt-current">現状：品川→成田、渋谷→羽田 等の10ルートページが存在するが、SEO最適化が不十分</div>
+      <div class="opt-target">目標：各ルートページを「[出発地] [空港] ハイヤー / 定額タクシー」で上位表示</div>
+      <ul>
+        <li><strong>titleタグ統一フォーマット：</strong>「[出発地]から[空港]のハイヤー送迎｜定額○○円～｜VIPハイヤー」</li>
+        <li><strong>コンテンツ強化：</strong>各ページに所要時間・ルート案内・料金比較（電車/バス/一般タクシーとの比較表）を追加</li>
+        <li><strong>構造化データ：</strong>LocalBusiness + Service Schema を各ページに追加</li>
+        <li><strong>相互リンク：</strong>同一空港の異なるルートページ間で相互リンク。空港送迎カテゴリページをハブとして構築</li>
+        <li><strong>新規ルート追加候補（優先順）：</strong>新宿→羽田、新宿→成田、池袋→羽田、東京駅→成田、横浜→羽田、赤坂→羽田、目黒→羽田、港区→成田、世田谷→羽田、中央区→成田</li>
+      </ul>
+    </div>
+
+    <div class="opt-card">
+      <h5>6-4. 空港駐車場コンテンツのサービス誘導強化</h5>
+      <div class="opt-current">現状：月間4,500+クリックの駐車場コンテンツが、サービスページへの送客に全く活用されていない</div>
+      <div class="opt-target">目標：駐車場ページからのサービスページ遷移率を5~10%に引き上げ（+225~450 visits/月）</div>
+      <ul>
+        <li><strong>CTA挿入：</strong>各駐車場記事の冒頭・中間・末尾に「空港まで楽々ハイヤー送迎！定額6,000円～」のCTAバナーを設置</li>
+        <li><strong>関連記事セクション：</strong>記事下部に「空港アクセスに関するおすすめ記事」として、空港送迎サービスページへの内部リンクを3~5本設置</li>
+        <li><strong>サイドバー/フッター：</strong>駐車場カテゴリ共通テンプレートに空港送迎サービスの固定バナーを追加</li>
+        <li><strong>コンテンツ内自然リンク：</strong>「空港までの移動手段も考えていますか？」等の自然な文脈で送迎サービスへ誘導</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- Appendix: Summary Table -->
+<!-- ============================================ -->
+<div class="section">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="toggle">&#9660;</div>
+    <h2>付録：全キーワード一覧（優先度順）</h2>
+  </div>
+  <div class="section-body">
+
+    <h4>最優先キーワード（Phase 1 対応）</h4>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>キーワード</th>
+        <th>推定Vol</th>
+        <th>カテゴリ</th>
+        <th>施策種別</th>
+        <th>推定獲得クリック/月</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>ハイヤーとは / ハイヤー 意味</td>
+        <td>4,200~5,000</td>
+        <td>A. コア</td>
+        <td><span class="tag tag-optimize">最適化</span></td>
+        <td>800~1,200</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ハイヤー タクシー 違い</td>
+        <td>1,500~2,500</td>
+        <td>A. コア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>200~450</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>既存ルートページ（10件）</td>
+        <td>各30~150</td>
+        <td>E. エリア</td>
+        <td><span class="tag tag-optimize">最適化</span></td>
+        <td>100~400</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>ハイヤー 個人利用</td>
+        <td>200~300</td>
+        <td>A. コア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>60~100</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>VIP送迎 / VIP 車</td>
+        <td>200~400</td>
+        <td>C. 法人</td>
+        <td><span class="tag tag-optimize">最適化</span></td>
+        <td>50~120</td>
+      </tr>
+    </table>
+
+    <h4>高優先キーワード（Phase 2 対応）</h4>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>キーワード</th>
+        <th>推定Vol</th>
+        <th>カテゴリ</th>
+        <th>施策種別</th>
+        <th>推定獲得クリック/月</th>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>ハイヤー 料金 / 料金 相場</td>
+        <td>2,000~3,000</td>
+        <td>A. コア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>300~600</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>空港送迎 ハイヤー</td>
+        <td>500~1,000</td>
+        <td>B. 空港</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>120~300</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>羽田空港 ハイヤー</td>
+        <td>500~800</td>
+        <td>B. 空港</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~200</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>成田空港 ハイヤー</td>
+        <td>400~700</td>
+        <td>B. 空港</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>60~170</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>空港送迎 定額</td>
+        <td>500~800</td>
+        <td>B. 空港</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~180</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>ゴルフ 送迎 / ゴルフ タクシー</td>
+        <td>500~800</td>
+        <td>D. 観光</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>100~200</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>観光ハイヤー</td>
+        <td>500~1,000</td>
+        <td>D. 観光</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~250</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>ハイヤー 予約</td>
+        <td>300~500</td>
+        <td>A. コア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~150</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>[空港] 送迎 定額（4空港）</td>
+        <td>各100~400</td>
+        <td>E. エリア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>100~400</td>
+      </tr>
+    </table>
+
+    <h4>中優先キーワード（Phase 3 対応）</h4>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>キーワード</th>
+        <th>推定Vol</th>
+        <th>カテゴリ</th>
+        <th>施策種別</th>
+        <th>推定獲得クリック/月</th>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>役員車 / 役員送迎</td>
+        <td>500~1,000</td>
+        <td>C. 法人</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~250</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>法人 ハイヤー / 法人契約 タクシー</td>
+        <td>300~500</td>
+        <td>C. 法人</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>70~150</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>[主要エリア] ハイヤー（6エリア）</td>
+        <td>各50~200</td>
+        <td>E. エリア</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>80~300</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>結婚式 ハイヤー / ウェディング リムジン</td>
+        <td>200~500</td>
+        <td>D. 観光</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>40~120</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>airport transfer tokyo（英語）</td>
+        <td>800~1,500</td>
+        <td>F. 多言語</td>
+        <td><span class="tag tag-expand">拡張</span></td>
+        <td>50~150</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>narita airport private car（英語）</td>
+        <td>300~600</td>
+        <td>F. 多言語</td>
+        <td><span class="tag tag-expand">拡張</span></td>
+        <td>40~120</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>秘書 タクシー手配</td>
+        <td>100~200</td>
+        <td>C. 法人</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>30~60</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>接待 ハイヤー / 接待 送迎</td>
+        <td>100~200</td>
+        <td>C. 法人</td>
+        <td><span class="tag tag-new">新規</span></td>
+        <td>30~60</td>
+      </tr>
+    </table>
+
+    <div class="callout">
+      <strong>全キーワード合計 推定獲得可能トラフィック：</strong><br>
+      Phase 1~3 完了時点：<strong>+3,870 ~ 8,120 clicks/月</strong>（現在の +61%~129% 増）<br>
+      12ヶ月成熟時：<strong>+8,500 ~ 12,000 clicks/月</strong>（現在の +135%~190% 増）<br><br>
+      ※上記はオーガニックトラフィックの純増分。コアサービスKWのCVRは駐車場KWの<strong>5~10倍</strong>が期待できるため、売上インパクトはトラフィック増加率以上に大きくなります。
+    </div>
+
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<div style="text-align:center; padding:30px; color:#666; font-size:12px;">
+  <p style="color:#888;">本提案書はvip-limo.jpのSEO戦略検討資料として作成されました。</p>
+  <p style="color:#888;">推定検索ボリューム・流入数は業界データに基づく概算値であり、実際の数値とは異なる場合があります。</p>
+  <p style="color:#aaa; margin-top:8px;">作成: 2026年2月25日</p>
+</div>
+
+</div><!-- /container -->
+
+<script>
+function toggleSection(header) {
+  const body = header.nextElementSibling;
+  const toggle = header.querySelector('.toggle');
+  if (body.classList.contains('collapsed')) {
+    body.classList.remove('collapsed');
+    header.classList.remove('collapsed');
+    toggle.innerHTML = '\u25BC';
+  } else {
+    body.classList.add('collapsed');
+    header.classList.add('collapsed');
+    toggle.innerHTML = '\u25B6';
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+# 環境変数（トークン等の機密情報）
+.env
+
+# Node.js
+node_modules/
+
+# コンテキストデータ（同期されたSlackメッセージ等）
+context/slack/*.md
+!context/slack/README.md
+
+# OS
+Thumbs.db
+.DS_Store
+
+# ログ
+logs/
+
+# Playwright
+.playwright-mcp/

@@ -1,0 +1,941 @@
+=== 初期アクセス ===
+  クッキー同意: True
+  [SS] 00_initial.png
+
+============================================================
+STEP 1: Website Authority Checker
+============================================================
+  [SS] 01a_authority_before_input.png
+  [SS] 01b_authority_filled.png
+  入力フィールドが見つからない - ボタンを探す
+  ボタンクリック: [button[type="submit"]]
+  [SS] 01c_authority_result.png
+
+  ページテキスト（全文）:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Website “Authority” Checker
+
+Check the “authority” of your domain (as measured by Ahrefs).
+
+Backlink Checker
+/
+Website Authority Checker
+/
+Broken Link Checker
+
+For example,
+
+ahrefs.com
+yep.com
+Check Authority
+Ahrefs SEO Toolbar
+Check any website’s authority
+as you browse
+
+Unlock Domain Rating (DR) and URL Rating (UR) metrics with our browser extension and free Ahrefs account.
+
+Add to Chrome
+
+Also available for Firefox.
+
+What is “website authority”?
+
+“Website authority” is an SEO concept that refers to the “strength” of a given domain.
+
+Some people call this “domain authority,” which is not to be confused with the Domain Authority (DA) metric from Moz. When we talk about domain authority, we’re talking about a general SEO concept that’s synonymous with “website authority.”
+
+Here at Ahrefs, we have a website authority metric of our own called Domain Rating. It runs on a scale from zero to a hundred. The higher a website’s Domain Rating (DR), the stronger and more authoritative it is.
+
+The free tool above shows your website’s “authority” as calculated by Ahrefs (i.e., Domain Rating).
+
+How we calculate our Domain Rating (DR) score
+
+Domain Rating (DR) looks at the quantity and quality of external backlinks to a website.
+
+Here’s how we calculate this metric in simple terms:
+
+Look at how many unique domains link to the target website;
+
+Look at the "authority" of those linking domains;
+
+Take into account how many unique domains each of those sites link to;
+
+Apply some math and coding magic to calculate “raw” DR scores;
+
+Plot these scores on a 100-point scale
+
+Domain Rating doesn’t take into account any other variables like link spam, traffic, domain age, etc.
+
+Learn more about Domain Rating here.
+
+Why the “authority” of your domain matters
+
+Google representatives consistently deny the use of "domain authority" as a ranking factor. But according to Google’s John Mueller, they do
+  抽出メトリクス: {'volume': '4,460'}
+  DOM要素から数値を探す...
+  0-100の数値要素: [{"text": "70", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "23", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "44", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "53", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "70", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "23", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "44", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "53", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "70", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "23", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "44", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "53", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "70", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "23", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "44", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "53", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "70", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "23", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "44", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}, {"text": "53", "tag": "SPAN", "class": "css-dtb5zf css-rr08kv-textFontWeight css-oi9nct-textDisplay css-125ozqm-textColor css-6f1wzy-textWhiteSpace css-0", "id": ""}]
+
+============================================================
+STEP 2: Backlink Checker
+============================================================
+  [SS] 02_backlink_result.png
+
+  ページテキスト:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+47
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Backlink Checker
+
+Try the free version of Ahrefs’ Backlink Checker. Get a glimpse into the power of our premium tool.
+
+Backlink Checker
+/
+Website Authority Checker
+/
+Broken Link Checker
+For example,
+ahrefs.com
+yep.com
+Subdomains
+Check backlinks
+The most powerful backlink checker
+
+Ahrefs has the second most active web crawler after Google, which means we have the best backlink database in the industry.
+
+Our backlink index is updated with fresh data every 15 minutes.
+
+493
+B
+Pages in index
+28
+T
+Internal backlinks
+500
+M
+Domains
+35
+T
+External backlinks (historical records)
+Ahrefs SEO Toolbar
+Check any website’s authority
+as you browse
+
+Unlock Domain Rating (DR) and URL Rating (UR) metrics with our browser extension and free Ahrefs account.
+
+Add to Chrome
+
+Also available for Firefox.
+
+See domain and page-level metrics for any target
+
+Check any website, URL or subsection to see actionable and insightful SEO metrics:
+
+Number of referring domains
+
+Number of backlinks
+
+Domain Rating (DR)
+
+Ahrefs Rank (AR)
+
+Our proprietary Domain Rating (DR) metric is super-useful for judging the “backlink popularity” (strength) of a target.
+
+Monitor the growth and decline of backlink profiles
+
+See an interactive view of referring domains and pages over time.
+
+Shows the cumulative growth or decline in referring domains over time.
+Get a complete breakdown of the target’s backlink profile
+
+See every page linking to your target in the detailed Backlinks report. Use powerful filters to dive deeper.
+
+Link type (“dofollow” / “nofollow”)
+
+Platform
+
+Domain Rating (DR)
+
+URL Rating (UR)
+
+Referring domains
+
+Etc
+
+See estimated organic traffic to each linking page & referring domain
+
+Get awesome insights into the popularity of the linking web page and website with organic traffic estimates. No other tool shows you this.
+
+See estimated organic traffic to the linking page.
+See estimated organic traffic to the li
+
+============================================================
+STEP 3: Keyword Generator
+============================================================
+  [SS] 03_kw_generator_initial.png
+
+  [1/8] 「ファクタリング」
+  直接URLアクセスを試みる
+  [SS] 03_kw_01_ファクタリング.png
+  テキスト（先頭2000字）:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d07796b77e37e
+Performance and Security by Cloudflare
+Privacy
+
+  [2/8] 「フリーランス 請求書」
+  直接URLアクセスを試みる
+  [SS] 03_kw_02_フリーランス_請求書.png
+  テキスト（先頭2000字）:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+13
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+Find relevant keywords from our database of over 8 billion queries. Just enter up to ten words or phrases and choose from one of six keyword ideas reports.
+
+Fill your content calendar for weeks, months, or even years in minutes.
+
+Keywords that contain your seed in the order it's written.
+Keywords that contain all the terms in your seed (in any order).
+Keywords that the top-ranking pages also rank for.
+Keywords suggested via ‘autocomplete’ when searching for your seed.
+Keywords phrased as a questi
+  メトリクス: {'volume': '4,460'}
+
+  [3/8] 「確定申告 フリーランス」
+  直接URLアクセスを試みる
+  [SS] 03_kw_03_確定申告_フリーランス.png
+  テキスト（先頭2000字）:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d08391cf9e37e
+Performance and Security by Cloudflare
+Privacy
+
+  [4/8] 「個人事業主 経費」
+  直接URLアクセスを試みる
+  [SS] 03_kw_04_個人事業主_経費.png
+  テキスト（先頭2000字）:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d08904bc1e37e
+Performance and Security by Cloudflare
+Privacy
+
+  [5/8] 「インボイス制度」
+  直接URLアクセスを試みる
+  [SS] 03_kw_05_インボイス制度.png
+  テキスト（先頭2000字）:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+43
+Minutes
+29
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+Find relevant keywords from our database of over 8 billion queries. Just enter up to ten words or phrases and choose from one of six keyword ideas reports.
+
+Fill your content calendar for weeks, months, or even years in minutes.
+
+Keywords that contain your seed in the order it's written.
+Keywords that contain all the terms in your seed (in any order).
+Keywords that the top-ranking pages also rank for.
+Keywords suggested via ‘autocomplete’ when searching for your seed.
+Keywords phrased as a questi
+  メトリクス: {'volume': '4,460'}
+
+  [6/8] 「フリーランス 税金」
+  直接URLアクセスを試みる
+  [SS] 03_kw_06_フリーランス_税金.png
+  テキスト（先頭2000字）:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d09492fffe37e
+Performance and Security by Cloudflare
+Privacy
+
+  [7/8] 「ファクタリング 個人」
+  直接URLアクセスを試みる
+  [SS] 03_kw_07_ファクタリング_個人.png
+  テキスト（先頭2000字）:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d09a0eed2e37e
+Performance and Security by Cloudflare
+Privacy
+
+  [8/8] 「即日 資金調達」
+  直接URLアクセスを試みる
+  [SS] 03_kw_08_即日_資金調達.png
+  テキスト（先頭2000字）:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+42
+Minutes
+45
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+Find relevant keywords from our database of over 8 billion queries. Just enter up to ten words or phrases and choose from one of six keyword ideas reports.
+
+Fill your content calendar for weeks, months, or even years in minutes.
+
+Keywords that contain your seed in the order it's written.
+Keywords that contain all the terms in your seed (in any order).
+Keywords that the top-ranking pages also rank for.
+Keywords suggested via ‘autocomplete’ when searching for your seed.
+Keywords phrased as a questi
+  メトリクス: {'volume': '4,460'}
+
+============================================================
+STEP 4: Traffic Checker - paytner.co.jp
+============================================================
+  [SS] 04_traffic_result.png
+  テキスト:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d0a49d8eae37e
+Performance and Security by Cloudflare
+Privacy

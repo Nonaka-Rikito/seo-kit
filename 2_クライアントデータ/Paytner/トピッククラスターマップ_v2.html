@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paytner トピッククラスターマップ v2</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#f5f7fa;color:#1a1a2e;padding:32px 16px}
+  h1{text-align:center;font-size:22px;margin-bottom:6px}
+  .sub{text-align:center;font-size:12px;color:#666;margin-bottom:28px}
+  .legend{display:flex;justify-content:center;gap:18px;margin-bottom:28px;flex-wrap:wrap;font-size:11px}
+  .legend-item{display:flex;align-items:center;gap:5px;color:#555}
+  .ld{width:12px;height:12px;border-radius:50%}.ld.p{background:#2563eb}.ld.r{background:#f59e0b}.ld.n{background:#10b981}.ld.a{background:#94a3b8}.ld.l{background:#8b5cf6}
+  .badge{font-size:10px;font-weight:600;padding:1px 6px;border-radius:4px;display:inline-block}
+  .ba{background:#d1fae5;color:#065f46}.bb{background:#fef3c7;color:#92400e}.bg{background:#fee2e2;color:#991b1b}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1500px;margin:0 auto}
+  @media(max-width:960px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border-radius:14px;padding:20px;box-shadow:0 1px 8px rgba(0,0,0,0.05);border:1px solid #e5e7eb}
+  .card.wide{grid-column:1/-1}
+  .ch{display:flex;align-items:flex-start;gap:10px;margin-bottom:14px;padding-bottom:12px;border-bottom:2px solid #e5e7eb}
+  .cn{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0}
+  .c1 .cn{background:#2563eb}.c2 .cn{background:#dc2626}.c3 .cn{background:#7c3aed}.c4 .cn{background:#059669}
+  .c5 .cn{background:#ea580c}.c6 .cn{background:#0891b2}.c7 .cn{background:#4f46e5}.c8 .cn{background:#be185d}
+  .c9 .cn{background:#854d0e}.c10 .cn{background:#8b5cf6}
+  .ct{font-size:15px;font-weight:700}.cm{font-size:10px;color:#888;margin-top:2px}
+  .cm span{margin-right:8px}
+  .vb{background:#eff6ff;color:#2563eb;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:600}
+  .kb{background:#f0fdf4;color:#059669;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:600}
+  .pb{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #2563eb;border-radius:10px;padding:10px 12px;margin-bottom:12px;position:relative}
+  .pl{position:absolute;top:-8px;left:12px;background:#2563eb;color:#fff;font-size:9px;font-weight:700;padding:1px 8px;border-radius:6px}
+  .pk{font-size:14px;font-weight:700;color:#1e40af;margin-top:2px}
+  .ps{font-size:10px;color:#64748b;margin-top:3px}.ps span{margin-right:8px}
+  .items{display:flex;flex-direction:column;gap:4px}
+  .it{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:6px;font-size:12px;border-left:3px solid;background:#fafafa}
+  .it:hover{background:#f1f5f9}
+  .it.r{border-left-color:#f59e0b}.it.n{border-left-color:#10b981}.it.a{border-left-color:#cbd5e1}.it.l{border-left-color:#8b5cf6}
+  .ik{flex:1;font-weight:600}.iv{font-size:10px;color:#64748b;min-width:55px;text-align:right}
+  .is{font-size:9px;font-weight:600;padding:1px 6px;border-radius:4px;min-width:44px;text-align:center}
+  .sr{background:#fef3c7;color:#92400e}.sn{background:#d1fae5;color:#065f46}.sa{background:#f1f5f9;color:#94a3b8}.sl{background:#ede9fe;color:#6d28d9}
+  .tv{margin-top:10px;padding-top:8px;border-top:1px dashed #e5e7eb;font-size:11px;color:#64748b;text-align:right}
+  .tv strong{color:#1a1a2e}
+  .ft{text-align:center;margin-top:32px;font-size:10px;color:#aaa}
+  .section-title{font-size:16px;font-weight:700;margin:32px 0 16px;padding:8px 16px;background:#1e293b;color:#fff;border-radius:8px;max-width:1500px;margin-left:auto;margin-right:auto}
+</style>
+</head>
+<body>
+
+<h1>Paytner トピッククラスターマップ v2</h1>
+<p class="sub">paytner.co.jp | 9トピック + 潜在KW | GSC + Ahrefs | 2026-02-24</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="ld p"></div>ピラー</div>
+  <div class="legend-item"><div class="ld r"></div>リライト</div>
+  <div class="legend-item"><div class="ld n"></div>新規作成</div>
+  <div class="legend-item"><div class="ld a"></div>吸収</div>
+  <div class="legend-item"><div class="ld l"></div>潜在KW</div>
+  <div class="legend-item"><span class="badge ba">A</span>1-10位</div>
+  <div class="legend-item"><span class="badge bb">B</span>11-30位</div>
+  <div class="legend-item"><span class="badge bg">G</span>31位~/圏外</div>
+</div>
+
+<div class="section-title">顕在ニーズ｜ファクタリング・請求書買取</div>
+
+<div class="grid">
+
+<!-- Topic 1 -->
+<div class="card c1">
+  <div class="ch"><div class="cn">1</div><div><div class="ct">ファクタリング 個人事業主</div><div class="cm"><span class="vb">Vol:2,000</span><span class="kb">KD:1</span><span>CPC:$8</span><span>TP:4,200</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">ファクタリング 個人事業主</div><div class="ps"><span>Vol:2,000</span><span>現在:圏外</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it a"><div class="ik">ファクタリング 個人（4,800）</div><div class="iv"><span class="badge bb">22位</span></div><div class="is sn">新規</div></div>
+    <div class="it r"><div class="ik">ファクタリング 審査（1,700）</div><div class="iv"><span class="badge bb">26位</span></div><div class="is sr">リライト</div></div>
+    <div class="it r"><div class="ik">ファクタリング 手数料（2,700）</div><div class="iv"><span class="badge bg">36位</span></div><div class="is sr">リライト</div></div>
+    <div class="it r"><div class="ik">ファクタリング デメリット/メリット（2,200）</div><div class="iv"><span class="badge bb">25位</span></div><div class="is sr">リライト</div></div>
+    <div class="it n"><div class="ik">ファクタリング 必要書類（800）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ファクタリング 仕組み（1,100）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ファクタリング 審査落ち（250）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">請求書買取 個人事業主（250）CPC:$12</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it a"><div class="ik">ファクタリング 手数料 相場（600）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">手数料で吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~16,600/月</strong></div>
+</div>
+
+<!-- Topic 2 -->
+<div class="card c2">
+  <div class="ch"><div class="cn">2</div><div><div class="ct">ファクタリング 即日</div><div class="cm"><span class="vb">Vol:6,100</span><span class="kb">KD:14</span><span>CPC:$9</span><span>TP:3,600</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">ファクタリング 即日</div><div class="ps"><span>Vol:6,100</span><span>現在:52位</span><span class="is sr">大幅リライト</span></div></div>
+  <div class="items">
+    <div class="it r"><div class="ik">資金調達 即日（3,700）</div><div class="iv"><span class="badge bg">38位</span></div><div class="is sr">リライト</div></div>
+    <div class="it n"><div class="ik">ファクタリング 土日/土日対応（1,150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ファクタリング 個人事業主 即日（600）</div><div class="iv"><span class="badge bg">32位</span></div><div class="is sn">新規</div></div>
+    <div class="it r"><div class="ik">オンラインファクタリング（400）</div><div class="iv"><span class="badge bg">58位</span></div><div class="is sr">リライト</div></div>
+    <div class="it a"><div class="ik">即日入金（400）CPC:$7.5</div><div class="iv"><span class="badge bb">26位</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">ファクタリング 即日 少額（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">T4と共有</div></div>
+    <div class="it a"><div class="ik">請求書 買取 即日（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">T3と共有</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~12,650/月</strong></div>
+</div>
+
+<!-- Topic 3 -->
+<div class="card c3">
+  <div class="ch"><div class="cn">3</div><div><div class="ct">請求書買取 フリーランス</div><div class="cm"><span class="vb">Vol:40（親:請求書買取 1,500）</span><span class="kb">KD:0</span><span>CPC:$12</span><span>TP:2,100</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">請求書買取 フリーランス</div><div class="ps"><span>Vol:40</span><span>既存:/factoring/5486/(17位)</span><span class="is sr">リライト主軸</span></div></div>
+  <div class="items">
+    <div class="it r"><div class="ik">請求書 買取 / 請求書買取（1,500+1,300）</div><div class="iv"><span class="badge bb">17位</span></div><div class="is sr">リライト</div></div>
+    <div class="it r"><div class="ik">請求書 先払い（200）</div><div class="iv"><span class="badge ba">8位</span></div><div class="is sr">強化</div></div>
+    <div class="it n"><div class="ik">請求書 現金化（400）CPC:$13</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">請求書買取 おすすめ（100）CPC:$11</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it a"><div class="ik">請求書買取サービス（600）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">請求書買取とは（70）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">請求書買取 個人（80）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">フリーランス 請求書買取（80）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~4,370/月</strong></div>
+</div>
+
+<!-- Topic 4 -->
+<div class="card c4">
+  <div class="ch"><div class="cn">4</div><div><div class="ct">ファクタリング 少額</div><div class="cm"><span class="vb">Vol:500</span><span class="kb">KD:1</span><span>CPC:$6</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">ファクタリング 少額</div><div class="ps"><span>Vol:500</span><span>現在:58位</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">フリーランス ファクタリング（500）</div><div class="iv"><span class="badge bb">24位</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">フリーランス ファクタリング 少額（20）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">少額ファクタリング（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">ファクタリング 即日 少額（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">T2と共有</div></div>
+    <div class="it a"><div class="ik">ファクタリング 個人 少額（60）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">少額ファクタリング オンライン（50）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">ファクタリング 10万円（60）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it r"><div class="ik">給料ファクタリング（1,000+600）</div><div class="iv"><span class="badge bg">42位</span></div><div class="is sr">リライト</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~3,090/月</strong></div>
+</div>
+
+</div>
+
+<div class="section-title">比較検討・評判</div>
+
+<div class="grid">
+
+<!-- Topic 5 -->
+<div class="card c5">
+  <div class="ch"><div class="cn">5</div><div><div class="ct">ペイトナー 評判</div><div class="cm"><span class="vb">Vol:100（親:口コミ 400）</span><span class="kb">KD:0</span><span>CPC:$1.70</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">ペイトナー 評判 / 口コミ</div><div class="ps"><span>Vol:100+400</span><span>現在:12位(口コミ)</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">ペイトナー 口コミ（400）</div><div class="iv"><span class="badge bb">12位</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ペイトナー 審査落ち（350）</div><div class="iv"><span class="badge ba">10位</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ペイトナー 怪しい（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ペイトナー 審査落ち 5ch（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">審査落ちで吸収</div></div>
+    <div class="it n"><div class="ik">ペイトナー 手数料（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ペイトナー 審査（70）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">審査落ちで吸収</div></div>
+    <div class="it n"><div class="ik">ペイトナー デメリット（-）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">評判記事で吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~1,370/月</strong></div>
+</div>
+
+<!-- Topic 6 -->
+<div class="card c6">
+  <div class="ch"><div class="cn">6</div><div><div class="ct">ファクタリング 個人事業主 比較</div><div class="cm"><span class="vb">Vol:10（親:おすすめ 4,200）</span><span class="kb">KD:1-2</span><span>CPC:$8-12</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">ファクタリング 個人事業主 比較</div><div class="ps"><span>Vol:10</span><span>現在:圏外</span><span class="is sn">新規作成（比較記事）</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">ファクタリング おすすめ（4,200）CPC:$8</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">ファクタリング 比較（1,600）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">おすすめで吸収</div></div>
+    <div class="it n"><div class="ik">ファクタリング 大手（1,500）</div><div class="iv"><span class="badge bg">57位</span></div><div class="is sn">新規</div></div>
+    <div class="it r"><div class="ik">ファクタリング 乗り換え（500）</div><div class="iv"><span class="badge bg">35位</span></div><div class="is sr">リライト</div></div>
+    <div class="it r"><div class="ik">ファクタリング 手数料 安い（400）</div><div class="iv"><span class="badge ba">10位</span></div><div class="is sr">リライト</div></div>
+    <div class="it n"><div class="ik">ファクタリング 個人事業主 おすすめ（100）CPC:$12</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~8,310/月</strong></div>
+</div>
+
+</div>
+
+<div class="section-title">振込代行・請求書代行サービス</div>
+
+<div class="grid">
+
+<!-- Topic 7 -->
+<div class="card c7">
+  <div class="ch"><div class="cn">7</div><div><div class="ct">振込代行 個人事業主</div><div class="cm"><span class="vb">Vol:-（親:振込代行 100）</span><span class="kb">KD:1</span><span>CPC:$1.70</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">振込代行 個人事業主</div><div class="ps"><span>Vol:-(ニッチ)</span><span>現在:圏外</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">振込代行サービス（150）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">振込代行（100）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">サービス記事で吸収</div></div>
+    <div class="it n"><div class="ik">振込代行とは（100）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">サービス記事で吸収</div></div>
+    <div class="it n"><div class="ik">振込代行サービス 個人（60）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it n"><div class="ik">振込代行サービス 比較（50）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">振込代行サービス おすすめ（30）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">比較記事で吸収</div></div>
+    <div class="it n"><div class="ik">振込代行 違法（30）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~520/月</strong></div>
+</div>
+
+<!-- Topic 8 -->
+<div class="card c8">
+  <div class="ch"><div class="cn">8</div><div><div class="ct">振込代行 安い</div><div class="cm"><span class="vb">Vol:-（銀行振込決済代行 50）</span><span class="kb">KD:0-1</span><span>CPC:$2-3</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">振込代行 安い / 手数料比較</div><div class="ps"><span>Vol:-(ニッチ)</span><span>現在:圏外</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">銀行振込決済 代行会社（50）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it n"><div class="ik">銀行振込 決済代行（40）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">振込代行 手数料（-）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it a"><div class="ik">振込代行 安い（-）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~140/月</strong> ※T7と統合運用推奨</div>
+</div>
+
+<!-- Topic 9 -->
+<div class="card c9">
+  <div class="ch"><div class="cn">9</div><div><div class="ct">請求書払い 代行</div><div class="cm"><span class="vb">Vol:10（親:請求代行 1,900）</span><span class="kb">KD:0-2</span><span>CPC:$5-7</span></div></div></div>
+  <div class="pb"><div class="pl">PILLAR</div><div class="pk">請求書払い 代行 / 請求代行</div><div class="ps"><span>Vol:10</span><span>現在:圏外</span><span class="is sn">新規作成</span></div></div>
+  <div class="items">
+    <div class="it n"><div class="ik">請求書 代行（300）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">請求代行サービス（300）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">代行記事で吸収</div></div>
+    <div class="it n"><div class="ik">請求書代行サービス（60）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">代行記事で吸収</div></div>
+    <div class="it n"><div class="ik">請求書 郵送代行（60）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">請求書支払い代行サービス（30）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">ピラーで吸収</div></div>
+    <div class="it n"><div class="ik">請求書発行代行（30）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sn">新規</div></div>
+    <div class="it n"><div class="ik">請求書作成 代行 料金（30）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sa">発行代行で吸収</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~820/月</strong></div>
+</div>
+
+<!-- Topic 10: 潜在KW -->
+<div class="card c10">
+  <div class="ch"><div class="cn">潜</div><div><div class="ct">潜在ニーズKW（資金繰り・資金調達）</div><div class="cm"><span class="vb">合計Vol:~4,260</span><span class="kb">KD:0-1</span><span>ファクタリング認知前ユーザー獲得</span></div></div></div>
+  <div class="pb"><div class="pl">LATENT</div><div class="pk">資金繰り × 個人事業主 / フリーランス</div><div class="ps"><span>認知拡大→ファクタリング誘導のファネル上流記事群</span></div></div>
+  <div class="items">
+    <div class="it l"><div class="ik">売掛金 回収（1,300）KD:0</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">資金繰り 改善（1,200）KD:0</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">個人事業主 資金調達（700）KD:1</div><div class="iv"><span class="badge bg">65位</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">売掛金 担保（90）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">フリーランス 資金繰り（80）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">運転資金 調達（50）KD:0</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">資金ショート 対策（40）KD:0</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">個人事業主 融資 審査通らない（-）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+    <div class="it l"><div class="ik">銀行融資 断られた 個人事業主（-）</div><div class="iv"><span class="badge bg">圏外</span></div><div class="is sl">潜在</div></div>
+  </div>
+  <div class="tv">合計Vol: <strong>~3,460/月</strong> ※ファネル上流＝間接CV貢献</div>
+</div>
+
+</div>
+
+<p class="ft">Paytner SEO Topic Cluster Map v2 | 9 Topics + Latent KW | 2026-02-24</p>
+</body>
+</html>

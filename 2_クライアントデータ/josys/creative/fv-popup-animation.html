@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FV 吹き出しポップアップアニメーション</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  /* スマホモックアップ */
+  .smartphone-mockup {
+    width: 375px;
+    height: 667px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: relative;
+    border: 8px solid #333;
+  }
+
+  /* FVコンテナ */
+  .fv-container {
+    background-color: #f5f5f5;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 中央タイトル */
+  .fv-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    background: rgba(255,255,255,0.95);
+    padding: 30px 40px;
+    border-radius: 8px;
+  }
+
+  .fv-title-sub {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .fv-title-main {
+    font-size: 32px;
+    font-weight: 900;
+    color: #333;
+    line-height: 1.3;
+    margin: 8px 0;
+  }
+
+  .highlight {
+    color: #e60033;
+  }
+
+  .fv-title-desc {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 1px;
+  }
+
+  /* 吹き出しのスタイル */
+  .bubble {
+    position: absolute;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+    transform: scale(0);
+    animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  }
+
+  /* 吹き出しの尻尾 */
+  .bubble::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+  }
+
+  /* 赤い吹き出し */
+  .bubble.red {
+    background-color: #e60033;
+  }
+  .bubble.red::after {
+    border-top-color: #e60033;
+    bottom: -14px;
+    left: 20px;
+  }
+
+  /* 白い吹き出し（アウトライン） */
+  .bubble.white {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    color: #999;
+  }
+  .bubble.white::after {
+    border-top-color: #fff;
+    bottom: -16px;
+    left: 15px;
+  }
+
+  /* グレーの吹き出し */
+  .bubble.gray {
+    background-color: #888;
+  }
+  .bubble.gray::after {
+    border-top-color: #888;
+    bottom: -14px;
+    right: 20px;
+    left: auto;
+  }
+
+  /* ポップインアニメーション */
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    70% {
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* フェードアウト用 */
+  @keyframes popOut {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+
+  .bubble.pop-out {
+    animation: popOut 0.3s ease-in forwards;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="smartphone-mockup">
+  <div class="fv-container" id="fvContainer">
+    
+    <div class="fv-title">
+      <div class="fv-title-sub">内定者の</div>
+      <div class="fv-title-main"><span class="highlight">リアル</span>がわかる</div>
+      <div class="fv-title-desc">就活情報サイト</div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const container = document.getElementById('fvContainer');
+  
+  // 吹き出しの内容
+  const bubbleContents = [
+    { text: '!', type: 'red', width: 50, height: 45 },
+    { text: '?', type: 'white', width: 45, height: 40 },
+    { text: '!!', type: 'red', width: 55, height: 45 },
+    { text: '?', type: 'gray', width: 45, height: 40 },
+    { text: '!', type: 'red', width: 50, height: 45 },
+    { text: '?', type: 'white', width: 48, height: 42 },
+    { text: '!', type: 'gray', width: 50, height: 45 },
+    { text: '!!', type: 'red', width: 55, height: 45 },
+  ];
+
+  // 配置可能なゾーン（中央を避ける）
+  const zones = [
+    { minX: 5, maxX: 35, minY: 5, maxY: 30 },   // 左上
+    { minX: 60, maxX: 90, minY: 5, maxY: 30 },  // 右上
+    { minX: 5, maxX: 30, minY: 65, maxY: 90 },  // 左下
+    { minX: 65, maxX: 90, minY: 65, maxY: 90 }, // 右下
+    { minX: 5, maxX: 25, minY: 35, maxY: 60 },  // 左中
+    { minX: 75, maxX: 95, minY: 35, maxY: 60 }, // 右中
+    { minX: 30, maxX: 50, minY: 5, maxY: 25 },  // 上中央左
+    { minX: 50, maxX: 70, minY: 75, maxY: 95 }, // 下中央右
+  ];
+
+  let activeBubbles = [];
+  let bubbleId = 0;
+
+  function getRandomZone() {
+    return zones[Math.floor(Math.random() * zones.length)];
+  }
+
+  function createBubble() {
+    const content = bubbleContents[Math.floor(Math.random() * bubbleContents.length)];
+    const zone = getRandomZone();
+    
+    const bubble = document.createElement('div');
+    bubble.className = `bubble ${content.type}`;
+    bubble.textContent = content.text;
+    bubble.id = `bubble-${bubbleId++}`;
+    
+    // ランダム位置（%指定）
+    const x = zone.minX + Math.random() * (zone.maxX - zone.minX);
+    const y = zone.minY + Math.random() * (zone.maxY - zone.minY);
+    
+    bubble.style.left = `${x}%`;
+    bubble.style.top = `${y}%`;
+    bubble.style.width = `${content.width}px`;
+    bubble.style.height = `${content.height}px`;
+    bubble.style.animationDelay = `${Math.random() * 0.2}s`;
+    
+    container.appendChild(bubble);
+    activeBubbles.push(bubble);
+
+    // 一定時間後にフェードアウト
+    setTimeout(() => {
+      bubble.classList.add('pop-out');
+      setTimeout(() => {
+        bubble.remove();
+        activeBubbles = activeBubbles.filter(b => b !== bubble);
+      }, 300);
+    }, 2000 + Math.random() * 2000);
+  }
+
+  // 初期配置
+  function initBubbles() {
+    for (let i = 0; i < 6; i++) {
+      setTimeout(() => createBubble(), i * 200);
+    }
+  }
+
+  // 定期的に新しい吹き出しを追加
+  function startBubbleLoop() {
+    setInterval(() => {
+      if (activeBubbles.length < 8) {
+        createBubble();
+      }
+    }, 800);
+  }
+
+  // 開始
+  initBubbles();
+  setTimeout(startBubbleLoop, 1500);
+
+</script>
+
+</body>
+</html>

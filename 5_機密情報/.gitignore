@@ -1,0 +1,4 @@
+# 機密情報フォルダ — 全ファイルをGit管理対象外にする
+*
+!.gitignore
+!README.md

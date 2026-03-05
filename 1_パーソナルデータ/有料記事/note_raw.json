@@ -1,0 +1,824 @@
+{
+  "id": 146186041,
+  "user_id": 496560,
+  "status": "published",
+  "type": "TextNote",
+  "key": "nc0cb92bc080f",
+  "slug": "slug-nc0cb92bc080f",
+  "name": "2026年、もはや Claude Code はエンジニア以外も全員が使うべきツールになった",
+  "body": "<p name=\"5471380e-af9e-489e-ad04-8bf10eeb3998\" id=\"5471380e-af9e-489e-ad04-8bf10eeb3998\"><strong>最近、Claude Codeでほぼすべての業務を完結させるスタイルで仕事をしていますが、これがめちゃくちゃ良いです。</strong></p><p name=\"4b1e860e-077c-42d1-8d41-b1c1dc1a2392\" id=\"4b1e860e-077c-42d1-8d41-b1c1dc1a2392\">私はメインの仕事として新規事業立ち上げや事業成長の支援をしており、日々の仕事の大半は、戦略立案、リサーチ、コンテンツの発信、プロジェクトのディレクションといった非エンジニアリング業務です。</p><p name=\"25e58b21-caf8-4d4f-82ac-50e44e4c730d\" id=\"25e58b21-caf8-4d4f-82ac-50e44e4c730d\">それらすべてをClaude Codeに集約し、毎朝AIに工程表を作ってもらい、プロジェクトの背景情報を加味した戦略立案、トレンド収集から記事執筆、タスク管理までをコマンド一発で回す。</p><p name=\"f73b3ca9-4739-4701-aeb7-5ed7c7015c2e\" id=\"f73b3ca9-4739-4701-aeb7-5ed7c7015c2e\">以前はChatGPT、Gemini、Notion、Google Sheetsとツールを行き来していましたが、その<strong>認知的な切り替えコストがゼロになりました</strong>。</p><p name=\"cf4e90a3-32b6-4dda-b76d-aa847ec77566\" id=\"cf4e90a3-32b6-4dda-b76d-aa847ec77566\"><strong>もはやClaude Codeネイティブで仕事をしているかどうかで、非エンジニアの生産性にかなりの差が出る時代になった</strong>と感じています。</p><p name=\"2ddf7895-2a86-4a12-9463-c65ee58692f7\" id=\"2ddf7895-2a86-4a12-9463-c65ee58692f7\">きっかけは、先日久々に会った<a href=\"https://www.ai-native.jp/?fbclid=PARlRTSAP3g2xleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadT3ueSgxVGOigwiRwz0oBviLhn3DJ91bOTFPXMmPRefU19AU0HouEaKr_8yg_aem_A8tfnOF99ZdLRSEB84GTdg\" target=\"_blank\" rel=\"nofollow noopener\">AI Native</a>の<a href=\"https://x.com/tanamako327?s=21\" target=\"_blank\" rel=\"nofollow noopener\">たなまこ</a>さんでした。</p><p name=\"13fcf020-3b46-4483-89c6-48a388809eff\" id=\"13fcf020-3b46-4483-89c6-48a388809eff\">彼はClaude Codeのヘビーユーザーで、仕事で使うツールをすべてClaude Codeと連携し、Claude Codeとだけ対話するというスタイルで仕事をしています。</p><p name=\"22c1ac7e-2719-4625-83ef-2b389ce5ce2f\" id=\"22c1ac7e-2719-4625-83ef-2b389ce5ce2f\">これに刺激を受けて一気にClaude Codeへの集約を進めたところ、数日で「AI経営管理＆業務遂行システム」と呼べるものが出来上がりました。</p><p name=\"1eaac7cf-99e9-4c9c-84f8-88f9c7acc187\" id=\"1eaac7cf-99e9-4c9c-84f8-88f9c7acc187\">本記事では、その全体像と実際にどう使っているのかの具体を共有します。</p><p name=\"5e00a468-35ec-4173-83a7-08e5ddfc13f6\" id=\"5e00a468-35ec-4173-83a7-08e5ddfc13f6\">さらに、<strong>この記事の内容をもとにした「構築マニュアル」のMarkdownファイルも配布しています。</strong></p><p name=\"08312d69-443b-47e4-8b0b-42c292ddd97f\" id=\"08312d69-443b-47e4-8b0b-42c292ddd97f\"><strong>これをClaude Codeに渡して「この通り構築お願い」と頼むだけで、このnoteで紹介したような仕事環境を良い感じに構築してくれます。</strong></p><p name=\"06426099-e7ac-4b07-aa6b-442ac3f5c710\" id=\"06426099-e7ac-4b07-aa6b-442ac3f5c710\">記事を読んで「やってみたい」と思ったら、自分でゼロから設定する必要はなく、Claude Codeにマニュアルを渡して、対話するだけで同じような仕事環境をつくることができます。</p><p name=\"ce55bc84-3957-4eea-86e1-5213f21a9510\" id=\"ce55bc84-3957-4eea-86e1-5213f21a9510\"><strong>忙しくて記事読む暇がないよ！という方はこのmdをClaude Codeに渡すだけでも大丈夫です！笑</strong></p><p name=\"24e80ba5-7e6b-4fe2-8a4e-33396ea82c3a\" id=\"24e80ba5-7e6b-4fe2-8a4e-33396ea82c3a\">▼ ちなみに以前と違ってCursorやVS CodeにClaude Codeプラグインを入れれば非エンジニアにはハードルの高いターミナル画面での操作ではなく下のようなChatGPTなどとほぼ変わらないインターフェースで操作できるようになっています。</p><figure name=\"069001b3-e207-4265-ad8d-3cd3efbb2b01\" id=\"069001b3-e207-4265-ad8d-3cd3efbb2b01\" data-align=\"center\"><img src=\"https://assets.st-note.com/img/1770684353-fNmhcR593yOKL7FsbwSWZPYI.png\" alt=\"\" width=\"620\" height=\"365\"><figcaption></figcaption></figure><h2 name=\"d068ce4c-78c9-4065-8321-0e8646a0f331\" id=\"d068ce4c-78c9-4065-8321-0e8646a0f331\">全体アーキテクチャ：事業全体を扱う1つのフォルダをつくり、それをAIの「脳」にする</h2><p name=\"de0e155c-aa33-4080-ad9e-bf8bffe058d9\" id=\"de0e155c-aa33-4080-ad9e-bf8bffe058d9\">具体的にまず何をしたかというと、経営関連のファイルやプロジェクトドキュメントなど、諸々のドキュメントをひとつのフォルダに集約し、そのフォルダをClaude Codeで開けるようにしました。</p><p name=\"1065a48a-3b4e-4f26-9708-c85d52a7f5b0\" id=\"1065a48a-3b4e-4f26-9708-c85d52a7f5b0\">Claude Codeはプロジェクトフォルダ全体をAgentic RAG（AIが必要に応じてフォルダ内のファイルを自律的に検索・参照する仕組み）で読みにいくことができます。</p><p name=\"4399875b-ce7d-4407-900e-7b4c1b7c3624\" id=\"4399875b-ce7d-4407-900e-7b4c1b7c3624\">つまり、ここに必要な情報をすべて配置しておけば、AIが文脈に応じて適切なファイルを自分で見つけて読み込んでくれるため、擬似的な「長期記憶」として機能します。</p><p name=\"3dfccc9e-b8b9-47b3-8acb-bf150fabb5bd\" id=\"3dfccc9e-b8b9-47b3-8acb-bf150fabb5bd\">実際のディレクトリ構成は以下の通りです。</p><figure name=\"65e9a836-7ab6-4b69-b314-ff3aa96c82b0\" id=\"65e9a836-7ab6-4b69-b314-ff3aa96c82b0\" data-align=\"center\"><img src=\"https://assets.st-note.com/img/1770680523-Q96hSw5bjqUH2I0eimN7JRVO.png\" alt=\"\" width=\"620\" height=\"485\"><figcaption></figcaption></figure><p name=\"5d0afe42-31a4-4207-8ccc-d79e2fbfb570\" id=\"5d0afe42-31a4-4207-8ccc-d79e2fbfb570\"><strong>このフォルダ全体がAIにとっての「業務コンテキスト」として機能しています。</strong></p><p name=\"cc8648f8-b3e8-4522-a8a6-91f6c825b587\" id=\"cc8648f8-b3e8-4522-a8a6-91f6c825b587\">ちなみに、Notionなどからのドキュメント移行も、Claude CodeにNotion MCPを連携させて、Claude Codeに移行して欲しいNotionディレクトリを伝えたら一発でした。</p><p name=\"f3a0989c-69a8-4313-b892-bfa0d6a39d85\" id=\"f3a0989c-69a8-4313-b892-bfa0d6a39d85\">また、今まで用途ごとにChatGPTやGeminiなど多種多様なAIツールを使い分けたりしていましたが、それらのAPIキーをClaude Codeに渡して後述のサブエージェントを作成することで、ツールを切り替えずにClaude Codeだけで完結する環境を構築しました。</p><p name=\"b36f066e-eb45-4d2b-bc6b-ea5fa87bd42b\" id=\"b36f066e-eb45-4d2b-bc6b-ea5fa87bd42b\">これによってツールを切り替える必要がなくなって認知的な負荷がだいぶ下がった感覚を持っています。</p><p name=\"dc3c4174-8d3d-4646-8955-839c64b96bd5\" id=\"dc3c4174-8d3d-4646-8955-839c64b96bd5\"><br></p><h2 name=\"51020231-a757-498a-af66-4d8fe21c4bd9\" id=\"51020231-a757-498a-af66-4d8fe21c4bd9\">CLAUDE.md：「最重要マニュアル」に書いていること</h2><p name=\"075bb3ce-26c0-4d8a-9bc5-e609afa6a668\" id=\"075bb3ce-26c0-4d8a-9bc5-e609afa6a668\"><br></p><p name=\"2daa7328-6aa3-431a-959a-1a3d3676a14e\" id=\"2daa7328-6aa3-431a-959a-1a3d3676a14e\">全体フォルダの直下にある「CLAUDE.md」というファイルに、Claude Codeに常に理解しておいてほしい「最上位の業務マニュアル」を書き込んでおり、Claude Codeはセッション開始時にこのファイルを読み込んで「経営パートナー」として振る舞えるようになります。</p><p name=\"a1efd083-4051-4a6b-b01f-71e2a2264713\" id=\"a1efd083-4051-4a6b-b01f-71e2a2264713\">CLAUDE.mdには、以下のような指示が書かれています。</p><ul name=\"f8df3c20-d138-4718-ad56-3f4efd9153e6\" id=\"f8df3c20-d138-4718-ad56-3f4efd9153e6\"><li><p name=\"4fc6fbd0-d2cf-465e-b4a9-168b05f8d48d\" id=\"4fc6fbd0-d2cf-465e-b4a9-168b05f8d48d\"><strong>役割定義</strong>: 「私の経営パートナーとして、事業戦略の壁打ち、サービスの設計、リサーチなどをサポートしてください」</p></li><li><p name=\"67adc3cf-7576-4462-ab0f-a5fc737c4841\" id=\"67adc3cf-7576-4462-ab0f-a5fc737c4841\"><strong>ディレクトリごとの役割説明</strong>: 各フォルダが何を意味し、どういう情報が入っているか</p></li><li><p name=\"7302d715-9164-4627-8a94-6710fbb65f7a\" id=\"7302d715-9164-4627-8a94-6710fbb65f7a\"><strong>よく使う外部ツール連携の設定</strong>: Notion、Google Calendar、Google Sheetsとの接続方法</p></li><li><p name=\"bec35d48-ad54-4a72-acf2-2590f5d8bdd1\" id=\"bec35d48-ad54-4a72-acf2-2590f5d8bdd1\"><strong>ワークフロー定義</strong>:</p><ul name=\"5276ea56-86fa-444b-9547-342ea7bfb220\" id=\"5276ea56-86fa-444b-9547-342ea7bfb220\"><li><p name=\"cfb535e5-1ae9-4a86-b5c5-37fb02d703bb\" id=\"cfb535e5-1ae9-4a86-b5c5-37fb02d703bb\">「おはよう」「今日の予定は?」と打つと → /daily-scheduleスキルが自動発動</p></li><li><p name=\"f3cb75f5-d6af-4c82-a1d6-22893f7f5548\" id=\"f3cb75f5-d6af-4c82-a1d6-22893f7f5548\">「Issueにして」「タスク登録して」と言うと → /issue-triageスキルが自動発動</p></li><li><p name=\"8e8bd89d-3197-4c40-9667-7a79630fdc20\" id=\"8e8bd89d-3197-4c40-9667-7a79630fdc20\">「覚えておいて」と言うと → /agent-memoryが発動</p></li></ul></li><li><p name=\"08375551-25a7-44af-8557-6e3470a5bba4\" id=\"08375551-25a7-44af-8557-6e3470a5bba4\"><strong>コンテンツパイプライン定義</strong>: 情報収集→分析→発信→効果測定→次の企画の流れ</p></li><li><p name=\"6ba5e218-bdf3-4e4e-bc4e-2a4fd7f79ad7\" id=\"6ba5e218-bdf3-4e4e-bc4e-2a4fd7f79ad7\"><strong>連携しているGitHub Issueワークフロー</strong>: カンバンボード、WIP上限、ラベル体系の定義</p></li></ul><p name=\"f494ed97-7799-4105-b8b6-f74e38998116\" id=\"f494ed97-7799-4105-b8b6-f74e38998116\">要するに、<strong>CLAUDE.mdはClaud Codeという一社員の行動原理であり、自社に適切にオンボードするための「最重要業務マニュアル」</strong>です。</p><p name=\"8dbbf641-a1e0-41ac-bbbe-aa4a17339e34\" id=\"8dbbf641-a1e0-41ac-bbbe-aa4a17339e34\">一度書いておけば、Claude Codeは毎回このマニュアルを読み込んだ状態で仕事を始めてくれます。</p><p name=\"2e8f8886-9e62-4631-8e7d-045030935be2\" id=\"2e8f8886-9e62-4631-8e7d-045030935be2\"><br></p><h2 name=\"1f1314b9-28d9-4611-bee0-8da3e8cfefc2\" id=\"1f1314b9-28d9-4611-bee0-8da3e8cfefc2\">Skillsで複雑な業務フローに再現性をもたせる</h2><p name=\"6c0cc760-89f8-4e4d-9de2-c1dc57fa17a4\" id=\"6c0cc760-89f8-4e4d-9de2-c1dc57fa17a4\">Claude Codeには「Skills（スキル）」という機能があります。</p><p name=\"d841da94-d7a8-4075-88d6-44fb069c40a8\" id=\"d841da94-d7a8-4075-88d6-44fb069c40a8\">「どんな手順で、何を参照し、何を出力するか」という業務プロセスをMarkdownで定義しておくと、以降そのプロセスが必要なタイミングをClaude Code自体が自律的に判断してその手順通りに実行してくれます。</p><p name=\"2115d733-d9b2-4e6a-9bde-a9da15ef61bb\" id=\"2115d733-d9b2-4e6a-9bde-a9da15ef61bb\">つまり、<strong>複雑な業務フローに再現性をもたせる業務別マニュアルがSkills</strong>です。</p><p name=\"630bdff4-dfdb-4e9a-bc4f-17570c36c2bb\" id=\"630bdff4-dfdb-4e9a-bc4f-17570c36c2bb\">ちなみに、<strong>Skillsの作成自体もClaude Code任せでOK</strong>です。</p><ol name=\"e05e0dc1-4222-4525-b94f-7d75923c97cb\" id=\"e05e0dc1-4222-4525-b94f-7d75923c97cb\"><li><p name=\"a7e572c0-fdd4-450f-a344-079f8d4c41c2\" id=\"a7e572c0-fdd4-450f-a344-079f8d4c41c2\"><strong>自分</strong>: 「こういう作業をやって」とClaude Codeに依頼する</p></li><li><p name=\"e9de69b6-4326-4733-98da-0d647e76b732\" id=\"e9de69b6-4326-4733-98da-0d647e76b732\"><strong>Claude Code</strong>: 必要な設定を行いながら作業を実行してくれる</p></li><li><p name=\"be750881-845c-4134-b66f-791dac18338c\" id=\"be750881-845c-4134-b66f-791dac18338c\"><strong>自分</strong>: 出来上がった作業フローを見て「これをSkills化して」と依頼する</p></li><li><p name=\"f0dd9088-89b6-42ea-ad43-b1cb9f2e96b1\" id=\"f0dd9088-89b6-42ea-ad43-b1cb9f2e96b1\"><strong>Claude Code</strong>: Skillsファイルとして保存し、以降は関連する依頼があった際に自動で起動するようになる</p></li></ol><figure name=\"2e13e726-2304-4f9d-8185-7ab973fe22b7\" id=\"2e13e726-2304-4f9d-8185-7ab973fe22b7\" data-align=\"center\"><img src=\"https://assets.st-note.com/img/1770681322-CQj7a9pF6Lr2yA1gPsMXkihl.png\" alt=\"\" width=\"620\" height=\"346\"><figcaption></figcaption></figure><p name=\"e3fe2253-cf8f-421b-99ba-5b6193cab453\" id=\"e3fe2253-cf8f-421b-99ba-5b6193cab453\">つまり、<strong>一度やってもらった作業を「再現可能な業務プロセス」に変換するだけ</strong>です。</p><p name=\"ab78630b-7a56-4861-9117-59efdb3388a3\" id=\"ab78630b-7a56-4861-9117-59efdb3388a3\">プログラミングの知識は一切不要です。</p><p name=\"d3618a17-8298-414d-b2a3-8b3bf0f82e15\" id=\"d3618a17-8298-414d-b2a3-8b3bf0f82e15\">現在、複数のスキルを運用していますが、非エンジニアリング業務でも役立つものが多いです。いくつか紹介します。</p><p name=\"0b589956-2f8d-451c-b989-dca00b1cc1cb\" id=\"0b589956-2f8d-451c-b989-dca00b1cc1cb\"><br></p><h3 name=\"9047920c-89f2-47ad-b0b9-9fb01f7bd81f\" id=\"9047920c-89f2-47ad-b0b9-9fb01f7bd81f\">朝の工程表：/daily-schedule</h3><p name=\"2f85bec1-d5e0-4422-91ba-f7a75fa68cc1\" id=\"2f85bec1-d5e0-4422-91ba-f7a75fa68cc1\">毎朝「おはよう」と打つだけで、このスキルが自動で起動します。実行される処理は以下の通りです。</p><p name=\"cb3af68e-89de-4ef3-aebc-efabde9f5b15\" id=\"cb3af68e-89de-4ef3-aebc-efabde9f5b15\">「今日何をすべきか」と時間毎のタスクスケジュールをClaude Codeに教えてもらうようにしています。</p><figure name=\"cc31ee0f-d414-44ae-a50a-baf6ae325f02\" id=\"cc31ee0f-d414-44ae-a50a-baf6ae325f02\" data-align=\"center\"><img src=\"https://assets.st-note.com/img/1770681429-wcCsJ3pZNr2egmoLxk9WS6fO.png\" alt=\"\" width=\"620\" height=\"323\"><figcaption></figcaption></figure><p name=\"82684bd1-b78d-48be-81d5-87646d428c9b\" id=\"82684bd1-b78d-48be-81d5-87646d428c9b\">秘書さんがその日の予定とやるべきことを教えてくれる感覚で、だいぶ仕事をするのが楽になりました。</p><p name=\"50b73447-8503-42cc-be59-6e3db8d8b7fc\" id=\"50b73447-8503-42cc-be59-6e3db8d8b7fc\"><br></p><p name=\"df038c67-a58f-4bd4-9670-c0ef5b2e2a31\" id=\"df038c67-a58f-4bd4-9670-c0ef5b2e2a31\">▼ Skillsのフローは以下のような流れ</p><ol name=\"912e9bba-b39d-4707-86f6-c5bae01c26ab\" id=\"912e9bba-b39d-4707-86f6-c5bae01c26ab\"><li><p name=\"53beb9bd-9428-4e55-aa8d-4d3a1839d900\" id=\"53beb9bd-9428-4e55-aa8d-4d3a1839d900\">Google Calendarから今日の予定を取得（MCP連携で、メインカレンダーとルーティンカレンダーの両方）</p></li><li><p name=\"61c5e1cc-2a4d-48e2-82b6-f1545a869f35\" id=\"61c5e1cc-2a4d-48e2-82b6-f1545a869f35\">GitHub Projectsから進行中のタスクを取得</p></li><li><p name=\"1fbc8340-b434-45cf-8e31-c7a0be5e68e5\" id=\"1fbc8340-b434-45cf-8e31-c7a0be5e68e5\">昨日の日報（DAILY.md）を読み込み、未完了タスクを確認</p></li><li><p name=\"0eb07082-0764-4ae9-a9bd-a866edc10e50\" id=\"0eb07082-0764-4ae9-a9bd-a866edc10e50\">プロジェクトファイルと経理データを確認</p></li><li><p name=\"aa241422-dcce-4184-83e8-16cf462f3323\" id=\"aa241422-dcce-4184-83e8-16cf462f3323\">タスクを「緊急度×重要度」と「認知負荷」で分類</p></li><li><p name=\"02d78081-fec9-477a-8ced-d1ca7a9086ed\" id=\"02d78081-fec9-477a-8ced-d1ca7a9086ed\">15分刻みの工程表を生成し、ファイルに自動保存</p></li></ol><p name=\"c3796841-eb66-460d-9fc5-2dcea2af88dd\" id=\"c3796841-eb66-460d-9fc5-2dcea2af88dd\"><br></p><p name=\"73455bb0-95f9-4b91-8a05-5d671b7d003b\" id=\"73455bb0-95f9-4b91-8a05-5d671b7d003b\">しかも、この「秘書」は全プロジェクトの進捗、財務状況、カレンダー、昨日の作業内容をすべて把握した上で優先順位を判断してくれます。</p><p name=\"bc6e2d5c-4b3b-4afb-ade2-9f80d375db90\" id=\"bc6e2d5c-4b3b-4afb-ade2-9f80d375db90\">人間の秘書でもここまでのコンテキストを毎朝把握するのは難しいでしょう。</p><p name=\"abee5558-aad7-4dff-8cd1-25a5c1f39a75\" id=\"abee5558-aad7-4dff-8cd1-25a5c1f39a75\"><br></p><h3 name=\"63ea9bec-2d8c-465f-83aa-2c9dbb2dd327\" id=\"63ea9bec-2d8c-465f-83aa-2c9dbb2dd327\">コンテンツパイプライン：情報収集→分析→発信→効果測定</h3><p name=\"e183d177-ed56-4843-9e65-41dbef2c7bb9\" id=\"e183d177-ed56-4843-9e65-41dbef2c7bb9\">コンテンツ発信に関連するスキルだけで7個あり、これらが連鎖してパイプライン全体を回します。</p>",
+  "separator": "e183d177-ed56-4843-9e65-41dbef2c7bb9",
+  "description": "",
+  "index": [],
+  "external_url": null,
+  "disable_comment": false,
+  "editable_scopes": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "non_editable_reason": null,
+  "capabilities": {
+    "amazonpay_campaign": false,
+    "amazonpay": true,
+    "guest_amazonpay": true,
+    "ruby_text": true,
+    "formula_text": true,
+    "duplication": true,
+    "note_comment": true
+  },
+  "created_at": "2026-02-10T08:35:00.000+09:00",
+  "comment_count": 7,
+  "user": {
+    "id": 496560,
+    "key": "df4f7378ff05913e75c5917ed584182a",
+    "urlname": "kajiken0630",
+    "nickname": "KAJI | 梶谷健人",
+    "active_flag": true,
+    "note_count": 247,
+    "email_confirmed_flag": true,
+    "created_at": "2016-03-29T14:45:49.000+09:00",
+    "user_profile_image_path": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+    "no_urlname_user": false,
+    "store_url": "",
+    "following_count": 291,
+    "follower_count": 40198,
+    "profile": "POSTS代表 / 生成AIなどの先端テクノロジーに強いプロダクト戦略アドバイザーとして10社以上の顧問に従事 / XR Creative Company MESON創業者 /「生成AI時代を勝ち抜く事業・組織のつくり方」「いちばんやさしいグロースハックの教本」著者",
+    "withdrawal": false,
+    "is_me": false,
+    "is_following": false,
+    "is_followed": false,
+    "is_admin": false,
+    "custom_domain": null,
+    "enable_serif": false,
+    "others_related_notes_enabled": true,
+    "is_creator_popular_sort_enabled": true,
+    "disable_support": null,
+    "twitter_nickname": "kajikent",
+    "socials": {
+      "twitter": {
+        "id": 5197531,
+        "nickname": "kajikent",
+        "name": "",
+        "uid": ""
+      }
+    },
+    "external_links": {
+      "InstagramLink": {
+        "url": "https://www.instagram.com/kajiken0630"
+      },
+      "LineLink": {
+        "url": "https://lin.ee/DjTR5I2"
+      }
+    },
+    "pro_user_id": null,
+    "purchase_appeal_text_note": "ありがとうございます🙌！",
+    "purchase_appeal_text_magazine": null,
+    "purchase_appeal_text_support": "なんと！ありがとうございます！今後のより良いコンテンツ開発のために使わせてもらいます！",
+    "follow_appeal_text": "フォローありがとうございます！",
+    "follow_appeal_image": null,
+    "like_appeal_text": "ありがとうございます🙌 素敵な1日になりますように！",
+    "like_appeal_image": "https://assets.st-note.com/production/uploads/images/236901926/43909c4d2170305f96bd2862341bced0.jpg?fit=bounds&format=jpeg&height=500&quality=85&width=500",
+    "share_appeal": {
+      "text": null,
+      "image": null
+    },
+    "magazine_add_appeal": {
+      "text": null,
+      "image": null
+    },
+    "blocks_you": false,
+    "is_blocked": false,
+    "disable_guest_purchase": false,
+    "support_box_appeal_text": "頂いたチップはフィールドリサーチのための費用やAI領域の実験費として活用させて頂きます！",
+    "custom_support_box": null
+  },
+  "audio": null,
+  "belonging_magazine_keys": [
+    "m0517d42a809a",
+    "md73884f799b7",
+    "m0859c99884fb",
+    "m9037d4ae1f24",
+    "m26e13c8143d0",
+    "me02cf0258533",
+    "mfcd252c9c53f",
+    "mc173c932a63f"
+  ],
+  "can_comment": false,
+  "can_delete": false,
+  "can_member_edit": false,
+  "can_member_publish": false,
+  "can_member_read": false,
+  "can_member_write": false,
+  "can_multiple_limited_note": false,
+  "can_publish": false,
+  "can_read": false,
+  "can_sell_on_first_come_note": false,
+  "can_update": false,
+  "can_vote": true,
+  "categories": [
+    {
+      "id": 8,
+      "name": "テクノロジー",
+      "eng_name": "tech"
+    },
+    {
+      "id": 61,
+      "name": "IT",
+      "eng_name": "it"
+    }
+  ],
+  "category": null,
+  "classify_categories": [
+    {
+      "id": 61
+    }
+  ],
+  "comment_viewable": true,
+  "custom_domain": null,
+  "embedded_contents": [],
+  "eyecatch": "https://assets.st-note.com/production/uploads/images/250546472/rectangle_large_type_2_c4221aa215ea33a0a216f597f102f2cd.png?fit=bounds&quality=85&width=1280",
+  "eyecatch_alt": "見出し画像",
+  "eyecatch_height": 1005,
+  "eyecatch_width": 1920,
+  "format": "4.0",
+  "has_coupon": false,
+  "has_draft": false,
+  "hashtag_notes": [
+    {
+      "id": 976239806,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#AI"
+      }
+    },
+    {
+      "id": 976239807,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#ChatGPT"
+      }
+    },
+    {
+      "id": 976239808,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#生成AI"
+      }
+    },
+    {
+      "id": 976239809,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#Gemini"
+      }
+    },
+    {
+      "id": 976239810,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#プロンプト"
+      }
+    },
+    {
+      "id": 976239811,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#OpenAI"
+      }
+    },
+    {
+      "id": 976239812,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#Claude"
+      }
+    },
+    {
+      "id": 976239813,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#LLM"
+      }
+    },
+    {
+      "id": 976239814,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#プロンプトエンジニアリング"
+      }
+    },
+    {
+      "id": 976239815,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#大規模言語モデル"
+      }
+    },
+    {
+      "id": 976239816,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#manus"
+      }
+    },
+    {
+      "id": 976239817,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#Cursor"
+      }
+    },
+    {
+      "id": 976239818,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#ClaudeCode"
+      }
+    },
+    {
+      "id": 976239819,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#prompt"
+      }
+    },
+    {
+      "id": 976239820,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#vibeCoding"
+      }
+    },
+    {
+      "id": 976239821,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#AntiGravity"
+      }
+    },
+    {
+      "id": 976239822,
+      "created_at": "2026-02-11T17:37:50.000+09:00",
+      "hashtag": {
+        "name": "#windsurf"
+      }
+    }
+  ],
+  "is_available": false,
+  "is_circle_description": false,
+  "is_draft": false,
+  "is_for_work": false,
+  "is_purchased_within_last_24_hours": true,
+  "is_liked": false,
+  "is_limited": false,
+  "is_magazine_purchased": false,
+  "is_member_edit": false,
+  "is_member_editing": false,
+  "is_my_note": false,
+  "is_pinned": false,
+  "is_profiled": false,
+  "is_published": true,
+  "is_purchased": false,
+  "is_r18": false,
+  "is_r18_confirmation_needed": false,
+  "is_refund": false,
+  "is_reserved": false,
+  "is_supported": false,
+  "is_temporary_frozen": false,
+  "is_trial": false,
+  "labels": [
+    {
+      "type": "note",
+      "name": "¥4,980",
+      "action": "open_note_purchase_modal",
+      "order": 1
+    }
+  ],
+  "like_count": 1002,
+  "anonymous_like_count": 240,
+  "magazines_for_buy": [],
+  "magazines_for_subscribe": [],
+  "member_edit_locked_at": null,
+  "note_share_url": "https://note.com/intent/post?url=https://note.com/kajiken0630/n/nc0cb92bc080f",
+  "related_contests": [],
+  "paywall": {
+    "is_simple_paid_note": true,
+    "is_simple_paid_note_test_a": false,
+    "same_month_cnt": 0,
+    "context": {
+      "is_show_limited_pay_note_paywall": false,
+      "is_membership_connected": true
+    }
+  },
+  "pictures": [
+    {
+      "caption": null,
+      "key": "1770684353-fNmhcR593yOKL7FsbwSWZPYI",
+      "url": "https://assets.st-note.com/img/1770684353-fNmhcR593yOKL7FsbwSWZPYI.png",
+      "thumbnail_url": "https://assets.st-note.com/img/1770684353-fNmhcR593yOKL7FsbwSWZPYI.png",
+      "alt": "画像1",
+      "width": null,
+      "height": null,
+      "index": 0
+    },
+    {
+      "caption": null,
+      "key": "1770680523-Q96hSw5bjqUH2I0eimN7JRVO",
+      "url": "https://assets.st-note.com/img/1770680523-Q96hSw5bjqUH2I0eimN7JRVO.png",
+      "thumbnail_url": "https://assets.st-note.com/img/1770680523-Q96hSw5bjqUH2I0eimN7JRVO.png",
+      "alt": "画像2",
+      "width": null,
+      "height": null,
+      "index": 1
+    },
+    {
+      "caption": null,
+      "key": "1770681322-CQj7a9pF6Lr2yA1gPsMXkihl",
+      "url": "https://assets.st-note.com/img/1770681322-CQj7a9pF6Lr2yA1gPsMXkihl.png",
+      "thumbnail_url": "https://assets.st-note.com/img/1770681322-CQj7a9pF6Lr2yA1gPsMXkihl.png",
+      "alt": "画像3",
+      "width": null,
+      "height": null,
+      "index": 2
+    },
+    {
+      "caption": null,
+      "key": "1770681429-wcCsJ3pZNr2egmoLxk9WS6fO",
+      "url": "https://assets.st-note.com/img/1770681429-wcCsJ3pZNr2egmoLxk9WS6fO.png",
+      "thumbnail_url": "https://assets.st-note.com/img/1770681429-wcCsJ3pZNr2egmoLxk9WS6fO.png",
+      "alt": "画像4",
+      "width": null,
+      "height": null,
+      "index": 3
+    }
+  ],
+  "pinned_user_note_id": 696196,
+  "price": 4980,
+  "prior_sale": null,
+  "publish_at": "2026-02-10T09:29:25.000+09:00",
+  "reading_uuid": "c04be394-71f3-42e4-9c52-2cedfcacb672",
+  "remained_char_num": 4792,
+  "remained_figure_num": 4,
+  "remained_image_num": 2,
+  "remained_file_num": 1,
+  "remained_sound_num": 0,
+  "reserved_publish_at": null,
+  "facebook_share_url": "https://www.facebook.com/share.php?u=https://note.com/kajiken0630/n/nc0cb92bc080f&t=2026%E5%B9%B4%E3%80%81%E3%82%82%E3%81%AF%E3%82%84+Claude+Code+%E3%81%AF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E4%BB%A5%E5%A4%96%E3%82%82%E5%85%A8%E5%93%A1%E3%81%8C%E4%BD%BF%E3%81%86%E3%81%B9%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%EF%BD%9CKAJI+%7C+%E6%A2%B6%E8%B0%B7%E5%81%A5%E4%BA%BA%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89",
+  "line_share_url": "https://line.naver.jp/R/msg/text/?2026%E5%B9%B4%E3%80%81%E3%82%82%E3%81%AF%E3%82%84+Claude+Code+%E3%81%AF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E4%BB%A5%E5%A4%96%E3%82%82%E5%85%A8%E5%93%A1%E3%81%8C%E4%BD%BF%E3%81%86%E3%81%B9%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%EF%BD%9CKAJI+%7C+%E6%A2%B6%E8%B0%B7%E5%81%A5%E4%BA%BA%EF%BD%9Cnote%EF%BC%88%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%89%0Ahttps://note.com/kajiken0630/n/nc0cb92bc080f",
+  "twitter_share_url": "https://twitter.com/intent/tweet?url=https://note.com/kajiken0630/n/nc0cb92bc080f&text=2026%E5%B9%B4%E3%80%81%E3%82%82%E3%81%AF%E3%82%84+Claude+Code+%E3%81%AF%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E4%BB%A5%E5%A4%96%E3%82%82%E5%85%A8%E5%93%A1%E3%81%8C%E4%BD%BF%E3%81%86%E3%81%B9%E3%81%8D%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%EF%BD%9CKAJI+%7C+%E6%A2%B6%E8%B0%B7%E5%81%A5%E4%BA%BA+%40kajikent&related=kajikent,note_PR",
+  "note_url": "https://note.com/kajiken0630/n/nc0cb92bc080f",
+  "twitter_related_accounts": "kajikent,note_PR",
+  "tweet_text": "2026年、もはや Claude Code はエンジニア以外も全員が使うべきツールになった｜KAJI | 梶谷健人 @kajikent",
+  "circle_plans": [
+    {
+      "key": "722fc99af804",
+      "name": "ベーシックメンバー",
+      "start_at": "2025-06-18T00:00:38.000+09:00",
+      "end_at": "2999-12-31T23:59:59.000+09:00",
+      "price": 1980,
+      "is_immediate_charge": true,
+      "is_free_trial_period_available": false,
+      "free_trial_period": null,
+      "description": "・ビジネス書一冊分の金額\n・月に6〜8記事配信される新規記事の閲覧\n・過去に公開した100本以上の有料記事も読み放題\n・掲示板で記事化する前の思考や学びのメモ、登壇や取材での準備ログなどの裏側コンテンツを閲覧可能",
+      "header_image_path": "https://assets.st-note.com/production/uploads/images/196746392/78469f4d16d9e034b2894eabca7da279.png?format=jpeg&height=720&quality=85&width=1280",
+      "benefit_appeal_texts": [],
+      "is_member": false,
+      "is_canceled": false,
+      "status": "public",
+      "signup_enabled": true,
+      "is_owner": false,
+      "circle": {
+        "key": "2dab0e765874",
+        "name": "梶谷健人探究室",
+        "description": "このメンバーシップは、「AI時代の事業・組織、キャリア戦略、ウェルビーイング」等をテーマとした私、梶谷健人の探究活動の中での思考や視点、学びを共有するオンラインの探究室です。\n\n単なるトレンド解説ではなく、サービス開発の実践やフィールドリサーチから得たリアルな思考や学び、試行錯誤の過程を発信します。\n\n■ こんな方におすすめ\n- 企業経営や個人のキャリアにおけるAI時代の最適戦略に関心がある\n- 技術トレンドの先の社会の変化まで深く考えたい\n- 実践者のリアルな思考プロセスに触れたい\n- 月1のAIトレンドまとめで効率的にトレンドを追いたい\n\n■ 3つのプラン\n① ベーシックメンバー\n毎月6~8本の新規記事と、100本以上の過去記事が読み放題。\n\n② コアメンバー\n上記に加え、梶谷と直接やりとりできるメッセンジャーグループに参加し、気軽に質問・相談ができます。\n\n③ 法人メンバー\n全コンテンツを社内で回覧可能。30人以上の組織では1人あたりかなりお得な金額に。自社の人材育成とAI活用を加速させたい方向け。\n\n■ 梶谷のプロフィールと実績\nhttps://posts-tokyo.com/",
+        "header_image_path": "https://assets.st-note.com/production/uploads/images/167546571/fe1b63b36d3166a7eea05f931cd5012e.png?format=jpeg&height=1006&quality=85&width=1920",
+        "is_limited_note_enable": false,
+        "owner": {
+          "name": "KAJI | 梶谷健人",
+          "urlname": "kajiken0630",
+          "nickname": "KAJI | 梶谷健人",
+          "user_profile_image_path": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+          "id": 496560,
+          "key": "df4f7378ff05913e75c5917ed584182a",
+          "is_following": false,
+          "custom_domain": null
+        }
+      },
+      "membership_notes_enabled": true,
+      "membership_magazines_enabled": true,
+      "following_members": [],
+      "limited_member_info": null,
+      "membership_magazines": [
+        {
+          "key": "m1586f35de51a",
+          "status": "public",
+          "name": "美しい事業/体験のつくり方と伸ばし方",
+          "description": "優れたユーザー体験のつくり方と、そのサービスをいかにグロースさせていくかについて、「いちばんやさしいグロースハックの教本」の著者である梶谷が考えていることを発信するマガジンです。",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/188995483/85b540fd1b31e5c734d989be2e645486.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 36,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        },
+        {
+          "key": "m0517d42a809a",
+          "status": "public",
+          "name": "Generative Future | AIが生成する未来",
+          "description": "生成AIによって変わる社会、人のあり方、ビジネスなどについて夢想するマガジンです。",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/188995133/cf848f4eefb636189df990b5b2ace3c9.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 108,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        },
+        {
+          "key": "m8914ccd94063",
+          "status": "public",
+          "name": "空間コンピューティング論",
+          "description": "AR/VR/メタバース領域における論考、サービス設計手法、UX+UIデザインの考え方やメソッドなどを発信します",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/23599473/02f1a832787776d51624c707474abdd8.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 28,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        }
+      ],
+      "is_board_enabled": true
+    },
+    {
+      "key": "c1727348b946",
+      "name": "コアメンバー",
+      "start_at": "2025-06-18T00:00:38.000+09:00",
+      "end_at": "2999-12-31T23:59:59.000+09:00",
+      "price": 3980,
+      "is_immediate_charge": true,
+      "is_free_trial_period_available": false,
+      "free_trial_period": null,
+      "description": "ベーシックメンバーの特典に加えて：\n\n・梶谷と直接メッセンジャーグループでやり取り可能\n　└ AI領域を中心に梶谷が気になったニュースをシェア\n　└ 梶谷に直接質問が可能\n・質問箱での梶谷への質問と、回答記事の閲覧\n\nなどの双方向的なやり取りがある探究室のコアメンバー",
+      "header_image_path": "https://assets.st-note.com/production/uploads/images/196746865/7851b2e7acf8c5b8f50d85601c3889b7.png?format=jpeg&height=720&quality=85&width=1280",
+      "benefit_appeal_texts": [
+        "限定メッセンジャーグループでの双方向的なやり取り",
+        "質問箱での質問 / 回答記事の閲覧"
+      ],
+      "is_member": false,
+      "is_canceled": false,
+      "status": "public",
+      "signup_enabled": true,
+      "is_owner": false,
+      "circle": {
+        "key": "2dab0e765874",
+        "name": "梶谷健人探究室",
+        "description": "このメンバーシップは、「AI時代の事業・組織、キャリア戦略、ウェルビーイング」等をテーマとした私、梶谷健人の探究活動の中での思考や視点、学びを共有するオンラインの探究室です。\n\n単なるトレンド解説ではなく、サービス開発の実践やフィールドリサーチから得たリアルな思考や学び、試行錯誤の過程を発信します。\n\n■ こんな方におすすめ\n- 企業経営や個人のキャリアにおけるAI時代の最適戦略に関心がある\n- 技術トレンドの先の社会の変化まで深く考えたい\n- 実践者のリアルな思考プロセスに触れたい\n- 月1のAIトレンドまとめで効率的にトレンドを追いたい\n\n■ 3つのプラン\n① ベーシックメンバー\n毎月6~8本の新規記事と、100本以上の過去記事が読み放題。\n\n② コアメンバー\n上記に加え、梶谷と直接やりとりできるメッセンジャーグループに参加し、気軽に質問・相談ができます。\n\n③ 法人メンバー\n全コンテンツを社内で回覧可能。30人以上の組織では1人あたりかなりお得な金額に。自社の人材育成とAI活用を加速させたい方向け。\n\n■ 梶谷のプロフィールと実績\nhttps://posts-tokyo.com/",
+        "header_image_path": "https://assets.st-note.com/production/uploads/images/167546571/fe1b63b36d3166a7eea05f931cd5012e.png?format=jpeg&height=1006&quality=85&width=1920",
+        "is_limited_note_enable": false,
+        "owner": {
+          "name": "KAJI | 梶谷健人",
+          "urlname": "kajiken0630",
+          "nickname": "KAJI | 梶谷健人",
+          "user_profile_image_path": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+          "id": 496560,
+          "key": "df4f7378ff05913e75c5917ed584182a",
+          "is_following": false,
+          "custom_domain": null
+        }
+      },
+      "membership_notes_enabled": true,
+      "membership_magazines_enabled": true,
+      "following_members": [],
+      "limited_member_info": null,
+      "membership_magazines": [
+        {
+          "key": "m1586f35de51a",
+          "status": "public",
+          "name": "美しい事業/体験のつくり方と伸ばし方",
+          "description": "優れたユーザー体験のつくり方と、そのサービスをいかにグロースさせていくかについて、「いちばんやさしいグロースハックの教本」の著者である梶谷が考えていることを発信するマガジンです。",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/188995483/85b540fd1b31e5c734d989be2e645486.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 36,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        },
+        {
+          "key": "m8914ccd94063",
+          "status": "public",
+          "name": "空間コンピューティング論",
+          "description": "AR/VR/メタバース領域における論考、サービス設計手法、UX+UIデザインの考え方やメソッドなどを発信します",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/23599473/02f1a832787776d51624c707474abdd8.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 28,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        },
+        {
+          "key": "m0517d42a809a",
+          "status": "public",
+          "name": "Generative Future | AIが生成する未来",
+          "description": "生成AIによって変わる社会、人のあり方、ビジネスなどについて夢想するマガジンです。",
+          "cover_image_url": "https://assets.st-note.com/production/uploads/images/188995133/cf848f4eefb636189df990b5b2ace3c9.png",
+          "price": 0,
+          "is_subscribable": false,
+          "note_count": 108,
+          "user": {
+            "key": "df4f7378ff05913e75c5917ed584182a",
+            "name": "KAJI | 梶谷健人",
+            "urlname": "kajiken0630",
+            "nickname": "KAJI | 梶谷健人",
+            "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+            "custom_domain": null
+          },
+          "editors": [],
+          "custom_domain": null,
+          "is_benefit_magazine": true,
+          "is_official": false,
+          "is_followed": false,
+          "is_suspended": false,
+          "is_immediate_charge": false,
+          "benefit_magazine": null
+        }
+      ],
+      "is_board_enabled": true
+    },
+    {
+      "key": "28bb89ec9ee6",
+      "name": "法人メンバー",
+      "start_at": "2024-12-31T16:12:08.000+09:00",
+      "end_at": "2999-12-31T23:59:59.000+09:00",
+      "price": 50000,
+      "is_immediate_charge": true,
+      "is_free_trial_period_available": false,
+      "free_trial_period": null,
+      "description": "企業内での記事回覧が可能なプラン。\n\nまた、ベーシックメンバーの特典に加えて：\n・各企業ごとに5名、梶谷と直接メッセンジャーグループでやり取り可能\n・質問箱での梶谷への質問と、回答記事の閲覧\nなどの双方向的なやり取りが可能です\n\n※請求書＆振込での対応も可能です (要問い合わせ)",
+      "header_image_path": "https://assets.st-note.com/production/uploads/images/167957381/950b0a34a9bf2df9c44434f9e03c0684.png?format=jpeg&height=720&quality=85&width=1280",
+      "benefit_appeal_texts": [
+        "記事のPDFや共有アカウントの社内共有が可能",
+        "毎月4～5本の厳選された記事をお届け",
+        "代表5名はメンバー限定のFacebookグループ、メッセンジャーグループに参加可能",
+        "代表5名はメッセンジャーで速報的な情報共有を受け取ることが可能",
+        "代表5名はグループ上で梶谷に直接質問可能"
+      ],
+      "is_member": false,
+      "is_canceled": false,
+      "status": "public",
+      "signup_enabled": true,
+      "is_owner": false,
+      "circle": {
+        "key": "2dab0e765874",
+        "name": "梶谷健人探究室",
+        "description": "このメンバーシップは、「AI時代の事業・組織、キャリア戦略、ウェルビーイング」等をテーマとした私、梶谷健人の探究活動の中での思考や視点、学びを共有するオンラインの探究室です。\n\n単なるトレンド解説ではなく、サービス開発の実践やフィールドリサーチから得たリアルな思考や学び、試行錯誤の過程を発信します。\n\n■ こんな方におすすめ\n- 企業経営や個人のキャリアにおけるAI時代の最適戦略に関心がある\n- 技術トレンドの先の社会の変化まで深く考えたい\n- 実践者のリアルな思考プロセスに触れたい\n- 月1のAIトレンドまとめで効率的にトレンドを追いたい\n\n■ 3つのプラン\n① ベーシックメンバー\n毎月6~8本の新規記事と、100本以上の過去記事が読み放題。\n\n② コアメンバー\n上記に加え、梶谷と直接やりとりできるメッセンジャーグループに参加し、気軽に質問・相談ができます。\n\n③ 法人メンバー\n全コンテンツを社内で回覧可能。30人以上の組織では1人あたりかなりお得な金額に。自社の人材育成とAI活用を加速させたい方向け。\n\n■ 梶谷のプロフィールと実績\nhttps://posts-tokyo.com/",
+        "header_image_path": "https://assets.st-note.com/production/uploads/images/167546571/fe1b63b36d3166a7eea05f931cd5012e.png?format=jpeg&height=1006&quality=85&width=1920",
+        "is_limited_note_enable": false,
+        "owner": {
+          "name": "KAJI | 梶谷健人",
+          "urlname": "kajiken0630",
+          "nickname": "KAJI | 梶谷健人",
+          "user_profile_image_path": "https://assets.st-note.com/production/uploads/images/34826602/profile_cd01b2e91c5733a14f94d433ce75bf69.png?fit=bounds&format=jpeg&quality=85&width=330",
+          "id": 496560,
+          "key": "df4f7378ff05913e75c5917ed584182a",
+          "is_following": false,
+          "custom_domain": null
+        }
+      },
+      "membership_notes_enabled": true,
+      "membership_magazines_enabled": true,
+      "following_members": [],
+      "limited_member_info": null,
+      "membership_magazines": [],
+      "is_board_enabled": true
+    }
+  ],
+  "is_public_membership_connected": true,
+  "is_board_disabled": false,
+  "discount_campaigns": [],
+  "lead_form": null,
+  "line_add_friend": null,
+  "line_add_friend_note_enable_feature": false,
+  "note_share_total_count": 145,
+  "note_share_provider_details": {
+    "facebook": {
+      "count": 17,
+      "is_shared": false
+    },
+    "line": {
+      "count": 65,
+      "is_shared": false
+    },
+    "others": {
+      "count": 35,
+      "is_shared": false
+    },
+    "twitter": {
+      "count": 28,
+      "is_shared": false
+    }
+  },
+  "is_published_preview_note": false,
+  "is_ratable": false,
+  "content_rating_via": "",
+  "content_raters": [
+    {
+      "key": "2f18c6f01e210146fb3fc44b22451405",
+      "nickname": "西村創一朗",
+      "urlname": "soutaros",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/193163492/profile_a0d45acc8dcfed72c50a2f074c153e46.png?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "2e9e2e65027bd75d01d9e9f18a337d7e",
+      "nickname": "ひっと🐎",
+      "urlname": "gifted_lemur7590",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/183097724/profile_01708ea395468c0e42d083211e2b36e7.png?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "02d7738cb61deb9a18d8eebac80c87e9",
+      "nickname": "吉川剛史",
+      "urlname": "take_yoshikawa",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/5315235/profile_ff492a412a0946d99c3dbfc9bbedf1b8.jpg?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "b5be29d9d429c59080fa13db7f1da277",
+      "nickname": "やす｜地域密着SNS運用代行",
+      "urlname": "yasu_applife",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/146315038/profile_166f45b18c7b749382a4a8bf672f7ffd.jpg?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "2e76fd1b25851698ee9b8e72f9c4522e",
+      "nickname": "みやぽん",
+      "urlname": "miyaponm",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/91360499/profile_0e59485cae872df4fb3294f06baf8011.png?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "b3ba2b4425d30aa099f9cd5f05c057cf",
+      "nickname": "えど",
+      "urlname": "edo",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/34825195/profile_8e200ac94311e64fa3d474a3f7405050.jpg?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "b0f6b4af0bf99e23c195c0553475ce11",
+      "nickname": "「変わりたいなら、まず思考を叩き直せ。」-今井芳樹",
+      "urlname": "yoshiki_rashisa_",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/201122375/profile_a6eec1a8d1d710255ed05366d171c665.png?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "fb2eb269ebe84db40aa5e48a923dcb72",
+      "nickname": "astronote",
+      "urlname": "loyal_viper8650",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/5208890/profile_c951c5c03a1c4664dd3c27c4a8607e4d.jpeg?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "63981225c325e3f4972b1ced33824039",
+      "nickname": "戦略を「動かす」カルチャー変革｜UpSpire Consulting",
+      "urlname": "upspire_con",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/205157131/profile_8ee9d2585a7c216aa760b5ff50233940.png?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "41744efa9c6b7b787c64f1ada3a1aa2d",
+      "nickname": "わん",
+      "urlname": "keen_sloth1607",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_3-39088fff430aa9ec11d6e2a385dbcad45c8b79bde6c0c9ded10cd7abb960174f.png"
+    },
+    {
+      "key": "9742c855f24fea56a2100293f299e576",
+      "nickname": "バントン",
+      "urlname": "tomobanton",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png"
+    },
+    {
+      "key": "03895f48afe9ddd81116a0e36fcc0cb7",
+      "nickname": "kozzy",
+      "urlname": "kozzie",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_1-9b784003abbac36db44620c7f48629787caea4d53ae4e4f1b710aed18e204e23.png"
+    },
+    {
+      "key": "0578fd1c86ae37d921ee36ecd0ec7dbc",
+      "nickname": "gisu",
+      "urlname": "gisu",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_5-043439195e40e86fd7641a3a1daf982637d77ec6f14b67d3fc98ab92374404ac.png"
+    },
+    {
+      "key": "28e938f433ddd4698d2b72a30383215a",
+      "nickname": "Kosuke Ishizaka",
+      "urlname": "kosuke_ishizaka",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png"
+    },
+    {
+      "key": "9ebe105be50f4952e545a0ae53d3a3f7",
+      "nickname": "しの",
+      "urlname": "shino0407",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png"
+    },
+    {
+      "key": "cf81b9e15fde8df4a3574ee1287db2fa",
+      "nickname": "副業太郎",
+      "urlname": "hxduni254",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_4-e3b57528da29acad20d5a2db33268c87f1d39015448757ddf346d60fb5861e49.png"
+    },
+    {
+      "key": "17ba0b13c0345f8977accd44867da30b",
+      "nickname": "sunny",
+      "urlname": "sunny100",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_5-043439195e40e86fd7641a3a1daf982637d77ec6f14b67d3fc98ab92374404ac.png"
+    },
+    {
+      "key": "f3eb251bf58f02be53c6e0a12e2fe3de",
+      "nickname": "TADA",
+      "urlname": "tadahiro",
+      "user_profile_image_url": "https://assets.st-note.com/production/uploads/images/165528471/profile_0f244862ac602e10522069b4d571863d.jpeg?fit=bounds&format=jpeg&quality=85&width=330"
+    },
+    {
+      "key": "8966599d9233ad53548e3094a6f53705",
+      "nickname": "Zeos",
+      "urlname": "tenx8160",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_4-e3b57528da29acad20d5a2db33268c87f1d39015448757ddf346d60fb5861e49.png"
+    },
+    {
+      "key": "8a583c064528ac50776b7ab9074e7e92",
+      "nickname": "I.B",
+      "urlname": "light_willet726",
+      "user_profile_image_url": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png"
+    }
+  ],
+  "my_rating_exists": false,
+  "rater_count": 24,
+  "is_recently_purchased": false,
+  "requires_login_for_purchase": false,
+  "is_recently_tip": false,
+  "exclude_from_creator_top": false,
+  "exclude_ai_learning_reward": true,
+  "is_related_with_investment": false,
+  "related_stocks": []
+}

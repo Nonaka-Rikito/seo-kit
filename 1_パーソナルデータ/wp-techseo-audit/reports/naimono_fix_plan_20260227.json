@@ -1,0 +1,203 @@
+{
+  "client": "naimono",
+  "site": "https://jo-katsu.com",
+  "audit_date": "2026-02-27",
+  "total_issues": 289,
+  "severity_counts": {
+    "CRITICAL": 16,
+    "HIGH": 34,
+    "MEDIUM": 233,
+    "LOW": 6
+  },
+  "fix_plan": [
+    {
+      "id": "FIX-001",
+      "priority": "CRITICAL",
+      "category": "PERF",
+      "title": "サーバー応答時間（TTFB）の改善",
+      "description": "全20ページでTTFBが遅延。平均1,271msの改善余地。Object Cache（Redis/Memcached）導入が最優先。",
+      "affected_pages": "全ページ（20/20）",
+      "estimated_impact": "LCP -1〜3秒、PSI +10〜20ポイント",
+      "sla": "1週間",
+      "actions": [
+        "WP Object Cache プラグインの導入（Redis Object Cache推奨）",
+        "サーバーレベルでのPHP OPcache有効化確認",
+        "CDN（CloudFlare）の導入検討",
+        "campusページのDBクエリプロファイリング"
+      ]
+    },
+    {
+      "id": "FIX-002",
+      "priority": "CRITICAL",
+      "category": "PERF",
+      "title": "campusページのリダイレクトチェーン排除",
+      "description": "campus系10ページで複数リダイレクトが検出。モバイルLCP 30秒超の主要因の一つ。",
+      "affected_pages": "/campus/ + /campus/37260〜37264（10ページ）",
+      "estimated_impact": "LCP -5.8秒（合計）",
+      "sla": "1週間",
+      "actions": [
+        "campusページへの内部リンクのリダイレクトパスを特定",
+        "直接URLへの書き換え",
+        "WordPress Permalink設定の確認"
+      ]
+    },
+    {
+      "id": "FIX-003",
+      "priority": "CRITICAL",
+      "category": "MOBL",
+      "title": "トップページ CLS 修正",
+      "description": "CLS 0.282（POOR）。動的挿入コンテンツがレイアウトシフトを発生させている。",
+      "affected_pages": "/ （トップページ）",
+      "estimated_impact": "CLS 0.282 → 0.1未満",
+      "sla": "1週間",
+      "actions": [
+        "ヒーロー画像・バナーにwidth/height属性を追加",
+        "スライダー・カルーセルにプレースホルダースペースを確保",
+        "font-display: swap + preload設定"
+      ]
+    },
+    {
+      "id": "FIX-004",
+      "priority": "HIGH",
+      "category": "INDX",
+      "title": "noindex 15ページの確認・修正",
+      "description": "意図不明のnoindex設定。特にFAQ個別ページ（faq1〜6）はインデックス対象にすべき可能性。",
+      "affected_pages": "/news, /online, /faqs/faq1〜6, /gallerys/item_*, /business, /biz, /story/page/2, /news/20190925",
+      "estimated_impact": "インデックスページ数+15件",
+      "sla": "1週間",
+      "actions": [
+        "各ページのnoindex意図をクライアントに確認",
+        "意図しないnoindexはYoast SEO管理画面から解除",
+        "意図的noindexは記録として残す"
+      ]
+    },
+    {
+      "id": "FIX-005",
+      "priority": "HIGH",
+      "category": "META",
+      "title": "canonical不整合 11件の修正",
+      "description": "旧URL構造の名残りで存在しないパスがcanonicalに設定。",
+      "affected_pages": "/faqs/faq1〜6, /gallerys/item_*, /news/20190925, /story/page/2",
+      "estimated_impact": "Googleへのインデックスシグナル正常化",
+      "sla": "1週間",
+      "actions": [
+        "Yoast SEO各ページ設定からcanonicalを自己参照URLに修正",
+        "不要なリダイレクト設定があれば削除"
+      ]
+    },
+    {
+      "id": "FIX-006",
+      "priority": "HIGH",
+      "category": "INDX",
+      "title": "GSCサイトマップ再提出",
+      "description": "campus/sitemap.xml が1年7ヶ月間Googleにダウンロードされていない。",
+      "affected_pages": "サイト全体",
+      "estimated_impact": "新規ページのクロール速度改善",
+      "sla": "即日",
+      "actions": [
+        "https://jo-katsu.com/campus/sitemap.xml にアクセスし存在確認",
+        "Yoast SEOでサイトマップを再生成",
+        "GSCで既存サイトマップを削除→再提出"
+      ]
+    },
+    {
+      "id": "FIX-007",
+      "priority": "HIGH",
+      "category": "CONT",
+      "title": "重複タイトル 8件の修正",
+      "description": "4組のページが同一titleを使用。各ページ固有のタイトルを設定する。",
+      "affected_pages": "/news, /house, /ticket, /event 等",
+      "estimated_impact": "タイトル重複によるカニバリゼーション解消",
+      "sla": "1週間",
+      "actions": [
+        "Yoast SEO各ページのSEOタイトルを個別に設定"
+      ]
+    },
+    {
+      "id": "FIX-008",
+      "priority": "MEDIUM",
+      "category": "STRC",
+      "title": "H1タグ重複のテーマ修正",
+      "description": "92ページでH1が2個存在。テーマテンプレートの構造的問題。",
+      "affected_pages": "92ページ + H1なし8ページ",
+      "estimated_impact": "見出し構造の正常化",
+      "sla": "1ヶ月",
+      "actions": [
+        "WordPressテーマのPHPテンプレート（header.php等）を確認",
+        "ページタイトルとコンテンツH1の二重レンダリングを解消",
+        "トップページ・/campus/・/campus_listにH1を追加"
+      ]
+    },
+    {
+      "id": "FIX-009",
+      "priority": "MEDIUM",
+      "category": "META",
+      "title": "メタディスクリプション 35ページの設定",
+      "description": "35ページがメタディスクリプション未設定。特に/campus_list（被リンク1位）が重要。",
+      "affected_pages": "35ページ",
+      "estimated_impact": "SERP表示の改善、CTR向上",
+      "sla": "1ヶ月",
+      "actions": [
+        "Yoast SEO管理画面から各ページのメタディスクリプションを入力",
+        "優先: /campus_list, /es-info, /news, /contact"
+      ]
+    },
+    {
+      "id": "FIX-010",
+      "priority": "MEDIUM",
+      "category": "SCHM",
+      "title": "Article/BlogPostingスキーマの実装",
+      "description": "campus記事ページにArticleスキーマが未実装。記事リッチリザルトの機会損失。",
+      "affected_pages": "/campus/ 配下全記事（推定数千ページ）",
+      "estimated_impact": "記事リッチリザルト獲得、CTR改善",
+      "sla": "1ヶ月",
+      "actions": [
+        "Yoast SEO / Rank MathのArticleスキーマ出力設定を有効化",
+        "カスタム投稿タイプ「campus」にArticleスキーマを自動適用",
+        "必須フィールド: headline, author, datePublished, image, publisher"
+      ]
+    },
+    {
+      "id": "FIX-011",
+      "priority": "MEDIUM",
+      "category": "SCHM",
+      "title": "Organizationスキーマのフィールド追加",
+      "description": "全ページ共通でlogo・contactPoint・addressが未設定。",
+      "affected_pages": "全ページ",
+      "estimated_impact": "ナレッジパネル表示精度向上",
+      "sla": "1ヶ月",
+      "actions": [
+        "Yoast SEO / Rank MathのOrganization設定からフィールドを追加"
+      ]
+    },
+    {
+      "id": "FIX-012",
+      "priority": "MEDIUM",
+      "category": "CONT",
+      "title": "画像alt属性の整備",
+      "description": "62ページで画像の20〜57%にalt未設定。",
+      "affected_pages": "62ページ",
+      "estimated_impact": "アクセシビリティ改善、画像検索流入",
+      "sla": "1ヶ月",
+      "actions": [
+        "WordPress Media Libraryでalt属性を一括設定",
+        "デコレーション画像はaria-hiddenで除外"
+      ]
+    },
+    {
+      "id": "FIX-013",
+      "priority": "MEDIUM",
+      "category": "PERF",
+      "title": "未使用CSS/JSの削減",
+      "description": "16ページで未使用CSS、13ページで未使用JSを検出。合計7,680ms削減余地。",
+      "affected_pages": "16ページ",
+      "estimated_impact": "PSI +5〜10ポイント",
+      "sla": "1ヶ月",
+      "actions": [
+        "Asset CleanUp / Perfmatters等のプラグインで投稿タイプ別にCSS/JS読み込み制御",
+        "gzip/brotli圧縮の有効化確認",
+        "CSS/JSのMinification設定"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "range": "661-991",
+  "exclude_rows": [
+    {
+      "row": 661,
+      "domain": "erva-dog.com",
+      "reason": "ドッグスリング専門店（ペット用品EC）"
+    },
+    {
+      "row": 670,
+      "domain": "toha2.fromation.co.jp",
+      "reason": "ペット情報カテゴリページ＋アクセスタイムアウト"
+    },
+    {
+      "row": 682,
+      "domain": "study-dog-school.com",
+      "reason": "犬のしつけ教室（完全無関係業種）"
+    },
+    {
+      "row": 692,
+      "domain": "al-on.com",
+      "reason": "ハウスクリーニング業者（完全無関係業種）"
+    },
+    {
+      "row": 695,
+      "domain": "hopehouse.co.jp",
+      "reason": "賃貸管理会社（完全無関係業種）"
+    },
+    {
+      "row": 696,
+      "domain": "tips.abe-nashien.com",
+      "reason": "農家の改善ブログ（完全無関係業種）"
+    },
+    {
+      "row": 699,
+      "domain": "webranksofworld.site",
+      "reason": "スパムサイト（英語スパムコンテンツ群）"
+    },
+    {
+      "row": 720,
+      "domain": "synthsonic.net",
+      "reason": "音楽・DTM系サイト（完全無関係業種）"
+    },
+    {
+      "row": 724,
+      "domain": "directorycell.com",
+      "reason": "外国語メインサイト（英語のみ）"
+    },
+    {
+      "row": 729,
+      "domain": "pet-foodist.jp",
+      "reason": "ペットフーディスト養成講座（ペット関連）"
+    },
+    {
+      "row": 731,
+      "domain": "t-oppo.jp",
+      "reason": "ペット用品EC（OPPO）"
+    },
+    {
+      "row": 733,
+      "domain": "redcoolmedia.net",
+      "reason": "外国語メインサイト（英語コンテンツ）"
+    },
+    {
+      "row": 734,
+      "domain": "howtorankfast.site",
+      "reason": "スパムサイト（英語スパムコンテンツ群）"
+    },
+    {
+      "row": 738,
+      "domain": "makotoya-cleaning.jp",
+      "reason": "クリーニング店（完全無関係業種）"
+    },
+    {
+      "row": 751,
+      "domain": "av-sommelier.online",
+      "reason": "アダルトサイト（エログの教科書）"
+    },
+    {
+      "row": 753,
+      "domain": "kinswith-vet.com",
+      "reason": "動物病院（KINS WITH）"
+    },
+    {
+      "row": 754,
+      "domain": "worldwidetopweb.site",
+      "reason": "スパムサイト（英語スパムコンテンツ群）"
+    },
+    {
+      "row": 760,
+      "domain": "hsp.ryota-freedom.com",
+      "reason": "HSP系個人ブログ（完全無関係業種）"
+    },
+    {
+      "row": 769,
+      "domain": "99-best.site",
+      "reason": "スパムサイト（英語スパムコンテンツ群）"
+    },
+    {
+      "row": 770,
+      "domain": "microlinkofworld.site",
+      "reason": "スパムサイト（英語スパムコンテンツ群）"
+    },
+    {
+      "row": 776,
+      "domain": "jimushodesign.com",
+      "reason": "オフィスデザイン会社（無関係業種）"
+    },
+    {
+      "row": 780,
+      "domain": "hairsalon-mitsuishi-hp.com",
+      "reason": "美容院・理容院（完全無関係業種）"
+    },
+    {
+      "row": 786,
+      "domain": "codenote.net",
+      "reason": "英語圏技術ブログ（日本語コンテンツなし）"
+    },
+    {
+      "row": 799,
+      "domain": "amarico.com",
+      "reason": "ドッグフードEC（Amarico）"
+    },
+    {
+      "row": 801,
+      "domain": "roserose-ac.com",
+      "reason": "動物病院（ローズローズアニマルクリニック）"
+    },
+    {
+      "row": 811,
+      "domain": "hinhzr.org",
+      "reason": "動物保護系一般社団法人（完全無関係業種）"
+    },
+    {
+      "row": 819,
+      "domain": "performance.oreda.net",
+      "reason": "個人技術ブログ（Datadog監視記事、営業対象としてニッチすぎ）"
+    },
+    {
+      "row": 826,
+      "domain": "animebox.jp",
+      "reason": "アニメ情報サイト（完全無関係業種）"
+    },
+    {
+      "row": 830,
+      "domain": "aai.itri-apu.com",
+      "reason": "大学共同研究プロジェクト（営業対象外）"
+    },
+    {
+      "row": 842,
+      "domain": "inutome.jp",
+      "reason": "犬関連メディア（イヌトミィ）"
+    },
+    {
+      "row": 844,
+      "domain": "dogduca.com",
+      "reason": "犬のしつけ教室（DOG DUCA）"
+    },
+    {
+      "row": 845,
+      "domain": "sakaguchi-seikotsuin.com",
+      "reason": "整骨院（完全無関係業種）"
+    },
+    {
+      "row": 856,
+      "domain": "dog.ceramida.jp",
+      "reason": "犬の臭い対策ブログ（ペット特化）"
+    },
+    {
+      "row": 857,
+      "domain": "saunameetsgirl.com",
+      "reason": "サウナ系個人ブログ（無関係業種）"
+    },
+    {
+      "row": 862,
+      "domain": "en-job.jp",
+      "reason": "家事代行サービス（完全無関係業種）"
+    },
+    {
+      "row": 865,
+      "domain": "blog.okashoi.net",
+      "reason": "個人の技術日記ブログ（PHPカンファレンス参加記、無関係）"
+    },
+    {
+      "row": 868,
+      "domain": "fluteirassai.com",
+      "reason": "フルート・音楽情報サイト（完全無関係業種）"
+    },
+    {
+      "row": 874,
+      "domain": "pal-blog.com",
+      "reason": "食品宅配サービスブログ（パルシステム）"
+    },
+    {
+      "row": 875,
+      "domain": "kazukick.work",
+      "reason": "ゲイライフスタイルブログ（無関係業種）"
+    },
+    {
+      "row": 876,
+      "domain": "salonstaff.mother-natures.com",
+      "reason": "子育てサロンスタッフ求人（完全無関係業種）"
+    },
+    {
+      "row": 881,
+      "domain": "お役立ち.xyz",
+      "reason": "エンコードエラーでアクセス不能・個人ブログ"
+    },
+    {
+      "row": 893,
+      "domain": "crypto-bear.net",
+      "reason": "暗号資産個人ブログ（完全無関係業種）"
+    },
+    {
+      "row": 913,
+      "domain": "shoku.zenhp.co.jp",
+      "reason": "離乳食宅配サービス（完全無関係業種）"
+    },
+    {
+      "row": 920,
+      "domain": "daichi-risk.com",
+      "reason": "災害リスク研究（ペット防災記事、完全無関係業種）"
+    },
+    {
+      "row": 923,
+      "domain": "アイベット.com",
+      "reason": "海外ブックメーカー・ギャンブルサイト"
+    },
+    {
+      "row": 933,
+      "domain": "kyomogochiso.com",
+      "reason": "料理・食品レビューブログ（完全無関係業種）"
+    },
+    {
+      "row": 938,
+      "domain": "news.pjdb.cc",
+      "reason": "サーバーエラー（HTTP 500）でアクセス不能"
+    },
+    {
+      "row": 940,
+      "domain": "dog-salon-mocomoco.com",
+      "reason": "ドッグフード口コミサイト"
+    },
+    {
+      "row": 943,
+      "domain": "iogi-animal.com",
+      "reason": "動物病院（井荻アニマルメディカルセンター）"
+    },
+    {
+      "row": 947,
+      "domain": "pelthia.jp",
+      "reason": "ドッグフードEC（PELTHIA）"
+    },
+    {
+      "row": 951,
+      "domain": "krsw-wiki.in",
+      "reason": "2ちゃんねる系Wiki（低品質・不適切サイト）"
+    },
+    {
+      "row": 953,
+      "domain": "sipnstir.net",
+      "reason": "文字化けサイト（低品質）"
+    },
+    {
+      "row": 957,
+      "domain": "moogry.com",
+      "reason": "検索エンジンクローン/低品質サイト"
+    },
+    {
+      "row": 959,
+      "domain": "pet-siiku.com",
+      "reason": "ペット飼育情報サイト"
+    },
+    {
+      "row": 976,
+      "domain": "npo-la-vida.org",
+      "reason": "動物保護NPO"
+    },
+    {
+      "row": 977,
+      "domain": "fittingbox.jp",
+      "reason": "オフィス家具サブスク（リンクページがCookieポリシー、無関係）"
+    },
+    {
+      "row": 978,
+      "domain": "spo-gel.com",
+      "reason": "スポーツ情報サイト（無関係業種）"
+    },
+    {
+      "row": 979,
+      "domain": "2o6aw2gz2k.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 980,
+      "domain": "3fslclw1ns.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 981,
+      "domain": "9dsutusfsu.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 982,
+      "domain": "q6o0s0yxrx.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 983,
+      "domain": "wuiuppk11m.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 984,
+      "domain": "fhjtesy2iv.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 985,
+      "domain": "7kdgrjmscx.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 986,
+      "domain": "wb6akmy3dk.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 987,
+      "domain": "1g53pch12i.madam72.xyz",
+      "reason": "スパムサイト（madam72.xyz系中国語映画サイト）"
+    },
+    {
+      "row": 990,
+      "domain": "sun-plazahome.com",
+      "reason": "トランクルーム比較サイト（完全無関係業種）"
+    }
+  ],
+  "name_fixes": [
+    {
+      "row": 669,
+      "domain": "beerfroth.com",
+      "old_name": "インサイドセールス支援ツール - ビアフロス - インサイドセールスによって受注を増やすデジタルマーケティングを実現する",
+      "new_name": "ビアフロス"
+    },
+    {
+      "row": 685,
+      "domain": "accelainc.com",
+      "old_name": "中小企業の資金調達や補助金、DXに役立つ情報をお届けします。また、自治体が進めるDXを中心とした新しい取り組みについても",
+      "new_name": "アクセライト株式会社"
+    },
+    {
+      "row": 693,
+      "domain": "c2c-platform.com",
+      "old_name": "C2C Platform - 産業構造をアップデートするダイレクトマッチング特化型ビジネスクリエイティブパートナー",
+      "new_name": "C2C Platform"
+    },
+    {
+      "row": 700,
+      "domain": "movie.seedassist.co.jp",
+      "old_name": "株式会社シードアシストは大阪市北区に拠点を置き、関西を中心に活動する動画制作会社です。2007年より350社2,500本",
+      "new_name": "株式会社シードアシスト"
+    },
+    {
+      "row": 703,
+      "domain": "modish.co.jp",
+      "old_name": "modish.co.jp",
+      "new_name": "株式会社モディッシュ"
+    },
+    {
+      "row": 723,
+      "domain": "careerladder.jp",
+      "old_name": "Career Ladder - M＆A仲介会社への転職ならキャリアラダー。業界出身者が、実際に働いていたからこそできる、",
+      "new_name": "Career Ladder"
+    },
+    {
+      "row": 742,
+      "domain": "verse-type.co.jp",
+      "old_name": "SEO対策,MEO対策なら大阪の株式会社バースタイプにお任せください。WEBマーケティングコンサルティング専門の弊社では",
+      "new_name": "株式会社バースタイプ"
+    },
+    {
+      "row": 746,
+      "domain": "plea-mm.com",
+      "old_name": "売れるホームページ制作はマーケティング戦略から - 大分のweb制作プレア",
+      "new_name": "プレア"
+    },
+    {
+      "row": 748,
+      "domain": "nerd.co.jp",
+      "old_name": "なるべく「時間をかけず」に「結果の出る」サイト制作をご提案します。制作して終わりではなく、ビジネス課題の解決のため、公開",
+      "new_name": "株式会社ナード"
+    },
+    {
+      "row": 749,
+      "domain": "sozoinc.jp",
+      "old_name": "sozoinc.jp",
+      "new_name": "株式会社SOZO"
+    },
+    {
+      "row": 752,
+      "domain": "polaris-academia.co.jp",
+      "old_name": "【ポラリスアカデミア公式サイト】オンライン全国対応！専属の受験コンサルタントが最短逆転合格に導きます。",
+      "new_name": "ポラリスアカデミア"
+    },
+    {
+      "row": 775,
+      "domain": "mitu-mori.com",
+      "old_name": "「みつもり.com」ならホームページの適正な制作金額が3分で分かります！ホームページの見積りが欲しいなら、まずは「みつも",
+      "new_name": "みつもり.com"
+    },
+    {
+      "row": 778,
+      "domain": "bngpartners.jp",
+      "old_name": "ベンチャー幹部・幹部・CxO・ハイクラス人材・マネージャー人材に特化。お客様満足度88％。エグゼクティブ・ハイクラス人材",
+      "new_name": "BNGパートナーズ"
+    },
+    {
+      "row": 784,
+      "domain": "staronline.jp",
+      "old_name": "STARONLINE | デジタルマーケティング・WEBマーケテイング |",
+      "new_name": "STARONLINE"
+    },
+    {
+      "row": 788,
+      "domain": "wepress.web-magazine.jp",
+      "old_name": "wepRESS(ウェプレス) | 中小企業のWeb担当者をサポートするWebマガジン",
+      "new_name": "wepRESS(ウェプレス)"
+    },
+    {
+      "row": 800,
+      "domain": "kobushi.marketing",
+      "old_name": "マーケティングとエンタテインメントを通じてチャレンジャーをサポートし、世の中に情熱と若さを提供することを目指します。",
+      "new_name": "KOBUSHI MARKETING"
+    },
+    {
+      "row": 803,
+      "domain": "business.boujee.jp",
+      "old_name": "business.boujee.jp",
+      "new_name": "Cast Me!"
+    },
+    {
+      "row": 815,
+      "domain": "internbaito.com",
+      "old_name": "大学生の成長を応援する！有給インターン求人サイト「インターンバイト」長期インターン・スポットワーク・業務委託もあり",
+      "new_name": "インターンバイト"
+    },
+    {
+      "row": 823,
+      "domain": "video-choose.com",
+      "old_name": "動画版チャットボット VideoChoose – パーソナライズされた 動画 でプロモーションを変える",
+      "new_name": "動画版チャットボット VideoChoose"
+    },
+    {
+      "row": 829,
+      "domain": "launchstudio.jp",
+      "old_name": "フリーランスになるために必要な情報を発信する総合情報サイト - Launch Studio | ロンスタ",
+      "new_name": "Launch Studio"
+    },
+    {
+      "row": 872,
+      "domain": "suadd.com",
+      "old_name": "suadd.com",
+      "new_name": "suadd"
+    },
+    {
+      "row": 886,
+      "domain": "b2b-marketing.co.jp",
+      "old_name": "B2B(BtoB)企業のマーケティングとセールス領域において、ITを活用した仕組み作りを支援し、お客様の変革と継続的な発",
+      "new_name": "B2Bマーケティング株式会社"
+    },
+    {
+      "row": 898,
+      "domain": "digibito.me",
+      "old_name": "DIGIBITO(デジビト) | Web人材のスキルをさらに伸ばすメディア",
+      "new_name": "DIGIBITO(デジビト)"
+    },
+    {
+      "row": 903,
+      "domain": "archrise-works.com",
+      "old_name": "中小企業のWEB集客ならArchRise｜デジタル集客｜広告運用｜SEO対策｜HP制作｜DX支援 –",
+      "new_name": "ArchRise"
+    },
+    {
+      "row": 906,
+      "domain": "careertrip.jp",
+      "old_name": "Career Trip | 就活に関するあらゆる悩みを解決！理想の自分創りの旅に出よう！",
+      "new_name": "Career Trip"
+    },
+    {
+      "row": 908,
+      "domain": "irohameguri-i.com",
+      "old_name": "カリスマめぐり | SNSマーケティングを学ぶ為の情報メディア",
+      "new_name": "カリスマめぐり"
+    },
+    {
+      "row": 911,
+      "domain": "rurukblog.com",
+      "old_name": "rurukblog.com",
+      "new_name": "RURUK BLOG"
+    },
+    {
+      "row": 912,
+      "domain": "corp-research.jp",
+      "old_name": "キャリコネ企業研究リサコ（Resaco）| 理解が深まる企業研究メディア",
+      "new_name": "キャリコネ企業研究リサコ"
+    },
+    {
+      "row": 934,
+      "domain": "nam-come.com",
+      "old_name": "nam-come.com",
+      "new_name": "なんばこめじるし"
+    },
+    {
+      "row": 935,
+      "domain": "tmcdigital.jp",
+      "old_name": "tmcdigital.jp",
+      "new_name": "TMCデジタル"
+    },
+    {
+      "row": 936,
+      "domain": "yasukochi.jp",
+      "old_name": "yasukochi.jp",
+      "new_name": "安河内哲也"
+    },
+    {
+      "row": 942,
+      "domain": "blog.sogoseisaku.jp",
+      "old_name": "民泊投資情報ナビ　by 日本総政ファンド　-民泊M＆Aや運営について発信！",
+      "new_name": "民泊投資情報ナビ"
+    },
+    {
+      "row": 954,
+      "domain": "naraitaiyo.jp",
+      "old_name": "オンラインパソコンスクール | 安い料金で人気NO1のパソコン教室",
+      "new_name": "オンラインパソコンスクール"
+    },
+    {
+      "row": 956,
+      "domain": "lict.work",
+      "old_name": "株式会社LICT - 株式会社LICTの公式サイト｜新潟県魚沼市で飲食事業とマーケティング支援事業を行っている会社",
+      "new_name": "株式会社LICT"
+    },
+    {
+      "row": 960,
+      "domain": "better-life-japan.net",
+      "old_name": "SEOコンサルティング・HIKARI｜東京都にあるSEO・LLMOの専門企業",
+      "new_name": "SEOコンサルティング・HIKARI"
+    },
+    {
+      "row": 965,
+      "domain": "kskk.jp",
+      "old_name": "関西政治経済交流会 | 政治・行政・大企業・中小企業を繋いで日本の活性化！",
+      "new_name": "関西政治経済交流会"
+    }
+  ],
+  "summary": {
+    "除外件数": 67,
+    "社名修正件数": 36
+  }
+}

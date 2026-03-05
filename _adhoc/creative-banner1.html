@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>就活の先生 - クリエイティブ1</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+  body {
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+  }
+
+  .banner {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #e8f4f8 0%, #d0e8f0 40%, #b8d8e8 100%);
+  }
+
+  /* 右側の人物写真エリア（プレースホルダー） */
+  .person-photo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+    height: 75%;
+    background: linear-gradient(180deg, #c8dce6 0%, #a8c4d4 100%);
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 10% 100%);
+    z-index: 1;
+  }
+
+  .person-photo::after {
+    content: '人物写真';
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #8aabb8;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  /* ヘッダーテキスト */
+  .header-tag {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+  }
+
+  .header-tag span {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1a3a4a;
+    letter-spacing: 2px;
+  }
+
+  .header-tag .slash-left,
+  .header-tag .slash-right {
+    color: #1a3a4a;
+    font-size: 32px;
+  }
+
+  /* メインヘッドライン */
+  .main-headline {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    z-index: 10;
+    width: 65%;
+  }
+
+  .main-headline h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #1a1a2e;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0 rgba(255,255,255,0.5);
+  }
+
+  .main-headline h1 .quote-text {
+    color: #1a1a2e;
+  }
+
+  .main-headline h1 .highlight {
+    background: linear-gradient(transparent 60%, #ffe066 60%);
+    padding: 0 4px;
+  }
+
+  /* サブテキスト */
+  .sub-text {
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    z-index: 10;
+    width: 60%;
+  }
+
+  .sub-text p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.5;
+  }
+
+  .sub-text .yellow-highlight {
+    background: #ffe066;
+    padding: 2px 6px;
+    font-weight: 900;
+  }
+
+  /* 700社以上対応 */
+  .companies-count {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    z-index: 10;
+    width: 95%;
+    text-align: center;
+  }
+
+  .companies-count .slash-deco {
+    font-size: 40px;
+    color: #d4382c;
+    font-weight: 900;
+  }
+
+  .companies-count .number {
+    font-size: 80px;
+    font-weight: 900;
+    color: #d4382c;
+  }
+
+  .companies-count .unit {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1a1a2e;
+  }
+
+  .companies-count .exclaim {
+    font-size: 48px;
+    font-weight: 900;
+    color: #d4382c;
+  }
+
+  /* 企業ロゴグリッド */
+  .logo-grid {
+    position: absolute;
+    top: 570px;
+    left: 30px;
+    right: 30px;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .logo-item {
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 10px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    min-height: 60px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .logo-item.lotte {
+    color: #d4382c;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .logo-item.unicharm {
+    color: #e85d24;
+    font-size: 20px;
+  }
+
+  .logo-item.recruit {
+    color: #1a1a2e;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .logo-item.kose {
+    color: #1a1a2e;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .logo-item.jr {
+    color: #2d8c3c;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .logo-item.aioi {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .logo-item.toyota {
+    font-size: 26px;
+    color: #333;
+  }
+
+  .logo-item.marubeni {
+    color: #d4382c;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .logo-item.ana {
+    color: #003f87;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .logo-item.panasonic {
+    color: #003f87;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  /* フッターバー */
+  .footer-bar {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    background: #1a1a2e;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    z-index: 10;
+  }
+
+  .footer-bar .service-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .footer-bar .service-name {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+    background: #4a90d9;
+    padding: 4px 16px;
+    border-radius: 4px;
+  }
+
+  /* CTAボタン */
+  .cta-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(180deg, #e83030 0%, #b81c1c 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    z-index: 10;
+    cursor: pointer;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+  }
+
+  .cta-button span {
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 4px;
+  }
+
+  .cta-button .play-icon {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-button .play-icon::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 16px solid #e83030;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <!-- 右側人物写真プレースホルダー -->
+  <div class="person-photo"></div>
+
+  <!-- ＼26卒必見／ -->
+  <div class="header-tag">
+    <span class="slash-left">＼</span><span>26卒必見</span><span class="slash-right">／</span>
+  </div>
+
+  <!-- メインヘッドライン -->
+  <div class="main-headline">
+    <h1>元<span class="quote-text">"先生"</span>が企業を<br><span class="highlight">徹底分析</span></h1>
+  </div>
+
+  <!-- サブテキスト -->
+  <div class="sub-text">
+    <p>100ページ超の分析資料で<br><span class="yellow-highlight">有名企業の対策も万全！</span></p>
+  </div>
+
+  <!-- 700社以上対応 -->
+  <div class="companies-count">
+    <span class="slash-deco">＼</span>
+    <span class="number">700</span><span class="unit">社以上対応</span><span class="exclaim">!!</span>
+    <span class="slash-deco">／</span>
+  </div>
+
+  <!-- 企業ロゴグリッド -->
+  <div class="logo-grid">
+    <div class="logo-item lotte">LOTTE</div>
+    <div class="logo-item unicharm">unicharm<br><small>ユニ・チャーム</small></div>
+    <div class="logo-item recruit">RECRUIT</div>
+    <div class="logo-item kose">KOSÉ<br>COSMEPORT</div>
+    <div class="logo-item jr">JR</div>
+    <div class="logo-item aioi">あいおいニッセイ<br>同和損保</div>
+    <div class="logo-item toyota">TOYOTA</div>
+    <div class="logo-item marubeni">Marubeni</div>
+    <div class="logo-item ana">ANA</div>
+    <div class="logo-item panasonic">Panasonic</div>
+  </div>
+
+  <!-- フッターバー -->
+  <div class="footer-bar">
+    <span class="service-text">全員が元"先生"の就活支援サービス</span>
+    <span class="service-name">就活の先生</span>
+  </div>
+
+  <!-- CTAボタン -->
+  <div class="cta-button">
+    <span>就活相談はこちら</span>
+    <div class="play-icon"></div>
+  </div>
+</div>
+
+</body>
+</html>

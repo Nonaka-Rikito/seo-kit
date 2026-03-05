@@ -1,0 +1,1698 @@
+{
+  "results": [
+    {
+      "url": "https://jo-katsu.com/",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/#webpage",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料就活シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/#breadcrumblist"
+          },
+          "datePublished": "2019-03-26T16:52:34+09:00",
+          "dateModified": "2019-03-26T16:52:34+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "Archives for "
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "Archives for ",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://jo-katsu.com/campus/#collectionpage",
+          "url": "https://jo-katsu.com/campus/",
+          "name": "就活ハンドブック | 上京を志す、就活生へ。ジョーカツ",
+          "description": "就活ハンドブックは、企業分析・自己分析・ES/面接対策・業界研究など就活に必要な情報を網羅。就職偏差値ランキングや選考体験記など、内定獲得に役立つ記事を多数掲載しています。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/#breadcrumblist"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "type": "CollectionPage",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'CollectionPage'. Basic presence confirmed."
+          ],
+          "score": 80
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/",
+          "issue": "[CollectionPage] No specific validator for type 'CollectionPage'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for CollectionPage schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/service/",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/service/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/service/#listItem",
+                "name": "サービス紹介"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/service/#listItem",
+              "position": 2,
+              "name": "サービス紹介",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/service/#webpage",
+          "url": "https://jo-katsu.com/service/",
+          "name": "サービス紹介 | 上京を志す、就活生へ。ジョーカツ",
+          "description": "無料シェアハウスや、交通費支給、ドリンク・軽食無料のカフェなど、上京就活生を応援するジョーカツのサービス紹介です。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/service/#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2019/04/service_pc.png",
+            "@id": "https://jo-katsu.com/service/#mainImage",
+            "width": 1614,
+            "height": 788
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/service/#mainImage"
+          },
+          "datePublished": "2019-03-27T03:33:52+09:00",
+          "dateModified": "2025-10-30T18:49:54+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/service/",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/service/",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/service/",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/service/",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/service/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/about/",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/about/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/about/#listItem",
+                "name": "ジョーカツとは"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/about/#listItem",
+              "position": 2,
+              "name": "ジョーカツとは",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/about/#webpage",
+          "url": "https://jo-katsu.com/about/",
+          "name": "ジョーカツとは | 上京を志す、就活生へ。ジョーカツ",
+          "description": "「上京して、自分の力を試したい。」地方に散らばる挑戦者たちを全力で応援する新しい就活支援サービス。それがジョーカツです。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/about/#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2019/04/about_pc.png",
+            "@id": "https://jo-katsu.com/about/#mainImage",
+            "width": 1614,
+            "height": 788
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/about/#mainImage"
+          },
+          "datePublished": "2019-03-29T02:36:44+09:00",
+          "dateModified": "2025-12-03T20:59:35+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/about/",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/about/",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/about/",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/about/",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/about/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/lp_entry/",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/lp_entry/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/lp_entry/#listItem",
+                "name": "無料相談LP"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/lp_entry/#listItem",
+              "position": 2,
+              "name": "無料相談LP",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/lp_entry/#webpage",
+          "url": "https://jo-katsu.com/lp_entry/",
+          "name": "無料相談LP | 上京を志す、就活生へ。ジョーカツ",
+          "description": "首都圏の優良・成長企業など多数!! これからのキャリアを本気で考える就活生へ 50,000人以上のサポート実績",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/lp_entry/#breadcrumblist"
+          },
+          "datePublished": "2025-10-07T19:24:32+09:00",
+          "dateModified": "2026-01-07T00:14:07+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/lp_entry/",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/lp_entry/",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/lp_entry/",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/lp_entry/",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/lp_entry/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/37264",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/37264#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "就活ハンドブック",
+              "item": "https://jo-katsu.com/campus/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+              "position": 3,
+              "name": "企業分析",
+              "item": "https://jo-katsu.com/campus/corporate/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/37264#listItem",
+                "name": "NTTデータグループの子会社一覧を紹介！就職おすすめランキング5社を解説"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/37264#listItem",
+              "position": 4,
+              "name": "NTTデータグループの子会社一覧を紹介！就職おすすめランキング5社を解説",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/campus/37264#webpage",
+          "url": "https://jo-katsu.com/campus/37264",
+          "name": "NTTデータグループの子会社一覧を紹介！就職おすすめランキング5社を解説 | 就活ハンドブック",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/37264#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2025/11/b69ce317143d97611590c95796c26684.png",
+            "@id": "https://jo-katsu.com/campus/37264/#mainImage",
+            "width": 1200,
+            "height": 630
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/campus/37264#mainImage"
+          },
+          "datePublished": "2025-11-26T10:34:19+09:00",
+          "dateModified": "2025-11-26T10:34:19+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'description' is missing"
+          ],
+          "score": 95,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37264",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37264",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37264",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37264",
+          "issue": "[WebPage] Recommended field 'description' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebPage schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/37264",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/37264\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/37263",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/37263#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "就活ハンドブック",
+              "item": "https://jo-katsu.com/campus/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+              "position": 3,
+              "name": "企業分析",
+              "item": "https://jo-katsu.com/campus/corporate/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/37263#listItem",
+                "name": "リコーグループの子会社一覧を紹介！就職おすすめランキング5社を解説"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/37263#listItem",
+              "position": 4,
+              "name": "リコーグループの子会社一覧を紹介！就職おすすめランキング5社を解説",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/campus/37263#webpage",
+          "url": "https://jo-katsu.com/campus/37263",
+          "name": "リコーグループの子会社一覧を紹介！就職おすすめランキング5社を解説 | 就活ハンドブック",
+          "description": "リコーグループの子会社一覧を紹介！就職におすすめの子会社ランキングから、主要企業の特徴・事業内容・就職に役立つポイントをわかりやすく解説します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/37263#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2025/11/3eae6ed30c0b798e318698ac1d2e9d53.png",
+            "@id": "https://jo-katsu.com/campus/37263/#mainImage",
+            "width": 1200,
+            "height": 630
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/campus/37263#mainImage"
+          },
+          "datePublished": "2025-11-26T10:33:43+09:00",
+          "dateModified": "2025-11-26T10:33:43+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37263",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37263",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37263",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/37263",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/37263\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/37262",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/37262#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "就活ハンドブック",
+              "item": "https://jo-katsu.com/campus/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+              "position": 3,
+              "name": "企業分析",
+              "item": "https://jo-katsu.com/campus/corporate/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/37262#listItem",
+                "name": "横浜ゴムグループの子会社一覧を紹介！就職おすすめランキング5社を解説"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/37262#listItem",
+              "position": 4,
+              "name": "横浜ゴムグループの子会社一覧を紹介！就職おすすめランキング5社を解説",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/campus/37262#webpage",
+          "url": "https://jo-katsu.com/campus/37262",
+          "name": "横浜ゴムグループの子会社一覧を紹介！就職おすすめランキング5社を解説 | 就活ハンドブック",
+          "description": "横浜ゴムグループの子会社一覧を紹介！就職におすすめの子会社ランキングから、主要企業の特徴・事業内容・就職に役立つポイントをわかりやすく解説します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/37262#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2025/11/167724172639fa15b56cd4c9d10ab7e8.png",
+            "@id": "https://jo-katsu.com/campus/37262/#mainImage",
+            "width": 1200,
+            "height": 630
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/campus/37262#mainImage"
+          },
+          "datePublished": "2025-11-26T10:33:07+09:00",
+          "dateModified": "2025-11-26T10:33:07+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37262",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37262",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37262",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/37262",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/37262\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/37261",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/37261#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "就活ハンドブック",
+              "item": "https://jo-katsu.com/campus/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+              "position": 3,
+              "name": "企業分析",
+              "item": "https://jo-katsu.com/campus/corporate/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/37261#listItem",
+                "name": "ヤンマーグループの子会社一覧を紹介！就職おすすめランキング5社を解説"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/37261#listItem",
+              "position": 4,
+              "name": "ヤンマーグループの子会社一覧を紹介！就職おすすめランキング5社を解説",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/campus/37261#webpage",
+          "url": "https://jo-katsu.com/campus/37261",
+          "name": "ヤンマーグループの子会社一覧を紹介！就職おすすめランキング5社を解説 | 就活ハンドブック",
+          "description": "ヤンマーグループの子会社一覧を紹介！就職におすすめの子会社ランキングから、主要企業の特徴・事業内容・就職に役立つポイントをわかりやすく解説します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/37261#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2025/11/3f3758250cdf323601c46d26c5466d79.png",
+            "@id": "https://jo-katsu.com/campus/37261/#mainImage",
+            "width": 1200,
+            "height": 630
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/campus/37261#mainImage"
+          },
+          "datePublished": "2025-11-26T10:31:26+09:00",
+          "dateModified": "2025-11-26T10:31:26+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37261",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37261",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37261",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/37261",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/37261\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+      "url": "https://jo-katsu.com/campus/37260",
+      "json_ld": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jo-katsu.com/campus/37260#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://jo-katsu.com",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/#listItem",
+              "position": 2,
+              "name": "就活ハンドブック",
+              "item": "https://jo-katsu.com/campus/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+              "position": 3,
+              "name": "企業分析",
+              "item": "https://jo-katsu.com/campus/corporate/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/37260#listItem",
+                "name": "ヤマハ発動機グループの子会社一覧を紹介！就職おすすめランキング5社を解説"
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/#listItem",
+                "name": "就活ハンドブック"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://jo-katsu.com/campus/37260#listItem",
+              "position": 4,
+              "name": "ヤマハ発動機グループの子会社一覧を紹介！就職おすすめランキング5社を解説",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://jo-katsu.com/campus/corporate/#listItem",
+                "name": "企業分析"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jo-katsu.com/#organization",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "url": "https://jo-katsu.com/",
+          "sameAs": [
+            "https://x.com/jokatsuinfo"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://jo-katsu.com/campus/37260#webpage",
+          "url": "https://jo-katsu.com/campus/37260",
+          "name": "ヤマハ発動機グループの子会社一覧を紹介！就職おすすめランキング5社を解説 | 就活ハンドブック",
+          "description": "ヤマハ発動機グループの子会社一覧を紹介！就職におすすめの子会社ランキングから、主要企業の特徴・事業内容・就職に役立つポイントをわかりやすく解説します。",
+          "inLanguage": "ja",
+          "isPartOf": {
+            "@id": "https://jo-katsu.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://jo-katsu.com/campus/37260#breadcrumblist"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://jo-katsu.com/release/wordpress/wp-content/uploads/2025/11/3e842618c4fee07d41a8b7c00f84e5c5.png",
+            "@id": "https://jo-katsu.com/campus/37260/#mainImage",
+            "width": 1200,
+            "height": 630
+          },
+          "primaryImageOfPage": {
+            "@id": "https://jo-katsu.com/campus/37260#mainImage"
+          },
+          "datePublished": "2025-11-26T10:30:59+09:00",
+          "dateModified": "2025-11-26T10:30:59+09:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://jo-katsu.com/#website",
+          "url": "https://jo-katsu.com/",
+          "name": "上京を志す、就活生へ。ジョーカツ",
+          "description": "上京して就活する新卒学生・既卒学生のための無料シェアハウス・交通費補助などを提供する就活支援サービスです。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://jo-katsu.com/#organization"
+          }
+        }
+      ],
+      "microdata": [],
+      "validation": [
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "BreadcrumbList"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Recommended field 'logo' is missing",
+            "Recommended field 'contactPoint' is missing",
+            "Recommended field 'address' is missing"
+          ],
+          "score": 85,
+          "type": "Organization"
+        },
+        {
+          "valid": true,
+          "errors": [],
+          "warnings": [],
+          "score": 100,
+          "type": "WebPage"
+        },
+        {
+          "type": "WebSite",
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "No specific validator for type 'WebSite'. Basic presence confirmed."
+          ],
+          "score": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37260",
+          "issue": "[Organization] Recommended field 'logo' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37260",
+          "issue": "[Organization] Recommended field 'contactPoint' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "MEDIUM",
+          "url": "https://jo-katsu.com/campus/37260",
+          "issue": "[Organization] Recommended field 'address' is missing",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for Organization schema."
+        },
+        {
+          "code": "SCHM",
+          "severity": "LOW",
+          "url": "https://jo-katsu.com/campus/37260",
+          "issue": "[WebSite] No specific validator for type 'WebSite'. Basic presence confirmed.",
+          "current": "Field absent or suboptimal",
+          "recommendation": "Adding this field improves eligibility for rich results and signals completeness to Google for WebSite schema."
+        }
+      ],
+      "error": null,
+      "generated_fix": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"TODO: https://example.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"TODO: Category name\",\n      \"item\": \"TODO: https://example.com/category/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"TODO: Current page title\",\n      \"item\": \"https://jo-katsu.com/campus/37260\"\n    }\n  ]\n}\n</script>"
+    }
+  ],
+  "summary": {
+    "total_urls": 10,
+    "urls_with_schema": 10,
+    "urls_without_schema": 0,
+    "total_errors": 0,
+    "total_warnings": 42,
+    "types_found": {
+      "BreadcrumbList": 10,
+      "Organization": 10,
+      "WebPage": 9,
+      "WebSite": 10,
+      "CollectionPage": 1
+    }
+  }
+}

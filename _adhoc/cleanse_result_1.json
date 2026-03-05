@@ -1,0 +1,532 @@
+{
+  "range": "1-330",
+  "exclude_rows": [
+    {
+      "row": 2,
+      "domain": "pet.laetitien.co.jp",
+      "reason": "ペットフード販売EC（レティシアン）"
+    },
+    {
+      "row": 3,
+      "domain": "downjacket.pro",
+      "reason": "ダウンジャケットクリーニング専門店"
+    },
+    {
+      "row": 4,
+      "domain": "bag-repair.pro",
+      "reason": "高級バッグ修理専門店"
+    },
+    {
+      "row": 8,
+      "domain": "d.hatena.ne.jp",
+      "reason": "はてなブログタグ（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 15,
+      "domain": "b.hatena.ne.jp",
+      "reason": "はてなブックマーク（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 16,
+      "domain": "konokototomoni.com",
+      "reason": "ペットフード販売EC（このこのごはん）"
+    },
+    {
+      "row": 17,
+      "domain": "creators.spotify.com",
+      "reason": "Spotify（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 33,
+      "domain": "developers.google.com",
+      "reason": "Google for Developers（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 38,
+      "domain": "ameblo.jp",
+      "reason": "アメーバブログ（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 39,
+      "domain": "youtube.com",
+      "reason": "YouTube（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 46,
+      "domain": "ja.wikipedia.org",
+      "reason": "Wikipedia（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 47,
+      "domain": "en.wikipedia.org",
+      "reason": "Wikipedia英語版（営業先として不適切、外国語メイン）"
+    },
+    {
+      "row": 52,
+      "domain": "gist.github.com",
+      "reason": "GitHub Gist（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 55,
+      "domain": "blog.hatena.ne.jp",
+      "reason": "はてなブログ（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 57,
+      "domain": "hatenablogmedia.zendesk.com",
+      "reason": "はてなブログメディアヘルプ（Zendesk、HTTP 403、営業先として不適切）"
+    },
+    {
+      "row": 61,
+      "domain": "medium.com",
+      "reason": "Medium（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 66,
+      "domain": "highdy-pc.hatenablog.com",
+      "reason": "個人日記ブログ（PC関連の個人ブログ）"
+    },
+    {
+      "row": 68,
+      "domain": "ab10.hatenablog.com",
+      "reason": "個人日記ブログ"
+    },
+    {
+      "row": 69,
+      "domain": "error-daizenn.hatenablog.com",
+      "reason": "個人ブログ（エラー大全集）"
+    },
+    {
+      "row": 72,
+      "domain": "gw3wgw.hatenablog.com",
+      "reason": "テクノロジー犯罪研究所（個人ブログ、無関係テーマ）"
+    },
+    {
+      "row": 75,
+      "domain": "xs036891.xsrv.jp",
+      "reason": "ハウスクリーニング比較サイト（SEO/マーケティングに無関係）"
+    },
+    {
+      "row": 84,
+      "domain": "laetitienpet.com",
+      "reason": "ペットフード販売EC（レティシアン）"
+    },
+    {
+      "row": 87,
+      "domain": "malna.co.jp",
+      "reason": "自社サイト（malna株式会社）"
+    },
+    {
+      "row": 89,
+      "domain": "qiita.com",
+      "reason": "Qiita（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 91,
+      "domain": "speakerdeck.com",
+      "reason": "Speaker Deck（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 92,
+      "domain": "dogfood.jpn.org",
+      "reason": "ドッグフード比較サイト"
+    },
+    {
+      "row": 98,
+      "domain": "computational-sediment-hyd.hatenablog.jp",
+      "reason": "個人技術ブログ（計算流砂水理、無関係分野）"
+    },
+    {
+      "row": 108,
+      "domain": "petlife.asia",
+      "reason": "ペット情報サイト（SEO/マーケティングに無関係）"
+    },
+    {
+      "row": 110,
+      "domain": "kanji.hatenablog.jp",
+      "reason": "個人技術ブログ（かんちゃんの備忘録）"
+    },
+    {
+      "row": 111,
+      "domain": "crowdworks.jp",
+      "reason": "クラウドワークス（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 112,
+      "domain": "zenn.dev",
+      "reason": "Zenn（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 129,
+      "domain": "house-cleaning.heteml.net",
+      "reason": "ハウスクリーニング比較サイト"
+    },
+    {
+      "row": 133,
+      "domain": "yattara.skr.jp",
+      "reason": "こどもえん（保育施設、完全無関係業種）"
+    },
+    {
+      "row": 142,
+      "domain": "souta-k.hatenadiary.jp",
+      "reason": "個人日記ブログ（寝そべり族）"
+    },
+    {
+      "row": 151,
+      "domain": "glints.com",
+      "reason": "外国語メインサイト（ベトナム語求人サイト）"
+    },
+    {
+      "row": 157,
+      "domain": "subdomainfinder.c99.nl",
+      "reason": "サブドメインスキャンツール（スパム的サイト）"
+    },
+    {
+      "row": 184,
+      "domain": "staging-pet.laetitien.co.jp",
+      "reason": "ペットフード販売EC（レティシアンステージング環境）"
+    },
+    {
+      "row": 186,
+      "domain": "tvrock69.cloudfree.jp",
+      "reason": "個人PC活用サイト（文字化け、低品質）"
+    },
+    {
+      "row": 189,
+      "domain": "petfamilyins.co.jp",
+      "reason": "ペット保険会社（SEO/マーケティングに無関係）"
+    },
+    {
+      "row": 205,
+      "domain": "softwareworld.co",
+      "reason": "HTTP 403（アクセス不能、外国語サイト）"
+    },
+    {
+      "row": 212,
+      "domain": "siteprice.org",
+      "reason": "トラフィックチェッカー（SEOツールサイト、営業先として不適切）"
+    },
+    {
+      "row": 224,
+      "domain": "kingranks.com",
+      "reason": "外国語SEOサイト（英語、DR0トラフィック0）"
+    },
+    {
+      "row": 232,
+      "domain": "canagandogfood.co.jp",
+      "reason": "ペットフード販売EC（カナガン）"
+    },
+    {
+      "row": 233,
+      "domain": "ebisu-fudousan.com",
+      "reason": "不動産会社（完全無関係業種）"
+    },
+    {
+      "row": 236,
+      "domain": "jbbs.shitaraba.net",
+      "reason": "したらば掲示板（営業先として不適切な巨大プラットフォーム）"
+    },
+    {
+      "row": 265,
+      "domain": "mogwandogfood.co.jp",
+      "reason": "ペットフード販売EC（モグワン）"
+    },
+    {
+      "row": 267,
+      "domain": "sitelike.org",
+      "reason": "類似サイト検索ツール（営業先として不適切）"
+    },
+    {
+      "row": 279,
+      "domain": "reform.ebisu-fudousan.com",
+      "reason": "リフォーム会社（完全無関係業種）"
+    },
+    {
+      "row": 291,
+      "domain": "osoujikakumei.jp",
+      "reason": "おそうじ革命（ハウスクリーニング業者）"
+    },
+    {
+      "row": 294,
+      "domain": "jetrank.com",
+      "reason": "外国語SEOサービスサイト（英語、HTTP 403）"
+    },
+    {
+      "row": 301,
+      "domain": "koekisha.co.jp",
+      "reason": "葬儀社（公益社、完全無関係業種）"
+    },
+    {
+      "row": 302,
+      "domain": "gc-yukizaki.jp",
+      "reason": "ブランド時計・ジュエリー通販（完全無関係業種）"
+    },
+    {
+      "row": 318,
+      "domain": "pitta.me",
+      "reason": "Pitta（カジュアル面談プラットフォーム、営業先として不適切）"
+    },
+    {
+      "row": 324,
+      "domain": "ryukyuasteeda.jp",
+      "reason": "琉球アスティーダ（卓球チーム、完全無関係業種）"
+    },
+    {
+      "row": 327,
+      "domain": "ink-revolution.com",
+      "reason": "プリンターインク通販（完全無関係業種）"
+    }
+  ],
+  "name_fixes": [
+    {
+      "row": 1,
+      "domain": "keywordmap.jp",
+      "old_name": "SEO・コンテンツマーケティングの調査・分析ツール - Keywordmap（キーワードマップ）は、競合サイトの調査・分",
+      "new_name": "Keywordmap"
+    },
+    {
+      "row": 6,
+      "domain": "marketingnative.jp",
+      "old_name": "Marketing Native（マーケティング ネイティブ）",
+      "new_name": "Marketing Native"
+    },
+    {
+      "row": 10,
+      "domain": "kinabal.co.jp",
+      "old_name": "Kinabal - WEBデザイン・マーケティング・システム開発・コンサルティング",
+      "new_name": "Kinabal"
+    },
+    {
+      "row": 13,
+      "domain": "syukatsu-kaigi.jp",
+      "old_name": "【就活会議】新卒採用・インターン・面接の口コミサイト",
+      "new_name": "就活会議"
+    },
+    {
+      "row": 14,
+      "domain": "muuuuu.org",
+      "old_name": "Webデザインギャラリー・参考サイト集｜MUUUUU.ORG",
+      "new_name": "MUUUUU.ORG"
+    },
+    {
+      "row": 26,
+      "domain": "wacul-ai.com",
+      "old_name": "月額20万円でコンバージョン数を最大化するマーケティング改善サービス",
+      "new_name": "WACUL"
+    },
+    {
+      "row": 27,
+      "domain": "ferret-plus.com",
+      "old_name": "マーケターのよりどころ「ferretメディア」",
+      "new_name": "ferret"
+    },
+    {
+      "row": 31,
+      "domain": "cone-c-slide.com",
+      "old_name": "c-slide (シースライド) - パワーポイント資料作成代行サービス",
+      "new_name": "c-slide"
+    },
+    {
+      "row": 32,
+      "domain": "aidma-hd.jp",
+      "old_name": "4000社を超える営業支援の実績。アイドマ・ホールディンスの営業ソリューションは、AIが抽出した最適なアプローチリストを",
+      "new_name": "アイドマ・ホールディングス"
+    },
+    {
+      "row": 34,
+      "domain": "hatarakigai.info",
+      "old_name": "働きがいのある会社研究所（Great Place To Work® Institute Japan）",
+      "new_name": "働きがいのある会社研究所"
+    },
+    {
+      "row": 35,
+      "domain": "gmg.cloudcircus.jp",
+      "old_name": "クラウドサーカス株式会社 グロースマーケティンググループのWEBサイト",
+      "new_name": "クラウドサーカス"
+    },
+    {
+      "row": 36,
+      "domain": "synergy-career.co.jp",
+      "old_name": "synergy-career.co.jp",
+      "new_name": "シナジーキャリア"
+    },
+    {
+      "row": 43,
+      "domain": "fortee.jp",
+      "old_name": "fortee.jp",
+      "new_name": "fortee"
+    },
+    {
+      "row": 106,
+      "domain": "coki.jp",
+      "old_name": "企業のサステナビリティを可視化するメディアcoki (公器）。ステークホルダーとの関係を可視化し、財務諸表には表れないE",
+      "new_name": "coki"
+    },
+    {
+      "row": 114,
+      "domain": "tokyo-cci.or.jp",
+      "old_name": "tokyo-cci.or.jp",
+      "new_name": "東京商工会議所"
+    },
+    {
+      "row": 138,
+      "domain": "so-labo.co.jp",
+      "old_name": "株式会社SoLabo（ソラボ）は、東京・神奈川・大阪を拠点に起業者の支援を行う会社です。 6,000件以上の実績にもとづ",
+      "new_name": "株式会社SoLabo"
+    },
+    {
+      "row": 145,
+      "domain": "break-marketing-program.jp",
+      "old_name": "3ヶ月で未経験からWEBマーケターになるためのWEBマーケティング講座。 採用担当者・経営者が選ぶWEBマーケティング講",
+      "new_name": "Break Marketing Program"
+    },
+    {
+      "row": 154,
+      "domain": "lmi.ne.jp",
+      "old_name": "lmi.ne.jp",
+      "new_name": "リンクアンドモチベーション"
+    },
+    {
+      "row": 164,
+      "domain": "ferret-one.com",
+      "old_name": "【BtoBマーケティング】サイトからのリード獲得を増やす｜ferret One（フェレットワン）",
+      "new_name": "ferret One"
+    },
+    {
+      "row": 169,
+      "domain": "webwriter-pro.co.jp",
+      "old_name": "株式会社Webライタープロ | SEOライティングのスペシャリスト集団によるSEO記事制作",
+      "new_name": "Webライタープロ"
+    },
+    {
+      "row": 171,
+      "domain": "yuryoweb.com",
+      "old_name": "優良WEBは、今までになかったホームページ制作の相談窓口です。発注が前提の一括見積もりスタイルではなく、ホームページの「",
+      "new_name": "優良WEB"
+    },
+    {
+      "row": 174,
+      "domain": "japan-ai.geniee.co.jp",
+      "old_name": "日々新たな発見が溢れているAIを理解し、知識を増やすことで、日々の生活やビジネスに どのようにAIを活用できるか、その具",
+      "new_name": "Japan AI（ジーニー）"
+    },
+    {
+      "row": 185,
+      "domain": "webmarks.jp",
+      "old_name": "WebマーケティングスクールWEBMARKS｜案件獲得率93％",
+      "new_name": "WEBMARKS"
+    },
+    {
+      "row": 198,
+      "domain": "example3.com",
+      "old_name": "domain statistics, example titles, keywords, links",
+      "new_name": "example3.com"
+    },
+    {
+      "row": 201,
+      "domain": "kagemusya.biz-samurai.com",
+      "old_name": "CROCO株式会社",
+      "new_name": "CROCO"
+    },
+    {
+      "row": 210,
+      "domain": "nttdata-strategy.com",
+      "old_name": "nttdata-strategy.com",
+      "new_name": "NTTデータ経営研究所"
+    },
+    {
+      "row": 222,
+      "domain": "k-society.com",
+      "old_name": "バーチャルオフィス・シェアオフィス@東京都千代田区|ナレッジソサエティ|起業家におすすめ・法人登記・銀行口座 |",
+      "new_name": "バーチャルオフィス・シェアオフィス@東京都千代田区|ナレッジ"
+    },
+    {
+      "row": 228,
+      "domain": "cm.marke-media.net",
+      "old_name": "cm.marke-media.net",
+      "new_name": "マーケメディア"
+    },
+    {
+      "row": 237,
+      "domain": "bluemonkey.jp",
+      "old_name": "【公式】BtoB企業のホームページ制作はCMS BlueMonkey（ブルーモンキー）",
+      "new_name": "【公式】BtoB企業のホームページ制作はCMS BlueMo"
+    },
+    {
+      "row": 238,
+      "domain": "ampmedia.jp",
+      "old_name": "AMP[アンプ] - 人生の豊かさを生む瞬間を情報でつくりだす新世代向けビジネスメディア",
+      "new_name": "AMP[アンプ]"
+    },
+    {
+      "row": 243,
+      "domain": "x-i.co.jp",
+      "old_name": "株式会社クロスアイはキャスティングディレクター30名から構成される先鋭集団。 広告、イベントに加えてYouTubeやSN",
+      "new_name": "クロスアイ"
+    },
+    {
+      "row": 247,
+      "domain": "intloop.com",
+      "old_name": "当社は事業創造型コンサルファームです。企業の経営課題解決や人材支援サービスを通じ、人と企業、社会に成長のループを生み出し",
+      "new_name": "INTLOOP"
+    },
+    {
+      "row": 252,
+      "domain": "1st-net.jp",
+      "old_name": "大阪市中央区にあるWebソリューション会社ファーストネットジャパンのコーポレートです。",
+      "new_name": "大阪市中央区にあるWebソリューション会社ファーストネットジ"
+    },
+    {
+      "row": 256,
+      "domain": "hiro-clinic.or.jp",
+      "old_name": "あなたの健康を支える医療機関｜全国14カ所にある保険診療・自由診療のヒロクリニック",
+      "new_name": "あなたの健康を支える医療機関"
+    },
+    {
+      "row": 264,
+      "domain": "sateraito.jp",
+      "old_name": "sateraito.jp",
+      "new_name": "サテライトオフィス"
+    },
+    {
+      "row": 280,
+      "domain": "sedesign.co.jp",
+      "old_name": "sedesign.co.jp",
+      "new_name": "SEデザイン"
+    },
+    {
+      "row": 281,
+      "domain": "virtualoffice1.jp",
+      "old_name": "東京の人気格安バーチャルオフィス【翌年基本料 月額0円(無料)～】バーチャルオフィス1公式(渋谷・千代田・広島)",
+      "new_name": "東京の人気格安バーチャルオフィス"
+    },
+    {
+      "row": 304,
+      "domain": "switchitmaker2.com",
+      "old_name": "switchitmaker2.com",
+      "new_name": "switchitmaker2"
+    },
+    {
+      "row": 314,
+      "domain": "wehubworks.com",
+      "old_name": "株式会社Hub Works - Hub WorksはAIとプロの力で、成果を最速で最大化。SEO記事/ホワイトペーパー/",
+      "new_name": "株式会社Hub Works"
+    },
+    {
+      "row": 319,
+      "domain": "goodway.co.jp",
+      "old_name": "グッドウェイ：金融・IT業界・フィンテック情報ポータルサイト（GoodWay Fintech）",
+      "new_name": "グッドウェイ：金融・IT業界・フィンテック情報ポータルサイト"
+    },
+    {
+      "row": 322,
+      "domain": "prizma-link.com",
+      "old_name": "prizma-link.com",
+      "new_name": "プリズマリンク"
+    }
+  ],
+  "summary": {
+    "除外件数": 55,
+    "社名修正件数": 41
+  }
+}

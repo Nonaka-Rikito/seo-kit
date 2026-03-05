@@ -1,0 +1,363 @@
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+44
+Minutes
+53
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Website “Authority” Checker
+
+Check the “authority” of your domain (as measured by Ahrefs).
+
+Backlink Checker
+/
+Website Authority Checker
+/
+Broken Link Checker
+
+For example,
+
+ahrefs.com
+yep.com
+Check Authority
+Ahrefs SEO Toolbar
+Check any website’s authority
+as you browse
+
+Unlock Domain Rating (DR) and URL Rating (UR) metrics with our browser extension and free Ahrefs account.
+
+Add to Chrome
+
+Also available for Firefox.
+
+What is “website authority”?
+
+“Website authority” is an SEO concept that refers to the “strength” of a given domain.
+
+Some people call this “domain authority,” which is not to be confused with the Domain Authority (DA) metric from Moz. When we talk about domain authority, we’re talking about a general SEO concept that’s synonymous with “website authority.”
+
+Here at Ahrefs, we have a website authority metric of our own called Domain Rating. It runs on a scale from zero to a hundred. The higher a website’s Domain Rating (DR), the stronger and more authoritative it is.
+
+The free tool above shows your website’s “authority” as calculated by Ahrefs (i.e., Domain Rating).
+
+How we calculate our Domain Rating (DR) score
+
+Domain Rating (DR) looks at the quantity and quality of external backlinks to a website.
+
+Here’s how we calculate this metric in simple terms:
+
+Look at how many unique domains link to the target website;
+
+Look at the "authority" of those linking domains;
+
+Take into account how many unique domains each of those sites link to;
+
+Apply some math and coding magic to calculate “raw” DR scores;
+
+Plot these scores on a 100-point scale
+
+Domain Rating doesn’t take into account any other variables like link spam, traffic, domain age, etc.
+
+Learn more about Domain Rating here.
+
+Why the “authority” of your domain matters
+
+Google representatives consistently deny the use of "domain authority" as a ranking factor. But according to Google’s John Mueller, they do have a sitewide score that "maps to similar things."
+
+Plus, when we studied the correlation between Domain Rating (DR) and keyword rankings for 218,713 domains, we found that the two correlate well.
+
+This makes Domain Rating (authority) a useful metric by which to estimate a website’s ability to get organic traffic from Google.
+
+Disclaimer: This is a correlation study. It does not prove causation.
+
+What is a good Domain Rating (authority) score?
+
+Generally speaking, the higher the "authority" of your domain, the better.
+
+But it’s important not to judge Domain Rating in absolute terms. That’s because Domain Rating is a relative metric by definition. It’s not possible to say that a Domain Rating of 30 is good, or 50, or 60, or 70. It’s all relative.
+
+Here’s a general rule of thumb:
+
+Your Domain Rating (authority) is good if it’s higher than or comparable to similar sites.
+
+How to improve your Domain Rating (i.e., "authority" score)
+
+Getting backlinks from more unique websites (referring domains) is the only way to improve your website’s Domain Rating (authority) score.
+
+But improving your site’s "authority" should never be your primary goal.
+
+You should instead focus on earning backlinks from strong pages on reputable sites in your industry to the pages that you want to rank in Google. That’s because there’s a clear correlation between the number of referring domains to a page and the amount of organic traffic it gets.
+
+The correlation between referring domains and search traffic (~920 million pages studied).
+
+Furthermore, we found that the number of referring domains to a page is the strongest correlating backlink factor as far as rankings are concerned.
+
+How to use “website authority”
+
+Here are two good uses cases:
+
+1. Benchmarking against your competitors
+
+If your website "authority" is higher than that of your competitors, then your site is stronger than theirs in terms of "link popularity."
+
+For example, ahrefs.com has a Domain Rating of 88. Moz.com has a Domain Rating of 91.
+
+That’s because it has more backlinks from websites with strong link profiles, which leads to a higher "authority" score (as measured by Ahrefs).
+
+TIP. If two websites have the same Domain Rating, then you should use Ahrefs Rank (AR) to judge their relative strength.
+
+Comparing your Domain Rating to other websites in your industry can tell you whether your competitors are doing better or worse than you. If they’re doing better, then you may want to analyze their backlink profile in Ahrefs Site Explorer for untapped link opportunities.
+
+2. Vetting link prospects
+
+Google cares more about the "strength" of the linking page than that of the linking domain. Still, pages on high "authority" domains tend to be stronger than those on low "authority" sites.
+
+For that reason, Ahrefs’ Domain Rating is a good proxy by which to judge the relative quality of link prospects.
+
+Still, never judge the quality of a website on site-wide "authority" alone.
+
+You should also consider the following:
+
+Do they have high-quality backlinks?
+
+Do they have lots of pages? (fewer is usually better)
+
+Do they link out to a lot of websites? (again, fewer tends to be better)
+
+Are they publishing high-quality content?
+
+Is this website likely to still be around in six months? A year? Five years?
+
+Does it get any organic traffic? Is this website topically-relevant to yours?
+
+Link Building Guides
+How to Increase Website Authority (Domain Rating)
+
+Learn what website authority is, how Domain Rating (DR) is calculated and how to increase your score the right way.
+
+What is a Backlink? How to Get More Backlinks
+
+Backlinks are links from a page on one website to another. Search engines like Google use backlinks to help discover and rank content.
+
+The Beginner’s Guide to Link Building
+
+Everything you need to know about link building for SEO. What it is, how it works, what makes a good link, how to build it and more.
+
+Sign up for Ahrefs. Stay discoverable—in search, AI, and beyond.
+22,558 users joined Ahrefs in the last 7 days
+Starter
+
+See what people search and spy on competitors.
+
+Learn more ↗
+¥
+4,460
+/mo
+Get started
+Webmaster Tools
+
+Get Ahrefs data on your site and fix what matters.
+
+Learn more ↗
+Free
+Get started
+Language
+English
+Core tools
+Brand Radar
+Dashboard
+Site Explorer
+Keywords Explorer
+Site Audit
+Rank Tracker
+GSC Insights
+Content Explorer
+Web Analytics
+GBP Monitor
+Social Media Manager
+Use cases →
+Competitive Intelligence
+SEO
+PPC
+Content Marketing
+Brand Marketing
+Investing
+Alternatives →
+Ahrefs vs Semrush
+Free SEO tools →
+Webmaster Tools
+Backlink Checker
+Broken Link Checker
+Website Authority Checker
+Keyword Generator
+YouTube Keyword Tool
+Amazon Keyword Tool
+Bing Keyword Tool
+SERP Checker
+SEO Toolbar
+WordPress Plugin
+Keyword Rank Checker
+Keyword Difficulty Checker
+Website Checker
+AI Writing tools
+SEO Audit Tool
+AI Visibility Checker
+Extra tools & features
+Domain Comparison
+Batch Analysis
+Link Intersect
+Content Gap
+Email Alerts
+SEO Checker
+Word Count
+Grammar Checker
+Traffic Checker
+Looker Studio Connectors
+Top Websites
+SEO Reporting
+AI Content Helper
+Patches
+Portfolios
+IndexNow
+AI Tech SEO
+Product
+Pricing
+Our data
+AhrefsBot
+API
+Enterprise
+What’s new?
+Company
+About
+Team
+Careers
+Tech
+Media kit
+Contact us
+Legal info
+Privacy Policy
+Cookie Settings
+Events
+Testimonials
+Resources
+Blog
+Tech blog
+Podcast
+SEO Guide
+Help center
+Academy
+Marketing Agencies
+Digest
+Social
+Twitter
+Youtube
+Instagram
+Facebook
+Linkedin
+
+© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581

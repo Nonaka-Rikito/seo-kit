@@ -1,0 +1,414 @@
+vip-limo.jp Ahrefs Organic Keywords Analysis
+==============================================
+Data source: vip-limo.jp-organic-keywords-subdomains-jp_2026-02-25_10-12-02.csv
+Total data rows: 209
+Analysis date: 2026-02-25
+
+SUMMARY
+-------
+Total unique /articles/ URLs: 28
+Total unique non-/articles/ URLs: 18
+Total /articles/ estimated traffic: ~4,867
+Total non-/articles/ estimated traffic: ~1,048
+
+========================================================================================================================
+ALL UNIQUE /articles/ URLs - SORTED BY TOTAL TRAFFIC (DESCENDING)
+========================================================================================================================
+
+#1 | Traffic: 2,028 | Keywords: 17
+  URL: /articles/【2025年最新】羽田空港駐車場-料金比較：公式vs民間/
+  Decoded: 【2025年最新】羽田空港駐車場 料金比較：公式vs民間
+  Top Keywords:
+    - [637] 羽田空港 駐車場 料金比較
+    - [534] 羽田空港 駐車場 安い
+    - [53] 格安 羽田空港駐車場
+    - [45] 羽田空港 駐車場 料金
+    - [45] 羽田空港 駐車場 裏技
+    - [25] 羽田 駐車場 料金比較
+    - [22] 安い 駐車場 羽田空港
+    - [15] 羽田空港 駐車場 長期 おすすめ
+    - [13] 羽田空港 駐車場 料金
+    - [10] 羽田 駐車場 混雑
+    - [7] 羽田空港 駐車場 P1 混雑状況
+    - [7] 羽田 駐車場 料金
+    - [6] 羽田 長期 駐車場
+    - [5] 羽田空港 駐車場 長期
+    - [5] 羽田空港 駐車場 P4 混雑状況
+    - [4] 羽田空港 駐車場 P2 混雑状況
+    - [4] 羽田 長期駐車場
+
+#2 | Traffic: 1,810 | Keywords: 14
+  URL: /articles/【決定版】羽田空港駐車場：混雑状況の傾向と対/
+  Decoded: 【決定版】羽田空港駐車場：混雑状況の傾向と対
+  Top Keywords:
+    - [316] 羽田空港 駐車場 混雑状況
+    - [130] 羽田空港 駐車場 混雑 状況
+    - [85] 羽田空港 駐車場 混雑 予想
+    - [69] 羽田空港駐車場 混雑 状況
+    - [53] 羽田空港 駐車場 リアルタイム
+    - [52] 羽田空港 駐車場 混雑状況 リアルタイム
+    - [49] 羽田空港駐車場 混雑 状況
+    - [48] 羽田空港 駐車場 混雑
+    - [45] 羽田 駐車場 混雑
+    - [35] 羽田空港駐車場 混雑
+    - [10] 羽田空港 駐車場 最新
+    - [10] 羽田 駐車場 混雑
+    - [6] 羽田空港 駐車場 迎車時間
+    - [6] 羽田空港 駐車場 混雑 予想 平日
+    - [5] 羽田空港 駐車場 混雑 予想 平日
+
+#3 | Traffic: 486 | Keywords: 7
+  URL: /articles/関西国際空港：駐車場の料金はどこが安い？おす/
+  Decoded: 関西国際空港：駐車場の料金はどこが安い？おす
+  Top Keywords:
+    - [226] 関空 駐車場 どこがいい
+    - [77] 関空 駐車場 料金
+    - [38] 関空 駐車場 裏技
+    - [23] 関空 駐車場 安い
+    - [22] 関西国際空港 駐車場 料金
+    - [8] 関空 駐車場 料金比較
+    - [7] 関西国際空港 駐車場 料金
+    - [6] 関空 駐車場 料金
+    - [10] 関空 駐車場 第2ターミナル 駐車場
+    - [4] 関空 駐車場 安い
+    - [6] 関空 駐車場 予約
+    - [4] 関空 駐車場 予約
+
+#4 | Traffic: 365 | Keywords: 5
+  URL: /articles/予約なしで羽田空港駐車場を使うなら知っておき/
+  Decoded: 予約なしで羽田空港駐車場を使うなら知っておき
+  Top Keywords:
+    - [226] 羽田空港 駐車場 予約なしで大丈夫
+    - [47] 羽田空港 駐車場 予約なし
+    - [29] 羽田 駐車場 予約なし で大丈夫
+    - [15] 羽田空港 駐車場 予約なし 平日
+    - [5] 羽田空港 駐車場 予約なし 週末
+    - [4] 羽田 駐車場 予約なし
+
+#5 | Traffic: 266 | Keywords: 5
+  URL: /articles/羽田空港発着の安いタクシー活用術/
+  Decoded: 羽田空港発着の安いタクシー活用術
+  Top Keywords:
+    - [74] 羽田空港 定額タクシー 安い 活用
+    - [62] 羽田空港 定額タクシー 料金比較
+    - [45] 羽田空港 国際線 到着便のリアルタイム状況
+    - [12] 羽田空港 までタクシー
+    - [12] 羽田空港 タクシー 安い
+    - [8] 羽田空港 国際線 リアルタイム
+
+#6 | Traffic: 218 | Keywords: 10
+  URL: /articles/高級感と快適さを両立！リムジンハイヤーの魅力/
+  Decoded: 高級感と快適さを両立！リムジンハイヤーの魅力
+  Top Keywords:
+    - [30] ハイヤーとは
+    - [28] ハイヤー 料金
+    - [16] ハイヤー 金額
+    - [10] ハイヤー 高級 料金
+    - [7] 高級ハイヤー
+    - [5] ハイヤー とは
+    - [5] ハイヤー 料金
+    - [4] ハイヤー リムジン
+    - [5] ハイヤー リムジン
+
+#7 | Traffic: 199 | Keywords: 4
+  URL: /articles/戸田空港リムジンバス/
+  Decoded: 成田空港リムジンバス
+  Top Keywords:
+    - [50] 成田空港 リムジン バス 1000円
+    - [28] 成田空港 まで快適に！おすすめの移動手段まとめ
+    - [24] 新宿 成田空港 リムジン 1000円
+    - [31] 羽田空港 リムジンバス 乗り場 ターミナル
+    - [19] 羽田空港 リムジンバス 乗り場
+    - [11] 成田空港 リムジンバス 1000円
+    - [10] 羽田空港 リムジンバス 予約 間近
+    - [9] 成田空港 東京駅 リムジン 1000円
+    - [8] 羽田空港 国際線 到着便 リアルタイム
+    - [6] 成田 羽田 リムジン 1000円
+    - [5] 羽田空港 リムジン タクシー 迎え 安い場所
+    - [5] 羽田空港 リムジンバス
+
+#8 | Traffic: 173 | Keywords: 10
+  URL: /articles/深夜タクシー料金の詳細ガイド：深夜帯の運賃や/
+  Decoded: 深夜タクシー料金の詳細ガイド：深夜帯の運賃や
+  Top Keywords:
+    - [34] タクシー 深夜料金 仕組み いつまで
+    - [23] タクシー 深夜 料金
+    - [13] 深夜料金 タクシー
+    - [12] タクシー 深夜料金 仕組み いくら
+    - [8] タクシー 深夜料金
+    - [7] タクシー 深夜料金
+    - [6] 深夜料金 タクシー
+    - [5] タクシー 仕組み 仕組み UOBfK0
+    - [5] タクシー 深夜 料金 初乗り
+    - [5] タクシー 料金 初乗り
+
+#9 | Traffic: 156 | Keywords: 6
+  URL: /articles/ハイヤーのサービスと利用シーン/
+  Decoded: ハイヤーのサービスと利用シーン
+  Top Keywords:
+    - [71] ハイヤーとは
+    - [12] ハイヤーとタクシーの違い7選
+    - [11] ハイヤー タクシー 違い7選
+    - [8] ハイヤー とは
+    - [5] タクシー ハイヤー
+
+#10 | Traffic: 152 | Keywords: 3
+  URL: /articles/【伊丹空港駐車場】-予約なしでも安心！当日okの/
+  Decoded: 【伊丹空港駐車場】-予約なしでも安心！当日okの
+  Top Keywords:
+    - [51] 伊丹空港 駐車場 予約なしで大丈夫
+    - [32] 伊丹空港 駐車場 予約
+    - [16] 伊丹空港 駐車場 裏技
+    - [10] 伊丹空港 駐車場 混雑状況
+    - [10] 伊丹空港 駐車場 予約
+    - [5] 伊丹空港 駐車場 予約
+    - [22] 伊丹空港 駐車場 予約なし 安心
+    - [4] 伊丹空港 駐車場 混雑状況と回避
+    - [5] 伊丹空港駐車場 予約
+
+#11 | Traffic: 97 | Keywords: 5
+  URL: /articles/大人数や荷物が多いときに最適！ワゴンタクシー/
+  Decoded: 大人数や荷物が多いときに最適！ワゴンタクシー
+  Top Keywords:
+    - [26] タクシー 大人数 乗り場
+    - [25] タクシー 大人数 乗り場
+    - [20] タクシー 大人数 乗り場
+    - [6] タクシー 人数
+    - [6] タクシー 大人数
+
+#12 | Traffic: 90 | Keywords: 3
+  URL: /articles/タクシー乗り場でのマナー/
+  Decoded: タクシー乗り場でのマナー
+  Top Keywords:
+    - [25] タクシー 乗り場 マナー
+    - [20] タクシー 乗り場
+    - [5] タクシー 乗り場 マナー
+    - [5] タクシー 乗り場 マナー
+
+#13 | Traffic: 83 | Keywords: 3
+  URL: /articles/タクシーの呼び方について解説/
+  Decoded: タクシーの呼び方について解説
+  Top Keywords:
+    - [22] タクシーの呼び方
+    - [5] タクシー 呼び方 配車
+
+#14 | Traffic: 74 | Keywords: 4
+  URL: /articles/10kmの移動でいくら？タクシー料金の目安を徹底解-2/
+  Decoded: 10kmの移動でいくら？タクシー料金の目安を徹底解
+  Top Keywords:
+    - [25] タクシー 10km
+    - [19] タクシー料金 10km
+    - [11] 10km タクシー
+    - [7] タクシー 10km 料金
+
+#15 | Traffic: 72 | Keywords: 6
+  URL: /articles/【2025年最新版】関西国際空港で駐車場を予約なし-2/
+  Decoded: 【2025年最新版】関西国際空港で駐車場を予約なし-2
+  Top Keywords:
+    - [22] 伊丹空港 駐車場 予約なし 安い
+    - [18] 関空 駐車場 予約なし
+    - [10] 関空 駐車場 予約
+    - [6] 関西空港 駐車場 予約
+    - [4] 関空 駐車場 予約 なし
+    - [4] 関空 駐車場 予約
+
+#16 | Traffic: 63 | Keywords: 5
+  URL: /articles/千葉のタクシー料金とおすすめタクシー/
+  Decoded: 千葉のタクシー料金とおすすめタクシー
+  Top Keywords:
+    - [19] タクシー料金 10km
+    - [13] 深夜料金 タクシー
+    - [8] 千葉 タクシー 料金 おすすめ
+    - [5] タクシー 料金 初乗り
+    - [5] タクシー 料金 大阪
+
+#17 | Traffic: 55 | Keywords: 3
+  URL: /articles/ハイヤーとタクシーの違い7選/
+  Decoded: ハイヤーとタクシーの違い7選
+  Top Keywords:
+    - [12] ハイヤーとタクシーの違い7選
+    - [11] ハイヤー タクシー 違い 7選
+
+#18 | Traffic: 53 | Keywords: 3
+  URL: /articles/羽田空港で長期駐車するならここ！安さと安心を/
+  Decoded: 羽田空港で長期駐車するならここ！安さと安心を
+  Top Keywords:
+    - [23] 羽田空港 格安 駐車場 おすすめ
+
+#19 | Traffic: 41 | Keywords: 2
+  URL: /articles/横浜でのタクシー料金の仕組みとおすすめタクシ/
+  Decoded: 横浜でのタクシー料金の仕組みとおすすめタクシ
+  Top Keywords:
+    - [4] 横浜 タクシー 料金
+
+#20 | Traffic: 38 | Keywords: 3
+  URL: /articles/タクシー料金の仕組みを解説/
+  Decoded: タクシー料金の仕組みを解説
+  Top Keywords:
+    - [8] タクシー 仕組み 料金
+    - [5] タクシー 料金 仕組み
+
+#21 | Traffic: 33 | Keywords: 3
+  URL: /articles/タクシー迎車料金の仕組み/
+  Decoded: タクシー迎車料金の仕組み
+  Top Keywords:
+    - [9] タクシー 迎車料金 料金
+    - [7] 迎車 とは
+    - [4] 迎車 新型料金
+
+#22 | Traffic: 28 | Keywords: 3
+  URL: /articles/埼玉のタクシー料金とおすすめタクシー/
+  Decoded: 埼玉のタクシー料金とおすすめタクシー
+  Top Keywords:
+    - [8] タクシー 埼玉 料金 いくら
+    - [7] タクシー 乗り場 いくら
+    - [6] 埼玉 タクシー 料金
+    - [6] タクシー 埼玉 料金
+
+#23 | Traffic: 16 | Keywords: 2
+  URL: /articles/mkタクシーの予約サービス徹底解説/
+  Decoded: MKタクシーの予約サービス徹底解説
+  Top Keywords:
+    - [6] mk タクシー 事前予約
+    - [5] mk タクシー アプリ
+
+#24 | Traffic: 12 | Keywords: 2
+  URL: /articles/【羽田空港】乗り合いタクシー完全ガイド｜料金/
+  Decoded: 【羽田空港】乗り合いタクシー完全ガイド｜料金
+  Top Keywords:
+    - [11] 羽田空港 乗り合いタクシー
+
+#25 | Traffic: 8 | Keywords: 1
+  URL: /articles/観光ハイヤーのメリットデメリット/
+  Decoded: 観光ハイヤーのメリットデメリット
+  Top Keywords:
+    - [8] 観光ハイヤー メリット
+
+#26 | Traffic: 7 | Keywords: 2
+  URL: /articles/【戸田空港】発着定額タクシー徹底比較ガイド/
+  Decoded: 【成田空港】発着定額タクシー徹底比較ガイド
+  Top Keywords:
+    - [40] 成田空港 定額タクシー 安い 活用
+
+#27 | Traffic: 7 | Keywords: 2
+  URL: /articles/【羽田空港からディズニーまで】タクシー完全ガ/
+  Decoded: 【羽田空港からディズニーまで】タクシー完全ガ
+  Top Keywords:
+    - [5] 羽田空港からディズニーランド タクシー
+
+#28 | Traffic: 7 | Keywords: 2
+  URL: /articles/はじめてでも安心！タクシー配車・予約の完全ガ/
+  Decoded: はじめてでも安心！タクシー配車・予約の完全ガ
+  Top Keywords:
+    - [7] タクシーの予約の仕方
+
+ADDITIONAL ARTICLES (low traffic, 1-6 each):
+  - /articles/【必見】羽田空港とtcatを結ぶ快速アクセスガイド/ (Traffic: 6)
+  - /articles/羽田空港-国際線-到着便のリアルタイム状況｜フラ/ (Traffic: ~53)
+  - /articles/羽田空港国際線ターミナルで迷わないための完全/ (Traffic: 5)
+  - /articles/関西空港まで快速直行！送迎タクシーサービスを/ (Traffic: 7)
+  - /articles/【初心者必見】伊丹空港駐車場：混雑状況と回避/ (Traffic: 4)
+
+========================================================================================================================
+NON-ARTICLE URLs - SORTED BY TRAFFIC (DESCENDING)
+========================================================================================================================
+
+  #1 | Traffic: 287 | https://vip-limo.jp/ (homepage)
+    Keywords: vipハイヤー(95), vipハイヤー配車(57), vipリモ(42), ハイヤー 予約(11), ハイヤー 予約(6), 高級タクシー(6), ハイヤー 高級(6), vip タクシー(4), vip リモ(4)
+
+  #2 | Traffic: 72 | https://vip-limo.jp/transportation/品川駅から成田空港、成田空港から品川駅までの/
+    Keywords: 成田空港から品川駅(43), 品川駅から成田空港(10), 品川駅から成田空港 成田エクスプレス(11), 品川から成田空港(6)
+
+  #3 | Traffic: 63 | https://vip-limo.jp/transportation/渋谷駅から羽田空港、羽田空港から渋谷駅までの/
+    Keywords: 渋谷 羽田空港(25), 羽田空港から渋谷(8), 渋谷から羽田空港(5), 羽田空港から渋谷(5), 渋谷駅から羽田空港(4), 渋谷から羽田(4)
+
+  #4 | Traffic: 51 | https://vip-limo.jp/transportation/新橋駅から成田空港、成田空港から新橋駅までの/
+    Keywords: 新橋から成田空港(18), 新橋駅から羽田空港(10), 新橋 成田空港(6), 新橋から成田空港(5), 新橋駅から成田空港(5), 新橋 成田空港(5)
+
+  #5 | Traffic: 47 | https://vip-limo.jp/airport/ (空港送迎LP)
+    Keywords: 空港 タクシー(19), 羽田空港 タクシー(14), 羽田空港 vip(6), 空港タクシー 対策(6)
+
+  #6 | Traffic: 44 | https://vip-limo.jp/transportation/上野駅から羽田空港、羽田空港から上野駅までの/
+    Keywords: 上野駅から羽田空港(16), 上野から羽田空港(5)
+
+  #7 | Traffic: 41 | https://vip-limo.jp/airport-hnd/ (羽田空港LP)
+    Keywords: 羽田空港 タクシー(14), 羽田空港 タクシー(14), 羽田 タクシー(5)
+
+  #8 | Traffic: 38 | https://vip-limo.jp/transportation/六本木駅から羽田空港、羽田空港から六本木駅まで/
+    Keywords: 羽田空港から六本木(21), 六本木から羽田空港(9)
+
+  #9 | Traffic: 30 | https://vip-limo.jp/transportation/恵比寿駅から羽田空港、羽田空港から恵比寿駅まで/
+    Keywords: 羽田空港から恵比寿(13), 恵比寿から羽田空港(8), 恵比寿から羽田空港(8)
+
+  #10 | Traffic: 26 | https://vip-limo.jp/transportation/銀座駅から羽田空港、羽田空港から銀座駅までの/
+    Keywords: 羽田空港から銀座(14), 羽田から銀座(5), 銀座から羽田(5)
+
+  #11 | Traffic: 24 | https://vip-limo.jp/transportation/秋葉原駅から成田空港、成田空港から秋葉原駅まで/
+    Keywords: 成田空港から秋葉原(9), 秋葉原から成田空港(7), 秋葉原駅から成田空港(5), 羽田空港から秋葉原(4), 羽田から秋葉原(4)
+
+  #12 | Traffic: 21 | https://vip-limo.jp/voice/ (お客様の声)
+    Keywords: vipハイヤー配車 口コミ(21)
+
+  #13 | Traffic: 19 | https://vip-limo.jp/transportation/五反田駅から羽田空港、羽田空港から五反田駅まで/
+    Keywords: 羽田空港から五反田(11), 五反田駅から成田空港(8)
+
+  #14 | Traffic: 16 | https://vip-limo.jp/transportation/有楽町駅から羽田空港、羽田空港から有楽町駅まで/
+    Keywords: 有楽町から羽田空港(8)
+
+  #15 | Traffic: 15 | https://vip-limo.jp/airport-nrt/ (成田空港LP)
+    Keywords: 成田空港 タクシー(15)
+
+  #16 | Traffic: 16 | https://vip-limo.jp/transportation/飯田橋駅から羽田空港、羽田空港から飯田橋駅まで/
+    Keywords: 羽田空港から飯田橋(5), 飯田橋から羽田空港(11)
+
+  #17 | Traffic: 8 | https://vip-limo.jp/tw/ (台湾語ページ)
+    Keywords: 日本本土 空港 送迎(8)
+
+  #18 | Traffic: 7 | https://vip-limo.jp/airport-kix-taxi/ (関空タクシーLP)
+    Keywords: 関西空港 タクシー 乗り合い(7)
+
+  #19 | Traffic: 6 | https://vip-limo.jp/airport-oka-taxi/ (那覇空港タクシーLP)
+    Keywords: 那覇空港 タクシー 予約(6)
+
+  #20 | Traffic: 6 | https://vip-limo.jp/airport-itm/ (伊丹空港LP)
+    Keywords: 伊丹空港 タクシー(6)
+
+  #21 | Traffic: 6 | https://vip-limo.jp/airport_guide_hnd/ (羽田ガイド)
+    Keywords: 羽田空港 タクシー 乗り場(6)
+
+  #22 | Traffic: 4 | https://vip-limo.jp/transportation/赤坂駅から羽田空港、羽田空港から赤坂駅までの/
+    Keywords: 赤坂から羽田空港(4)
+
+  #23 | Traffic: 4 | https://vip-limo.jp/transportation/神田駅から羽田空港、羽田空港から神田駅までの/
+    Keywords: 羽田空港から神田(7)
+
+========================================================================================================================
+KEY FINDINGS
+========================================================================================================================
+
+1. AIRPORT PARKING DOMINATES: The top 2 articles account for ~65% of all article traffic:
+   - 羽田空港駐車場 料金比較 (2,028 traffic)
+   - 羽田空港駐車場 混雑状況 (1,810 traffic)
+
+2. AIRPORT PARKING CLUSTER: Adding 関空 parking (486) and 予約なし parking (365),
+   airport parking articles account for ~80% of total article traffic.
+
+3. TAXI KNOWLEDGE ARTICLES have modest traffic:
+   - タクシー料金系 (深夜, 仕組み, 千葉, 埼玉, 横浜) combined ~400-500
+   - ハイヤー系 (サービス, 違い, 観光) combined ~300-400
+
+4. TRANSPORTATION PAGES (non-articles) perform well collectively:
+   - Station-to-airport route pages combined: ~400+ traffic
+   - Best performers: 品川-成田(72), 渋谷-羽田(63), 新橋-成田(51)
+
+5. HOMEPAGE branded traffic is strong at 287 (vipハイヤー, vipリモ etc.)
+
+6. CONTENT GAP OPPORTUNITIES:
+   - 伊丹空港 articles are emerging but could be expanded
+   - 成田空港 parking content is absent (only limousine bus article)
+   - 関西空港 has strong parking content but lacks route-specific articles
+   - タクシー料金 regional articles (千葉, 埼玉, 横浜) have growth potential
+
+NOTE: Traffic values are extracted from "Current organic traffic" column in Ahrefs.
+Some rows have empty traffic values (position lost or new), counted as 0.
+Multiple keywords can point to the same article; traffic is summed per unique URL.

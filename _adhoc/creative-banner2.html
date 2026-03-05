@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>就活の先生 - クリエイティブ2</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+  body {
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+  }
+
+  .banner {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, #5a6f7a 0%, #6b7f8a 30%, #c4c0b8 50%, #d8d4cc 100%);
+  }
+
+  /* 見出しバッジ */
+  .header-badge {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .header-badge .badge-inner {
+    background: #3a5060;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    padding: 12px 40px;
+    display: inline-block;
+  }
+
+  .header-badge .badge-inner span {
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 4px;
+  }
+
+  /* メッセージカード */
+  .message-card {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    width: 520px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px 36px;
+    z-index: 5;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+
+  /* プロフィール */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #d8d4cc, #b8b4ac);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #888;
+    border: 3px solid #e0dcd4;
+  }
+
+  .profile-info .name {
+    font-size: 28px;
+    font-weight: 900;
+    color: #333;
+  }
+
+  .profile-info .role {
+    font-size: 20px;
+    font-weight: 700;
+    color: #666;
+    margin-top: 4px;
+  }
+
+  /* メッセージ本文 */
+  .message-body {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.8;
+  }
+
+  .message-body .underline-orange {
+    text-decoration: underline;
+    text-decoration-color: #e8932c;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+    font-weight: 700;
+    color: #e8932c;
+  }
+
+  /* 資料プレビューエリア */
+  .docs-preview {
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    width: 480px;
+    height: 420px;
+    z-index: 4;
+  }
+
+  .doc-page {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.12);
+    overflow: hidden;
+  }
+
+  .doc-page:nth-child(1) {
+    width: 320px;
+    height: 380px;
+    top: 0;
+    right: 0;
+    transform: rotate(2deg);
+    z-index: 3;
+  }
+
+  .doc-page:nth-child(2) {
+    width: 300px;
+    height: 360px;
+    top: 10px;
+    right: 30px;
+    transform: rotate(-1deg);
+    z-index: 2;
+  }
+
+  .doc-page:nth-child(3) {
+    width: 280px;
+    height: 340px;
+    top: 20px;
+    right: 60px;
+    transform: rotate(-3deg);
+    z-index: 1;
+  }
+
+  .doc-header {
+    background: #f0f0f0;
+    padding: 10px 14px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .doc-header .doc-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c0392b;
+  }
+
+  .doc-content {
+    padding: 12px 14px;
+  }
+
+  .doc-content .doc-heading {
+    font-size: 13px;
+    font-weight: 900;
+    color: #8e44ad;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8e44ad;
+    padding-bottom: 4px;
+  }
+
+  .doc-content .doc-line {
+    font-size: 10px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2px;
+  }
+
+  .doc-content .doc-line::before {
+    content: '・';
+    color: #999;
+  }
+
+  /* 点線矢印（CSSで再現） */
+  .dashed-arrow {
+    position: absolute;
+    top: 560px;
+    left: 340px;
+    z-index: 8;
+  }
+
+  .dashed-arrow svg {
+    width: 180px;
+    height: 80px;
+  }
+
+  /* 100ページ超バッジ */
+  .pages-badge {
+    position: absolute;
+    bottom: 220px;
+    left: 40px;
+    z-index: 10;
+    max-width: 360px;
+  }
+
+  .pages-badge p {
+    font-size: 34px;
+    font-weight: 900;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .pages-badge .red-text {
+    color: #e8432c;
+    font-size: 42px;
+  }
+
+  .pages-badge .yellow-marker {
+    background: linear-gradient(transparent 50%, #ffe066 50%);
+    padding: 0 4px;
+  }
+
+  /* 元「学校・塾の先生」テキスト */
+  .teacher-support {
+    position: absolute;
+    bottom: 200px;
+    right: 40px;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .teacher-support p {
+    font-size: 26px;
+    font-weight: 900;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .teacher-support .bracket-text {
+    font-size: 28px;
+  }
+
+  /* CTAボタン */
+  .cta-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #f5a623 0%, #e8932c 50%, #d4801a 100%);
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.15);
+  }
+
+  .free-badge {
+    background: #2ecc40;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+    letter-spacing: 2px;
+  }
+
+  .cta-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+  .play-icon {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .play-icon::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 18px solid #e8932c;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    margin-left: 4px;
+  }
+
+  /* 背景装飾 */
+  .bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  .bg-circle-1 {
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,0.06);
+    top: -100px;
+    right: -50px;
+  }
+
+  .bg-circle-2 {
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.04);
+    bottom: 200px;
+    left: -80px;
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <!-- 背景装飾 -->
+  <div class="bg-circle bg-circle-1"></div>
+  <div class="bg-circle bg-circle-2"></div>
+
+  <!-- 見出しバッジ -->
+  <div class="header-badge">
+    <div class="badge-inner">
+      <span>就活の先生からのメッセージ</span>
+    </div>
+  </div>
+
+  <!-- メッセージカード -->
+  <div class="message-card">
+    <!-- プロフィール -->
+    <div class="profile">
+      <div class="profile-photo">写真</div>
+      <div class="profile-info">
+        <div class="name">S.S先生</div>
+        <div class="role">就活アドバイザー</div>
+      </div>
+    </div>
+
+    <!-- メッセージ本文 -->
+    <div class="message-body">
+      元<span class="underline-orange">公立校の教員</span>でした。みんなをきちんとサポートするため、<span class="underline-orange">企業の情報を徹底分析</span>していたら、計100ページ超える資料ができてしまいました。
+    </div>
+  </div>
+
+  <!-- 資料プレビュー -->
+  <div class="docs-preview">
+    <div class="doc-page">
+      <div class="doc-header">
+        <div class="doc-title">面接とは何を伝えるべき？</div>
+      </div>
+      <div class="doc-content">
+        <div class="doc-heading">Key</div>
+        <div class="doc-line">面接CO/選考のいただきにCellし、自社の仕事を設計面白</div>
+        <div class="doc-line">自分の想定このやることを説明したことをPUNKとして</div>
+        <div class="doc-line">背景が共有して期間の思想をしよう</div>
+        <div class="doc-line">面接のページことのように、GOパンしの反対はいたるか</div>
+      </div>
+    </div>
+    <div class="doc-page">
+      <div class="doc-header">
+        <div class="doc-title">企業分析レポート</div>
+      </div>
+      <div class="doc-content">
+        <div class="doc-line">企業情報を網羅的に分析</div>
+        <div class="doc-line">選考対策ポイント</div>
+        <div class="doc-line">面接頻出質問まとめ</div>
+      </div>
+    </div>
+    <div class="doc-page">
+      <div class="doc-header">
+        <div class="doc-title">選考対策資料</div>
+      </div>
+      <div class="doc-content">
+        <div class="doc-line">志望動機の書き方</div>
+        <div class="doc-line">自己PRのポイント</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 点線矢印 -->
+  <div class="dashed-arrow">
+    <svg viewBox="0 0 180 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 10 C 60 10, 80 70, 170 50" stroke="#e8932c" stroke-width="4" stroke-dasharray="10 8" fill="none"/>
+      <polygon points="170,50 155,40 158,55" fill="#e8932c"/>
+    </svg>
+  </div>
+
+  <!-- 100ページ超バッジ -->
+  <div class="pages-badge">
+    <p>
+      <span class="red-text">100ページ</span>超!?<br>
+      <span class="yellow-marker">選考対策資料</span><span class="yellow-marker">プレゼント中！</span>
+    </p>
+  </div>
+
+  <!-- 元「学校・塾の先生」 -->
+  <div class="teacher-support">
+    <p>元<span class="bracket-text">「学校・塾の先生」</span><br>による就活サポート</p>
+  </div>
+
+  <!-- CTAボタン -->
+  <div class="cta-section">
+    <div class="cta-button">
+      <span class="free-badge">完全無料</span>
+      <span class="cta-text">企業対策を教えてもらう</span>
+      <div class="play-icon"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

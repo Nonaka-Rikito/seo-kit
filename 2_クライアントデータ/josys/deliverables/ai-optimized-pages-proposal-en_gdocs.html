@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Josys AI-Optimized Pages Proposal</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h1 {
+            font-size: 24px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        ul,
+        ol {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        pre {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Josys AI-Optimized Pages Proposal</h1>
+    <p><strong>Date</strong>: March 3, 2026<br>
+        <strong>Author</strong>: malna Inc.<br>
+        <strong>Audience</strong>: Josys Marketing Team / Global Team
+    </p>
+
+    <br>
+
+    <h2>Executive Summary</h2>
+    <p>87% of B2B buyers now use AI tools for vendor research, and LLM-driven signups convert at 6x the rate of Google
+        Organic (per Webflow). Meanwhile, none of Josys's seven major competitors have implemented AI-specific pages
+        such as brand-facts or llms.txt — the entire SaaS Management category is an <strong>LLMO white space</strong>.
+    </p>
+
+    <p>This represents a clear opportunity for Josys to establish <strong>first-mover advantage</strong> in AI search
+        visibility.</p>
+
+    <p>This proposal outlines the pages to build, their structure, technical requirements, and an execution roadmap.</p>
+
+    <br>
+
+    <h2>1. Current State Analysis</h2>
+    <h3>1.1 Josys Site Status</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Page</th>
+                <th>Status</th>
+                <th>Gap</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>/brand-facts</code></td>
+                <td><strong>Does not exist</strong></td>
+                <td>No primary source for AI to retrieve Josys facts</td>
+            </tr>
+            <tr>
+                <td><code>/compare/josys-vs-[competitor]</code></td>
+                <td><strong>Does not exist</strong> (1 article only)</td>
+                <td>Missing citation opportunities for comparison queries</td>
+            </tr>
+            <tr>
+                <td><code>/case-studies</code></td>
+                <td>Exists (12+ EN/JP)</td>
+                <td>No schema markup. Not AI-extractable</td>
+            </tr>
+            <tr>
+                <td><code>/integrations</code></td>
+                <td>Exists (350+ apps)</td>
+                <td>No schema markup. Numeric strength not machine-readable</td>
+            </tr>
+            <tr>
+                <td><code>/faq</code></td>
+                <td><strong>No standalone page</strong></td>
+                <td>FAQ content yields 2.7x citation rate — untapped</td>
+            </tr>
+            <tr>
+                <td><code>/pricing</code></td>
+                <td>Exists (quote-based)</td>
+                <td>No FAQ section or schema</td>
+            </tr>
+            <tr>
+                <td><code>llms.txt</code></td>
+                <td><strong>Does not exist</strong></td>
+                <td>No AI site guide</td>
+            </tr>
+            <tr>
+                <td>Structured data</td>
+                <td><strong>Minimal</strong> (homepage FAQ only)</td>
+                <td>Most pages lack schema</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>1.2 Competitor LLMO Readiness</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Competitor</th>
+                <th>brand-facts</th>
+                <th>Comparison Pages</th>
+                <th>llms.txt</th>
+                <th>Schema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zylo</td>
+                <td>None</td>
+                <td>2 pages</td>
+                <td>None</td>
+                <td>Org + Breadcrumb</td>
+            </tr>
+            <tr>
+                <td>Productiv</td>
+                <td>None</td>
+                <td>3 pages</td>
+                <td>None</td>
+                <td>Org + Breadcrumb</td>
+            </tr>
+            <tr>
+                <td>BetterCloud</td>
+                <td>None</td>
+                <td><strong>5+ pages</strong> (most)</td>
+                <td>None</td>
+                <td>Org + Breadcrumb</td>
+            </tr>
+            <tr>
+                <td>Zluri</td>
+                <td>None</td>
+                <td>Many (blog format)</td>
+                <td>None</td>
+                <td>Dynamic JS</td>
+            </tr>
+            <tr>
+                <td>Torii</td>
+                <td>None</td>
+                <td>2 pages</td>
+                <td>None</td>
+                <td>Unverified</td>
+            </tr>
+            <tr>
+                <td>LeanIX (SAP)</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>HubDB</td>
+            </tr>
+            <tr>
+                <td>Snow (Flexera)</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Unverified</td>
+            </tr>
+            <tr>
+                <td><strong>Josys</strong></td>
+                <td><strong>None</strong></td>
+                <td><strong>1 only</strong></td>
+                <td><strong>None</strong></td>
+                <td><strong>Minimal</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>No competitor has implemented llms.txt or brand-facts. First-mover opportunity for Josys.</strong></p>
+
+    <br>
+
+    <h2>2. Pages to Build</h2>
+    <h3>2.1 Priority A: Core Pages (Foundation for AI Citations)</h3>
+    <ul>
+        <li><strong>(1) <code>/llms.txt</code> — AI Site Guide</strong>
+            <ul>
+                <li><strong>Purpose</strong>: Help AI crawlers efficiently understand Josys site structure and key
+                    pages.</li>
+                <li><strong>Recommended content</strong>: Markdown format with business overview, core technologies,
+                    target solutions, and key company links.</li>
+                <li><strong>Effort</strong>: 2 hours (<strong>Japanese version</strong>: Deploy
+                    <code>/llms-ja.txt</code> with localized content)</li>
+            </ul>
+        </li>
+        <li><strong>(2) <code>/brand-facts</code> — AI Fact Sheet</strong>
+            <ul>
+                <li><strong>Purpose</strong>: Serve as the authoritative primary source when AI answers "What is Josys?"
+                    or "Tell me about Josys." This page <strong>validates</strong> what external media says about Josys.
+                </li>
+                <li><strong>Recommended structure</strong>: About Josys, Key Facts, Product Categories, Core
+                    Capabilities, Target Customers, Awards & Recognition, FAQ.</li>
+                <li><strong>Schema</strong>: Organization + FAQPage + SoftwareApplication (JSON-LD)</li>
+                <li><strong>Effort</strong>: 4-6 hours (<strong>Japanese version</strong>: <code>/jp/brand-facts</code>)
+                </li>
+            </ul>
+        </li>
+        <li><strong>(3) <code>/compare/josys-vs-[competitor]</code> — Comparison Pages (5 pages)</strong>
+            <ul>
+                <li><strong>Purpose</strong>: Get cited for "Josys vs [competitor]" and "[competitor] alternative" AI
+                    queries.</li>
+                <li><strong>Priority order</strong>: Zylo, Productiv, BetterCloud, Zluri, Torii</li>
+                <li><strong>Page structure</strong>: Answer-first conclusion, HTML Comparison table, Josys strengths,
+                    Competitor strengths, Use-case-based recommendations, FAQ schema, Last updated date.</li>
+                <li><strong>Effort</strong>: 4-6 hours per page x 5 = 20-30 hours total</li>
+            </ul>
+        </li>
+        <li><strong>(4) <code>/faq</code> — Comprehensive FAQ Page</strong>
+            <ul>
+                <li><strong>Purpose</strong>: Pages with FAQPage schema achieve <strong>2.7x citation rate</strong> vs.
+                    non-schema pages. Josys currently has no standalone FAQ.</li>
+                <li><strong>Recommended categories</strong>: Product, Pricing, Security, Implementation, Integrations,
+                    Comparison. (Answer length: 40-60 words per answer)</li>
+                <li><strong>Schema</strong>: FAQPage schema required</li>
+                <li><strong>Effort</strong>: 6-8 hours (<strong>Japanese version</strong>: <code>/jp/faq</code>)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>2.2 Priority B: Enhance Existing Pages</h3>
+    <ul>
+        <li><strong><code>/case-studies</code></strong>: Implement Article / CaseStudy schema. Surface ROI metrics (cost
+            savings, time reduction) in structured data. Add industry/size/challenge filters to schema.</li>
+        <li><strong><code>/integrations</code></strong>: Implement SoftwareApplication + ItemList schema. Make "350+"
+            machine-readable in JSON schema. Add category-based software classification to schema.</li>
+        <li><strong><code>/pricing</code></strong>: Add 5-8 pricing FAQs with FAQPage schema. Target "How much does
+            Josys cost?" queries.</li>
+    </ul>
+
+    <h3>2.3 Priority C: Technical Foundation</h3>
+    <ul>
+        <li><strong><code>robots.txt</code> — Allow AI Search Bots</strong>: Allow <code>ChatGPT-User</code>,
+            <code>OAI-SearchBot</code>, <code>PerplexityBot</code>, <code>Claude-Web</code>, <code>GoogleOther</code>.
+        </li>
+        <li><strong>Site-wide Organization Schema</strong>: Deploy unified JSON-LD across all pages with Organization
+            type, name, URL, logo, foundingDate, description, parentOrganization, sameAs links, and aggregateRating.
+        </li>
+        <li><strong>External Entity Synchronization</strong>: Verify and sync external profiles (G2, LinkedIn,
+            Crunchbase) as AI cross-checks information across sources.</li>
+    </ul>
+
+    <br>
+
+    <h2>3. Execution Roadmap</h2>
+    <h3>Phase 1: Technical Foundation (Week 1-2)</h3>
+    <ul>
+        <li>Add AI search bots to <code>robots.txt</code> (30 min / Engineering)</li>
+        <li>Deploy Organization schema site-wide (2 hours / Engineering)</li>
+        <li>Create & deploy <code>llms.txt</code> (EN + JP) (3 hours / Marketing + Engineering)</li>
+        <li>Sync external profiles (G2, LinkedIn, Crunchbase) (2 hours / Marketing)</li>
+    </ul>
+
+    <h3>Phase 2: Core Page Creation (Week 3-6)</h3>
+    <ul>
+        <li>Build <code>/brand-facts</code> (EN + JP) (8 hours / Marketing + Engineering)</li>
+        <li>Build <code>/faq</code> (EN + JP) (8 hours / Marketing + Engineering)</li>
+        <li>Create 5 competitor comparison pages (30 hours / Marketing + Engineering)</li>
+        <li>Implement FAQPage schema on all FAQ sections (4 hours / Engineering)</li>
+    </ul>
+
+    <h3>Phase 3: Existing Page Enhancement (Week 7-8)</h3>
+    <ul>
+        <li>Add Article schema to <code>/case-studies</code> (4 hours / Engineering)</li>
+        <li>Add ItemList schema to <code>/integrations</code> (4 hours / Engineering)</li>
+        <li>Add FAQ section to <code>/pricing</code> (4 hours / Marketing + Engineering)</li>
+        <li>Add "Last updated" dates to all pages (2 hours / Engineering)</li>
+    </ul>
+
+    <h3>Phase 4: Measurement (Week 9+ ongoing)</h3>
+    <ul>
+        <li>Set up AI referral traffic tracking in GA4 (2 hours / Marketing)</li>
+        <li>Begin weekly AI response monitoring for target queries (1 hr/week / Marketing)</li>
+        <li>Create Wikidata entry (2 hours / Marketing)</li>
+    </ul>
+
+    <br>
+
+    <h2>4. Expected Impact</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Evidence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FAQPage schema pages AI citation rate</td>
+                <td><strong>2.7x</strong> vs. non-schema (Relixir study)</td>
+            </tr>
+            <tr>
+                <td>Pages with comparison tables</td>
+                <td><strong>+47%</strong> higher AI citation</td>
+            </tr>
+            <tr>
+                <td>Content updated within 30 days</td>
+                <td><strong>3.2x</strong> citation rate</td>
+            </tr>
+            <tr>
+                <td>Sites with structured data</td>
+                <td><strong>2-3x</strong> AI citation rate</td>
+            </tr>
+            <tr>
+                <td>LLM-driven conversion rate</td>
+                <td><strong>6x</strong> vs. Google Organic (Webflow)</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Note</strong>: LLMO/AEO effectiveness measurement is still an emerging field industry-wide. We recommend
+        starting weekly monitoring of AI responses for target queries from day one to build Josys's own data set.</p>
+
+    <br>
+
+    <h2>5. External Media + Owned Media Synergy</h2>
+    <pre>
+External Media (note, ITmedia, etc.)     Owned Site (josys.com)
+┌──────────────────────────────┐    ┌──────────────────────────────┐
+│                              │    │                              │
+│  Role: "Josys is great"     │───→│  Role: "That's correct"      │
+│  (recommend)                 │    │  (validate)                  │
+│                              │    │                              │
+│  - Comparison articles       │    │  - /brand-facts              │
+│  - Case study interviews     │    │  - /compare/josys-vs-*       │
+│  - Industry trend pieces     │    │  - /case-studies             │
+│                              │    │  - /integrations             │
+│                              │    │  - /faq                      │
+│                              │    │  - /pricing                  │
+│                              │    │  - llms.txt                  │
+└──────────────────────────────┘    └──────────────────────────────┘
+               ↓                                  ↓
+    AI cross-checks multiple sources → info matches → recommendation probability UP
+</pre>
+
+    <br>
+    <p><em>For questions or discussion, please reach out via Slack.</em></p>
+
+</body>
+
+</html>

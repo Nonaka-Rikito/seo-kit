@@ -1,0 +1,102 @@
+# Node.js
+node_modules/
+
+# 秘密鍵・認証情報
+*.pem
+*-key.json
+*service-account*.json
+credentials*.json
+.env
+.env.*
+token*.json
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Claude Code（ローカル設定は除外、コマンド・エージェント定義はコミット対象）
+.claude/settings.local.json
+
+# IDE
+.vscode/
+.idea/
+
+# ログ・一時ファイル
+*.log
+tmp/
+temp/
+
+# バイナリファイル（大容量のためGit管理対象外）
+# 画像
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.bmp
+*.ico
+*.tiff
+*.heic
+*.HEIC
+
+# 動画・音声
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+
+# ドキュメント（バイナリ形式）
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+*.odt
+*.ods
+*.odp
+
+# アーカイブ
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.wpress
+
+# デザイン・クリエイティブ
+*.ai
+*.psd
+*.sketch
+*.fig
+*.xd
+
+# Apple
+*.numbers
+*.pages
+*.key
+
+# macOSゴミ
+__MACOSX/
+
+# GCPサービスアカウントキー（ファイル名パターンが標準外のもの）
+*-*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!.mcp.json
+
+# 個人情報・ユーザーデータ・財務データ
+*user-export*.csv
+*wp_form*.csv
+company/finance/*.csv
+
+# Claude Code ローカル設定（サブディレクトリ含む）
+**/.claude/settings.local.json

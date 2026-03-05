@@ -1,0 +1,21 @@
+{
+  "clients": {
+    "naimono": {
+      "name": "ナイモノ（スタキャリ）",
+      "wordpress_url": "https://jo-katsu.com",
+      "wordpress_username": "seo-machine",
+      "wordpress_app_password_env": "WP_NAIMONO_APP_PASSWORD",
+      "gsc_site_url": "https://jo-katsu.com/campus/",
+      "sitemap_url": "https://jo-katsu.com/sitemap.xml",
+      "seo_plugin": "yoast",
+      "max_pages": 5000
+    }
+  },
+  "defaults": {
+    "crawl_delay_seconds": 0.5,
+    "sampling_threshold": 500,
+    "sample_size_percent": 20,
+    "sample_min_pages": 50,
+    "sample_max_pages": 200
+  }
+}

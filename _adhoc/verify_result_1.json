@@ -1,0 +1,1598 @@
+{
+  "range": "1-330",
+  "total_checked": 330,
+  "issues": [
+    {
+      "row": 1,
+      "domain": "keywordmap.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://keywordmap.cinc-j.co.jp/keywordmap-contact-2",
+      "社名": "Keywordmap（キーワードマップ）｜SEO・コンテンツマーケティングの調査・分析ツール - Keywordmap（キーワードマップ）は、競合サイトの調査・分析に強みを持つSEO・コンテンツマーケティングツールです。ビッグデータに基づいたキーワード選定、コンテンツ制作、広告調査を実現し、あなたのWebマーケティングを支援します。"
+    },
+    {
+      "row": 1,
+      "domain": "keywordmap.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "Keywordmap（キーワードマップ）｜SEO・コンテンツマーケティングの調査・分析ツール - Keywordmap（キーワードマップ）は、競合サイトの調査・分析に強みを持つSEO・コンテンツマーケティングツールです。ビッグデータに基づいたキーワード選定、コンテンツ制作、広告調査を実現し、あなたのWebマーケティングを支援します。",
+      "社名": "Keywordmap（キーワードマップ）｜SEO・コンテンツマーケティングの調査・分析ツール - Keywordmap（キーワードマップ）は、競合サイトの調査・分析に強みを持つSEO・コンテンツマーケティングツールです。ビッグデータに基づいたキーワード選定、コンテンツ制作、広告調査を実現し、あなたのWebマーケティングを支援します。"
+    },
+    {
+      "row": 2,
+      "domain": "pet.laetitien.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://pet.laetitien.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 2,
+      "domain": "pet.laetitien.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 5,
+      "domain": "rinchanblog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://rinchanblog.com/",
+      "社名": "リンちゃんブログ"
+    },
+    {
+      "row": 7,
+      "domain": "client.editoru.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://client.editoru.jp/#Form-zone",
+      "社名": "エディトル"
+    },
+    {
+      "row": 8,
+      "domain": "d.hatena.ne.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.hatena.ne.jp/faq/q/blog",
+      "社名": "はてなブログ タグ"
+    },
+    {
+      "row": 8,
+      "domain": "d.hatena.ne.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.hatena.ne.jp/faq/q/blog",
+      "社名": "はてなブログ タグ"
+    },
+    {
+      "row": 9,
+      "domain": "adventar.org",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://adventar.org/",
+      "社名": "Adventar"
+    },
+    {
+      "row": 11,
+      "domain": "diamond.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://item.diamond.co.jp/contact/#category/D/20/500/form",
+      "社名": "ダイヤモンド・オンライン"
+    },
+    {
+      "row": 12,
+      "domain": "liskul.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://liskul.com/",
+      "社名": "LISKUL"
+    },
+    {
+      "row": 15,
+      "domain": "b.hatena.ne.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://b.hatena.ne.jp/entry/s/acro-engineer.hatenablog.com/entry/2026/02/27/120000",
+      "社名": "はてなブックマーク"
+    },
+    {
+      "row": 17,
+      "domain": "creators.spotify.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.spotify.com/us/about-us/contact",
+      "社名": "Spotify for Creators"
+    },
+    {
+      "row": 18,
+      "domain": "yamadashy.github.io",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://yamadashy.github.io/",
+      "社名": "yamadashy"
+    },
+    {
+      "row": 20,
+      "domain": "rank-quest.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://rank-quest.jp/column/episode/zilch/",
+      "社名": "徹底的にSEO対策するならランクエスト"
+    },
+    {
+      "row": 22,
+      "domain": "stock-sun.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://stock-sun.com/order/",
+      "社名": "StockSun株式会社"
+    },
+    {
+      "row": 23,
+      "domain": "webtan.impress.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://inquiry.impress.co.jp/?id=1",
+      "社名": "Web担当者Forum"
+    },
+    {
+      "row": 23,
+      "domain": "webtan.impress.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://inquiry.impress.co.jp/?id=1",
+      "社名": "Web担当者Forum"
+    },
+    {
+      "row": 24,
+      "domain": "searchwrite.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://searchwrite.jp/",
+      "社名": "SEARCH WRITE"
+    },
+    {
+      "row": 28,
+      "domain": "netshop.impress.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://netshop.impress.co.jp/node/51",
+      "社名": "ネットショップ担当者フォーラム"
+    },
+    {
+      "row": 32,
+      "domain": "aidma-hd.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "4000社を超える営業支援の実績。アイドマ・ホールディンスの営業ソリューションは、AIが抽出した最適なアプローチリストを元にテストマーケティングを実施。御社だけの営業必勝パターンを見つけます。",
+      "社名": "4000社を超える営業支援の実績。アイドマ・ホールディンスの営業ソリューションは、AIが抽出した最適なアプローチリストを元にテストマーケティングを実施。御社だけの営業必勝パターンを見つけます。"
+    },
+    {
+      "row": 33,
+      "domain": "developers.google.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://developers.google.com/",
+      "社名": "Google for Developers"
+    },
+    {
+      "row": 34,
+      "domain": "hatarakigai.info",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://gptw.hatarakigai.info/public/application/add/5015?__CAMCID=CnDgliHaCF-094&__CAMI=3.2.0.1.eFQfDefOFGEa.n51TQeEvtf6LTKaa-12&__CAMSID=n51TQeEvtf6LTKaa-12&__CAMVID=eFQfDefOFGEa&_c_d=1&_ct=1764584717739&_gl=1*rji7kr*_gcl_au*ODAwNDE1NDU0LjE3NTk3MDc1MzIuMjMzMzQxOTEyLjE3NjQyMjgzNTUuMTc2NDIyODgxMg..",
+      "社名": "働きがいのある会社研究所（Great Place To Work® Institute Japan）"
+    },
+    {
+      "row": 36,
+      "domain": "synergy-career.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 38,
+      "domain": "ameblo.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://cs.ameba.jp/inq/inquiry/vio?type=9&serviceName=1",
+      "社名": "アメーバブログ（アメブロ）"
+    },
+    {
+      "row": 39,
+      "domain": "youtube.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://youtube.com/",
+      "社名": "YouTube"
+    },
+    {
+      "row": 43,
+      "domain": "fortee.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://fortee.jp/",
+      "社名": "fortee.jp"
+    },
+    {
+      "row": 43,
+      "domain": "fortee.jp",
+      "issue_type": "社名がドメイン名そのまま",
+      "detail": "社名がドメイン名そのまま",
+      "現在の値": "fortee.jp",
+      "社名": "fortee.jp"
+    },
+    {
+      "row": 45,
+      "domain": "trends.codecamp.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://trends.codecamp.jp/",
+      "社名": "trends"
+    },
+    {
+      "row": 46,
+      "domain": "ja.wikipedia.org",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://ja.wikipedia.org/wiki/Wikipedia:%E9%80%A3%E7%B5%A1%E5%85%88",
+      "社名": "Wikipedia"
+    },
+    {
+      "row": 48,
+      "domain": "shares.shelikes.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://shelikes.channel.io/workflows/707798",
+      "社名": "SHEshares"
+    },
+    {
+      "row": 48,
+      "domain": "shares.shelikes.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://shelikes.channel.io/workflows/707798",
+      "社名": "SHEshares"
+    },
+    {
+      "row": 49,
+      "domain": "meetsmore.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://meetsmore.zendesk.com/hc/ja/categories/900000300146",
+      "社名": "くらべて選んで明朗会計"
+    },
+    {
+      "row": 49,
+      "domain": "meetsmore.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://meetsmore.zendesk.com/hc/ja/categories/900000300146",
+      "社名": "くらべて選んで明朗会計"
+    },
+    {
+      "row": 52,
+      "domain": "gist.github.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://support.github.com/?tags=dotcom-footer",
+      "社名": "Gist"
+    },
+    {
+      "row": 52,
+      "domain": "gist.github.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://support.github.com/?tags=dotcom-footer",
+      "社名": "Gist"
+    },
+    {
+      "row": 54,
+      "domain": "marketing.itmedia.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://corp.itmedia.co.jp/corp/inquiry/",
+      "社名": "ITmedia �}�[�P�e�B���O"
+    },
+    {
+      "row": 55,
+      "domain": "blog.hatena.ne.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://blog.hatena.ne.jp/",
+      "社名": "はてなID"
+    },
+    {
+      "row": 57,
+      "domain": "hatenablogmedia.zendesk.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://hatenablogmedia.zendesk.com/",
+      "社名": ""
+    },
+    {
+      "row": 57,
+      "domain": "hatenablogmedia.zendesk.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 58,
+      "domain": "ad-lp.news.mynavi.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ad-lp.news.mynavi.jp/",
+      "社名": "BtoB企業向けプロモーション by TECH＋ │ 株式会社マイナビ"
+    },
+    {
+      "row": 59,
+      "domain": "webeclip.xsrv.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://ishikawa-ui-turn.jp/contact/",
+      "社名": "WebEclipse"
+    },
+    {
+      "row": 61,
+      "domain": "medium.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://medium.com/",
+      "社名": ""
+    },
+    {
+      "row": 61,
+      "domain": "medium.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 62,
+      "domain": "hatena.blog",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://hatena.zendesk.com/hc/ja/categories/900000152943",
+      "社名": "Hatena Blog"
+    },
+    {
+      "row": 62,
+      "domain": "hatena.blog",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://hatena.zendesk.com/hc/ja/categories/900000152943",
+      "社名": "Hatena Blog"
+    },
+    {
+      "row": 63,
+      "domain": "rakkoma.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://rakkoid.com/contact?service_name=rakko-ma",
+      "社名": "ラッコM&A"
+    },
+    {
+      "row": 64,
+      "domain": "plan-b-inc.studio.site",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://plan-b-inc.studio.site/",
+      "社名": "PLAN-B"
+    },
+    {
+      "row": 65,
+      "domain": "nlab.itmedia.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://corp.itmedia.co.jp/media/inquiry/articles/#article",
+      "社名": "ねとらぼ"
+    },
+    {
+      "row": 66,
+      "domain": "highdy-pc.hatenablog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://highdy-pc.hatenablog.com/",
+      "社名": "気まぐれな highdy7’s blog"
+    },
+    {
+      "row": 67,
+      "domain": "kotomi1338.hatenablog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kotomi1338.hatenablog.com/",
+      "社名": "1338文字のお喋り"
+    },
+    {
+      "row": 68,
+      "domain": "ab10.hatenablog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ab10.hatenablog.com/",
+      "社名": "AB’s diary"
+    },
+    {
+      "row": 69,
+      "domain": "error-daizenn.hatenablog.com",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://forms.gle/o9LtT8Wdomry2LVa7",
+      "社名": "エラー大全集"
+    },
+    {
+      "row": 70,
+      "domain": "loner49th.hatenablog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://loner49th.hatenablog.com/",
+      "社名": "SEが最近起こったことを書くブログ"
+    },
+    {
+      "row": 71,
+      "domain": "pineunder.hatenablog.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://pineunder.hatenablog.com/",
+      "社名": "キャリアコンテ"
+    },
+    {
+      "row": 72,
+      "domain": "gw3wgw.hatenablog.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://gw3wgw.hatenablog.com/entry/2025/12/02/155030",
+      "社名": "テクノロジー犯罪研究所"
+    },
+    {
+      "row": 75,
+      "domain": "xs036891.xsrv.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://xs036891.xsrv.jp/",
+      "社名": "家事代行サービスおすすめ10社を人気の20社で比較"
+    },
+    {
+      "row": 76,
+      "domain": "serai.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://form.id.shogakukan.co.jp/forms/2703",
+      "社名": "サライ.jp｜小学館の雑誌『サライ』公式サイト"
+    },
+    {
+      "row": 78,
+      "domain": "prtimes.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://tayori.com/form/536e9f54c53fb0fa255e36237e66a8c50e2cd625",
+      "社名": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES"
+    },
+    {
+      "row": 80,
+      "domain": "dime.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.shogakukan.co.jp/inquiry",
+      "社名": "@DIME アットダイム"
+    },
+    {
+      "row": 82,
+      "domain": "manabi-dx.ipa.go.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.ipa.go.jp/jinzai/skill-standard/dss/omgdg5000000bpmb-att/dssfaq.pdf",
+      "社名": "マナビDX"
+    },
+    {
+      "row": 82,
+      "domain": "manabi-dx.ipa.go.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.ipa.go.jp/jinzai/skill-standard/dss/omgdg5000000bpmb-att/dssfaq.pdf",
+      "社名": "マナビDX"
+    },
+    {
+      "row": 83,
+      "domain": "jobs.qiita.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.a-tm.co.jp/contact/",
+      "社名": "Qiita Job Change"
+    },
+    {
+      "row": 84,
+      "domain": "laetitienpet.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://laetitienpet.com/",
+      "社名": ""
+    },
+    {
+      "row": 84,
+      "domain": "laetitienpet.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 90,
+      "domain": "domani.shogakukan.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://oggi.jp/special/7258028",
+      "社名": "Oggi.jp"
+    },
+    {
+      "row": 90,
+      "domain": "domani.shogakukan.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://oggi.jp/special/7258028",
+      "社名": "Oggi.jp"
+    },
+    {
+      "row": 91,
+      "domain": "speakerdeck.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://speakerdeck.com/",
+      "社名": "Speaker Deck"
+    },
+    {
+      "row": 92,
+      "domain": "dogfood.jpn.org",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://dogfood.jpn.org/",
+      "社名": "安全でおすすめのドッグフードTop10！人気の商品を徹底比較"
+    },
+    {
+      "row": 94,
+      "domain": "knowledge.sakura.ad.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://knowledge.sakura.ad.jp/",
+      "社名": "さくらのナレッジ"
+    },
+    {
+      "row": 96,
+      "domain": "miwrite-match.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://it-plucktice.com/contact",
+      "社名": "ミライトマッチ"
+    },
+    {
+      "row": 98,
+      "domain": "computational-sediment-hyd.hatenablog.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://computational-sediment-hyd.hatenablog.jp/entry/2011/01/01/000000",
+      "社名": "趣味で計算流砂水理 Computational Sediment Hydraulics for Fun Learning"
+    },
+    {
+      "row": 100,
+      "domain": "reskill.gakken.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://reskill.gakken.jp/",
+      "社名": "スキルアップ研究所"
+    },
+    {
+      "row": 103,
+      "domain": "news.infoseek.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.rakuten.co.jp/sitemap/inquiry.html",
+      "社名": "Infoseek"
+    },
+    {
+      "row": 106,
+      "domain": "coki.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "coki (公器） - 企業のサステナビリティを可視化するメディアcoki (公器）。ステークホルダーとの関係を可視化し、財務諸表には表れないESGやSDGsなどのサステナブルな取り組みと企業価値を社会に伝えます。",
+      "社名": "coki (公器） - 企業のサステナビリティを可視化するメディアcoki (公器）。ステークホルダーとの関係を可視化し、財務諸表には表れないESGやSDGsなどのサステナブルな取り組みと企業価値を社会に伝えます。"
+    },
+    {
+      "row": 107,
+      "domain": "boxil.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://tayori.com/form/a8747ed96dddc3a3f8c17d7b4367c5a6ff15e4c9/",
+      "社名": "BOXIL"
+    },
+    {
+      "row": 109,
+      "domain": "weekly.ascii.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://ascii.jp/support/",
+      "社名": "週刊アスキー - 週アスのITニュースサイト"
+    },
+    {
+      "row": 110,
+      "domain": "kanji.hatenablog.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kanji.hatenablog.jp/",
+      "社名": "かんちゃんの備忘録"
+    },
+    {
+      "row": 111,
+      "domain": "crowdworks.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://crowdworks.jp/",
+      "社名": "クラウドソーシング・仕事依頼・求人情報は日本最大級の「クラウドワークス」【クラウドワークス】"
+    },
+    {
+      "row": 112,
+      "domain": "zenn.dev",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://zenn.dev/",
+      "社名": "Zenn"
+    },
+    {
+      "row": 114,
+      "domain": "tokyo-cci.or.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://tokyo-cci.or.jp/",
+      "社名": ""
+    },
+    {
+      "row": 114,
+      "domain": "tokyo-cci.or.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 115,
+      "domain": "curama.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://curama.jp/",
+      "社名": "くらべておトク、プロのお仕事。"
+    },
+    {
+      "row": 116,
+      "domain": "jiji.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.jiji.co.jp/contact/",
+      "社名": "時事ドットコム"
+    },
+    {
+      "row": 117,
+      "domain": "appbank.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://appbank.net/",
+      "社名": "AppBank"
+    },
+    {
+      "row": 118,
+      "domain": "check.cloudcircus.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://check.cloudcircus.jp/",
+      "社名": "デジタルマーケティングツール「Cloud CIRCUS（クラウドサーカス）」"
+    },
+    {
+      "row": 119,
+      "domain": "el.e-shops.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://el.e-shops.jp/",
+      "社名": "e-shops ローカル （全国各地の店舗・企業を紹介）"
+    },
+    {
+      "row": 120,
+      "domain": "goworkship.com",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://workship.tayori.com/form/acfea6e3f442d2770cca8b34a416952984c1e776",
+      "社名": "Workship"
+    },
+    {
+      "row": 121,
+      "domain": "bousai.nishinippon.co.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://forms.gle/PD53bX8KKbWk5aU38",
+      "社名": "防災新聞"
+    },
+    {
+      "row": 122,
+      "domain": "foriio.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://foriio.channel.io/support-bots/53311",
+      "社名": "foriio"
+    },
+    {
+      "row": 123,
+      "domain": "wrsdu1715.hatenadiary.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://wrsdu1715.hatenadiary.jp/",
+      "社名": "SEOの学習帳"
+    },
+    {
+      "row": 127,
+      "domain": "fnn.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://fnn.jp/",
+      "社名": "FNNプライムオンライン"
+    },
+    {
+      "row": 130,
+      "domain": "businesssolution.konicaminolta.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.konicaminolta.jp/business/support/contact.html",
+      "社名": "コニカミノルタ"
+    },
+    {
+      "row": 133,
+      "domain": "yattara.skr.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://yattara.skr.jp/%e3%81%8a%e5%95%8f%e5%90%88%e3%81%9b/",
+      "社名": "\"もうひとつの\"こどもえんyattara - 宮崎県美郷町北郷のこどもえん。"
+    },
+    {
+      "row": 137,
+      "domain": "fields.canpan.info",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://canpan.info/contact/",
+      "社名": "CANPAN FIELDS"
+    },
+    {
+      "row": 138,
+      "domain": "so-labo.co.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "株式会社SoLabo - 株式会社SoLabo（ソラボ）は、東京・神奈川・大阪を拠点に起業者の支援を行う会社です。 6,000件以上の実績にもとづく豊富な経験、専門的な知識を持つスタッフが皆様の“夢”を“目標”に変えるお手伝いをしております。 先進のテクノロジー活用し市況に合わせた包括的な支援を実施します。",
+      "社名": "株式会社SoLabo - 株式会社SoLabo（ソラボ）は、東京・神奈川・大阪を拠点に起業者の支援を行う会社です。 6,000件以上の実績にもとづく豊富な経験、専門的な知識を持つスタッフが皆様の“夢”を“目標”に変えるお手伝いをしております。 先進のテクノロジー活用し市況に合わせた包括的な支援を実施します。"
+    },
+    {
+      "row": 142,
+      "domain": "souta-k.hatenadiary.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.jcom.co.jp/tel_search/?backto=contactus",
+      "社名": "寝そべり族が日本と世界を眺めているだけ…"
+    },
+    {
+      "row": 143,
+      "domain": "manamina.valuesccg.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.valuesccg.com/inquiry/",
+      "社名": "manamina［マナミナ］まなべるみんなのデータマーケティング・マガジン"
+    },
+    {
+      "row": 145,
+      "domain": "break-marketing-program.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://break-marketing-program.jp/",
+      "社名": "【公式】Break Marketing Program｜WEBマーケティング講座 | 3ヶ月で未経験からWEBマーケターになるためのWEBマーケティング講座。 採用担当者・経営者が選ぶWEBマーケティング講座No.1。現場で結果を出すために必要な基礎知識・スキルを短期化で習得できる。"
+    },
+    {
+      "row": 145,
+      "domain": "break-marketing-program.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "【公式】Break Marketing Program｜WEBマーケティング講座 | 3ヶ月で未経験からWEBマーケターになるためのWEBマーケティング講座。 採用担当者・経営者が選ぶWEBマーケティング講座No.1。現場で結果を出すために必要な基礎知識・スキルを短期化で習得できる。",
+      "社名": "【公式】Break Marketing Program｜WEBマーケティング講座 | 3ヶ月で未経験からWEBマーケターになるためのWEBマーケティング講座。 採用担当者・経営者が選ぶWEBマーケティング講座No.1。現場で結果を出すために必要な基礎知識・スキルを短期化で習得できる。"
+    },
+    {
+      "row": 146,
+      "domain": "chiba-tv.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://chiba-tv.com/",
+      "社名": "千葉テレビ放送（チバテレ）"
+    },
+    {
+      "row": 147,
+      "domain": "cake.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://cake.jp/",
+      "社名": "Cake.jp（ケーキジェーピー）"
+    },
+    {
+      "row": 148,
+      "domain": "users.swell-theme.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://users.swell-theme.com/",
+      "社名": "SWELLERS' | SWELLユーザー専用サイト"
+    },
+    {
+      "row": 151,
+      "domain": "glints.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://glints.com/",
+      "社名": ""
+    },
+    {
+      "row": 151,
+      "domain": "glints.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 153,
+      "domain": "oggi.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://oggi.jp/special/6919047",
+      "社名": "Oggi.jp"
+    },
+    {
+      "row": 154,
+      "domain": "lmi.ne.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://lmi.ne.jp/",
+      "社名": ""
+    },
+    {
+      "row": 154,
+      "domain": "lmi.ne.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 155,
+      "domain": "castme.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://castme.jp/",
+      "社名": "見つかる、 売れるインフルエンサー。 変わる、広告成果。Cast Me!"
+    },
+    {
+      "row": 157,
+      "domain": "subdomainfinder.c99.nl",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://subdomainfinder.c99.nl/",
+      "社名": "C99.nl"
+    },
+    {
+      "row": 161,
+      "domain": "gentosha-go.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://gentoshagroup.smktg.jp/public/application/add/22193?__CAMCID=UmRgiLuYXE-907&__CAMI=3.2.0.0.EPGipGghDF.dPhfkeigeG-20&__CAMSID=dPhfkeigeG-20&__CAMVID=EPGipGghDF&_c_d=1&_ct=1680616025414&_ga=2.48162340.2020511592.1680416394-1716645512.1635761187",
+      "社名": "ゴールドオンライン"
+    },
+    {
+      "row": 161,
+      "domain": "gentosha-go.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://gentoshagroup.smktg.jp/public/application/add/22193?__CAMCID=UmRgiLuYXE-907&__CAMI=3.2.0.0.EPGipGghDF.dPhfkeigeG-20&__CAMSID=dPhfkeigeG-20&__CAMVID=EPGipGghDF&_c_d=1&_ct=1680616025414&_ga=2.48162340.2020511592.1680416394-1716645512.1635761187",
+      "社名": "ゴールドオンライン"
+    },
+    {
+      "row": 163,
+      "domain": "cxclip.karte.io",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://karte.io/enterprise/",
+      "社名": "CX Clip by KARTE"
+    },
+    {
+      "row": 163,
+      "domain": "cxclip.karte.io",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://karte.io/enterprise/",
+      "社名": "CX Clip by KARTE"
+    },
+    {
+      "row": 165,
+      "domain": "blogzine.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://blogzine.jp/page-7092/",
+      "社名": "ライフハンティング"
+    },
+    {
+      "row": 166,
+      "domain": "resemom.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.iid.co.jp/contact/media_contact.html?recipient=resemom",
+      "社名": "リセマム"
+    },
+    {
+      "row": 168,
+      "domain": "best.sejuku.net",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.sejuku.net/corp/contact",
+      "社名": "ベストチョイス"
+    },
+    {
+      "row": 169,
+      "domain": "webwriter-pro.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://webwriter-pro.co.jp/#contact",
+      "社名": "株式会社Webライタープロ | SEOライティングのスペシャリスト集団によるSEO記事制作"
+    },
+    {
+      "row": 171,
+      "domain": "yuryoweb.com",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "優良WEB | 優良WEBは、今までになかったホームページ制作の相談窓口です。発注が前提の一括見積もりスタイルではなく、ホームページの「目的」や「必要性」など、見積もり手前の段階からフラットに相談することができます。もちろん、ご希望条件のWeb制作会社紹介も可能です。",
+      "社名": "優良WEB | 優良WEBは、今までになかったホームページ制作の相談窓口です。発注が前提の一括見積もりスタイルではなく、ホームページの「目的」や「必要性」など、見積もり手前の段階からフラットに相談することができます。もちろん、ご希望条件のWeb制作会社紹介も可能です。"
+    },
+    {
+      "row": 174,
+      "domain": "japan-ai.geniee.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://japan-ai.geniee.co.jp/",
+      "社名": "JAPAN AI ラボ - 日々新たな発見が溢れているAIを理解し、知識を増やすことで、日々の生活やビジネスに どのようにAIを活用できるか、その具体的な手法とテクニックを学ぶことができます。また最新情報を含めたAI情報に詳しい個社向けの開発対応が可能ですので、お気軽にご連絡ください。"
+    },
+    {
+      "row": 174,
+      "domain": "japan-ai.geniee.co.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "JAPAN AI ラボ - 日々新たな発見が溢れているAIを理解し、知識を増やすことで、日々の生活やビジネスに どのようにAIを活用できるか、その具体的な手法とテクニックを学ぶことができます。また最新情報を含めたAI情報に詳しい個社向けの開発対応が可能ですので、お気軽にご連絡ください。",
+      "社名": "JAPAN AI ラボ - 日々新たな発見が溢れているAIを理解し、知識を増やすことで、日々の生活やビジネスに どのようにAIを活用できるか、その具体的な手法とテクニックを学ぶことができます。また最新情報を含めたAI情報に詳しい個社向けの開発対応が可能ですので、お気軽にご連絡ください。"
+    },
+    {
+      "row": 177,
+      "domain": "schoo.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://schoo.jp/faq",
+      "社名": "社会人向けオンライン学習サービス"
+    },
+    {
+      "row": 183,
+      "domain": "corp.neo-m.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://form.neo-m.jp/contact?from=gnav_a",
+      "社名": "株式会社ネオマーケティング"
+    },
+    {
+      "row": 184,
+      "domain": "staging-pet.laetitien.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://staging-pet.laetitien.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 184,
+      "domain": "staging-pet.laetitien.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 185,
+      "domain": "webmarks.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://webmarks.co.jp/contact/",
+      "社名": "WebマーケティングスクールWEBMARKS｜案件獲得率93％"
+    },
+    {
+      "row": 186,
+      "domain": "tvrock69.cloudfree.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://tvrock69.cloudfree.jp/",
+      "社名": "�����l�Ԃ�PC���p�p"
+    },
+    {
+      "row": 191,
+      "domain": "sokkin-match.me",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sokkin-match.me/#contact",
+      "社名": "SOKKIN MATCH（ソッキンマッチ）| 複業人財マッチングサービス"
+    },
+    {
+      "row": 193,
+      "domain": "humanstory.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://brandinglaboratory.com/contact.html",
+      "社名": "HUMAN STORY"
+    },
+    {
+      "row": 195,
+      "domain": "eeo.today",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://eeo.today/",
+      "社名": "アニメグッズ・推し活情報の総合サイト｜eeo（イーオ）"
+    },
+    {
+      "row": 196,
+      "domain": "freelance-jp.org",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.freelance-jp.org:443/faq",
+      "社名": "フリーランス協会／個人事業主や副業人材のためのインフラ＆コミュニティ"
+    },
+    {
+      "row": 197,
+      "domain": "note.shiftinc.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://note.com/shift_tech/message",
+      "社名": "SHIFT Group 技術ブログ"
+    },
+    {
+      "row": 197,
+      "domain": "note.shiftinc.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://note.com/shift_tech/message",
+      "社名": "SHIFT Group 技術ブログ"
+    },
+    {
+      "row": 198,
+      "domain": "example3.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://example3.com/",
+      "社名": "domain statistics, example titles, keywords, links"
+    },
+    {
+      "row": 201,
+      "domain": "kagemusya.biz-samurai.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kagemusya.biz-samurai.com/",
+      "社名": "CROCO株式会社"
+    },
+    {
+      "row": 203,
+      "domain": "eczine.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.shoeisha.co.jp/ad",
+      "社名": "ECzine"
+    },
+    {
+      "row": 203,
+      "domain": "eczine.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.shoeisha.co.jp/ad",
+      "社名": "ECzine"
+    },
+    {
+      "row": 205,
+      "domain": "softwareworld.co",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://softwareworld.co/",
+      "社名": ""
+    },
+    {
+      "row": 205,
+      "domain": "softwareworld.co",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 207,
+      "domain": "initial.inc",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://jp.ub-speeda.com/contact/download/",
+      "社名": "スピーダ スタートアップ情報リサーチ"
+    },
+    {
+      "row": 209,
+      "domain": "furusatohonpo.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://furusatohonpo.jp/",
+      "社名": "ふるさと納税！ふるさと本舗"
+    },
+    {
+      "row": 210,
+      "domain": "nttdata-strategy.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://nttdata-strategy.com/",
+      "社名": ""
+    },
+    {
+      "row": 210,
+      "domain": "nttdata-strategy.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 215,
+      "domain": "tokyofreelance.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://forms.gle/ycU77JzB6Bw8QGG67",
+      "社名": "デイトラ情報局"
+    },
+    {
+      "row": 219,
+      "domain": "ashita.biglobe.co.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.biglobe.co.jp/inquire",
+      "社名": "あしたメディア by BIGLOBE"
+    },
+    {
+      "row": 219,
+      "domain": "ashita.biglobe.co.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://www.biglobe.co.jp/inquire",
+      "社名": "あしたメディア by BIGLOBE"
+    },
+    {
+      "row": 223,
+      "domain": "ovice.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://form.asana.com/?k=p3cUKEDEYB3jENDzTNiZow&d=1129447692944210&",
+      "社名": "ovice"
+    },
+    {
+      "row": 223,
+      "domain": "ovice.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://form.asana.com/?k=p3cUKEDEYB3jENDzTNiZow&d=1129447692944210&",
+      "社名": "ovice"
+    },
+    {
+      "row": 228,
+      "domain": "cm.marke-media.net",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://cm.marke-media.net/",
+      "社名": ""
+    },
+    {
+      "row": 228,
+      "domain": "cm.marke-media.net",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 232,
+      "domain": "canagandogfood.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://canagandogfood.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 232,
+      "domain": "canagandogfood.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 233,
+      "domain": "ebisu-fudousan.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://ebisu-fudousan.com/",
+      "社名": "恵比寿不動産"
+    },
+    {
+      "row": 236,
+      "domain": "jbbs.shitaraba.net",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://rentalbbs.shitaraba.com/rule/form.html",
+      "社名": "したらば掲示板"
+    },
+    {
+      "row": 237,
+      "domain": "bluemonkey.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://bluemonkey.jp/needs/cv/",
+      "社名": "【公式】BtoB企業のホームページ制作はCMS BlueMonkey（ブルーモンキー）"
+    },
+    {
+      "row": 240,
+      "domain": "kakekomu.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://kakekomu.com/",
+      "社名": "弁護士ネット予約ならカケコム - 今すぐ法律相談できる弁護士を探すなら"
+    },
+    {
+      "row": 243,
+      "domain": "x-i.co.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "キャスティング会社ならクロスアイ | 株式会社クロスアイはキャスティングディレクター30名から構成される先鋭集団。 広告、イベントに加えてYouTubeやSNSにも幅広く有名人を派遣可能です。 あらゆるシーンに最適な人材を、最速で提案致します。",
+      "社名": "キャスティング会社ならクロスアイ | 株式会社クロスアイはキャスティングディレクター30名から構成される先鋭集団。 広告、イベントに加えてYouTubeやSNSにも幅広く有名人を派遣可能です。 あらゆるシーンに最適な人材を、最速で提案致します。"
+    },
+    {
+      "row": 244,
+      "domain": "blogs.bizmakoto.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://blogs.itmedia.co.jp/nakashima/2026/02/Website-enquiry-button.html",
+      "社名": "オルタナティブ・ブログ"
+    },
+    {
+      "row": 246,
+      "domain": "media.bizreach.biz",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://media.bizreach.biz/",
+      "社名": "BizReach withHR　法人向けビズリーチ"
+    },
+    {
+      "row": 247,
+      "domain": "intloop.com",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "INTLOOP株式会社 | 当社は事業創造型コンサルファームです。企業の経営課題解決や人材支援サービスを通じ、人と企業、社会に成長のループを生み出します。",
+      "社名": "INTLOOP株式会社 | 当社は事業創造型コンサルファームです。企業の経営課題解決や人材支援サービスを通じ、人と企業、社会に成長のループを生み出します。"
+    },
+    {
+      "row": 252,
+      "domain": "1st-net.jp",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "株式会社ファーストネットジャパン | 大阪市中央区にあるWebソリューション会社ファーストネットジャパンのコーポレートです。",
+      "社名": "株式会社ファーストネットジャパン | 大阪市中央区にあるWebソリューション会社ファーストネットジャパンのコーポレートです。"
+    },
+    {
+      "row": 264,
+      "domain": "sateraito.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sateraito.jp/",
+      "社名": ""
+    },
+    {
+      "row": 264,
+      "domain": "sateraito.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 265,
+      "domain": "mogwandogfood.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://mogwandogfood.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 265,
+      "domain": "mogwandogfood.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 269,
+      "domain": "kigyolog.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://door-1215.com/mobile-contact/",
+      "社名": "起業ログ"
+    },
+    {
+      "row": 275,
+      "domain": "phpcon.php.gr.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://phpcon.php.gr.jp/",
+      "社名": "PHP Conference Japan 2025"
+    },
+    {
+      "row": 276,
+      "domain": "insights.amana.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://lp.amana.jp/021001inquiry.html",
+      "社名": "amanaINSIGHTS（アマナインサイト）"
+    },
+    {
+      "row": 278,
+      "domain": "crexia.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://crexia.co.jp/#contact",
+      "社名": "株式会社CREXiA｜Webマーケティングを通じて新しい価値を想像する。"
+    },
+    {
+      "row": 280,
+      "domain": "sedesign.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://sedesign.co.jp/",
+      "社名": ""
+    },
+    {
+      "row": 280,
+      "domain": "sedesign.co.jp",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 286,
+      "domain": "straightpress.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://tayori.com/f/straightpresscontact",
+      "社名": "STRAIGHT PRESS"
+    },
+    {
+      "row": 287,
+      "domain": "uneidou.theletter.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://docs.google.com/forms/d/e/1FAIpQLSf2pnmQbv-x77kGR8Gup-fJYhGgLu7LdmenqDAad4JZ1mOQAw/viewform?usp=sf_link",
+      "社名": "毎日堂　月～金の朝7時に届くWebマーケ関連のニュースレター"
+    },
+    {
+      "row": 288,
+      "domain": "ayohata.theletter.jp",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://docs.google.com/forms/d/e/1FAIpQLSf2pnmQbv-x77kGR8Gup-fJYhGgLu7LdmenqDAad4JZ1mOQAw/viewform?usp=sf_link",
+      "社名": "Publidia"
+    },
+    {
+      "row": 293,
+      "domain": "ma-gate.com",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://www.willgate.co.jp/ma/contact/",
+      "社名": "ベンチャー / ITのM＆A仲介なら『ウィルゲートM&A』"
+    },
+    {
+      "row": 294,
+      "domain": "jetrank.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://jetrank.com/",
+      "社名": ""
+    },
+    {
+      "row": 294,
+      "domain": "jetrank.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 295,
+      "domain": "security-next.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://security-next.com/",
+      "社名": "セキュリティ、個人情報の最新ニュース：Security NEXT"
+    },
+    {
+      "row": 299,
+      "domain": "energize-group.co.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://energize-group.co.jp/#contact",
+      "社名": "金曜よりも月曜が待ち遠しくなる社会へ _ Energize"
+    },
+    {
+      "row": 302,
+      "domain": "gc-yukizaki.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "tel:052-251-1666",
+      "社名": "ブランド時計･ジュエリーの通販・販売"
+    },
+    {
+      "row": 304,
+      "domain": "switchitmaker2.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://switchitmaker2.com/",
+      "社名": ""
+    },
+    {
+      "row": 304,
+      "domain": "switchitmaker2.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 305,
+      "domain": "fundit.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://fundit.jp/",
+      "社名": "株式会社FUNDiT"
+    },
+    {
+      "row": 306,
+      "domain": "cc-moola.com",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://docs.google.com/forms/d/e/1FAIpQLSdJN88bQaapshetsyvsY1_YAhuVitXu4McjEMFkhjB-GDpwMA/viewform",
+      "社名": "選ぶを楽しいことに。おすすめ商品比較メディア"
+    },
+    {
+      "row": 307,
+      "domain": "media.unipos.me",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://media.unipos.me/",
+      "社名": "HRコラム | 心理的安全性を高め、挑戦できる風土をつくる Unipos"
+    },
+    {
+      "row": 309,
+      "domain": "saleszine.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://saleszine.jp/ad",
+      "社名": "SalesZine"
+    },
+    {
+      "row": 310,
+      "domain": "nelog.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://nelog.jp/forum-index",
+      "社名": "寝ログ"
+    },
+    {
+      "row": 312,
+      "domain": "ainow.ai",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://form.run/@dip-net-vfDpEId2B3gU3jXiP45x",
+      "社名": "AINOW"
+    },
+    {
+      "row": 313,
+      "domain": "activation-service.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://activation-service.jp/",
+      "社名": "ビジサポ | 中小企業様向け各種ビジネス支援の総合サイト"
+    },
+    {
+      "row": 314,
+      "domain": "wehubworks.com",
+      "issue_type": "社名が極端に長い（60文字超）",
+      "detail": "社名が極端に長い（60文字超）",
+      "現在の値": "BtoB特化のコンテンツ制作・マーケティング支援｜株式会社Hub Works - Hub WorksはAIとプロの力で、成果を最速で最大化。SEO記事/ホワイトペーパー/Webサイト制作/マーケティングコンサルティング/広告運用と幅広く制作・支援を行っています。",
+      "社名": "BtoB特化のコンテンツ制作・マーケティング支援｜株式会社Hub Works - Hub WorksはAIとプロの力で、成果を最速で最大化。SEO記事/ホワイトペーパー/Webサイト制作/マーケティングコンサルティング/広告運用と幅広く制作・支援を行っています。"
+    },
+    {
+      "row": 318,
+      "domain": "pitta.me",
+      "issue_type": "外部フォームサービス利用",
+      "detail": "外部フォームサービスを利用（許容範囲）",
+      "現在の値": "https://forms.gle/DY9xvTAZox5AiZdu5",
+      "社名": "カジュアル面談をもっとカジュアルに"
+    },
+    {
+      "row": 321,
+      "domain": "note.supporterz.jp",
+      "issue_type": "許容外外部ドメイン",
+      "detail": "問い合わせURLが許容外の外部ドメインを指している",
+      "現在の値": "https://note.com/geek_pjt/message",
+      "社名": "サポーターズ公式note"
+    },
+    {
+      "row": 321,
+      "domain": "note.supporterz.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://note.com/geek_pjt/message",
+      "社名": "サポーターズ公式note"
+    },
+    {
+      "row": 322,
+      "domain": "prizma-link.com",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://prizma-link.com/",
+      "社名": ""
+    },
+    {
+      "row": 322,
+      "domain": "prizma-link.com",
+      "issue_type": "社名空欄",
+      "detail": "社名空欄",
+      "現在の値": "(空欄)",
+      "社名": "(空欄)"
+    },
+    {
+      "row": 323,
+      "domain": "careerpark.jp",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://careerpark.jp/faq",
+      "社名": "キャリアパーク"
+    },
+    {
+      "row": 328,
+      "domain": "innova-jp.com",
+      "issue_type": "contact_keywordなし",
+      "detail": "URLにcontact/inquiry等のキーワードが含まれない",
+      "現在の値": "https://innova-jp.com/problems/lead-generation/no-inquiries",
+      "社名": "BtoBマーケティング支援会社　株式会社イノーバ"
+    },
+    {
+      "row": 330,
+      "domain": "prorea.jp",
+      "issue_type": "トップページフォールバック",
+      "detail": "問い合わせURLがトップページのみ",
+      "現在の値": "https://prorea.jp/",
+      "社名": "リアルな情報でモノ・コト選びを支援する情報プラットフォーム"
+    }
+  ],
+  "summary": {
+    "トップページフォールバック件数": 78,
+    "外部フォームサービス件数": 12,
+    "許容外外部ドメイン件数": 46,
+    "社名空欄件数": 19,
+    "社名異常件数": 12,
+    "contact_keyword_なし件数": 31
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "client": "naimono",
+    "site": "https://jo-katsu.com",
+    "generated": "2026-02-28",
+    "phase": "2",
+    "description": "重複タイトル修正 — gallerys/faqs のタイトル差別化",
+    "seo_plugin": "yoast",
+    "dry_run_command": "python scripts/wp_meta_updater.py --client naimono --plan reports/naimono_fix_phase2_titles.json",
+    "execute_command": "python scripts/wp_meta_updater.py --client naimono --plan reports/naimono_fix_phase2_titles.json --execute",
+    "note": "dry_run_commandを先に実行してbefore/afterを確認してから--executeをつけて実行すること"
+  },
+  "fixes": [
+    {
+      "post_id": 2,
+      "post_type": "gallerys",
+      "slug": "item_house",
+      "current_url": "https://jo-katsu.com/gallerys/item_house",
+      "updates": {
+        "meta_title": "ジョーカツハウス フォトギャラリー | ジョーカツ"
+      },
+      "reason": "/house と重複タイトル。フォトギャラリーである旨をタイトルに追加"
+    },
+    {
+      "post_id": 3,
+      "post_type": "gallerys",
+      "slug": "item_ticket",
+      "current_url": "https://jo-katsu.com/gallerys/item_ticket",
+      "updates": {
+        "meta_title": "ジョーカツ切符 フォトギャラリー | ジョーカツ"
+      },
+      "reason": "/ticket と重複タイトル。フォトギャラリーである旨をタイトルに追加"
+    },
+    {
+      "post_id": 13,
+      "post_type": "faqs",
+      "slug": "faq4",
+      "current_url": "https://jo-katsu.com/faqs/faq4",
+      "updates": {
+        "meta_title": "よくある質問（イベント）| ジョーカツ"
+      },
+      "reason": "/event と重複タイトル。FAQページ内容に即したタイトルに修正"
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://jo-katsu.com/news/20190925",
+      "reason": "WordPressアーカイブページのためpost_idなし。wp_meta_updater.py非対応"
+    }
+  ]
+}

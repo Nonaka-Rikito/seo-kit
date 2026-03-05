@@ -1,0 +1,389 @@
+{
+  "range": "331-660",
+  "exclude_rows": [
+    {
+      "row": 367,
+      "domain": "trimplus.eduone.jp",
+      "reason": "ペットトリミング向けポータルサイト"
+    },
+    {
+      "row": 449,
+      "domain": "sites.bounceme.net",
+      "reason": "外国語メインサイト（日本語コンテンツなし）"
+    },
+    {
+      "row": 455,
+      "domain": "soara-sinkyu.com",
+      "reason": "鍼灸院"
+    },
+    {
+      "row": 477,
+      "domain": "petkasou-happiness.com",
+      "reason": "ペット火葬サービス"
+    },
+    {
+      "row": 494,
+      "domain": "nelsonsdogfood.jp",
+      "reason": "ドッグフード販売サイト"
+    },
+    {
+      "row": 513,
+      "domain": "pets-station.info",
+      "reason": "ペット保険比較サイト"
+    },
+    {
+      "row": 515,
+      "domain": "pet-inu-yado.com",
+      "reason": "ペット関連サイト（ドメイン: pet-inu-yado.com）"
+    },
+    {
+      "row": 519,
+      "domain": "dogfoodkoubou.net",
+      "reason": "ドッグフード関連（ドメイン: dogfoodkoubou.net）"
+    },
+    {
+      "row": 521,
+      "domain": "animaldoc.jp",
+      "reason": "動物病院"
+    },
+    {
+      "row": 536,
+      "domain": "naturaldogfood.co.jp",
+      "reason": "ドッグフード販売サイト"
+    },
+    {
+      "row": 559,
+      "domain": "theglobe.net",
+      "reason": "外国語メインサイト（日本語コンテンツなし）"
+    },
+    {
+      "row": 561,
+      "domain": "news.jprpet.com",
+      "reason": "ペット産業ニュースサイト"
+    },
+    {
+      "row": 566,
+      "domain": "hzdlpq.com",
+      "reason": "外国語メインサイト（日本語コンテンツなし）"
+    },
+    {
+      "row": 567,
+      "domain": "bmwyng.com",
+      "reason": "外国語メインサイト（日本語コンテンツなし）"
+    },
+    {
+      "row": 578,
+      "domain": "shozankan-shop.com",
+      "reason": "健康食品ECサイト（MCT&KETO専門店）"
+    },
+    {
+      "row": 599,
+      "domain": "happybell.co.jp",
+      "reason": "ペットショップ"
+    },
+    {
+      "row": 603,
+      "domain": "respect-38.com",
+      "reason": "外国語メインサイト（日本語コンテンツなし）"
+    },
+    {
+      "row": 608,
+      "domain": "c.r-cleaning.com",
+      "reason": "ハウスクリーニング業"
+    },
+    {
+      "row": 629,
+      "domain": "dog.yuimal-web.co.jp",
+      "reason": "ペット（犬）情報サイト"
+    }
+  ],
+  "name_fixes": [
+    {
+      "row": 331,
+      "domain": "topseos.com",
+      "old_name": "topseos.com",
+      "new_name": "topseos"
+    },
+    {
+      "row": 338,
+      "domain": "xinobix.jp",
+      "old_name": "XINOBIX（シノビクス）株式会社 - 売上につながるオウンドメディア立ち上げ支援",
+      "new_name": "XINOBIX（シノビクス）株式会社"
+    },
+    {
+      "row": 342,
+      "domain": "n-yu.com",
+      "old_name": "News You Use（ニュース・ユー・ユース）｜あなたに役立つ最新ニュース",
+      "new_name": "News You Use"
+    },
+    {
+      "row": 346,
+      "domain": "support.searchwrite.jp",
+      "old_name": "support.searchwrite.jp",
+      "new_name": "SEARCH WRITE"
+    },
+    {
+      "row": 350,
+      "domain": "i-staff.jp",
+      "old_name": "i-STAFF｜優秀なオンライン秘書（オンラインアシスタント） |",
+      "new_name": "i-STAFF"
+    },
+    {
+      "row": 356,
+      "domain": "sunbridge.com",
+      "old_name": "株式会社サンブリッジ ｜ Salesforce開発／導入活用支援・マーケティングオートメーション・名刺管理",
+      "new_name": "株式会社サンブリッジ"
+    },
+    {
+      "row": 363,
+      "domain": "sales-dx.jp",
+      "old_name": "sales-dx.jp",
+      "new_name": "バンソウ by 株式会社クリエイティブバンク"
+    },
+    {
+      "row": 365,
+      "domain": "rakko.inc",
+      "old_name": "rakko.inc",
+      "new_name": "ラッコ株式会社"
+    },
+    {
+      "row": 379,
+      "domain": "musashino.co.jp",
+      "old_name": "株式会社武蔵野 - 独自で培った仕組みやノウハウを提供し、全国の中小企業を経営改善へと導く経営コンサルティング",
+      "new_name": "株式会社武蔵野"
+    },
+    {
+      "row": 384,
+      "domain": "white-link.com",
+      "old_name": "ホワイトリンク | SEO対策10年の実績 | 東京のオルグロー株式会社",
+      "new_name": "オルグロー株式会社"
+    },
+    {
+      "row": 385,
+      "domain": "gicp.co.jp",
+      "old_name": "中小企業のWebマーケティングコンサルティングならWEB集客ブレイン | ホームページ制作のことならWEB集客ブレイン",
+      "new_name": "WEB集客ブレイン"
+    },
+    {
+      "row": 400,
+      "domain": "maclogi.co.jp",
+      "old_name": "株式会社 マクロジ - 福岡県の天神を拠点に、全国のeコマース事業者様に対してコンサルティングを参っております。ECショップ様では新規店様から月商数億を超える店舗様までを幅広くサポート。 事業の展開を更に伸ばしていきたい企業様を全力でサポート致します！",
+      "new_name": "株式会社 マクロジ"
+    },
+    {
+      "row": 402,
+      "domain": "video-b.com",
+      "old_name": "法人シェアNo.１動画制作・編集ツール | Video BRAIN（ビデオブレイン）",
+      "new_name": "Video BRAIN（ビデオブレイン）"
+    },
+    {
+      "row": 403,
+      "domain": "soumunomori.com",
+      "old_name": "soumunomori.com",
+      "new_name": "経営ノウハウの泉"
+    },
+    {
+      "row": 410,
+      "domain": "rank-checker.com",
+      "old_name": "SEOツール｜GMO順位チェッカーなら検索順位を【毎日＆無料】で自動チェック",
+      "new_name": "GMO順位チェッカー"
+    },
+    {
+      "row": 412,
+      "domain": "growth-marketing.jp",
+      "old_name": "グロースマーケティング - グロースマーケティングは、アプリ・プロダクト・サービスを改善しグロースさせるための戦略や技術のノウハウをお伝えするメディアです。運営元のDearOneではAmplitude（アンプリチュード）と一緒に日本企業のビジネスグロースを支援しています。",
+      "new_name": "グロースマーケティング"
+    },
+    {
+      "row": 429,
+      "domain": "test-service.branu.jp",
+      "old_name": "test-service.branu.jp",
+      "new_name": "BRANU"
+    },
+    {
+      "row": 434,
+      "domain": "b-risk.jp",
+      "old_name": "東京のホームページ制作 / WEB制作会社 BRISK | ハイクオリティなWEBサイトを全ての会社に！BRISKは東京都江東区を拠点とするWEB制作会社です。企業サイトや採用サイトの制作、WordPress構築を得意としています。",
+      "new_name": "BRISK"
+    },
+    {
+      "row": 435,
+      "domain": "customer-rings.com",
+      "old_name": "customer-rings.com",
+      "new_name": "カスタマーリングス"
+    },
+    {
+      "row": 437,
+      "domain": "wel-kids.com",
+      "old_name": "wel-kids.com",
+      "new_name": "WEL-KIDS PRESS（ウェルプレ）"
+    },
+    {
+      "row": 438,
+      "domain": "education-career.jp",
+      "old_name": "教育業界専門の転職エージェント｜Education Career",
+      "new_name": "Education Career"
+    },
+    {
+      "row": 446,
+      "domain": "zentsu-inc.co.jp",
+      "old_name": "株式会社ゼンツ | SEOメディア・Webマーケティングが得意な会社",
+      "new_name": "株式会社ゼンツ"
+    },
+    {
+      "row": 457,
+      "domain": "lab.tryhatch.co.jp",
+      "old_name": "トライハッチマーケティングラボ - Webマーケティング関わるすべての人のためのメディア",
+      "new_name": "トライハッチマーケティングラボ"
+    },
+    {
+      "row": 459,
+      "domain": "netgeek.biz",
+      "old_name": "netgeek.biz",
+      "new_name": "netgeek"
+    },
+    {
+      "row": 461,
+      "domain": "site-hikkoshi.com",
+      "old_name": "WordPressの引越し代行＆保守管理なら『サイト引越し屋さん』 | 日本で最も利用されているWordPressの引越し代行＆保守管理サービスです。おかげ様で８周年。累計対応実績3,000件超え。専門のスタッフがあなたの大事なサイトを安全にお引越し。まずはお気軽にご相談ください。",
+      "new_name": "サイト引越し屋さん"
+    },
+    {
+      "row": 467,
+      "domain": "simplique.jp",
+      "old_name": "WEB(SEO)集客に強い編集プロダクション｜株式会社シンプリック | 集客資産となる記事制作サービスをご提供",
+      "new_name": "株式会社シンプリック"
+    },
+    {
+      "row": 468,
+      "domain": "service.rodina.co.jp",
+      "old_name": "【Rodina】 | メンタルヘルス不調で休職中の方や、障害のある方が、安心した社会生活がおくれるように健康面・生活面を整え、スムーズな社会復帰･復職･就職ができるように支援するプロフェッショナル集団です。福祉サービスの自立訓練（生活訓練）、就労移行支援でサービスを提供しています。働き方や適性、置かれた状況など、人それぞれです。これまでの経験やキャリアを振り返り、その人がその人らしく、いきいきと社会生活が送れるように質の高い支援をおこないます。",
+      "new_name": "【Rodina】"
+    },
+    {
+      "row": 475,
+      "domain": "sora1.jp",
+      "old_name": "SORAプロジェクト - 法人営業専門のテレアポ代行ならお任せください。ご契約から最短5日でコール開始。法人テレアポのプロが質の高いアポイント・会話情報の記録までしっかりご報告します。料金は1件につき3コール350円から、確度の高いアポイントをご提供。営業の新規開拓はぜひお任せください。",
+      "new_name": "SORAプロジェクト"
+    },
+    {
+      "row": 479,
+      "domain": "nice2meet.us",
+      "old_name": "nice2meet.us",
+      "new_name": "ブイキューブのはたらく研究部"
+    },
+    {
+      "row": 482,
+      "domain": "foursons.co.jp",
+      "old_name": "東京の動画制作・映像制作会社フォーズン｜低価格で高品質な動画を制作",
+      "new_name": "株式会社フォーズン"
+    },
+    {
+      "row": 487,
+      "domain": "grop.co.jp",
+      "old_name": "grop.co.jp",
+      "new_name": "アウトソーシングプロ"
+    },
+    {
+      "row": 491,
+      "domain": "thekeyperson.biz",
+      "old_name": "The Keyperson（ザ・キーパーソン） - 未来への鍵を手にする人物に光を当てた珠玉のインタビューメディア",
+      "new_name": "The Keyperson（ザ・キーパーソン）"
+    },
+    {
+      "row": 530,
+      "domain": "xexeq.jp",
+      "old_name": "xexeq.jp",
+      "new_name": "XEXEQ(ゼゼック)"
+    },
+    {
+      "row": 548,
+      "domain": "per-sonal.co.jp",
+      "old_name": "株式会社Personal - 第二新卒/既卒/フリーター/大学中退/未経験向け就職・転職サポート",
+      "new_name": "株式会社Personal"
+    },
+    {
+      "row": 552,
+      "domain": "nlp.co.jp",
+      "old_name": "NLP学び方ガイド（NLPとは）｜資格セミナー総合情報サイト｜協会 公式",
+      "new_name": "NLP学び方ガイド"
+    },
+    {
+      "row": 558,
+      "domain": "newpeaks.co.jp",
+      "old_name": "NEWPEAKS | 株式会社ニューピークスは、異端なクリエイティビティでビジネスコミュニケーションを革新し企業変革と事業成長を加速させるデジタルコミュニケーションカンパニーです。",
+      "new_name": "株式会社ニューピークス"
+    },
+    {
+      "row": 582,
+      "domain": "flued.jp",
+      "old_name": "株式会社FLUED | BtoBマーケティング・営業DXの“専門家集団”です",
+      "new_name": "株式会社FLUED"
+    },
+    {
+      "row": 587,
+      "domain": "pengi-n.co.jp",
+      "old_name": "東京のホームページ制作・WEB制作会社 - 株式会社PENGIN",
+      "new_name": "株式会社PENGIN"
+    },
+    {
+      "row": 593,
+      "domain": "creal.co.jp",
+      "old_name": "株式会社クリエル | Web制作とWeb集客の両面で貴社をサポート！",
+      "new_name": "株式会社クリエル"
+    },
+    {
+      "row": 600,
+      "domain": "codigital.co.jp",
+      "old_name": "株式会社CoDigital | デジタルマーケティングの戦略立案から実行支援、データ分析までを一気通貫しておこないます。",
+      "new_name": "株式会社CoDigital"
+    },
+    {
+      "row": 625,
+      "domain": "creative-drive.jp",
+      "old_name": "Creative Drive | 顧客育成に強い唯一のAIライティングツール",
+      "new_name": "Creative Drive"
+    },
+    {
+      "row": 626,
+      "domain": "ragna-rock.com",
+      "old_name": "ラグナロク株式会社 - Android iOSアプリ開発支援・チーム育成",
+      "new_name": "ラグナロク株式会社"
+    },
+    {
+      "row": 628,
+      "domain": "financeinjapan.com",
+      "old_name": "financeinjapan.com",
+      "new_name": "補助金コネクト"
+    },
+    {
+      "row": 630,
+      "domain": "tech-stock.com",
+      "old_name": "TECH STOCK(テックストック)フリーランス・ITエンジニアのための案件紹介サイト | 【TECH STOCK(テックストック)】は、フリーランスエンジニアの案件紹介サイトです。今後ますますニーズが高まるフリーランスのエンジニアのみなさまに、スキルもキャリアもストックしていただきたい、その思いをもって案件紹介サービスを運営しています。Java,PHP、C言語、C++、Python、AWS、Rubyなどのエンジニアのプロジェクト案件、開発案件をご紹介しています。",
+      "new_name": "TECH STOCK（テックストック）"
+    },
+    {
+      "row": 633,
+      "domain": "satfaq.jp",
+      "old_name": "satfaq.jp",
+      "new_name": "さっとFAQコラム"
+    },
+    {
+      "row": 639,
+      "domain": "c-rays.co.jp",
+      "old_name": "各界プロフェッショナルのマネジメント会社 ｜ 株式会社シーレイズ（C-rays,Inc.)",
+      "new_name": "株式会社シーレイズ（C-rays,Inc.)"
+    },
+    {
+      "row": 641,
+      "domain": "careerclass.jp",
+      "old_name": "careerclass.jp",
+      "new_name": "キャリアクラス"
+    }
+  ],
+  "summary": {
+    "対象行数": 330,
+    "除外件数": 19,
+    "社名修正件数": 47
+  }
+}

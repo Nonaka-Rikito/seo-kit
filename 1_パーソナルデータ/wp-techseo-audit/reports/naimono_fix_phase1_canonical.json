@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "client": "naimono",
+    "site": "https://jo-katsu.com",
+    "generated": "2026-02-28",
+    "phase": "1",
+    "description": "Canonical修正 — faqs/gallerys カスタム投稿タイプの自己参照canonical設定",
+    "seo_plugin": "yoast",
+    "dry_run_command": "python scripts/wp_meta_updater.py --client naimono --plan reports/naimono_fix_phase1_canonical.json",
+    "execute_command": "python scripts/wp_meta_updater.py --client naimono --plan reports/naimono_fix_phase1_canonical.json --execute",
+    "note": "dry_run_commandを先に実行してbefore/afterを確認してから--executeをつけて実行すること"
+  },
+  "fixes": [
+    {
+      "post_id": 10,
+      "post_type": "faqs",
+      "slug": "faq1",
+      "current_url": "https://jo-katsu.com/faqs/faq1",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq1/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq1/"
+      },
+      "reason": "WPパーマリンク(/faq/faqs/faq1/)がアクセス不能。自己参照canonical(/faqs/faq1/)に修正"
+    },
+    {
+      "post_id": 11,
+      "post_type": "faqs",
+      "slug": "faq2",
+      "current_url": "https://jo-katsu.com/faqs/faq2",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq2/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq2/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 12,
+      "post_type": "faqs",
+      "slug": "faq3",
+      "current_url": "https://jo-katsu.com/faqs/faq3",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq3/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq3/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 13,
+      "post_type": "faqs",
+      "slug": "faq4",
+      "current_url": "https://jo-katsu.com/faqs/faq4",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq4/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq4/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 14,
+      "post_type": "faqs",
+      "slug": "faq5",
+      "current_url": "https://jo-katsu.com/faqs/faq5",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq5/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq5/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 15,
+      "post_type": "faqs",
+      "slug": "faq6",
+      "current_url": "https://jo-katsu.com/faqs/faq6",
+      "current_canonical": "https://jo-katsu.com/faq/faqs/faq6/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/faqs/faq6/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 2,
+      "post_type": "gallerys",
+      "slug": "item_house",
+      "current_url": "https://jo-katsu.com/gallerys/item_house",
+      "current_canonical": "https://jo-katsu.com/gallery/gallerys/item_house/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/gallerys/item_house/"
+      },
+      "reason": "WPパーマリンク(/gallery/gallerys/item_house/)がアクセス不能。自己参照canonical に修正"
+    },
+    {
+      "post_id": 3,
+      "post_type": "gallerys",
+      "slug": "item_ticket",
+      "current_url": "https://jo-katsu.com/gallerys/item_ticket",
+      "current_canonical": "https://jo-katsu.com/gallery/gallerys/item_ticket/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/gallerys/item_ticket/"
+      },
+      "reason": "同上"
+    },
+    {
+      "post_id": 7,
+      "post_type": "gallerys",
+      "slug": "item_adviser",
+      "current_url": "https://jo-katsu.com/gallerys/item_adviser",
+      "current_canonical": "https://jo-katsu.com/gallery/gallerys/item_adviser/",
+      "updates": {
+        "canonical": "https://jo-katsu.com/gallerys/item_adviser/"
+      },
+      "reason": "同上"
+    }
+  ]
+}

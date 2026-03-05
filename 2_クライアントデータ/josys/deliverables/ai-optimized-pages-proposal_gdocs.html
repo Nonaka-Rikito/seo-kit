@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Josys様向け提案書</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 { font-size: 24px; border-bottom: 2px solid #2c3e50; padding-bottom: 5px; }
+        h2 { font-size: 20px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        h3 { font-size: 18px; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        pre {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        strong {
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Josys様向け AI検索エンジン最適化（LLMO）サイト整備のご提案</h1>
+    <p><strong>提出日</strong>: 2026年3月3日<br>
+    <strong>提出者</strong>: malna株式会社<br>
+    <strong>宛先</strong>: Josys マーケティングチーム / Globalチーム 御中</p>
+
+    <br>
+
+    <h2>1. エグゼクティブサマリー</h2>
+    <p>近年、B2Bバイヤーの約87%がAIツールを導入リサーチに活用しており、LLM（大規模言語モデル）経由のコンバージョン率は従来のオーガニック検索と比較して約6倍に上るというデータ（Webflow社報告等）も確認されています。<br>
+    しかしながら、現状のSaaS管理プラットフォーム領域においては、Josys様および主要競合7社のいずれも、AI検索向けの専用ページ（brand-facts、llms.txt等）を最適化・整備しきれておらず、<strong>カテゴリ全体が「LLM最適化（LLMO）の空白地帯」</strong>となっております。</p>
+    
+    <p>これは、Josys様がいち早くAI向け最適化を実施することで、<strong>AI検索領域における確固たる先行者優位を確立できる絶好の機会</strong>であることを意味しています。</p>
+    
+    <p>本提案書では、Josys様が自社サイト内に整備すべきAI向けページの一覧、具体的なコンテンツ構成、要件となる技術実装、および実行に向けたロードマップをご提案いたします。</p>
+
+    <br>
+
+    <h2>2. 現状分析</h2>
+    <h3>2.1 Josys様サイトの現状と課題</h3>
+    <p>現在、AIクローラーが情報を正確に取得・引用するための土台部分に改善の余地がございます。</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>対象ページ / 要素</th>
+                <th>現状</th>
+                <th>課題・改善オポチュニティ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>/brand-facts</code></td>
+                <td><strong>未作成</strong></td>
+                <td>AIがJosys様の基本情報やファクトを正確に取得できる「一次ソース」が不足しています。</td>
+            </tr>
+            <tr>
+                <td><code>/compare/josys-vs-[*]</code></td>
+                <td><strong>未作成</strong>（一部のみ）</td>
+                <td>競合比較に関するAI検索クエリでの露出・引用機会を逸失しています。</td>
+            </tr>
+            <tr>
+                <td><code>/case-studies</code></td>
+                <td>既存（英日12社以上）</td>
+                <td>構造化データ（スキーマ）が未実装のため、AIが実績数値を抽出しにくい状態です。</td>
+            </tr>
+            <tr>
+                <td><code>/integrations</code></td>
+                <td>既存（350+アプリ）</td>
+                <td>スキーマ未実装により、連携数の規模や強みが機械可読データとして伝わっていません。</td>
+            </tr>
+            <tr>
+                <td><code>/faq</code></td>
+                <td><strong>独立ページなし</strong></td>
+                <td>FAQ形式のコンテンツはAIからの引用率が約2.7倍高まるとされていますが、未活用となっています。</td>
+            </tr>
+            <tr>
+                <td><code>/pricing</code></td>
+                <td>既存（要見積形式）</td>
+                <td>よくある質問（FAQ）のセクションおよび構造化データの記述が不足しています。</td>
+            </tr>
+            <tr>
+                <td><code>/llms.txt</code></td>
+                <td><strong>未作成</strong></td>
+                <td>AIクローラー向けのサイトガイドファイルが存在しておりません。</td>
+            </tr>
+            <tr>
+                <td>全体構造化データ</td>
+                <td><strong>限定的実装</strong></td>
+                <td>一部のページを除き、組織・製品情報を正しく伝えるスキーマ実装が不足しております。</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>2.2 競合他社のLLMO対応状況</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>企業名</th>
+                <th>brand-facts</th>
+                <th>比較ページ</th>
+                <th>llms.txt</th>
+                <th>構造化データ（スキーマ実装）</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zylo</td>
+                <td>未実装</td>
+                <td>2ページ展開</td>
+                <td>未実装</td>
+                <td>Organization, BreadcrumbList 等</td>
+            </tr>
+            <tr>
+                <td>Productiv</td>
+                <td>未実装</td>
+                <td>3ページ展開</td>
+                <td>未実装</td>
+                <td>Organization, BreadcrumbList 等</td>
+            </tr>
+            <tr>
+                <td>BetterCloud</td>
+                <td>未実装</td>
+                <td><strong>5ページ以上</strong></td>
+                <td>未実装</td>
+                <td>Organization, BreadcrumbList 等</td>
+            </tr>
+            <tr>
+                <td>Zluri</td>
+                <td>未実装</td>
+                <td>多数展開</td>
+                <td>未実装</td>
+                <td>動的JS生成等で対応</td>
+            </tr>
+            <tr>
+                <td>Torii</td>
+                <td>未実装</td>
+                <td>2ページ展開</td>
+                <td>未実装</td>
+                <td>確認不可</td>
+            </tr>
+            <tr>
+                <td>その他の競合</td>
+                <td>未実装</td>
+                <td>未展開</td>
+                <td>未実装</td>
+                <td>HubDB連携等、最適化は限定的</td>
+            </tr>
+            <tr>
+                <td><strong>Josys様</strong></td>
+                <td><strong>未実装</strong></td>
+                <td><strong>1件のみ</strong></td>
+                <td><strong>未実装</strong></td>
+                <td><strong>限定的実装</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>総括:</strong> 全ての主要競合が最もAIに有効とされる <code>llms.txt</code> および <code>brand-facts</code> ページを未実装の状態です。これにより、Josys様がいち早く実装を完了させることで競合優位性を築くことが可能です。</p>
+
+    <br>
+
+    <h2>3. 具体的な整備施策（優先度別）</h2>
+    <h3>3.1 優先度【高】：必須ページの新規作成（AI引用の核）</h3>
+    <ul>
+        <li><strong>(1) <code>/llms.txt</code> — AIクローラー向けサイトガイド</strong>
+            <ul>
+                <li><strong>目的</strong>: AIボットに対して、Josys様サイトの構造、重要ページ、およびビジネスの概要を効率的かつ正確に理解させるためのガイドファイルです。</li>
+                <li><strong>実装内容</strong>: Markdown形式で事業概要、コア技術、対象ソリューション、企業情報のリンク一覧を記述します。</li>
+                <li><strong>想定工数</strong>: 約2時間（日本語版 <code>/llms-ja.txt</code> も併せて設置を推奨いたします）</li>
+            </ul>
+        </li>
+        <li><strong>(2) <code>/brand-facts</code> — AI向けファクトシート</strong>
+            <ul>
+                <li><strong>目的</strong>: AIが「Josysとはどのようなサービスか？」を回答する際に参照する強力な一次情報ソースとなります。外部メディアでの掲載事項を裏付ける役割を果たします。</li>
+                <li><strong>実装内容</strong>: 企業概要、創業年、実績数値（顧客数600+、連携数350+等）、認定資格（SOC2, ISO27001等）、主要機能を一覧化し、Organization・FAQPage等のスキーマを埋め込みます。</li>
+                <li><strong>想定工数</strong>: 英語・日本語版あわせて約4〜6時間</li>
+            </ul>
+        </li>
+        <li><strong>(3) <code>/compare/josys-vs-[競合名]</code> — 競合比較ページの拡充（主要5社）</strong>
+            <ul>
+                <li><strong>目的</strong>: ユーザーが「Josys vs 〇〇」「〇〇 alternatives」とAIに尋ねた際、自社に有利な形での回答を引き出しやすくします。</li>
+                <li><strong>優先対象</strong>: Zylo, Productiv, BetterCloud, Zluri, Torii</li>
+                <li><strong>実装内容</strong>: 結論ファーストの構成にし、比較テーブル（HTML形式）、双方の強み、ユースケースごとの推奨、およびFAQ用スキーマを実装します。最終更新日を明記し鮮度をアピールします。</li>
+                <li><strong>想定工数</strong>: 約20〜30時間（1ページあたり4〜6時間 × 5ページ）</li>
+            </ul>
+        </li>
+        <li><strong>(4) <code>/faq</code> — 総合FAQページの独立・新設</strong>
+            <ul>
+                <li><strong>目的</strong>: FAQ形式のページに構造化データを付与することで、AIからの引用指標（露出）を最大化します。（未実装比で約2.7倍の引用率向上が期待されます）</li>
+                <li><strong>実装内容</strong>: 製品、料金、セキュリティ、導入、連携について、1回答あたり40〜60語の「AIが抽出しやすい文字数」でQ&Aを網羅します。</li>
+                <li><strong>想定工数</strong>: 約6〜8時間</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>3.2 優先度【中】：既存ページの構造化強化</h3>
+    <p>既存の有用なコンテンツについて、AIが機械的に内容を正確に読み取れるようHTMLの「構造化」を強化します。</p>
+    <ul>
+        <li><strong><code>/case-studies</code>（導入事例）</strong>: 導入事例ごとのROI（コスト削減額、時間削減率等）をAI向けに明示化。Article/CaseStudyスキーマを実装。</li>
+        <li><strong><code>/integrations</code>（連携一覧）</strong>: 「350種類以上のアプリに対応している事実」をJSON-LDとして明記。SoftwareApplicationスキーマを実装。</li>
+        <li><strong><code>/pricing</code>（料金ページ）</strong>: 見積もり形式についてのFAQセクションを新設し、料金関連のAIクエリへの回答引用を狙います。</li>
+    </ul>
+
+    <h3>3.3 優先度【基盤】：技術・インフラ整備</h3>
+    <ul>
+        <li><strong><code>robots.txt</code> のAI検索ボット対応</strong>: ChatGPT-User, PerplexityBot, Claude-Web等のAI引用・検索用ボットが正確にサイト内を巡回できるようアクセス権限を整備します。</li>
+        <li><strong>サイト全体のOrganizationスキーマ統一</strong>: 全ページの共通ヘッダーに、ロゴ、企業情報、公式SNSリンク、レビュー評価（G2の星4.5等）をまとめたJSON-LDを適用します。</li>
+        <li><strong>外部プロフィール（G2, LinkedIn等）の同期</strong>: AIは情報のサイテーション（クロスチェック）を行うため、外部レビューサイトと自社サイト内の表記を完全一致させます。</li>
+    </ul>
+
+    <br>
+
+    <h2>4. 実行ロードマップ</h2>
+    <p>本施策を円滑に進めるため、4つのフェーズに分けた進行をご提案いたします。</p>
+
+    <h3>Phase 1: 技術基盤の整備（Week 1 - 2）</h3>
+    <ul>
+        <li><code>robots.txt</code> へのAI検索ボットの許可追加</li>
+        <li>サイト全体へのOrganizationスキーマ（構造化データ）の実装</li>
+        <li><code>/llms.txt</code> の作成と公開（英・日）</li>
+        <li>外部プラットフォーム（G2, LinkedIn, Crunchbase等）の企業情報同期</li>
+    </ul>
+
+    <h3>Phase 2: 核となる重要ページの作成（Week 3 - 6）</h3>
+    <ul>
+        <li><code>/brand-facts</code> の作成（英・日）</li>
+        <li><code>/faq</code> ページの新規作成およびFAQPageスキーマの適用</li>
+        <li>主要な競合比較ページ（5社分）のコンテンツ作成・公開</li>
+    </ul>
+
+    <h3>Phase 3: 既存ページの構造化強化（Week 7 - 8）</h3>
+    <ul>
+        <li><code>/case-studies</code> へのArticle/CaseStudyスキーマの実装</li>
+        <li><code>/integrations</code> へのItemListスキーマ等の実装</li>
+        <li><code>/pricing</code> へのFAQセクション追加</li>
+        <li>全ページを対象とした「最終更新日」の可視化の実装</li>
+    </ul>
+
+    <h3>Phase 4: 効果の計測および運用改善（Week 9 以降）</h3>
+    <ul>
+        <li>Google Analytics 4 (GA4) でのAI検索起点の流入トラフィック計測の設定</li>
+        <li>ターゲットとなる検索クエリに対するAI回答内容の定点観測（週次）</li>
+        <li>Wikipedia（Wikidata等）との連携整理</li>
+    </ul>
+
+    <br>
+
+    <h2>5. 期待される導入効果</h2>
+    <p>本施策群を適切に実装することで、以下のような効果が見込まれます（業界研究データに基づく参考値）。</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>指標</th>
+                <th>期待されるインパクト・根拠</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AI回答への引用率向上</td>
+                <td>FAQPage等スキーマ実装により、未実装時と比較し約 <strong>2.7倍</strong> の向上が期待できます。（Relixir社等研究）</td>
+            </tr>
+            <tr>
+                <td>情報の抽出精度</td>
+                <td>HTML比較テーブルやリスト形式の最適化により、情報抽出の精度が <strong>+47%</strong> 向上します。</td>
+            </tr>
+            <tr>
+                <td>コンテンツ鮮度評価</td>
+                <td>「更新30日以内」のコンテンツは、古いコンテンツに比べ引用率が飛躍的に高まります。</td>
+            </tr>
+            <tr>
+                <td>LLM経由のCVR</td>
+                <td>AI経由の流入ユーザーは購買意欲が高く、通常のオーガニック検索比で最大 <strong>6倍</strong> のコンバージョン率が見込めます。</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>備考</strong>: LLMO（AI最適化）の手法は全産業において初期段階にあるため、施策の公開と同時にGA4等でのトラフィック計測、およびAI出力のモニタリングを実施し、貴社独自の最適化ノウハウを蓄積していくことが成功の鍵となります。</p>
+
+    <br>
+
+    <h2>6. 外部メディア施策との連携イメージ</h2>
+    <p>自社サイトの情報を整えることは、外部のPR・メディア施策の効果を最大化することにも繋がります。</p>
+    <p>当社の提案する設計は、外部メディアでの言及と自社サイトの「事実（Fact）」が相互に連携し、AIが「Josysが推奨される理由」を正確に学習・認識するための強固な情報エコシステムを構築するものです。</p>
+
+<pre>
+【外部発信の評価】                          【自社サイトの裏付け】
+外部メディア（比較記事、note等）             Josys様公式ウェブサイト
+
+「〇〇の課題にはJosysが適している」  ─────→  「事実として〇〇の機能を備えている」
+と文脈で推奨される                     （クロスチェックされ信頼性が担保される）
+                                             ・ /brand-facts
+                                             ・ /compare/*
+                                             ・ /case-studies
+                                             ・ /llms.txt
+</pre>
+    <p>AIはこれら複数のソースをクロスチェックし、情報の整合性が取れた場合にのみ自信を持ってユーザーに特定のサービスをレコメンドします。</p>
+    <br>
+    <p>本件につきまして、進め方や具体的なコンテンツ作成など、詳細なお打ち合わせをさせていただけますと幸いです。<br>
+    ご確認のほど、何卒よろしくお願い申し上げます。</p>
+
+</body>
+</html>

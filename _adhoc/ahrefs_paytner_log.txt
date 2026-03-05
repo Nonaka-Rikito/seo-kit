@@ -1,0 +1,1226 @@
+
+=== 初期アクセス・クッキー同意処理 ===
+  クッキー同意OK: [button:has-text("Accept All")]
+  [SS] 00_initial.png
+
+============================================================
+STEP 1: 無料ツール一覧確認
+============================================================
+  [SS] 01_free_tools_list.png
+  [TXT] 01_free_tools_text.txt
+  テキスト先頭300字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+50
+Minutes
+09
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+50
+Minutes
+09
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+50
+Minutes
+09
+Seconds
+The
+
+============================================================
+STEP 2: Website Authority Checker - paytner.co.jpのDR確認
+============================================================
+  [SS] 02_authority_checker.png
+  [TXT] 02_authority_text.txt
+  テキスト先頭2000字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+53
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Website “Authority” Checker
+
+Check the “authority” of your domain (as measured by Ahrefs).
+
+Backlink Checker
+/
+Website Authority Checker
+/
+Broken Link Checker
+
+For example,
+
+ahrefs.com
+yep.com
+Check Authority
+Ahrefs SEO Toolbar
+Check any website’s authority
+as you browse
+
+Unlock Domain Rating (DR) and URL Rating (UR) metrics with our browser extension and free Ahrefs account.
+
+Add to Chrome
+
+Also available for Firefox.
+
+What is “website authority”?
+
+“Website authority” is an SEO concept that refers to the “strength” of a given domain.
+
+Some people call this “domain authority,” which is not to be confused with the Domain Authority (DA) metric from Moz. When we talk about domain authority, we’re talking about a general SEO concept that’s synonymous with “website authority.”
+
+Here at Ahrefs, we have a website authority metric of our own called Domain Rating. It runs on a scale from zero to a 
+
+============================================================
+STEP 3: Keyword Generator でキーワード検索
+============================================================
+
+  [1/8] キーワード: ファクタリング
+  URL: https://ahrefs.com/keyword-generator?input=%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0&country=jp
+  [SS] 03_kw_01.png
+  [TXT] 03_kw_01_text.txt
+  テキスト先頭1500字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+35
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+F
+  リストデータ (30件):
+    Cookie__cflb
+    Duration1 day
+    DescriptionThis cookie is used by Cloudflare for load balancing.
+    Cookie__cf_bm
+    Duration1 year
+    DescriptionThis cookie is used by twitter pixel script
+    Cookiegtm_id
+    Duration1 year
+    DescriptionNo description available.
+    CookiePHPSESSID
+    Durationsession
+    Cookiecsrftoken
+
+  [2/8] キーワード: フリーランス 請求書
+  URL: https://ahrefs.com/keyword-generator?input=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9%20%E8%AB%8B%E6%B1%82%E6%9B%B8&country=jp
+  [SS] 03_kw_02.png
+  [TXT] 03_kw_02_text.txt
+  テキスト先頭1500字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+19
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+F
+  リストデータ (30件):
+    Cookie__cflb
+    Duration1 day
+    DescriptionThis cookie is used by Cloudflare for load balancing.
+    Cookie__cf_bm
+    Duration1 year
+    DescriptionThis cookie is used by twitter pixel script
+    Cookiegtm_id
+    Duration1 year
+    DescriptionNo description available.
+    CookiePHPSESSID
+    Durationsession
+    Cookiecsrftoken
+
+  [3/8] キーワード: 確定申告 フリーランス
+  URL: https://ahrefs.com/keyword-generator?input=%E7%A2%BA%E5%AE%9A%E7%94%B3%E5%91%8A%20%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9&country=jp
+  [SS] 03_kw_03.png
+  [TXT] 03_kw_03_text.txt
+  テキスト先頭1500字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+49
+Minutes
+02
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+F
+  リストデータ (30件):
+    Cookie__cflb
+    Duration1 day
+    DescriptionThis cookie is used by Cloudflare for load balancing.
+    Cookie__cf_bm
+    Duration1 year
+    DescriptionThis cookie is used by twitter pixel script
+    Cookiegtm_id
+    Duration1 year
+    DescriptionNo description available.
+    CookiePHPSESSID
+    Durationsession
+    Cookiecsrftoken
+
+  [4/8] キーワード: 個人事業主 経費
+  URL: https://ahrefs.com/keyword-generator?input=%E5%80%8B%E4%BA%BA%E4%BA%8B%E6%A5%AD%E4%B8%BB%20%E7%B5%8C%E8%B2%BB&country=jp
+  [SS] 03_kw_04.png
+  [TXT] 03_kw_04_text.txt
+  テキスト先頭1500字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+48
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+F
+  リストデータ (30件):
+    Cookie__cflb
+    Duration1 day
+    DescriptionThis cookie is used by Cloudflare for load balancing.
+    Cookie__cf_bm
+    Duration1 year
+    DescriptionThis cookie is used by twitter pixel script
+    Cookiegtm_id
+    Duration1 year
+    DescriptionNo description available.
+    CookiePHPSESSID
+    Durationsession
+    Cookiecsrftoken
+
+  [5/8] キーワード: インボイス制度
+  URL: https://ahrefs.com/keyword-generator?input=%E3%82%A4%E3%83%B3%E3%83%9C%E3%82%A4%E3%82%B9%E5%88%B6%E5%BA%A6&country=jp
+  [SS] 03_kw_05.png
+  [TXT] 03_kw_05_text.txt
+  テキスト先頭1500字:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d01758b5cd795
+Performance and Security by Cloudflare
+Privacy
+  構造化データなし（テキストに保存済み）
+
+  [6/8] キーワード: フリーランス 税金
+  URL: https://ahrefs.com/keyword-generator?input=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9%20%E7%A8%8E%E9%87%91&country=jp
+  [SS] 03_kw_06.png
+  [TXT] 03_kw_06_text.txt
+  テキスト先頭1500字:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d01c93ff2d795
+Performance and Security by Cloudflare
+Privacy
+  構造化データなし（テキストに保存済み）
+
+  [7/8] キーワード: ファクタリング 個人
+  URL: https://ahrefs.com/keyword-generator?input=%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%20%E5%80%8B%E4%BA%BA&country=jp
+  [SS] 03_kw_07.png
+  [TXT] 03_kw_07_text.txt
+  テキスト先頭1500字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+48
+Minutes
+05
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Free Keyword Generator
+
+Find thousands of keyword ideas in seconds.
+
+Google
+/
+Bing
+/
+YouTube
+/
+Amazon
+
+For example,
+
+keyword research
+
+Japan
+Find keywords
+Ahrefs SEO Toolbar
+Find keyword ideas, right from your browser
+
+See fresh keyword suggestions directly in the search results for any query.
+
+Add to Chrome
+
+Also available for Firefox and Safari.
+
+Learn more →
+Discover keyword ideas, all day long
+F
+  リストデータ (30件):
+    Cookie__cflb
+    Duration1 day
+    DescriptionThis cookie is used by Cloudflare for load balancing.
+    Cookie__cf_bm
+    Duration1 year
+    DescriptionThis cookie is used by twitter pixel script
+    Cookiegtm_id
+    Duration1 year
+    DescriptionNo description available.
+    CookiePHPSESSID
+    Durationsession
+    Cookiecsrftoken
+
+  [8/8] キーワード: 即日 資金調達
+  URL: https://ahrefs.com/keyword-generator?input=%E5%8D%B3%E6%97%A5%20%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94&country=jp
+  [SS] 03_kw_08.png
+  [TXT] 03_kw_08_text.txt
+  テキスト先頭1500字:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d027c4e8cd795
+Performance and Security by Cloudflare
+Privacy
+  構造化データなし（テキストに保存済み）
+
+============================================================
+STEP 4: Traffic Checker でpaytner.co.jpの概要確認
+============================================================
+  [SS] 04_traffic_checker.png
+  [TXT] 04_traffic_text.txt
+  テキスト先頭2000字:
+ahrefs.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: 9d6d02d37f4ed795
+Performance and Security by Cloudflare
+Privacy
+
+============================================================
+STEP 5: Backlink Checker でpaytner.co.jpの被リンク確認
+============================================================
+  [SS] 05_backlink_checker.png
+  [TXT] 05_backlink_text.txt
+  テキスト先頭2000字:
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+The conference for marketers ready to win in 2026
+Starts in
+70
+Days
+23
+Hours
+47
+Minutes
+21
+Seconds
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Sign up
+Free SEO Tools /
+Backlink Checker
+
+Try the free version of Ahrefs’ Backlink Checker. Get a glimpse into the power of our premium tool.
+
+Backlink Checker
+/
+Website Authority Checker
+/
+Broken Link Checker
+For example,
+ahrefs.com
+yep.com
+Subdomains
+Check backlinks
+The most powerful backlink checker
+
+Ahrefs has the second most active web crawler after Google, which means we have the best backlink database in the industry.
+
+Our backlink index is updated with fresh data every 15 minutes.
+
+493
+B
+Pages in index
+28
+T
+Internal backlinks
+500
+M
+Domains
+35
+T
+External backlinks (historical records)
+Ahrefs SEO Toolbar
+Check any website’s authority
+as you browse
+
+Unlock Domain Rating (DR) and URL Rating (UR) metrics with our browser extension and free Ahrefs account.
+
+Add to Chrome
+
+Also available for Firefox.
+
+See domain and page-level metrics for any target
+
+Check any website, URL or subsection to see actionable and ins
