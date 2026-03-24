@@ -1,0 +1,24 @@
+{
+  "_note": "目標値はスプシで管理。このファイルは sync_cv_targets_from_sheet.py でスプシから同期可能。",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_ID/edit",
+  "defaults": {
+    "pre_register_cta_click": {
+      "label": "会員登録",
+      "target": 10.0
+    },
+    "dl_material_page_view": {
+      "label": "資料DL申し込み",
+      "target": 50.0
+    }
+  },
+  "2026-02": {
+    "pre_register_cta_click": {
+      "label": "会員登録",
+      "target": 10.0
+    },
+    "dl_material_page_view": {
+      "label": "資料DL申し込み",
+      "target": 50.0
+    }
+  }
+}

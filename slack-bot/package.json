@@ -1,0 +1,16 @@
+{
+  "name": "seo-machine-slack-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SEO Machine Slack Bot - Claude Code CLIでSEO分析コマンドを実行",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.1.0",
+    "dotenv": "^16.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
