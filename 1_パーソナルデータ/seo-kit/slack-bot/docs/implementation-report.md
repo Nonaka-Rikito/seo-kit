@@ -26,7 +26,7 @@
 
 ### 何を作ったのか
 
-jo-katsu.com（就活メディア）のSEO分析業務を、Slackのスラッシュコマンドから実行できるボットシステム。
+example-media.com（就活メディア）のSEO分析業務を、Slackのスラッシュコマンドから実行できるボットシステム。
 内部でClaude Code CLIを起動し、4つのデータソース（GSC・GA4・Ahrefs・Clarity）からリアルタイムにデータを取得・分析・施策提案までを自動実行し、結果をSlackに投稿する。
 
 ### 技術スタック
@@ -529,7 +529,7 @@ SLACK_SIGNING_SECRET=取得したSigning Secret
 SLACK_APP_TOKEN=xapp-取得したApp Token
 SLACK_ALLOWED_USER_IDS=自分のSlackメンバーID
 CLAUDE_MODEL=claude-sonnet-4-20250514
-SEO_MACHINE_DIR=C:/Users/rikit/Projects/seo-machine
+SEO_MACHINE_DIR=C:/Users/your-user/Projects/seo-machine
 ```
 
 Slack メンバーIDの確認方法: Slackで自分のプロフィールを開く →「...」→「メンバーIDをコピー」
@@ -587,7 +587,7 @@ pm2-startup install
 | Slack文字制限 | 3000文字で分割投稿。非常に長いレポートはスレッド化される |
 | データソース依存 | GSC/GA4/Ahrefs/ClarityのAPI接続・MCP設定が正常でないと分析不可 |
 | 認可制限 | `SLACK_ALLOWED_USER_IDS` に登録されたユーザーのみ実行可能 |
-| 対象サイト固定 | 現在は jo-katsu.com 専用。他サイトへの展開は設定変更が必要 |
+| 対象サイト固定 | 現在は example-media.com 専用。他サイトへの展開は設定変更が必要 |
 
 ---
 

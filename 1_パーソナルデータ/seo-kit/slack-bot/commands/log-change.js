@@ -23,7 +23,7 @@ export function register(app) {
             element: {
               type: 'url_text_input',
               action_id: 'url_input',
-              placeholder: { type: 'plain_text', text: 'https://jo-katsu.com/campus/26469' },
+              placeholder: { type: 'plain_text', text: 'https://example-media.com/campus/26469' },
             },
           },
           {

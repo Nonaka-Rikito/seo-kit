@@ -1,6 +1,6 @@
-# jo-katsu.com SEOガイドライン
+# example-media.com SEOガイドライン
 
-このドキュメントはjo-katsu.comの全コンテンツに適用するSEO基準を定義する。
+このドキュメントはexample-media.comの全コンテンツに適用するSEO基準を定義する。
 
 ## 日本語SEO基準
 

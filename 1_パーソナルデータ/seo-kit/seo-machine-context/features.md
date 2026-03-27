@@ -4,7 +4,7 @@
      Use this to inform content creation that drives conversions and customer acquisition.
      Fill in all [BRACKETED] sections with your specific information.
      Delete these instruction comments when done.
-     See examples/castos/ for a complete real-world example. -->
+     See examples/sample/ for a complete real-world example. -->
 
 This document outlines [YOUR COMPANY]'s key features, benefits, and differentiators to inform content creation that drives trial conversions and customer acquisition.
 

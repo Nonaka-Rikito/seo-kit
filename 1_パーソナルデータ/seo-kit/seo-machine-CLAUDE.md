@@ -5,15 +5,15 @@
 
 ## プロジェクト概要
 
-SEO Machine は、jo-katsu.com（就活メディア）のSEO分析を自律的に行うClaude Codeワークスペース。
+SEO Machine は、example-media.com（就活メディア）のSEO分析を自律的に行うClaude Codeワークスペース。
 複数のデータソース（GSC, GA4, Clarity, Ahrefs）を統合し、
 データ取得→検証→分析→施策提案を一気通貫で実行する。
 
 ### 対象サイト
-- **URL**: https://jo-katsu.com/
+- **URL**: https://example-media.com/
 - **GA4 Property ID**: 356839446
 - **ジャンル**: 就活メディア
-- **クライアント**: naimono
+- **クライアント**: example-client
 
 ## セットアップ
 
@@ -119,8 +119,8 @@ Cluster (10%), CTR (5%), Freshness (5%), Trend (5%)
 - `brand-voice.md`, `style-guide.md`, `seo-guidelines.md`
 - `internal-links-map.md`, `features.md`, `competitor-analysis.md`
 
-### jo-katsu.com固有（`context/naimono/`）
-- `brand-voice.md` - ジョーカツのブランドボイス定義
+### example-media.com固有（`context/example-client/`）
+- `brand-voice.md` - サンプルメディアのブランドボイス定義
 - `seo-guidelines.md` - 日本語SEO基準（タイトル30文字、meta 120文字等）
 
 ## データディレクトリ
@@ -139,7 +139,7 @@ Cluster (10%), CTR (5%), Freshness (5%), Trend (5%)
 
 ## 既存GASシステムとの関係
 
-naimonoクライアントには既存のGASシステム（`2_クライアントデータ/naimono/analysis/gas/`）がある。
+example-clientクライアントには既存のGASシステム（`2_クライアントデータ/example-client/analysis/gas/`）がある。
 - GAS = 定型自動レポート（Slack通知、スプレッドシート記録）
 - SEO Machine = 対話的AI分析、深掘り因果分析、施策提案
 両者は補完関係。GASの施策キューをSEO Machineで優先順位付けする使い方が最適。

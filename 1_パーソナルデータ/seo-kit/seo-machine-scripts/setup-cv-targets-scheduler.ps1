@@ -8,7 +8,7 @@
 $ErrorActionPreference = "Stop"
 
 $TaskName = "CVTargetsSyncDaily"
-$ProjectRoot = "c:\Users\rikit\Projects\seo-machine"
+$ProjectRoot = "c:\Users\your-user\Projects\seo-machine"
 $ScriptPath = "$ProjectRoot\scripts\sync-cv-targets-daily.ps1"
 $EnvFile = "$ProjectRoot\data_sources\config\.env"
 

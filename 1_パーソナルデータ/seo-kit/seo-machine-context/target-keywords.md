@@ -1,6 +1,6 @@
 # Target Keywords & Topic Clusters
 
-This document organizes Castos's target keywords by topic cluster for strategic content planning and SEO optimization.
+This document organizes your target keywords by topic cluster for strategic content planning and SEO optimization.
 
 ## Instructions
 Fill in this template with your target keywords organized by topic cluster. Update regularly based on keyword research and content performance.
@@ -221,12 +221,12 @@ Each topic cluster should have:
 
 ## Competitor Keyword Gaps
 
-Track keywords where competitors rank but Castos doesn't:
+Track keywords where competitors rank but your site doesn't:
 
 ### Competitor: [Name]
 - **Keyword**: [keyword they rank for]
   - Their Position: [rank]
-  - Castos Position: [rank or "Not ranking"]
+  - Your Position: [rank or "Not ranking"]
   - Opportunity: [High/Medium/Low]
   - Action: [Create content, optimize existing, etc.]
 
@@ -259,7 +259,7 @@ Keywords with high volume, achievable difficulty, strong business value:
 ## Keyword Tracking & Performance
 
 ### Top Performing Keywords
-Keywords where Castos ranks in positions 1-10:
+Keywords where your site ranks in positions 1-10:
 
 1. **Keyword**: [keyword]
    - Position: [current rank]

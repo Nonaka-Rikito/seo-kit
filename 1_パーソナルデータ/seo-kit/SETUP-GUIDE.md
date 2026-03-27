@@ -100,10 +100,10 @@ cp ../seo-kit/seo-machine-CLAUDE.md CLAUDE.md
 
 ```
 # 変更前（例）
-- **URL**: https://jo-katsu.com/
+- **URL**: https://example-media.com/
 - **GA4 Property ID**: 356839446
 - **ジャンル**: 就活メディア
-- **クライアント**: naimono
+- **クライアント**: example-client
 
 # 変更後（自分のサイトに）
 - **URL**: https://your-site.com/

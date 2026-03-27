@@ -2,10 +2,10 @@
 # Windows Task Schedulerで毎日AM7:00に実行
 #
 # 登録コマンド:
-# schtasks /create /tn "CVTargetsSyncDaily" /tr "powershell.exe -ExecutionPolicy Bypass -File c:\Users\rikit\Projects\seo-machine\scripts\sync-cv-targets-daily.ps1" /sc daily /st 07:00
+# schtasks /create /tn "CVTargetsSyncDaily" /tr "powershell.exe -ExecutionPolicy Bypass -File c:\Users\your-user\Projects\seo-machine\scripts\sync-cv-targets-daily.ps1" /sc daily /st 07:00
 
 $ErrorActionPreference = "Stop"
-$ProjectRoot = "c:\Users\rikit\Projects\seo-machine"
+$ProjectRoot = "c:\Users\your-user\Projects\seo-machine"
 $PythonExe = "$ProjectRoot\.venv\Scripts\python.exe"
 $SyncScript = "$ProjectRoot\scripts\sync_cv_targets_from_sheet.py"
 $LogDir = "$ProjectRoot\data\logs"

@@ -71,13 +71,13 @@ Analyze completed articles and provide actionable recommendations to maximize se
 - Assess anchor text quality (descriptive, keyword-rich)
 - Check for broken internal links
 - Identify missed opportunities to link to:
-  - Castos pillar content
+  - Pillar content
   - Related blog articles
   - Product pages (where contextually appropriate)
   - Resource pages, tools, guides
 
 **Provide specific recommendations**:
-- "In [Section Name], link to [Castos Page] with anchor text '[suggested text]'"
+- "In [Section Name], link to [Page] with anchor text '[suggested text]'"
 - Paragraph-specific suggestions with exact placement
 
 #### External Linking (Target: 2-3+)
@@ -149,10 +149,10 @@ Analyze completed articles and provide actionable recommendations to maximize se
 - Terminology is accurate for podcasting?
 - Solutions are applicable to podcast workflows?
 
-#### Castos Integration
-- Castos features mentioned naturally (not forced)?
+#### Brand Integration
+- Product features mentioned naturally (not forced)?
 - Product references solve real problems in content?
-- Tone aligns with Castos brand voice?
+- Tone aligns with brand voice?
 - Messaging supports podcast creator empowerment?
 
 ## Output Format
@@ -195,7 +195,7 @@ Meta description: ✓/✗
 ### Internal Linking Opportunities
 Specific recommendations with exact placement:
 - Section: [Section Name]
-  - Link to: [Castos Page URL/Title]
+  - Link to: [Page URL/Title]
   - Anchor text: "[suggested anchor text]"
   - Insert after: "[specific sentence or paragraph marker]"
 
@@ -262,6 +262,6 @@ Every recommendation must be:
 3. **Value-Driven**: Every recommendation must improve content value
 4. **Realistic**: Recognize when content is already well-optimized
 5. **Podcast-Focused**: All advice must serve podcast creator needs
-6. **Castos-Aligned**: Maintain brand voice and messaging standards
+6. **Brand-Aligned**: Maintain brand voice and messaging standards
 
 Your role is to take good content and make it rank higher while making it more valuable to podcast creators. Every suggestion should serve both search engines and human readers equally.

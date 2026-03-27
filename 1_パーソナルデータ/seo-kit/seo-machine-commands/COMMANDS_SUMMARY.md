@@ -4,8 +4,8 @@
 
 ## 配置場所
 
-- コマンド仕様本体: `c:/Users/rikit/Projects/seo-machine/.claude/commands/`
-- Slack Bot 実装側: `c:/Users/rikit/Projects/seo-machine/slack-bot/commands/`
+- コマンド仕様本体: `c:/Users/your-user/Projects/seo-machine/.claude/commands/`
+- Slack Bot 実装側: `c:/Users/your-user/Projects/seo-machine/slack-bot/commands/`
 
 ## 主要分析コマンド（Slack Bot連携）
 

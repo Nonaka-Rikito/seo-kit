@@ -1,20 +1,20 @@
-# jo-katsu.com 内部リンクマップ
+# example-media.com 内部リンクマップ
 
-このドキュメントはjo-katsu.comの主要ページを整理し、記事作成時の内部リンク戦略に使用する。
+このドキュメントはexample-media.comの主要ページを整理し、記事作成時の内部リンク戦略に使用する。
 
 ## トップページ & 主要ページ
 
 ### トップページ
-- **URL**: https://jo-katsu.com/
+- **URL**: https://example-media.com/
 - **リンクするタイミング**: サイト全体への言及時
-- **アンカーテキスト例**: 「ジョーカツ」「jo-katsu.com」
+- **アンカーテキスト例**: 「サンプルメディア」「example-media.com」
 
 ## カテゴリページ
 
 <!-- 実際のカテゴリ構成に合わせて更新すること -->
 
 ### 就活基礎知識
-- **URL**: https://jo-katsu.com/campus/
+- **URL**: https://example-media.com/campus/
 - **リンクするタイミング**: 就活全般の基礎情報に言及するとき
 - **アンカーテキスト例**: 「就活の基礎知識」「就活ガイド」
 
@@ -24,7 +24,7 @@
 <!-- /performance-review コマンドで定期的に更新推奨 -->
 
 ### 記事テンプレート
-- **URL**: https://jo-katsu.com/campus/[slug]
+- **URL**: https://example-media.com/campus/[slug]
 - **主要トピック**: [キーワード]
 - **リンクするタイミング**: [関連トピック]の記事
 - **アンカーテキスト例**: [具体的なフレーズ]

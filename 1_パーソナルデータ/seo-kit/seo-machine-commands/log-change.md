@@ -6,7 +6,7 @@
 ## 収集する情報
 
 ユーザーに以下を質問して収集する:
-1. **変更した記事のURL** - 例: https://jo-katsu.com/campus/26469
+1. **変更した記事のURL** - 例: https://example-media.com/campus/26469
 2. **変更内容** - 例: CTAボタンの色を青から赤に変更
 3. **変更の種類** - cta_banner / title / meta_description / content / image / layout
 4. **変更の理由/仮説** - 例: 赤いCTAの方がクリック率が上がるという仮説

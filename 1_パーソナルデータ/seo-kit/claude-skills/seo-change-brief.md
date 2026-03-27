@@ -101,7 +101,7 @@ WebFetchは原文を要約して返すことがある。その場合：
 
 ## ファイル保存先
 
-デフォルト：`C:/Users/rikit/Projects/malna/output/article-changes-{連番}-{記事スラッグ}.md`
+デフォルト：`C:/Users/your-user/Projects/your-company/output/article-changes-{連番}-{記事スラッグ}.md`
 
 クライアントや保存先が異なる場合は `$ARGUMENTS` で明示する。
 

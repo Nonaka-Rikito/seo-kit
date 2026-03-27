@@ -2,7 +2,7 @@ import { spawn } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
-const SEO_MACHINE_DIR = process.env.SEO_MACHINE_DIR || 'C:/Users/rikit/Projects/seo-machine';
+const SEO_MACHINE_DIR = process.env.SEO_MACHINE_DIR || 'C:/Users/your-user/Projects/seo-machine';
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
 const PROGRESS_INTERVAL = 5000;
 const MAX_TIMEOUT = 600000; // 10分

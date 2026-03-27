@@ -4,7 +4,7 @@
      style, and quality standards. These examples help Claude understand how to write in your voice.
 
      Copy and paste complete articles from your blog that represent your best work.
-     See examples/castos/writing-examples.md for a real-world example with 5 full articles.
+     See examples/sample/writing-examples.md for a real-world example with 5 full articles.
 
      Delete these instruction comments when done. -->
 

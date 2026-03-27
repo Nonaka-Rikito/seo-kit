@@ -2,10 +2,10 @@
 # Windows Task Schedulerで毎日AM2:00に実行
 #
 # 登録コマンド:
-# schtasks /create /tn "ClarityDailyJob" /tr "powershell.exe -ExecutionPolicy Bypass -File c:\Users\rikit\Projects\seo-machine\scripts\clarity-daily.ps1" /sc daily /st 02:00
+# schtasks /create /tn "ClarityDailyJob" /tr "powershell.exe -ExecutionPolicy Bypass -File c:\Users\your-user\Projects\seo-machine\scripts\clarity-daily.ps1" /sc daily /st 02:00
 
 $ErrorActionPreference = "Stop"
-$ProjectRoot = "c:\Users\rikit\Projects\seo-machine"
+$ProjectRoot = "c:\Users\your-user\Projects\seo-machine"
 $PythonExe = "$ProjectRoot\.venv\Scripts\python.exe"
 $LogFile = "$ProjectRoot\data\clarity\accumulator.log"
 

@@ -42,7 +42,7 @@ $ARGUMENTS に対象キーワードを指定してください。（例: `オウ
 
 以下のURLの記事を WebFetch で取得し、文章のトーンとスタイルを分析してください。記事構成にこのトーンを反映させます。
 
-参考URL: https://malna.co.jp/blog/marketingorganization_improvement/
+参考URL: https://example.com/blog/example-article/
 
 ### ステップ4: 記事構成の作成
 

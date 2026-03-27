@@ -8,7 +8,7 @@
 $ErrorActionPreference = "Stop"
 
 $TaskName = "ClarityDailyJob"
-$ProjectRoot = "c:\Users\rikit\Projects\seo-machine"
+$ProjectRoot = "c:\Users\your-user\Projects\seo-machine"
 $ScriptPath = "$ProjectRoot\scripts\clarity-daily.ps1"
 $EnvFile = "$ProjectRoot\data_sources\config\.env"
 

@@ -48,7 +48,7 @@ claude-code .
 
    All context files are provided as templates. Fill them out with your company's information:
 
-   - `context/brand-voice.md` - Define your brand voice and messaging *(see examples/castos/ for reference)*
+   - `context/brand-voice.md` - Define your brand voice and messaging *(see examples/sample/ for reference)*
    - `context/writing-examples.md` - Add 3-5 exemplary blog posts from your site
    - `context/features.md` - List your product/service features and benefits
    - `context/internal-links-map.md` - Map your key pages for internal linking
@@ -57,7 +57,7 @@ claude-code .
    - `context/competitor-analysis.md` - Add competitor analysis and insights
    - `context/seo-guidelines.md` - Review and adjust SEO requirements
 
-   **Quick Start**: Check out `examples/castos/` to see a complete real-world example of all context files filled out for a podcast hosting SaaS company.
+   **Quick Start**: Check out `examples/sample/` to see a complete real-world example of all context files filled out for a SaaS company.
 
 ## Workflows
 
@@ -1004,11 +1004,11 @@ Every article must meet these requirements:
 
 Built with [Claude Code](https://claude.com/claude-code) by Anthropic.
 
-Originally developed for Castos, now available as an open-source tool for any business to streamline long-form SEO content creation.
+An open-source tool for any business to streamline long-form SEO content creation.
 
 ## Examples & Community
 
-**See It In Action**: Check out `examples/castos/` for a complete real-world example of how a podcast hosting SaaS company uses SEO Machine.
+**See It In Action**: Check out `examples/sample/` for a complete real-world example of how a SaaS company uses SEO Machine.
 
 **Contributions Welcome**: Found a bug? Have a feature request? Want to share your own industry example? Contributions and PRs are welcome!
 

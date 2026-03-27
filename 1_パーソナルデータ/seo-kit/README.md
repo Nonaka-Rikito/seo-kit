@@ -136,7 +136,7 @@ seo-kit/
 │   ├── seo-guidelines.md             SEOルール
 │   ├── internal-links-map.md         内部リンク設計図
 │   ├── target-keywords.md            ターゲットキーワード
-│   └── naimono/                      クライアント固有設定のサンプル
+│   └── example-client/                      クライアント固有設定のサンプル
 │       ├── brand-voice.md
 │       └── seo-guidelines.md
 │

@@ -1,4 +1,4 @@
-# jo-katsu.com SEOガイドライン
+# example-media.com SEOガイドライン
 
 ## 日本語SEO基準
 

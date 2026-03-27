@@ -18,7 +18,7 @@
 ### 2. 可読性分析の実行
 ```python
 import sys
-sys.path.insert(0, r'c:\Users\rikit\Projects\seo-machine')
+sys.path.insert(0, r'c:\Users\your-user\Projects\seo-machine')
 from data_sources.japanese.readability_scorer_ja import ReadabilityScorerJa
 
 scorer = ReadabilityScorerJa()
@@ -64,4 +64,4 @@ result = scorer.analyze(content)
 ## 注意事項
 - 英語テキストには使用しないこと（textstatを使用）
 - Markdownの見出し・リンクは自動除去される
-- スコアはjo-katsu.comのブランドボイス（`context/naimono/brand-voice.md`）と照合して解釈すること
+- スコアはexample-media.comのブランドボイス（`context/example-client/brand-voice.md`）と照合して解釈すること

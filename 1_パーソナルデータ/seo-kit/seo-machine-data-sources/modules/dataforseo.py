@@ -57,7 +57,7 @@ class DataForSEO:
         Get ranking positions for specific keywords
 
         Args:
-            domain: Your domain (e.g., "castos.com")
+            domain: Your domain (e.g., "example.com")
             keywords: List of keywords to check
             location_code: DataForSEO location code (2840 = USA)
             language_code: Language code
@@ -421,10 +421,10 @@ if __name__ == "__main__":
 
     dfs = DataForSEO()
 
-    print("Checking rankings for Castos...")
+    print("Checking rankings...")
     rankings = dfs.get_rankings(
-        domain="castos.com",
-        keywords=["podcast hosting", "podcast analytics", "private podcast"]
+        domain="example.com",
+        keywords=["your keyword 1", "your keyword 2", "your keyword 3"]
     )
 
     for rank in rankings:
@@ -432,8 +432,8 @@ if __name__ == "__main__":
         print(f"Position: {rank['position'] or 'Not ranking'}")
         print(f"Search Volume: {rank['search_volume']:,}" if rank['search_volume'] else "Search Volume: N/A")
 
-    print("\n\nGetting SERP data for 'podcast monetization'...")
-    serp = dfs.get_serp_data("podcast monetization")
+    print("\n\nGetting SERP data for 'your target keyword'...")
+    serp = dfs.get_serp_data("your target keyword")
 
     print(f"Search Volume: {serp['search_volume']:,}")
     print(f"SERP Features: {', '.join(serp['features'])}")
@@ -442,8 +442,8 @@ if __name__ == "__main__":
         print(f"{result['position']}. {result['domain']}")
         print(f"   {result['url']}")
 
-    print("\n\nRelated questions for 'podcast monetization':")
-    questions = dfs.get_questions("podcast monetization")
+    print("\n\nRelated questions for 'your target keyword':")
+    questions = dfs.get_questions("your target keyword")
     for q in questions[:10]:
         print(f"- {q['question']}")
         print(f"  Volume: {q['search_volume']:,}" if q['search_volume'] else "  Volume: N/A")

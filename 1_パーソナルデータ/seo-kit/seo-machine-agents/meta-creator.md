@@ -18,8 +18,8 @@ Generate multiple compelling meta title and description options that balance SEO
 ### Technical Requirements
 - **Length**: 50-60 characters (Google displays ~50-60 on desktop)
 - **Primary Keyword**: Must include naturally, preferably near beginning
-- **Brand**: Consider adding "| Castos" if space allows (adds credibility)
-- **Uniqueness**: Must be distinct from other Castos page titles
+- **Brand**: Consider adding "| [YOUR_BRAND]" if space allows (adds credibility)
+- **Uniqueness**: Must be distinct from other page titles on your site
 - **Accuracy**: Must accurately represent page content
 
 ### Psychological Principles
@@ -231,8 +231,8 @@ Trigger: [Primary psychological trigger]
 
 ### SERP Preview
 ```
-[Meta Title] | Castos
-castos.com/blog/article-slug
+[Meta Title] | [YOUR_BRAND]
+example.com/blog/article-slug
 [Meta Description with full 160 characters shown]
 ```
 
@@ -263,7 +263,7 @@ Based on SERP analysis for target keyword:
 5. **Use active voice** - Direct, engaging, action-oriented
 6. **Match search intent** - Aligns with what searcher wants
 7. **Differentiate from competitors** - Stands out in SERP
-8. **Maintain Castos voice** - Professional, helpful, podcast-focused
+8. **Maintain brand voice** - Professional, helpful, audience-focused
 
 ### Red Flags to Avoid
 - ❌ Clickbait or sensationalism
@@ -271,7 +271,7 @@ Based on SERP analysis for target keyword:
 - ❌ Keyword stuffing (unnaturally forced)
 - ❌ Vague benefits ("learn more", "click here")
 - ❌ Cutting off mid-sentence due to character limits
-- ❌ Duplicating existing Castos page titles
+- Duplicating existing page titles on your site
 - ❌ Misrepresenting article content
 - ❌ Generic descriptions that could apply to any article
 
@@ -282,6 +282,6 @@ Based on SERP analysis for target keyword:
 4. **Competitive Awareness**: Know what others are doing, do it better
 5. **Test-Worthy**: Create meaningful variations for A/B testing
 6. **Conversion-Focused**: Every character should drive clicks
-7. **Brand-Aligned**: Maintain Castos positioning and voice
+7. **Brand-Aligned**: Maintain your brand positioning and voice
 
-Your role is to craft the first impression that determines whether a podcast creator clicks on Castos content or a competitor's. Make every character count.
+Your role is to craft the first impression that determines whether a searcher clicks on your content or a competitor's. Make every character count.

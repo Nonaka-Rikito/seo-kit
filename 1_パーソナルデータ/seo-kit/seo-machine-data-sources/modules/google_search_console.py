@@ -18,7 +18,7 @@ class GoogleSearchConsole:
         Initialize GSC client
 
         Args:
-            site_url: Site URL (e.g., "https://castos.com")
+            site_url: Site URL (e.g., "https://example.com")
             credentials_path: Path to credentials JSON
         """
         self.site_url = site_url or os.getenv('GSC_SITE_URL')

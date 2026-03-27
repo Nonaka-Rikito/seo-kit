@@ -1,5 +1,5 @@
 """
-GA4 Event Data CLI - jo-katsu.com CV指標・オーガニックセッション取得
+GA4 Event Data CLI - example-media.com CV指標・オーガニックセッション取得
 
 Usage:
     python scripts/ga4_events.py event-daily <event_name> <start_date> <end_date>
